@@ -35,6 +35,13 @@
       border-bottom: 2px solid var(--border);
       padding-bottom: 12px;
       margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .header-text {
+      flex: 1;
     }
 
     h1 {
@@ -47,6 +54,31 @@
       color: #6c757d;
       font-size: 0.9rem;
       margin: 0;
+    }
+
+    /* Språkväljare */
+    .lang-selector {
+      display: flex;
+      gap: 6px;
+      background: #e9ecef;
+      padding: 4px;
+      border-radius: 6px;
+    }
+
+    .lang-btn {
+      background: none;
+      border: none;
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      color: #495057;
+    }
+
+    .lang-btn.active {
+      background: var(--accent);
+      color: white;
     }
 
     /* Startsida & Lägesval */
@@ -275,10 +307,62 @@
       margin-top: 4px;
     }
 
-    /* Resultatvy & Ihopfällbar Beräkning */
+    /* Resultatvy & Facit-tabell */
     .result-item {
       padding: 14px;
       border: 1px solid var(--border);
       border-radius: 8px;
       margin-bottom: 12px;
       background: #fff;
+    }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .party-name {
+      font-weight: bold;
+      font-size: 1.05rem;
+    }
+
+    .result-score {
+      font-weight: bold;
+      color: var(--accent);
+      font-size: 1.25rem;
+    }
+
+    .breakdown-toggle {
+      background: none;
+      border: none;
+      color: var(--accent);
+      cursor: pointer;
+      padding: 6px 0 0 0;
+      font-size: 0.85rem;
+      text-decoration: underline;
+    }
+
+    .party-matrix {
+      margin-top: 10px;
+      border-top: 1px dashed var(--border);
+      padding-top: 8px;
+      font-size: 0.84rem;
+    }
+
+    .matrix-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      border-bottom: 1px solid #f8f9fa;
+    }
+
+    .report-link {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.78rem;
+      color: #6c757d;
+      text-decoration: underline;
+    }
+
+    /* Harmonisk typografi för Vad h
