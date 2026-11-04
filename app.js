@@ -134,6 +134,11 @@ function prevQuestion() {
 
 function showImportanceView() {
   switchView("view-importance");
+  renderImportanceList();
+}
+
+// Uppdaterar listan på plats utan att trigga switchView och scrolla till toppen
+function renderImportanceList() {
   const listEl = document.getElementById("importance-list");
   listEl.innerHTML = "";
 
@@ -149,18 +154,21 @@ function showImportanceView() {
       <input type="checkbox" id="chk-${q.id}" ${isChecked ? 'checked' : ''} ${isDisabled ? 'disabled' : ''}>
       <label for="chk-${q.id}" style="cursor:pointer; width:100%;">
         <strong>${q.title}</strong> <span style="font-size:0.85rem; color:#6c757d;">(${q.category})</span><br>
-        <span class="user-answer-badge">Ditt svar: ${userValText}</span>
+        <span style="font-size: 0.95rem; font-weight: 500; color: #1a2530; display: block; margin: 4px 0;">"${q.statement}"</span>
+        <span class="user-answer-badge">⭐ Ditt svar: ${userValText} ${isChecked ? '• Markerad som hjärtefråga (x2)' : ''}</span>
       </label>
     `;
 
     const chk = item.querySelector("input");
     chk.onchange = () => {
       if (chk.checked) {
-        importantQuestions.add(q.id);
+        if (importantQuestions.size < 3) {
+          importantQuestions.add(q.id);
+        }
       } else {
         importantQuestions.delete(q.id);
       }
-      showImportanceView();
+      renderImportanceList(); // Uppdaterar endast elementen inuti utan att hoppa
     };
 
     listEl.appendChild(item);
@@ -220,7 +228,7 @@ function calculateResults() {
 
       matrixRowsHtml += `
         <div class="matrix-row">
-          <span>${q.title} ${isImp ? '<strong>(Viktad x2)</strong>' : ''}</span>
+          <span>${q.title} ${isImp ? '<strong>(⭐ Viktad x2)</strong>' : ''}</span>
           <span>Ditt svar: <strong>${valLabels[uVal]}</strong> | Partiets svar: <strong>${valLabels[pVal]}</strong></span>
         </div>
       `;
@@ -229,7 +237,7 @@ function calculateResults() {
     listEl.innerHTML += `
       <div class="result-item" style="${isWinner ? 'border-color: var(--accent); background: #f0f7ff;' : ''}">
         <div class="result-header">
-          <span class="party-name">${isWinner ? 'Bästa matchning: ' : ''}${s.name}</span>
+          <span class="party-name">${isWinner ? '🏆 Bästa matchning: ' : ''}${s.name}</span>
           <span class="result-score">${s.percent}%</span>
         </div>
         ${s.description ? `<p style="font-size: 0.9rem; color: #495057; margin: 5px 0;">${s.description}</p>` : ''}
@@ -264,12 +272,14 @@ function showHistoryView() {
   currentElectionData.questions.forEach(q => {
     const outcome = currentElectionData.historicalOutcome.questionsOutcome[q.id];
     const uVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
+    const isImp = importantQuestions.has(q.id);
 
     listEl.innerHTML += `
       <div class="history-card">
-        <h3 style="margin: 0 0 4px 0; font-size: 1.1rem;">${q.title}</h3>
+        <h3 style="margin: 0 0 2px 0; font-size: 1.05rem;">${q.title} ${isImp ? '⭐' : ''}</h3>
+        <p style="font-size: 0.9rem; font-style: italic; color: #495057; margin: 0 0 6px 0;">"${q.statement}"</p>
         <p style="font-size: 0.85rem; margin: 4px 0;"><strong>Ditt ställningstagande:</strong> ${valLabels[uVal]}</p>
-        <p style="font-size: 0.9rem; color: #1a2530; margin-top: 8px;"><strong>Vad som hände i verkligheten:</strong> ${outcome ? outcome.description : 'Ingen historisk uppgift registrerad.'}</p>
+        <p style="font-size: 0.9rem; color: #1a2530; margin-top: 8px;"><strong>Vad som hände i verkligheten & på sikt:</strong> ${outcome ? outcome.description : 'Ingen historisk uppgift registrerad.'}</p>
       </div>
     `;
   });
