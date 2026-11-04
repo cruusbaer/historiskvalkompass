@@ -4,12 +4,18 @@ let userAnswers = {};
 let importantQuestions = new Set();
 let autoAdvanceTimeout = null;
 
+const valLabels = {
+  2: "Helt för",
+  1: "Delvis för",
+  0: "Neutral / Hoppade över",
+  "-1": "Delvis emot",
+  "-2": "Helt emot"
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const valId = urlParams.get("val");
-  if (valId) {
-    startElection(valId);
-  }
+  if (valId) startElection(valId);
 });
 
 async function startElection(electionId) {
@@ -36,6 +42,7 @@ function switchView(viewId) {
   document.getElementById("view-quiz").style.display = "none";
   document.getElementById("view-importance").style.display = "none";
   document.getElementById("view-result").style.display = "none";
+  document.getElementById("view-history").style.display = "none";
 
   document.getElementById(viewId).style.display = "block";
   window.scrollTo(0, 0);
@@ -45,30 +52,25 @@ function renderQuestion() {
   const q = currentElectionData.questions[currentQuestionIndex];
   const totalQ = currentElectionData.questions.length;
 
-  // Bildhantering med krasch-spärr
   const imgWrap = document.getElementById("q-image-wrap");
   const imgEl = document.getElementById("q-image");
   const captionEl = document.getElementById("q-caption");
 
   if (q.imageUrl && q.imageUrl.trim() !== "") {
     imgEl.src = q.imageUrl;
-    imgEl.onerror = () => { imgWrap.style.display = "none"; }; // Dölj om bilden saknas
+    imgEl.onerror = () => { imgWrap.style.display = "none"; };
     captionEl.innerText = q.imageCaption || "";
     imgWrap.style.display = "block";
   } else {
     imgWrap.style.display = "none";
   }
 
-  // Kategori & Taggar
   const catEl = document.getElementById("q-category");
   catEl.innerText = q.category;
-  catEl.className = q.obscure ? "tag obscure" : "tag";
 
-  // Titel & Påstående
   document.getElementById("q-title").innerText = `${currentQuestionIndex + 1}. ${q.title}`;
   document.getElementById("q-statement").innerText = `"${q.statement}"`;
   
-  // Bakgrundstext
   const contextEl = document.getElementById("q-context");
   if (q.context && q.context.trim() !== "") {
     contextEl.innerHTML = `<strong>Bakgrund:</strong> ${q.context}`;
@@ -81,7 +83,6 @@ function renderQuestion() {
   document.getElementById("q-con").innerText = q.con;
   document.getElementById("q-progress").innerText = `Fråga ${currentQuestionIndex + 1} av ${totalQ}`;
 
-  // Svarsalternativ
   const optionsContainer = document.getElementById("options-container");
   optionsContainer.innerHTML = "";
 
@@ -96,8 +97,10 @@ function renderQuestion() {
   options.forEach(opt => {
     const btn = document.createElement("button");
     btn.className = "opt-btn";
+    btn.setAttribute("data-val", opt.val);
     if (userAnswers[q.id] === opt.val) btn.classList.add("selected");
-    btn.innerText = opt.text;
+    
+    btn.innerHTML = `<span>${opt.text}</span>`;
     btn.onclick = () => selectOptionAndAdvance(q.id, opt.val);
     optionsContainer.appendChild(btn);
   });
@@ -105,7 +108,6 @@ function renderQuestion() {
   document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
 }
 
-// Sparar svar och kliver automatiskt vidare (Auto-advance)
 function selectOptionAndAdvance(qId, val) {
   userAnswers[qId] = val;
   renderQuestion();
@@ -120,7 +122,7 @@ function selectOptionAndAdvance(qId, val) {
     } else {
       showImportanceView();
     }
-  }, 220); // 220ms mikropaus för visuell knapp-feedback
+  }, 220);
 }
 
 function prevQuestion() {
@@ -141,11 +143,13 @@ function showImportanceView() {
     
     const isChecked = importantQuestions.has(q.id);
     const isDisabled = !isChecked && importantQuestions.size >= 3;
+    const userValText = valLabels[userAnswers[q.id]] || "Inte besvarad";
 
     item.innerHTML = `
       <input type="checkbox" id="chk-${q.id}" ${isChecked ? 'checked' : ''} ${isDisabled ? 'disabled' : ''}>
       <label for="chk-${q.id}" style="cursor:pointer; width:100%;">
-        <strong>${q.title}</strong> <span style="font-size:0.85rem; color:#6c757d;">(${q.category})</span>
+        <strong>${q.title}</strong> <span style="font-size:0.85rem; color:#6c757d;">(${q.category})</span><br>
+        <span class="user-answer-badge">Ditt svar: ${userValText}</span>
       </label>
     `;
 
@@ -156,7 +160,7 @@ function showImportanceView() {
       } else {
         importantQuestions.delete(q.id);
       }
-      showImportanceView(); // Rendera om för att uppdatera max 3-spärren
+      showImportanceView();
     };
 
     listEl.appendChild(item);
@@ -188,6 +192,7 @@ function calculateResults() {
 
     const percent = Math.round((totalPoints / maxPoints) * 100);
     return { 
+      partyObj: party,
       name: party.name, 
       percent: percent, 
       posterUrl: party.posterUrl,
@@ -205,29 +210,69 @@ function calculateResults() {
 
   scores.forEach((s, index) => {
     const isWinner = index === 0;
-    let posterHtml = "";
+    const partyId = s.name.replace(/[^a-zA-Z0-9]/g, "");
 
-    if (s.posterUrl) {
-      posterHtml = `
-        <div class="poster-container">
-          <img src="${s.posterUrl}" alt="Valaffisch för ${s.name}">
+    let matrixRowsHtml = "";
+    currentElectionData.questions.forEach(q => {
+      const uVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
+      const pVal = s.partyObj.answers[q.id];
+      const isImp = importantQuestions.has(q.id);
+
+      matrixRowsHtml += `
+        <div class="matrix-row">
+          <span>${q.title} ${isImp ? '<strong>(Viktad x2)</strong>' : ''}</span>
+          <span>Ditt svar: <strong>${valLabels[uVal]}</strong> | Partiets svar: <strong>${valLabels[pVal]}</strong></span>
         </div>
       `;
-    }
+    });
 
     listEl.innerHTML += `
-      <div class="result-item" style="${isWinner ? 'background: #f0f7ff; padding: 15px; border-radius: 8px; margin-bottom: 15px;' : ''}">
+      <div class="result-item" style="${isWinner ? 'border-color: var(--accent); background: #f0f7ff;' : ''}">
         <div class="result-header">
-          <span class="party-name">${isWinner ? '🏆 ' : ''}${s.name}</span>
+          <span class="party-name">${isWinner ? 'Bästa matchning: ' : ''}${s.name}</span>
           <span class="result-score">${s.percent}%</span>
         </div>
         ${s.description ? `<p style="font-size: 0.9rem; color: #495057; margin: 5px 0;">${s.description}</p>` : ''}
-        ${isWinner ? posterHtml : ''}
+        
+        <button class="breakdown-toggle" onclick="toggleMatrix('${partyId}')">Visa partifacit och detaljberäkning ▼</button>
+        
+        <div id="matrix-${partyId}" class="party-matrix" style="display:none;">
+          ${matrixRowsHtml}
+          <a href="mailto:kontakt@historiskvalkompass.se?subject=Rättelse%20facit%20${encodeURIComponent(s.name)}" class="report-link">Upptäckte du ett fel i partiets facit? Rapportera en källrättelse här</a>
+        </div>
       </div>
     `;
   });
 
   switchView("view-result");
+}
+
+function toggleMatrix(partyId) {
+  const el = document.getElementById(`matrix-${partyId}`);
+  el.style.display = el.style.display === "none" ? "block" : "none";
+}
+
+function showHistoryView() {
+  switchView("view-history");
+  
+  const summaryEl = document.getElementById("history-summary");
+  summaryEl.innerHTML = `<strong>Historiskt utfall 1928:</strong> ${currentElectionData.historicalOutcome.summary}`;
+
+  const listEl = document.getElementById("history-list");
+  listEl.innerHTML = "";
+
+  currentElectionData.questions.forEach(q => {
+    const outcome = currentElectionData.historicalOutcome.questionsOutcome[q.id];
+    const uVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
+
+    listEl.innerHTML += `
+      <div class="history-card">
+        <h3 style="margin: 0 0 4px 0; font-size: 1.1rem;">${q.title}</h3>
+        <p style="font-size: 0.85rem; margin: 4px 0;"><strong>Ditt ställningstagande:</strong> ${valLabels[uVal]}</p>
+        <p style="font-size: 0.9rem; color: #1a2530; margin-top: 8px;"><strong>Vad som hände i verkligheten:</strong> ${outcome ? outcome.description : 'Ingen historisk uppgift registrerad.'}</p>
+      </div>
+    `;
+  });
 }
 
 function showHome() {
