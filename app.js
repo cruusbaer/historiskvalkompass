@@ -1,73 +1,87 @@
-// Globalt tillstånd
 let currentElectionData = null;
 let currentQuestionIndex = 0;
 let userAnswers = {};
 let importantQuestions = new Set();
+let autoAdvanceTimeout = null;
 
-// Körs när sidan har laddats
 document.addEventListener("DOMContentLoaded", () => {
-  // Kolla om URL har en parameter som ?val=1928
   const urlParams = new URLSearchParams(window.location.search);
   const valId = urlParams.get("val");
-
   if (valId) {
     startElection(valId);
   }
 });
 
-// 1. Ladda vald kompass och JSON-data
 async function startElection(electionId) {
   try {
     const response = await fetch(`data/val${electionId}.json`);
-    if (!response.ok) {
-      throw new Error(`Kunde inte ladda data/val${electionId}.json`);
-    }
-    currentElectionData = await response.json();
+    if (!response.ok) throw new Error(`Kunde inte ladda data/val${electionId}.json`);
     
-    // Nollställ tillstånd
+    currentElectionData = await response.json();
     currentQuestionIndex = 0;
     userAnswers = {};
     importantQuestions.clear();
 
-    // Uppdatera URL utan att ladda om sidan
     history.pushState({ valId: electionId }, "", `?val=${electionId}`);
-
-    // Visa quiz-vyn och dölj övriga
     switchView("view-quiz");
     renderQuestion();
   } catch (error) {
     console.error("Fel vid laddning av valdata:", error);
-    alert("Kunde inte ladda kompassen för detta val. Kontrollera att JSON-filen finns.");
+    alert("Kunde inte ladda kompassen för detta val.");
   }
 }
 
-// 2. Visa specifik vy i SPA-strukturen
 function switchView(viewId) {
   document.getElementById("view-home").style.display = "none";
   document.getElementById("view-quiz").style.display = "none";
+  document.getElementById("view-importance").style.display = "none";
   document.getElementById("view-result").style.display = "none";
 
   document.getElementById(viewId).style.display = "block";
   window.scrollTo(0, 0);
 }
 
-// 3. Rendera den aktiva frågan
 function renderQuestion() {
   const q = currentElectionData.questions[currentQuestionIndex];
   const totalQ = currentElectionData.questions.length;
 
-  // Kategori & Tidsmarkör-tagg
+  // Bildhantering med krasch-spärr
+  const imgWrap = document.getElementById("q-image-wrap");
+  const imgEl = document.getElementById("q-image");
+  const captionEl = document.getElementById("q-caption");
+
+  if (q.imageUrl && q.imageUrl.trim() !== "") {
+    imgEl.src = q.imageUrl;
+    imgEl.onerror = () => { imgWrap.style.display = "none"; }; // Dölj om bilden saknas
+    captionEl.innerText = q.imageCaption || "";
+    imgWrap.style.display = "block";
+  } else {
+    imgWrap.style.display = "none";
+  }
+
+  // Kategori & Taggar
   const catEl = document.getElementById("q-category");
   catEl.innerText = q.category;
   catEl.className = q.obscure ? "tag obscure" : "tag";
 
   // Titel & Påstående
-  document.getElementById("q-title").innerText = `${currentQuestionIndex + 1} av ${totalQ}. ${q.title}`;
+  document.getElementById("q-title").innerText = `${currentQuestionIndex + 1}. ${q.title}`;
   document.getElementById("q-statement").innerText = `"${q.statement}"`;
+  
+  // Bakgrundstext
+  const contextEl = document.getElementById("q-context");
+  if (q.context && q.context.trim() !== "") {
+    contextEl.innerHTML = `<strong>Bakgrund:</strong> ${q.context}`;
+    contextEl.style.display = "block";
+  } else {
+    contextEl.style.display = "none";
+  }
+
   document.getElementById("q-pro").innerText = q.pro;
   document.getElementById("q-con").innerText = q.con;
+  document.getElementById("q-progress").innerText = `Fråga ${currentQuestionIndex + 1} av ${totalQ}`;
 
-  // Rendera svarsalternativ (Likert-skala)
+  // Svarsalternativ
   const optionsContainer = document.getElementById("options-container");
   optionsContainer.innerHTML = "";
 
@@ -82,43 +96,33 @@ function renderQuestion() {
   options.forEach(opt => {
     const btn = document.createElement("button");
     btn.className = "opt-btn";
-    if (userAnswers[q.id] === opt.val) {
-      btn.classList.add("selected");
-    }
+    if (userAnswers[q.id] === opt.val) btn.classList.add("selected");
     btn.innerText = opt.text;
-    btn.onclick = () => selectOption(q.id, opt.val);
+    btn.onclick = () => selectOptionAndAdvance(q.id, opt.val);
     optionsContainer.appendChild(btn);
   });
 
-  // Viktig-checkbox
-  const impCheckbox = document.getElementById("important-checkbox");
-  impCheckbox.checked = importantQuestions.has(q.id);
-  impCheckbox.disabled = !importantQuestions.has(q.id) && importantQuestions.size >= 3;
-
-  // Navigationsknappar
   document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
-  document.getElementById("next-btn").innerText = 
-    currentQuestionIndex === totalQ - 1 ? "Se mitt resultat" : "Nästa fråga";
 }
 
-// 4. Spara svar
-function selectOption(qId, val) {
+// Sparar svar och kliver automatiskt vidare (Auto-advance)
+function selectOptionAndAdvance(qId, val) {
   userAnswers[qId] = val;
   renderQuestion();
+
+  if (autoAdvanceTimeout) clearTimeout(autoAdvanceTimeout);
+
+  autoAdvanceTimeout = setTimeout(() => {
+    const totalQ = currentElectionData.questions.length;
+    if (currentQuestionIndex < totalQ - 1) {
+      currentQuestionIndex++;
+      renderQuestion();
+    } else {
+      showImportanceView();
+    }
+  }, 220); // 220ms mikropaus för visuell knapp-feedback
 }
 
-// 5. Hantera viktiga frågor (Max 3)
-function toggleImportant() {
-  const qId = currentElectionData.questions[currentQuestionIndex].id;
-  if (importantQuestions.has(qId)) {
-    importantQuestions.delete(qId);
-  } else if (importantQuestions.size < 3) {
-    importantQuestions.add(qId);
-  }
-  renderQuestion();
-}
-
-// 6. Navigation
 function prevQuestion() {
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
@@ -126,17 +130,45 @@ function prevQuestion() {
   }
 }
 
-function nextQuestion() {
-  const totalQ = currentElectionData.questions.length;
-  if (currentQuestionIndex < totalQ - 1) {
-    currentQuestionIndex++;
-    renderQuestion();
-  } else {
-    calculateResults();
-  }
+function showImportanceView() {
+  switchView("view-importance");
+  const listEl = document.getElementById("importance-list");
+  listEl.innerHTML = "";
+
+  currentElectionData.questions.forEach(q => {
+    const item = document.createElement("div");
+    item.className = "importance-item";
+    
+    const isChecked = importantQuestions.has(q.id);
+    const isDisabled = !isChecked && importantQuestions.size >= 3;
+
+    item.innerHTML = `
+      <input type="checkbox" id="chk-${q.id}" ${isChecked ? 'checked' : ''} ${isDisabled ? 'disabled' : ''}>
+      <label for="chk-${q.id}" style="cursor:pointer; width:100%;">
+        <strong>${q.title}</strong> <span style="font-size:0.85rem; color:#6c757d;">(${q.category})</span>
+      </label>
+    `;
+
+    const chk = item.querySelector("input");
+    chk.onchange = () => {
+      if (chk.checked) {
+        importantQuestions.add(q.id);
+      } else {
+        importantQuestions.delete(q.id);
+      }
+      showImportanceView(); // Rendera om för att uppdatera max 3-spärren
+    };
+
+    listEl.appendChild(item);
+  });
 }
 
-// 7. Beräkna matchen och visa resultat
+function backToQuiz() {
+  currentQuestionIndex = currentElectionData.questions.length - 1;
+  switchView("view-quiz");
+  renderQuestion();
+}
+
 function calculateResults() {
   const scores = currentElectionData.parties.map(party => {
     let totalPoints = 0;
@@ -147,7 +179,6 @@ function calculateResults() {
       const partyVal = party.answers[q.id];
       const weight = importantQuestions.has(q.id) ? 2 : 1;
 
-      // Beräkna avstånd (Max avstånd = 4)
       const diff = Math.abs(userVal - partyVal);
       const points = (4 - diff) * weight;
 
@@ -164,12 +195,10 @@ function calculateResults() {
     };
   });
 
-  // Sortera med högst procent först
   scores.sort((a, b) => b.percent - a.percent);
 
-  // Rendera resultat
   document.getElementById("result-title").innerText = `Ditt resultat i ${currentElectionData.title}`;
-  document.getElementById("result-subtitle").innerText = `Baserat på dina ${currentElectionData.questions.length} svar matchar du bäst med följande partier:`;
+  document.getElementById("result-subtitle").innerText = `Baserat på dina svar matchar du bäst med följande partier:`;
 
   const listEl = document.getElementById("result-list");
   listEl.innerHTML = "";
@@ -178,12 +207,10 @@ function calculateResults() {
     const isWinner = index === 0;
     let posterHtml = "";
 
-    // Om partiet har en affisch och är bäst matchad, eller om bild finns
     if (s.posterUrl) {
       posterHtml = `
         <div class="poster-container">
           <img src="${s.posterUrl}" alt="Valaffisch för ${s.name}">
-          <div class="caption">Valaffisch från valet ${currentElectionData.year}</div>
         </div>
       `;
     }
@@ -203,7 +230,6 @@ function calculateResults() {
   switchView("view-result");
 }
 
-// 8. Återvänd till startsidan eller starta om
 function showHome() {
   history.pushState({}, "", window.location.pathname);
   switchView("view-home");
