@@ -1,0 +1,199 @@
+{
+  "id": "1928",
+  "title": "Andrakammarvalet 1928",
+  "year": "1928",
+  "description": "Det legendariska 'Kosackvalet' där striden stod mellan Högern och Socialdemokraterna kring välfärd, skatter och arbetsmarknad.",
+  "questions": [
+    {
+      "id": "Q1",
+      "title": "Arbetslöshetsunderstöd & AK-arbeten",
+      "statement": "Statliga understöd till arbetslösa ska strikt villkoras med att den enskilde tar anvisat nödhjälpsarbete (AK-arbete) till en lön under marknadens lägsta avtal.",
+      "category": "Arbetsmarknad",
+      "pro": "Minskar statens utgifter och förhindrar passivitet.",
+      "con": "Pressar ner lönerna och tvingar arbetare i fattigdom.",
+      "obscure": false
+    },
+    {
+      "id": "Q2",
+      "title": "Kollektivavtalslagen",
+      "statement": "Den nyantagna lagen om kollektivavtal och Arbetsdomstolen (som förbjuder vilda strejker) bör omedelbart rivas upp.",
+      "category": "Arbetsmarknad",
+      "pro": "Återger fackföreningarna sin fulla frihet och strejkrätt.",
+      "con": "Säkrar arbetsfreden och förutsägbarhet för industrin.",
+      "obscure": false
+    },
+    {
+      "id": "Q3",
+      "title": "Försvarsfrågan och nedrustningen",
+      "statement": "Sverige bör upprätthålla 1925 års beslut om kraftig nedrustning av krigsmakten och förlita sig på Nationernas Förbund.",
+      "category": "Försvar",
+      "pro": "Frigör resurser till välfärd och främjar fred.",
+      "con": "Lämnar Sverige försvarslöst i en osäker omvärld.",
+      "obscure": false
+    },
+    {
+      "id": "Q4",
+      "title": "Höjd arvsskatt",
+      "statement": "Arvsskatten bör skärpas kraftigt för stora förmögenheter för att finansiera socialförsäkringar.",
+      "category": "Skatter",
+      "pro": "Jämnar ut klassklyftor och finansierar social trygghet.",
+      "con": "Straffar sparande och dränerar familjeföretag på kapital.",
+      "obscure": false
+    },
+    {
+      "id": "Q5",
+      "title": "Spannmålstullar",
+      "statement": "Importera utländskt vete och råg bör beläggas med skyddstullar för att rädda det svenska jordbruket.",
+      "category": "Jordbruk",
+      "pro": "Skyddar svenska bönder mot billig utländsk konkurrens.",
+      "con": "Gör brödet dyrare för fattiga arbetarfamiljer i städerna.",
+      "obscure": false
+    },
+    {
+      "id": "Q6",
+      "title": "Totalt spritförbud 🍺",
+      "statement": "Inför ett totalt förbud mot tillverkning och försäljning av rusdrycker i Sverige.",
+      "category": "Tidsmarkör",
+      "pro": "Utrotar alkoholens enorma sociala och medicinska skadeverkningar.",
+      "con": "Kränker den personliga friheten och ökar lönnbränningen.",
+      "obscure": true
+    },
+    {
+      "id": "Q7",
+      "title": "Kaffetull ☕",
+      "statement": "Kaffe bör betraktas som en obehövlig lyxvara och beläggas med en särskild importtull.",
+      "category": "Tidsmarkör",
+      "pro": "Stärker handelsbalansen och minskar utflödet av valuta.",
+      "con": "Drabbar den vanliga människan som unnar sig en kopp kaffe.",
+      "obscure": true
+    },
+    {
+      "id": "Q8",
+      "title": "Statlig utbyggnad av SJ vs. Biltrafik",
+      "statement": "Staten bör prioritera investeringar i järnvägsnätet framför utbyggnad av vägar för privatbilar och åkerier.",
+      "category": "Infrastruktur",
+      "pro": "SJ är tryggt, miljövänligt och ägs av hela folket.",
+      "con": "Biltrafiken representerar framtiden och ger fri rörlighet.",
+      "obscure": false
+    },
+    {
+      "id": "Q9",
+      "title": "Borgerlig vigsel",
+      "statement": "Borgerlig vigsel ska göras till en fullt jämställd möjlighet utan krav på utträde ur statskyrkan.",
+      "category": "Rättsfrågor",
+      "pro": "Ökar den religiösa friheten och moderniserar lagstiftningen.",
+      "con": "Utsätter kyrkans ställning och äktenskapets helgd för fara.",
+      "obscure": false
+    },
+    {
+      "id": "Q10",
+      "title": "Biografcensur & Grammofonskatt 📻",
+      "statement": "Bilder och ljudmedier bör underställas skärpt statlig granskning samt beläggas med en särskild nöjesskatt.",
+      "category": "Tidsmarkör",
+      "pro": "Skyddar ungdomen från moraliskt förfall och ger staten intäkter.",
+      "con": "Hämmar kulturen och fördyrar folkliga nöjen.",
+      "obscure": true
+    },
+    {
+      "id": "Q11",
+      "title": "Åttatimmarsarbetsdagen",
+      "statement": "Lagen om åttatimmars arbetsdag bör ligga fast utan ytterligare undantag för arbetsgivare.",
+      "category": "Arbetsmarknad",
+      "pro": "Garanterar arbetarens rätt till vila och fritid.",
+      "con": "Försvårar för industrin och jordbruket under högsäsong.",
+      "obscure": false
+    },
+    {
+      "id": "Q12",
+      "title": "Enhetlig sexårig folkskola",
+      "statement": "Läroverken ska bygga direkt på den sexåriga folkskolan för alla barn, oavsett ekonomi.",
+      "category": "Skola",
+      "pro": "Skapar en rättvis skola där begåvning avgör, inte plånbok.",
+      "con": "Sänker kvaliteten i läroverken och blir för dyrt.",
+      "obscure": false
+    },
+    {
+      "id": "Q13",
+      "title": "Förbud mot offentliga dansbanor 💃",
+      "statement": "Kommuner bör få rätt att förbjuda offentliga dansbanor på landsbygden för att värna ordningen.",
+      "category": "Tidsmarkör",
+      "pro": "Minskar fylleri, busliv och moraliskt förfall bland unga.",
+      "con": "Stryper landsbygdsungdomens enda nöje och mötesplats.",
+      "obscure": true
+    },
+    {
+      "id": "Q14",
+      "title": "Handel med Sovjetunionen",
+      "statement": "Sverige bör utöka de statliga handelsförbindelserna med Sovjetunionen.",
+      "category": "Utrikes",
+      "pro": "Öppnar en enorm exportmarknad för svensk industri.",
+      "con": "Stödjer en kommunistisk diktatur och innebär ekonomisk risk.",
+      "obscure": false
+    },
+    {
+      "id": "Q15",
+      "title": "Försvarssekretess 🗞️",
+      "statement": "Statsförvaltningen ska äga rätt att belägga utredningar om försvaret med utökad sekretess.",
+      "category": "Säkerhet",
+      "pro": "Skyddar rikets säkerhet från utländskt spionage.",
+      "con": "Inskränker tryckfriheten och medborgarnas insyn.",
+      "obscure": false
+    },
+    {
+      "id": "Q16",
+      "title": "Skattefinansiering av statsskulden",
+      "statement": "Statliga investeringar ska finansieras via löpande skatter snarare än lån och obligationer.",
+      "category": "Ekonomi",
+      "pro": "Förhindrar att staten drar på sig farliga skulder.",
+      "con": "Bromsar nödvändiga investeringar i landets utveckling.",
+      "obscure": false
+    }
+  ],
+  "parties": [
+    {
+      "name": "Högern (Allmänna Valmansförbundet)",
+      "description": "Fokuserade på försvar, äganderätt och ordning under parollen 'Gör din plikt, kräv din rätt'. Kampanjade hårt mot socialismen.",
+      "answers": {
+        "Q1": 2, "Q2": -2, "Q3": -2, "Q4": -2, "Q5": 2, "Q6": -1,
+        "Q7": 1, "Q8": -1, "Q9": -2, "Q10": 1, "Q11": -2, "Q12": -2,
+        "Q13": 1, "Q14": -2, "Q15": 2, "Q16": -2
+      }
+    },
+    {
+      "name": "Frisinnade Folkpartiet (Liberala)",
+      "description": "Mittenparti lett av statsminister Carl Gustaf Ekman. Värnade frihandel, nykterhet och sociala reformer i balanserad takt.",
+      "answers": {
+        "Q1": 1, "Q2": -1, "Q3": 1, "Q4": -1, "Q5": -1, "Q6": 2,
+        "Q7": 0, "Q8": 1, "Q9": 2, "Q10": 0, "Q11": 1, "Q12": 2,
+        "Q13": 1, "Q14": 0, "Q15": 1, "Q16": 1
+      }
+    },
+    {
+      "name": "Bondeförbundet",
+      "description": "Partiet för landsbygd och jordbrukare. Drev krav på tullar för att skydda det svenska lantbruket mot utländsk konkurrens.",
+      "answers": {
+        "Q1": 2, "Q2": -1, "Q3": -1, "Q4": -1, "Q5": 2, "Q6": 1,
+        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 1, "Q11": -2, "Q12": -1,
+        "Q13": 2, "Q14": -1, "Q15": 1, "Q16": 1
+      }
+    },
+    {
+      "name": "Socialdemokraterna",
+      "description": "Leddes av Per Albin Hansson med visionen om 'Folkhemmet'. Ville bygga ut den sociala tryggheten och reformera arbetsmarknaden.",
+      "answers": {
+        "Q1": -2, "Q2": 2, "Q3": 2, "Q4": 2, "Q5": -2, "Q6": -1,
+        "Q7": -2, "Q8": 1, "Q9": 2, "Q10": -1, "Q11": 2, "Q12": 2,
+        "Q13": -1, "Q14": 2, "Q15": -2, "Q16": 2
+      }
+    },
+    {
+      "name": "Sveriges Kommunistiska Parti (SKP)",
+      "description": "Drev en radikal linje för arbetarklassen med direkt inspiration och stöd från Sovjetunionen och Komintern.",
+      "answers": {
+        "Q1": -2, "Q2": 2, "Q3": 2, "Q4": 2, "Q5": -2, "Q6": -2,
+        "Q7": -2, "Q8": 1, "Q9": 2, "Q10": -2, "Q11": 2, "Q12": 2,
+        "Q13": -2, "Q14": 2, "Q15": -2, "Q16": 2
+      }
+    }
+  ]
+}
