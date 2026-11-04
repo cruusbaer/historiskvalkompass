@@ -48,7 +48,7 @@
       margin: 0;
     }
 
-    /* Utforska val / Startsida */
+    /* Startsida */
     .elections-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -74,6 +74,31 @@
       color: var(--accent);
     }
 
+    /* Bildhantering i quiz */
+    .question-image-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background-color: #e9ecef;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+
+    .question-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .image-caption {
+      font-size: 0.8rem;
+      color: #6c757d;
+      margin-top: 4px;
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+
     /* Quiz-vy */
     .question-card {
       border-bottom: 1px solid var(--border);
@@ -94,6 +119,16 @@
     .tag.obscure {
       background: #fff3cd;
       color: #856404;
+    }
+
+    .context-box {
+      background-color: #f1f3f5;
+      padding: 12px 15px;
+      border-radius: 6px;
+      font-size: 0.92rem;
+      color: #495057;
+      margin: 12px 0;
+      border-left: 3px solid #adb5bd;
     }
 
     .args {
@@ -126,14 +161,14 @@
     }
 
     button.opt-btn {
-      padding: 12px;
+      padding: 14px;
       border: 1px solid var(--border);
       background: white;
       border-radius: 6px;
       cursor: pointer;
       text-align: left;
       font-size: 1rem;
-      transition: all 0.2s;
+      transition: all 0.15s ease-in-out;
     }
 
     button.opt-btn:hover {
@@ -144,11 +179,6 @@
       background: var(--accent);
       color: white;
       border-color: var(--accent);
-    }
-
-    .important-toggle {
-      margin-top: 15px;
-      font-size: 0.9rem;
     }
 
     .nav-btns {
@@ -174,6 +204,28 @@
 
     .btn-secondary {
       background: #6c757d;
+    }
+
+    /* Sammanfattning / Viktiga frågor-vy */
+    .importance-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .importance-item {
+      display: flex;
+      align-items: center;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .importance-item input {
+      margin-right: 12px;
+      transform: scale(1.2);
     }
 
     /* Resultatvy */
@@ -206,10 +258,10 @@
       margin-top: 10px;
     }
 
-    .caption {
-      font-size: 0.8rem;
-      color: #6c757d;
-      margin-top: 4px;
+    @media (max-width: 600px) {
+      .args {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -221,7 +273,7 @@
     <p class="tagline">Hur hade du röstat i dåtidens politiska ödesval?</p>
   </header>
 
-  <!-- VY 1: STARTSIDA (Välj val) -->
+  <!-- VY 1: STARTSIDA -->
   <main id="view-home">
     <p>Välj ett historiskt folkomröstnings- eller andrakammarval nedan för att starta kompassen:</p>
     
@@ -236,32 +288,48 @@
   <!-- VY 2: QUIZ -->
   <main id="view-quiz" style="display:none;">
     <div class="question-card">
+      <!-- Bildcontainer (visas bara om bild finns) -->
+      <div id="q-image-wrap" style="display:none;">
+        <div class="question-image-container">
+          <img id="q-image" src="" alt="Frågebild">
+        </div>
+        <div id="q-caption" class="image-caption"></div>
+      </div>
+
       <span id="q-category" class="tag"></span>
       <h2 id="q-title"></h2>
       <p id="q-statement" style="font-size: 1.1rem; font-weight: 500;"></p>
       
+      <div id="q-context" class="context-box"></div>
+
       <div class="args">
         <div class="arg-pro"><strong>Argument För:</strong> <div id="q-pro"></div></div>
         <div class="arg-con"><strong>Argument Emot:</strong> <div id="q-con"></div></div>
       </div>
 
       <div class="options" id="options-container"></div>
-
-      <div class="important-toggle">
-        <label>
-          <input type="checkbox" id="important-checkbox" onchange="toggleImportant()"> 
-          ⭐ Märk som extra viktig fråga för dig (Max 3)
-        </label>
-      </div>
     </div>
 
     <div class="nav-btns">
       <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
-      <button class="btn" id="next-btn" onclick="nextQuestion()">Nästa</button>
+      <span style="font-size: 0.9rem; color: #6c757d; align-self: center;" id="q-progress"></span>
     </div>
   </main>
 
-  <!-- VY 3: RESULTAT -->
+  <!-- VY 3: VIKTIGA FRÅGOR (Steg före resultat) -->
+  <main id="view-importance" style="display:none;">
+    <h2>⭐ Märk dina hjärtefrågor</h2>
+    <p>Du har besvarat alla frågor! Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig för att ge dem dubbel vikt i resultatberäkningen:</p>
+    
+    <div id="importance-list" class="importance-list"></div>
+
+    <div class="nav-btns">
+      <button class="btn btn-secondary" onclick="backToQuiz()">Tillbaka till frågorna</button>
+      <button class="btn" onclick="calculateResults()">Visa mitt resultat</button>
+    </div>
+  </main>
+
+  <!-- VY 4: RESULTAT -->
   <main id="view-result" style="display:none;">
     <h2 id="result-title">Ditt resultat</h2>
     <p id="result-subtitle"></p>
@@ -276,7 +344,6 @@
   </main>
 </div>
 
-<!-- Logik laddas i nästa steg från app.js -->
 <script src="app.js"></script>
 </body>
 </html>
