@@ -2,10 +2,236 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>Test</title>
-</head>
-<body style="background: white; color: black; font-family: sans-serif; padding: 40px;">
-  <h1>Testarsida</h1>
-  <p>Om du ser den här texten på Netlify så fungerar servern och uppladdningen som den ska!</p>
-</body>
-</html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Historisk Valkompass</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --text: #212529;
+      --accent: #0056b3;
+      --border: #dee2e6;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      margin: 0;
+      padding: 15px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: var(--card);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    h1 {
+      margin: 0 0 4px 0;
+      color: #1a2530;
+      font-size: 1.6rem;
+    }
+
+    .tagline {
+      color: #6c757d;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    /* Språkväljare */
+    .lang-selector {
+      display: flex;
+      gap: 6px;
+      background: #e9ecef;
+      padding: 4px;
+      border-radius: 6px;
+    }
+
+    .lang-btn {
+      background: none;
+      border: none;
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+      color: #495057;
+    }
+
+    .lang-btn.active {
+      background: var(--accent);
+      color: white;
+    }
+
+    /* Startsida & Lägesval */
+    .elections-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .election-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      background: #fff;
+    }
+
+    .election-card h2 {
+      margin: 0 0 6px 0;
+      color: var(--accent);
+      font-size: 1.25rem;
+    }
+
+    .mode-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .mode-btn {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid var(--accent);
+      background: #fff;
+      color: var(--accent);
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-align: center;
+      transition: all 0.15s ease-in-out;
+    }
+
+    .mode-btn:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .gemini-footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #adb5bd;
+      margin-top: 40px;
+      border-top: 1px solid var(--border);
+      padding-top: 15px;
+    }
+
+    /* Bildhantering i quiz */
+    .question-image-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background-color: #e9ecef;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .question-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .image-caption {
+      font-size: 0.8rem;
+      color: #6c757d;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      font-style: italic;
+    }
+
+    /* Quiz-vy */
+    .question-card {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 18px;
+      margin-bottom: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e9ecef;
+      font-size: 0.78rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .context-box {
+      background-color: #f1f3f5;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #495057;
+      margin: 10px 0;
+      border-left: 3px solid #adb5bd;
+    }
+
+    .args {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+
+    .arg-pro {
+      background: #e8f5e9;
+      padding: 10px 12px;
+      border-radius: 6px;
+      border-left: 4px solid #2e7d32;
+    }
+
+    .arg-con {
+      background: #ffebee;
+      padding: 10px 12px;
+      border-radius: 6px;
+      border-left: 4px solid #c62828;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 14px;
+    }
+
+    button.opt-btn {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      background: white;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: left;
+      font-size: 0.95rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.15s ease-in-out;
+    }
+
+    button.opt-btn:hover {
+      background: #f8f9fa;
+      border-color: #ced4da;
