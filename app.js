@@ -1,4 +1,5 @@
 let currentElectionData = null;
+let activeQuestions = [];
 let currentQuestionIndex = 0;
 let userAnswers = {};
 let importantQuestions = new Set();
@@ -15,20 +16,35 @@ const valLabels = {
 document.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
   const valId = urlParams.get("val");
-  if (valId) startElection(valId);
+  const isQuick = urlParams.get("quick") === "true";
+  if (valId) startElection(valId, isQuick);
 });
 
-async function startElection(electionId) {
+async function startElection(electionId, isQuick = false) {
   try {
     const response = await fetch(`data/val${electionId}.json`);
     if (!response.ok) throw new Error(`Kunde inte ladda data/val${electionId}.json`);
     
     currentElectionData = await response.json();
+    
+    // Välj 8 frågor för Snabbkompass eller alla 16 för Fullkompass
+    if (isQuick) {
+      activeQuestions = currentElectionData.questions.filter(q => q.quick);
+    } else {
+      activeQuestions = currentElectionData.questions;
+    }
+
     currentQuestionIndex = 0;
     userAnswers = {};
     importantQuestions.clear();
 
-    history.pushState({ valId: electionId }, "", `?val=${electionId}`);
+    // Uppdatera rubrik och sidtitel dynamiskt
+    const modeText = isQuick ? "Snabbkompass" : "Fullkompass";
+    document.getElementById("header-title").innerText = `${currentElectionData.title}`;
+    document.getElementById("header-tagline").innerText = `${modeText} (${activeQuestions.length} frågor)`;
+    document.title = `${currentElectionData.title} – ${modeText}`;
+
+    history.pushState({ valId: electionId, isQuick }, "", `?val=${electionId}&quick=${isQuick}`);
     switchView("view-quiz");
     renderQuestion();
   } catch (error) {
@@ -49,8 +65,8 @@ function switchView(viewId) {
 }
 
 function renderQuestion() {
-  const q = currentElectionData.questions[currentQuestionIndex];
-  const totalQ = currentElectionData.questions.length;
+  const q = activeQuestions[currentQuestionIndex];
+  const totalQ = activeQuestions.length;
 
   const imgWrap = document.getElementById("q-image-wrap");
   const imgEl = document.getElementById("q-image");
@@ -115,7 +131,7 @@ function selectOptionAndAdvance(qId, val) {
   if (autoAdvanceTimeout) clearTimeout(autoAdvanceTimeout);
 
   autoAdvanceTimeout = setTimeout(() => {
-    const totalQ = currentElectionData.questions.length;
+    const totalQ = activeQuestions.length;
     if (currentQuestionIndex < totalQ - 1) {
       currentQuestionIndex++;
       renderQuestion();
@@ -137,12 +153,11 @@ function showImportanceView() {
   renderImportanceList();
 }
 
-// Uppdaterar listan på plats utan att trigga switchView och scrolla till toppen
 function renderImportanceList() {
   const listEl = document.getElementById("importance-list");
   listEl.innerHTML = "";
 
-  currentElectionData.questions.forEach(q => {
+  activeQuestions.forEach(q => {
     const item = document.createElement("div");
     item.className = "importance-item";
     
@@ -155,7 +170,7 @@ function renderImportanceList() {
       <label for="chk-${q.id}" style="cursor:pointer; width:100%;">
         <strong>${q.title}</strong> <span style="font-size:0.85rem; color:#6c757d;">(${q.category})</span><br>
         <span style="font-size: 0.95rem; font-weight: 500; color: #1a2530; display: block; margin: 4px 0;">"${q.statement}"</span>
-        <span class="user-answer-badge">⭐ Ditt svar: ${userValText} ${isChecked ? '• Markerad som hjärtefråga (x2)' : ''}</span>
+        <span class="user-answer-badge">Ditt svar: ${userValText} ${isChecked ? '• Hjärtefråga (x2)' : ''}</span>
       </label>
     `;
 
@@ -168,7 +183,7 @@ function renderImportanceList() {
       } else {
         importantQuestions.delete(q.id);
       }
-      renderImportanceList(); // Uppdaterar endast elementen inuti utan att hoppa
+      renderImportanceList();
     };
 
     listEl.appendChild(item);
@@ -176,7 +191,7 @@ function renderImportanceList() {
 }
 
 function backToQuiz() {
-  currentQuestionIndex = currentElectionData.questions.length - 1;
+  currentQuestionIndex = activeQuestions.length - 1;
   switchView("view-quiz");
   renderQuestion();
 }
@@ -186,7 +201,7 @@ function calculateResults() {
     let totalPoints = 0;
     let maxPoints = 0;
 
-    currentElectionData.questions.forEach(q => {
+    activeQuestions.forEach(q => {
       const userVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
       const partyVal = party.answers[q.id];
       const weight = importantQuestions.has(q.id) ? 2 : 1;
@@ -221,14 +236,14 @@ function calculateResults() {
     const partyId = s.name.replace(/[^a-zA-Z0-9]/g, "");
 
     let matrixRowsHtml = "";
-    currentElectionData.questions.forEach(q => {
+    activeQuestions.forEach(q => {
       const uVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
       const pVal = s.partyObj.answers[q.id];
       const isImp = importantQuestions.has(q.id);
 
       matrixRowsHtml += `
         <div class="matrix-row">
-          <span>${q.title} ${isImp ? '<strong>(⭐ Viktad x2)</strong>' : ''}</span>
+          <span>${q.title} ${isImp ? '<strong>(Viktad x2)</strong>' : ''}</span>
           <span>Ditt svar: <strong>${valLabels[uVal]}</strong> | Partiets svar: <strong>${valLabels[pVal]}</strong></span>
         </div>
       `;
@@ -260,6 +275,11 @@ function toggleMatrix(partyId) {
   el.style.display = el.style.display === "none" ? "block" : "none";
 }
 
+function toggleFormula() {
+  const el = document.getElementById("formula-box");
+  el.style.display = el.style.display === "none" ? "block" : "none";
+}
+
 function showHistoryView() {
   switchView("view-history");
   
@@ -269,23 +289,27 @@ function showHistoryView() {
   const listEl = document.getElementById("history-list");
   listEl.innerHTML = "";
 
-  currentElectionData.questions.forEach(q => {
+  activeQuestions.forEach(q => {
     const outcome = currentElectionData.historicalOutcome.questionsOutcome[q.id];
     const uVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
     const isImp = importantQuestions.has(q.id);
 
     listEl.innerHTML += `
       <div class="history-card">
-        <h3 style="margin: 0 0 2px 0; font-size: 1.05rem;">${q.title} ${isImp ? '⭐' : ''}</h3>
-        <p style="font-size: 0.9rem; font-style: italic; color: #495057; margin: 0 0 6px 0;">"${q.statement}"</p>
-        <p style="font-size: 0.85rem; margin: 4px 0;"><strong>Ditt ställningstagande:</strong> ${valLabels[uVal]}</p>
-        <p style="font-size: 0.9rem; color: #1a2530; margin-top: 8px;"><strong>Vad som hände i verkligheten & på sikt:</strong> ${outcome ? outcome.description : 'Ingen historisk uppgift registrerad.'}</p>
+        <h3>${q.title} ${isImp ? '⭐' : ''}</h3>
+        <p class="statement-text">"${q.statement}"</p>
+        <p class="user-choice-text"><strong>Ditt ställningstagande:</strong> ${valLabels[uVal]}</p>
+        <p class="outcome-text"><strong>Vad som hände i verkligheten & på sikt:</strong> ${outcome ? outcome.description : 'Ingen historisk uppgift registrerad.'}</p>
       </div>
     `;
   });
 }
 
 function showHome() {
+  document.getElementById("header-title").innerText = "Historisk Valkompass";
+  document.getElementById("header-tagline").innerText = "Hur hade du röstat i dåtidens politiska ödesval?";
+  document.title = "Historisk Valkompass";
+
   history.pushState({}, "", window.location.pathname);
   switchView("view-home");
 }
