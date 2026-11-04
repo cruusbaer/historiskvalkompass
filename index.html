@@ -76,7 +76,16 @@
       font-size: 1.25rem;
     }
 
-    /* Bildhantering i quiz (Oförändrad övre layout) */
+    .gemini-footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #adb5bd;
+      margin-top: 40px;
+      border-top: 1px solid var(--border);
+      padding-top: 15px;
+    }
+
+    /* Bildhantering i quiz */
     .question-image-container {
       width: 100%;
       aspect-ratio: 16 / 9;
@@ -101,7 +110,7 @@
       font-style: italic;
     }
 
-    /* Quiz-vy (Oförändrad övre layout) */
+    /* Quiz-vy */
     .question-card {
       border-bottom: 1px solid var(--border);
       padding-bottom: 18px;
@@ -128,6 +137,13 @@
       border-left: 3px solid #adb5bd;
     }
 
+    .formula-box {
+      background-color: #e8f4fd;
+      border-left-color: var(--accent);
+      font-size: 0.85rem;
+      margin-top: 20px;
+    }
+
     .args {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -150,7 +166,6 @@
       border-left: 4px solid #c62828;
     }
 
-    /* NY KOMPAKT KNAPPLAYOUT */
     .options {
       display: flex;
       flex-direction: column;
@@ -178,7 +193,6 @@
       border-color: #ced4da;
     }
 
-    /* Subtil färgkodning på knappen */
     button.opt-btn[data-val="2"] { border-left: 4px solid #2e7d32; }
     button.opt-btn[data-val="1"] { border-left: 4px solid #81c784; }
     button.opt-btn[data-val="0"] { border-left: 4px solid #adb5bd; }
@@ -220,14 +234,14 @@
     .importance-list {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 10px;
       margin: 15px 0;
     }
 
     .importance-item {
       display: flex;
       align-items: flex-start;
-      padding: 10px 12px;
+      padding: 12px;
       border: 1px solid var(--border);
       border-radius: 6px;
       background: #fff;
@@ -241,12 +255,13 @@
 
     .user-answer-badge {
       display: inline-block;
-      font-size: 0.78rem;
-      color: #495057;
+      font-size: 0.8rem;
+      color: #1a2530;
       background: #e9ecef;
-      padding: 2px 6px;
+      padding: 2px 8px;
       border-radius: 4px;
-      margin-top: 4px;
+      margin-top: 6px;
+      font-weight: 500;
     }
 
     /* Resultatvy & Facit-tabell */
@@ -341,6 +356,10 @@
         <p><strong>Kosackvalet & Välfärdsstatens begynnelse.</strong> Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna samt flera unika tidsfrågor.</p>
       </div>
     </div>
+
+    <div class="gemini-footer">
+      Skapad med hjälp av Google Gemini
+    </div>
   </main>
 
   <!-- VY 2: QUIZ -->
@@ -375,7 +394,7 @@
 
   <!-- VY 3: VIKTIGA FRÅGOR -->
   <main id="view-importance" style="display:none;">
-    <h2>Välj dina hjärtefrågor</h2>
+    <h2>⭐ Välj dina hjärtefrågor</h2>
     <p>Du har besvarat alla frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i beräkningen):</p>
     
     <div id="importance-list" class="importance-list"></div>
@@ -392,6 +411,11 @@
     <p id="result-subtitle"></p>
     
     <div id="result-list"></div>
+
+    <div class="context-box formula-box">
+      <strong>🧮 Så räknas ditt resultat ut:</strong><br>
+      Matchningen baseras på avståndet mellan dina svar och partiernas facit (på en skala -2 till +2). För varje fråga ges upp till 4 poäng ($4 - |\text{Ditt svar} - \text{Partiets svar}|$). Om du har markerat frågan som en hjärtefråga (⭐), dubbleras poängen (vikt $\times 2$). Procenten är din totala poäng delad med maximal möjliga poäng.
+    </div>
     
     <div class="nav-btns" style="margin-top:20px;">
       <button class="btn" style="background:#28a745;" onclick="showHistoryView()">Vad hände sedan?</button>
