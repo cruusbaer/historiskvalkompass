@@ -1,0 +1,268 @@
+{
+  "id": "1928",
+  "title": "General Election 1928",
+  "year": "1928",
+  "description": "The legendary 'Cossack Election' focusing on the future welfare state, taxation, and labor market regulation.",
+  "historicalOutcome": {
+    "summary": "The Right (General Electoral League) achieved its greatest election victory after a fierce campaign against the Social Democrats' tax proposals. Arvid Lindman formed a conservative government with support from the Free-minded People's Party.",
+    "questionsOutcome": {
+      "Q1": { "description": "The relief work system (AK) with its low wages remained intact between 1928–1932. In the long term, it was abolished in the 1940s in favor of modern labor market policies." },
+      "Q2": { "description": "The Collective Bargaining Act and Labor Court remained in force and later established the foundation of the 'Swedish model'." },
+      "Q3": { "description": "The 1925 disarmament decision was not reversed. Defense policy remained locked until the major defense act of 1936." },
+      "Q4": { "description": "The proposed inheritance tax increase was voted down in 1928, though higher wealth taxes were introduced in the post-war era." },
+      "Q5": { "description": "Grain tariffs were introduced in the early 1930s due to the Great Depression, initiating decades of agricultural regulation." },
+      "Q6": { "description": "Prohibition was rejected. The 'Bratt System' ration book remained in effect until 1955 when Systembolaget was created." },
+      "Q7": { "description": "The coffee tariff was not introduced, and coffee remained an unregulated household staple." },
+      "Q8": { "description": "State Railways (SJ) retained its position, but road infrastructure saw major expansion starting in the 1930s." },
+      "Q9": { "description": "Civil marriage remained available, though religious wedding ceremonies remained the social norm." },
+      "Q10": { "description": "Film censorship remained, but radio and phonographs grew into essential mass media without new entertainment taxes." },
+      "Q11": { "description": "The eight-hour workday was maintained and served as the standard until the 40-hour work week law in 1970." },
+      "Q12": { "description": "The 1927/1928 school reforms were a first step; the unified 9-year comprehensive school was fully implemented in 1962." },
+      "Q13": { "description": "Local bans on public dance halls were tested, but outdoor dance pavilions exploded in popularity in folk parks." },
+      "Q14": { "description": "Trade with the Soviet Union continued via industrial contracts without large-scale state credit guarantees." },
+      "Q15": { "description": "Defense secrecy remained stable until World War II when military secrecy was tightened sharply." },
+      "Q16": { "description": "Strict fiscal discipline was maintained until 1933, when a political agreement created active counter-cyclical crisis management." }
+    }
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "title": "Unemployment Relief & AK Work",
+      "statement": "State relief work wages should strictly be kept lower than the lowest market collective agreement wage.",
+      "context": "The Unemployment Commission (AK) provided relief work but was criticized by unions for lowering wage levels during labor disputes.",
+      "category": "Labor Market",
+      "pro": "Prevents passivity and limits state expenditure.",
+      "con": "Undermines union agreements and forces workers into poverty.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "title": "Collective Bargaining Act",
+      "statement": "The new law on collective agreements and the Labor Court (prohibiting wildcat strikes) should be repealed immediately.",
+      "context": "Passed in 1928 despite strong opposition from labor unions who viewed it as a threat to the right to strike.",
+      "category": "Labor Market",
+      "pro": "Restores full union autonomy and unrestricted right to strike.",
+      "con": "Ensures industrial peace and predictability for businesses.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "title": "Defense Disarmament",
+      "statement": "Sweden should maintain the 1925 decision on major military disarmament.",
+      "context": "Following WWI, left and liberal parties passed major military spending cuts to redirect funds to social welfare.",
+      "category": "Defense & Security",
+      "pro": "Frees up state resources for healthcare and public education.",
+      "con": "Jeopardizes national security in an uncertain international climate.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "title": "Increased Inheritance Tax",
+      "statement": "Inheritance tax should be raised significantly on large fortunes to fund social insurance.",
+      "context": "Social Democrats proposed higher wealth and inheritance taxes to finance public welfare reforms.",
+      "category": "Taxation & Economy",
+      "pro": "Reduces social inequality and finances social safety nets.",
+      "con": "Penalizes savings and drains family enterprises of capital.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "title": "Grain Tariffs",
+      "statement": "Swedish agriculture should be protected against cheap grain imports through tariffs.",
+      "context": "During the 1920s, Swedish farmers faced falling prices caused by cheap grain imported from North America.",
+      "category": "Agriculture & Trade",
+      "pro": "Protects domestic farmers and rural livelihoods.",
+      "con": "Increases bread prices for urban working-class families.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "title": "Total Alcohol Prohibition",
+      "statement": "Introduce a complete ban on the manufacturing and sale of alcohol in Sweden.",
+      "context": "Following the close 1922 referendum, prohibition remained a key objective for temperance movements.",
+      "category": "Public Health & Morality",
+      "pro": "Eliminates social and medical harm caused by alcoholism.",
+      "con": "Infringes on individual freedom and increases bootlegging.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "title": "Coffee Tariff",
+      "statement": "Import tariffs should be placed on coffee to strengthen state finances.",
+      "context": "Coffee was viewed by some politicians as a non-essential luxury import weakening Sweden's trade balance.",
+      "category": "Trade & Consumption",
+      "pro": "Generates state revenue and reduces foreign currency outflow.",
+      "con": "Burdens everyday households enjoying a staple beverage.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "title": "Railways vs. Road Network",
+      "statement": "The state should prioritize expanding railways over roads for private automobiles.",
+      "context": "Automobile traffic expanded rapidly in the 1920s, challenging the state-owned railway monopoly.",
+      "category": "Infrastructure",
+      "pro": "Railways provide reliable, public transport infrastructure.",
+      "con": "Motorized transport represents freedom of mobility for the future.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "title": "Civil Marriage Access",
+      "statement": "Civil marriage should be made accessible without requiring formal withdrawal from the State Church.",
+      "context": "Debates continued in the 1920s regarding secular rights versus Church authority over civil status.",
+      "category": "Civil Rights & Church",
+      "pro": "Enhances personal and religious freedom.",
+      "con": "Undermines the traditional role and authority of the Church.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "title": "Cinema Censorship & Entertainment Tax",
+      "statement": "Films and popular entertainment should be subject to stricter state censorship and taxes.",
+      "context": "The boom in cinema and gramophone records sparked public debates regarding youth culture and morality.",
+      "category": "Culture & Media",
+      "pro": "Protects youth from moral decline and raises public revenue.",
+      "con": "Restricts cultural freedom and increases costs for popular recreation.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "title": "Eight-Hour Workday",
+      "statement": "The eight-hour workday law should be maintained without granting new exemptions for industry.",
+      "context": "Passed in 1919, the workday law was a major achievement for labor, but employers frequently requested exemptions.",
+      "category": "Labor Market",
+      "pro": "Guarantees rest and leisure time for industrial workers.",
+      "con": "Restricts operational flexibility for seasonal agricultural and industrial work.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "title": "Unified Six-Year Elementary School",
+      "statement": "Secondary grammar schools should directly build upon a unified six-year primary school.",
+      "context": "The 1927 school reform aimed to create a more equal public educational structure across social classes.",
+      "category": "Education",
+      "pro": "Creates an equal opportunity system based on merit rather than wealth.",
+      "con": "Risks lowering academic standards in secondary grammar schools.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "title": "Municipal Ban on Open-Air Dance Halls",
+      "statement": "Municipalities should have the right to ban public outdoor dance halls in rural areas.",
+      "context": "The 'dance hall debate' pitched religious conservatives against youth gathering at outdoor pavilions.",
+      "category": "Public Health & Morality",
+      "pro": "Reduces public drunkenness and disorder in rural communities.",
+      "con": "Restricts the primary social venue for rural youth.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "title": "Trade Relations with USSR",
+      "statement": "Sweden should expand state-backed commercial trade relations with the Soviet Union.",
+      "context": "Exporters saw Soviet demand as a key market, while conservatives strongly opposed state credit guarantees.",
+      "category": "Foreign Policy",
+      "pro": "Opens a major export market for Swedish manufacturing.",
+      "con": "Supports a communist dictatorship and poses financial risks.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "title": "Military Secrecy",
+      "statement": "Military defense reports and strategic planning should be placed under stricter secrecy.",
+      "context": "Military leaders sought to limit public disclosure of defense plans to prevent foreign intelligence gathering.",
+      "category": "Defense & Security",
+      "pro": "Protects national security against foreign espionage.",
+      "con": "Limits press freedom and democratic oversight.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "title": "Tax-Financed State Investment",
+      "statement": "Public investments should be financed strictly through tax revenue rather than state borrowing.",
+      "context": "A debate between conservative fiscal austerity and active public spending policy.",
+      "category": "Taxation & Economy",
+      "pro": "Prevents the accumulation of national debt.",
+      "con": "Restricts essential state investments in national infrastructure.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ],
+  "parties": [
+    {
+      "name": "Electoral League (Conservatives)",
+      "description": "Promoted national defense, property rights, and law and order under the slogan 'Do your duty, demand your rights'.",
+      "answers": {
+        "Q1": 2, "Q2": -2, "Q3": -2, "Q4": -2, "Q5": 2, "Q6": -1,
+        "Q7": 1, "Q8": -1, "Q9": -2, "Q10": 1, "Q11": -2, "Q12": -2,
+        "Q13": 1, "Q14": -2, "Q15": 2, "Q16": -2
+      }
+    },
+    {
+      "name": "Free-minded People's Party (Liberals)",
+      "description": "Centrist party led by Prime Minister Carl Gustaf Ekman. Supported temperance, free trade, and moderate social reform.",
+      "answers": {
+        "Q1": 1, "Q2": -1, "Q3": 1, "Q4": -1, "Q5": -1, "Q6": 2,
+        "Q7": 0, "Q8": 1, "Q9": 2, "Q10": 0, "Q11": 1, "Q12": 2,
+        "Q13": 1, "Q14": 0, "Q15": 1, "Q16": 1
+      }
+    },
+    {
+      "name": "Farmers' League",
+      "description": "Agrarian party championing rural interests and agricultural tariffs to protect domestic farming.",
+      "answers": {
+        "Q1": 2, "Q2": -1, "Q3": -1, "Q4": -1, "Q5": 2, "Q6": 1,
+        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 1, "Q11": -2, "Q12": -1,
+        "Q13": 2, "Q14": -1, "Q15": 1, "Q16": 1
+      }
+    },
+    {
+      "name": "Social Democratic Party",
+      "description": "Led by Per Albin Hansson envisioning the 'People's Home'. Focused on expanding welfare security and labor rights.",
+      "answers": {
+        "Q1": -2, "Q2": 2, "Q3": 2, "Q4": 2, "Q5": -2, "Q6": -1,
+        "Q7": -2, "Q8": 1, "Q9": 2, "Q10": -1, "Q11": 2, "Q12": 2,
+        "Q13": -1, "Q14": 2, "Q15": -2, "Q16": 2
+      }
+    },
+    {
+      "name": "Communist Party (SKP)",
+      "description": "Radical working-class party advocating socialist revolution and aligned with the Comintern.",
+      "answers": {
+        "Q1": -2, "Q2": 2, "Q3": 2, "Q4": 2, "Q5": -2, "Q6": -2,
+        "Q7": -2, "Q8": 1, "Q9": 2, "Q10": -2, "Q11": 2, "Q12": 2,
+        "Q13": -2, "Q14": 2, "Q15": -2, "Q16": 2
+      }
+    }
+  ]
+}
