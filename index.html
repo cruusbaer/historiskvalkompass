@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Historisk Valkompass</title>
+  <title id="page-title">Historisk Valkompass</title>
   <style>
     :root {
       --bg: #f8f9fa;
@@ -49,7 +49,7 @@
       margin: 0;
     }
 
-    /* Startsida */
+    /* Startsida & Lägesval */
     .elections-grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -60,20 +60,39 @@
     .election-card {
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 18px;
-      cursor: pointer;
-      transition: border-color 0.2s, box-shadow 0.2s;
-    }
-
-    .election-card:hover {
-      border-color: var(--accent);
-      box-shadow: 0 2px 8px rgba(0,86,179,0.1);
+      padding: 20px;
+      background: #fff;
     }
 
     .election-card h2 {
       margin: 0 0 6px 0;
       color: var(--accent);
       font-size: 1.25rem;
+    }
+
+    .mode-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .mode-btn {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid var(--accent);
+      background: #fff;
+      color: var(--accent);
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-align: center;
+      transition: all 0.15s ease-in-out;
+    }
+
+    .mode-btn:hover {
+      background: var(--accent);
+      color: #fff;
     }
 
     .gemini-footer {
@@ -135,13 +154,6 @@
       color: #495057;
       margin: 10px 0;
       border-left: 3px solid #adb5bd;
-    }
-
-    .formula-box {
-      background-color: #e8f4fd;
-      border-left-color: var(--accent);
-      font-size: 0.85rem;
-      margin-top: 20px;
     }
 
     .args {
@@ -256,188 +268,17 @@
     .user-answer-badge {
       display: inline-block;
       font-size: 0.8rem;
-      color: #1a2530;
+      color: #495057;
       background: #e9ecef;
       padding: 2px 8px;
       border-radius: 4px;
-      margin-top: 6px;
-      font-weight: 500;
+      margin-top: 4px;
     }
 
-    /* Resultatvy & Facit-tabell */
+    /* Resultatvy & Ihopfällbar Beräkning */
     .result-item {
       padding: 14px;
       border: 1px solid var(--border);
       border-radius: 8px;
       margin-bottom: 12px;
       background: #fff;
-    }
-
-    .result-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .party-name {
-      font-weight: bold;
-      font-size: 1.05rem;
-    }
-
-    .result-score {
-      font-weight: bold;
-      color: var(--accent);
-      font-size: 1.25rem;
-    }
-
-    .breakdown-toggle {
-      background: none;
-      border: none;
-      color: var(--accent);
-      cursor: pointer;
-      padding: 6px 0 0 0;
-      font-size: 0.85rem;
-      text-decoration: underline;
-    }
-
-    .party-matrix {
-      margin-top: 10px;
-      border-top: 1px dashed var(--border);
-      padding-top: 8px;
-      font-size: 0.84rem;
-    }
-
-    .matrix-row {
-      display: flex;
-      justify-content: space-between;
-      padding: 4px 0;
-      border-bottom: 1px solid #f8f9fa;
-    }
-
-    .report-link {
-      display: block;
-      margin-top: 8px;
-      font-size: 0.78rem;
-      color: #6c757d;
-      text-decoration: underline;
-    }
-
-    /* Vad hände sedan-vy */
-    .history-card {
-      background: #fff;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 14px;
-      margin-bottom: 12px;
-    }
-
-    @media (max-width: 600px) {
-      .args {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
-</head>
-<body>
-
-<div class="container">
-  <header>
-    <h1>Historisk Valkompass</h1>
-    <p class="tagline">Hur hade du röstat i dåtidens politiska ödesval?</p>
-  </header>
-
-  <!-- VY 1: STARTSIDA -->
-  <main id="view-home">
-    <p>Välj ett historiskt folkomröstnings- eller andrakammarval nedan för att starta kompassen:</p>
-    
-    <div class="elections-grid">
-      <div class="election-card" onclick="startElection('1928')">
-        <h2>Andrakammarvalet 1928</h2>
-        <p><strong>Kosackvalet & Välfärdsstatens begynnelse.</strong> Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna samt flera unika tidsfrågor.</p>
-      </div>
-    </div>
-
-    <div class="gemini-footer">
-      Skapad med hjälp av Google Gemini
-    </div>
-  </main>
-
-  <!-- VY 2: QUIZ -->
-  <main id="view-quiz" style="display:none;">
-    <div class="question-card">
-      <div id="q-image-wrap" style="display:none;">
-        <div class="question-image-container">
-          <img id="q-image" src="" alt="Frågebild">
-        </div>
-        <div id="q-caption" class="image-caption"></div>
-      </div>
-
-      <span id="q-category" class="tag"></span>
-      <h2 id="q-title" style="margin: 4px 0 8px 0; font-size: 1.3rem;"></h2>
-      <p id="q-statement" style="font-size: 1.05rem; font-weight: 500; margin-bottom: 10px;"></p>
-      
-      <div id="q-context" class="context-box"></div>
-
-      <div class="args">
-        <div class="arg-pro"><strong>Argument För:</strong> <div id="q-pro"></div></div>
-        <div class="arg-con"><strong>Argument Emot:</strong> <div id="q-con"></div></div>
-      </div>
-
-      <div class="options" id="options-container"></div>
-    </div>
-
-    <div class="nav-btns">
-      <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
-      <span style="font-size: 0.85rem; color: #6c757d; align-self: center;" id="q-progress"></span>
-    </div>
-  </main>
-
-  <!-- VY 3: VIKTIGA FRÅGOR -->
-  <main id="view-importance" style="display:none;">
-    <h2>⭐ Välj dina hjärtefrågor</h2>
-    <p>Du har besvarat alla frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i beräkningen):</p>
-    
-    <div id="importance-list" class="importance-list"></div>
-
-    <div class="nav-btns">
-      <button class="btn btn-secondary" onclick="backToQuiz()">Tillbaka till frågorna</button>
-      <button class="btn" onclick="calculateResults()">Visa mitt resultat</button>
-    </div>
-  </main>
-
-  <!-- VY 4: RESULTAT -->
-  <main id="view-result" style="display:none;">
-    <h2 id="result-title">Ditt resultat</h2>
-    <p id="result-subtitle"></p>
-    
-    <div id="result-list"></div>
-
-    <div class="context-box formula-box">
-      <strong>🧮 Så räknas ditt resultat ut:</strong><br>
-      Matchningen baseras på avståndet mellan dina svar och partiernas facit (på en skala -2 till +2). För varje fråga ges upp till 4 poäng ($4 - |\text{Ditt svar} - \text{Partiets svar}|$). Om du har markerat frågan som en hjärtefråga (⭐), dubbleras poängen (vikt $\times 2$). Procenten är din totala poäng delad med maximal möjliga poäng.
-    </div>
-    
-    <div class="nav-btns" style="margin-top:20px;">
-      <button class="btn" style="background:#28a745;" onclick="showHistoryView()">Vad hände sedan?</button>
-      <button class="btn btn-secondary" onclick="showHome()">Startsidan</button>
-    </div>
-  </main>
-
-  <!-- VY 5: VAD HÄNDE SEDAN? -->
-  <main id="view-history" style="display:none;">
-    <h2>Vad hände sedan i valet 1928?</h2>
-    <div id="history-summary" class="context-box" style="border-left-color: var(--accent);"></div>
-
-    <h3>Fråga för fråga: Besluten vs. Dina svar</h3>
-    <div id="history-list"></div>
-
-    <div class="nav-btns" style="margin-top: 20px;">
-      <button class="btn btn-secondary" onclick="switchView('view-result')">Tillbaka till resultatet</button>
-      <button class="btn" onclick="showHome()">Välj ett annat val</button>
-    </div>
-  </main>
-</div>
-
-<script src="app.js"></script>
-</body>
-</html>
