@@ -35,13 +35,6 @@
       border-bottom: 2px solid var(--border);
       padding-bottom: 12px;
       margin-bottom: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-
-    .header-text {
-      flex: 1;
     }
 
     h1 {
@@ -54,31 +47,6 @@
       color: #6c757d;
       font-size: 0.9rem;
       margin: 0;
-    }
-
-    /* Språkväljare */
-    .lang-selector {
-      display: flex;
-      gap: 6px;
-      background: #e9ecef;
-      padding: 4px;
-      border-radius: 6px;
-    }
-
-    .lang-btn {
-      background: none;
-      border: none;
-      padding: 4px 8px;
-      font-size: 0.8rem;
-      font-weight: bold;
-      cursor: pointer;
-      border-radius: 4px;
-      color: #495057;
-    }
-
-    .lang-btn.active {
-      background: var(--accent);
-      color: white;
     }
 
     /* Startsida & Lägesval */
@@ -235,3 +203,292 @@
     button.opt-btn:hover {
       background: #f8f9fa;
       border-color: #ced4da;
+    }
+
+    button.opt-btn[data-val="2"] { border-left: 4px solid #2e7d32; }
+    button.opt-btn[data-val="1"] { border-left: 4px solid #81c784; }
+    button.opt-btn[data-val="0"] { border-left: 4px solid #adb5bd; }
+    button.opt-btn[data-val="-1"] { border-left: 4px solid #e57373; }
+    button.opt-btn[data-val="-2"] { border-left: 4px solid #c62828; }
+
+    button.opt-btn.selected {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .nav-btns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    .btn {
+      padding: 9px 18px;
+      border: none;
+      border-radius: 6px;
+      background: var(--accent);
+      color: white;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    .btn:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background: #6c757d;
+    }
+
+    /* Sammanfattning / Viktiga frågor-vy */
+    .importance-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 15px 0;
+    }
+
+    .importance-item {
+      display: flex;
+      align-items: flex-start;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .importance-item input {
+      margin-right: 12px;
+      margin-top: 4px;
+      transform: scale(1.1);
+    }
+
+    .user-answer-badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      color: #495057;
+      background: #e9ecef;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-top: 4px;
+    }
+
+    /* Resultatvy & Facit-tabell */
+    .result-item {
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #fff;
+    }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .party-name {
+      font-weight: bold;
+      font-size: 1.05rem;
+    }
+
+    .result-score {
+      font-weight: bold;
+      color: var(--accent);
+      font-size: 1.25rem;
+    }
+
+    .breakdown-toggle {
+      background: none;
+      border: none;
+      color: var(--accent);
+      cursor: pointer;
+      padding: 6px 0 0 0;
+      font-size: 0.85rem;
+      text-decoration: underline;
+    }
+
+    .party-matrix {
+      margin-top: 10px;
+      border-top: 1px dashed var(--border);
+      padding-top: 8px;
+      font-size: 0.84rem;
+    }
+
+    .matrix-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      border-bottom: 1px solid #f8f9fa;
+    }
+
+    .report-link {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.78rem;
+      color: #6c757d;
+      text-decoration: underline;
+    }
+
+    /* Harmonisk typografi för Vad hände sedan */
+    .history-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 14px;
+    }
+
+    .history-card h3 {
+      margin: 0 0 4px 0;
+      font-size: 1.05rem;
+      color: #1a2530;
+    }
+
+    .history-card .statement-text {
+      font-size: 0.9rem;
+      color: #495057;
+      margin: 0 0 8px 0;
+      font-style: italic;
+    }
+
+    .history-card .user-choice-text {
+      font-size: 0.9rem;
+      color: #212529;
+      margin: 4px 0;
+    }
+
+    .history-card .outcome-text {
+      font-size: 0.9rem;
+      color: #212529;
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      .args {
+        grid-template-columns: 1fr;
+      }
+      .mode-buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1 id="header-title">Historisk Valkompass</h1>
+    <p class="tagline" id="header-tagline">Hur hade du röstat i dåtidens politiska ödesval?</p>
+  </header>
+
+  <!-- VY 1: STARTSIDA -->
+  <main id="view-home">
+    <p>Välj ett historiskt val nedan samt om du vill göra den snabba eller fördjupade kompassen:</p>
+    
+    <div class="elections-grid">
+      <div class="election-card">
+        <h2>Andrakammarvalet 1928</h2>
+        <p><strong>Kosackvalet & Välfärdsstatens begynnelse.</strong> Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna samt flera unika tidsfrågor.</p>
+        
+        <div class="mode-buttons">
+          <button class="mode-btn" onclick="startElection('1928', true)">⚡ Snabbkompass (8 frågor)</button>
+          <button class="mode-btn" onclick="startElection('1928', false)">📚 Fullkompass (16 frågor)</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="gemini-footer">
+      Skapad med hjälp av Google Gemini
+    </div>
+  </main>
+
+  <!-- VY 2: QUIZ -->
+  <main id="view-quiz" style="display:none;">
+    <div class="question-card">
+      <div id="q-image-wrap" style="display:none;">
+        <div class="question-image-container">
+          <img id="q-image" src="" alt="Frågebild">
+        </div>
+        <div id="q-caption" class="image-caption"></div>
+      </div>
+
+      <span id="q-category" class="tag"></span>
+      <h2 id="q-title" style="margin: 4px 0 8px 0; font-size: 1.3rem;"></h2>
+      <p id="q-statement" style="font-size: 1.05rem; font-weight: 500; margin-bottom: 10px;"></p>
+      
+      <div id="q-context" class="context-box"></div>
+
+      <div class="args">
+        <div class="arg-pro"><strong>Argument För:</strong> <div id="q-pro"></div></div>
+        <div class="arg-con"><strong>Argument Emot:</strong> <div id="q-con"></div></div>
+      </div>
+
+      <div class="options" id="options-container"></div>
+    </div>
+
+    <div class="nav-btns">
+      <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
+      <span style="font-size: 0.85rem; color: #6c757d; align-self: center;" id="q-progress"></span>
+    </div>
+  </main>
+
+  <!-- VY 3: VIKTIGA FRÅGOR -->
+  <main id="view-importance" style="display:none;">
+    <h2>⭐ Välj dina hjärtefrågor</h2>
+    <p>Du har besvarat alla frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i resultatberäkningen):</p>
+    
+    <div id="importance-list" class="importance-list"></div>
+
+    <div class="nav-btns">
+      <button class="btn btn-secondary" onclick="backToQuiz()">Tillbaka till frågorna</button>
+      <button class="btn" onclick="calculateResults()">Visa mitt resultat</button>
+    </div>
+  </main>
+
+  <!-- VY 4: RESULTAT -->
+  <main id="view-result" style="display:none;">
+    <h2 id="result-title">Ditt resultat</h2>
+    <p id="result-subtitle"></p>
+    
+    <div id="result-list"></div>
+
+    <!-- Ihopfällbar pedagogisk förklaringsruta -->
+    <div style="margin-top: 20px;">
+      <button class="breakdown-toggle" onclick="toggleFormula()" style="font-size:0.9rem;">Så räknades ditt resultat ut ▼</button>
+      <div id="formula-box" class="context-box" style="display:none; margin-top:8px;">
+        <strong>Hur beräknas matchningen?</strong><br>
+        Ditt resultat bygger på hur nära dina åsikter ligger partiernas historiska ställningstaganden i frågorna.<br><br>
+        Ju mer du och ett parti tycker lika på skalan från "Helt för" till "Helt emot", desto högre poäng får partiet. Om ni har helt motsatta åsikter ges inga poäng.<br><br>
+        Frågor som du markerat som dina hjärtefrågor väger dubbelt så tungt. Slutligen räknas partiets sammanlagda poäng om till en procentandel av den högsta möjliga poängen.
+      </div>
+    </div>
+    
+    <div class="nav-btns" style="margin-top:20px;">
+      <button class="btn" style="background:#28a745;" onclick="showHistoryView()">Vad hände sedan?</button>
+      <button class="btn btn-secondary" onclick="showHome()">Startsidan</button>
+    </div>
+  </main>
+
+  <!-- VY 5: VAD HÄNDE SEDAN? -->
+  <main id="view-history" style="display:none;">
+    <h2>Vad hände sedan i valet 1928?</h2>
+    <div id="history-summary" class="context-box" style="border-left-color: var(--accent);"></div>
+
+    <h3 style="margin-top:20px; font-size:1.15rem;">Fråga för fråga: Besluten vs. Dina svar</h3>
+    <div id="history-list"></div>
+
+    <div class="nav-btns" style="margin-top: 20px;">
+      <button class="btn btn-secondary" onclick="switchView('view-result')">Tillbaka till resultatet</button>
+      <button class="btn" onclick="showHome()">Välj ett annat val</button>
+    </div>
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
