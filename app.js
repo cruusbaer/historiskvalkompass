@@ -149,7 +149,6 @@ function setLanguage(lang) {
   
   updateLanguageUI();
 
-  // Om användaren har laddat in ett val, hämta rätt översättning av JSON
   if (currentElectionData) {
     startElection(currentElectionId, isQuickMode);
   }
@@ -192,7 +191,6 @@ async function startElection(electionId, isQuick = false) {
   currentElectionId = electionId;
   isQuickMode = isQuick;
   
-  // Hämta val1928.json som standard (sv), eller val1928_en.json / val1928_zh.json
   const fileSuffix = currentLang === "sv" ? "" : `_${currentLang}`;
   const filePath = `data/val${electionId}${fileSuffix}.json`;
 
