@@ -3,6 +3,27 @@
   "title": "Andrakammarvalet 1928",
   "year": "1928",
   "description": "Det legendariska 'Kosackvalet' där striden stod mellan Högern och Socialdemokraterna kring välfärd, skatter och arbetsmarknad.",
+  "historicalOutcome": {
+    "summary": "Högern (Allmänna Valmansförbundet) nådde sin största valframgång någonsin efter en hård kampanj mot Socialdemokraternas skatte- och arvsförslag. Arvid Lindman bildade en borgerlig regering med stöd av Frisinnade Folkpartiet som tungan på vågen.",
+    "questionsOutcome": {
+      "Q1": { "description": "AK-systemet och dess låga nödhjälpslöner behölls intakta under hela mandatperioden 1928–1932 trots fackliga protester." },
+      "Q2": { "description": "Kollektivavtalslagen och Arbetsdomstolen låg fast. Trots initialt motstånd från facket kom Arbetsdomstolen snabbt att accepteras som en fungerande instans." },
+      "Q3": { "description": "1925 års nedrustningsbeslut revs inte upp av Lindmans regering. Försvarsfrågan förblev låst fram till det stora försvarsbeslutet 1936." },
+      "Q4": { "description": "Förslaget om skärpt arvsskatt röstades ner av den borgerliga majoriteten i riksdagen." },
+      "Q5": { "description": "Spannmålstullar infördes i början av 1930-talet till följd av den djupnande jordbrukskrisen och den stora depressionen." },
+      "Q6": { "description": "Det blev inget totalt spritförbud. Motbokssystemet (Bratt-systemet) fortsatte att gälla ända fram till 1955." },
+      "Q7": { "description": "Kaffetullen infördes inte under denna mandatperiod då frihandelsvänner i riksdagen röstade emot." },
+      "Q8": { "description": "Statliga SJ behöll sin starka ställning, men utbyggnaden av vägnätet tog fart i takt med att bilismen vände uppåt under 1930-talet." },
+      "Q9": { "description": "Borgerlig vigsel var sedan tidigare tillåten, men kyrkans ställning som huvudinstans förblev stark." },
+      "Q10": { "description": "Biografcensuren låg kvar, men grammofonskiva och radio blev snabbt en folkkär del av nöjeslivet utan nya restriktioner." },
+      "Q11": { "description": "Åttatimmarsarbetsdagen försvarades och låg fast som standard på arbetsmarknaden." },
+      "Q12": { "description": "1927 års skolreform började genomföras stegvis och lade grunden för en mer enhetlig skola." },
+      "Q13": { "description": "Lokalpolitiker försökte på flera håll hålla tillbaka logdanser, men dansbanekulturen fortsatte att växa starkt på landsbygden." },
+      "Q14": { "description": "Handeln med Sovjetunionen fortsatte i begränsad omfattning via industrikontrakt men utökades inte statligt i någon större skala." },
+      "Q15": { "description": "Försvarssekretessen låg kvar på en stabil nivå och skärptes ytterligare först vid andra världskrigets utbrott 1939." },
+      "Q16": { "description": "Staten iakttog strikt budgetdisciplin fram till krisuppgörelsen ('kohandeln') mellan S och Bondeförbundet 1933." }
+    }
+  },
   "questions": [
     {
       "id": "Q1",
@@ -13,80 +34,73 @@
       "pro": "Förhindrar passivitet och håller statens utgifter nere.",
       "con": "Undergräver fackens avtal och tvingar arbetare i fattigdom.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q2",
       "title": "Kollektivavtalslagen",
-      "statement": "Den nya lagen om kollektivavtal och Arbetsdomstolen (som förudbjuder vilda strejker) bör omedelbart rivas upp.",
-      "context": "Lagen antogs 1928 under enorma protester och strejker från arbetarrörelsen, som såg den som ett ingrepp i strejkrätten.",
+      "statement": "Den nya lagen om kollektivavtal och Arbetsdomstolen (som förbjuder vilda strejker) bör omedelbart rivas upp.",
+      "context": "Lagen antogs 1928 under protester från arbetarrörelsen, som såg den som ett ingrepp i strejkrätten.",
       "category": "Arbetsmarknad",
       "pro": "Återger facket sin fulla strejkrätt och oberoende.",
       "con": "Skapar arbetsfred och förutsägbarhet för industrin.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q3",
       "title": "Försvarsfrågan och nedrustningen",
       "statement": "Sverige bör stå fast vid 1925 års beslut om kraftig nedrustning av armén.",
       "context": "Efter första världskrigets slut drev vänstern och liberalerna igenom en stor nedrustning för att istället satsa på välfärd.",
-      "category": "Försvar",
+      "category": "Försvar & Säkerhet",
       "pro": "Frigör resurser till folkhälsa och skola i fredstid.",
       "con": "Sätter Sveriges säkerhet på spel i en osäker omvärld.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q4",
       "title": "Höjd arvsskatt",
       "statement": "Arvsskatten bör skärpas kraftigt för stora förmögenheter för att finansiera socialförsäkringar.",
       "context": "Socialdemokraterna föreslog höjda skatter på arv och förmögenhet för att bygga upp det nya Folkhemmet.",
-      "category": "Skatter",
+      "category": "Skatter & Ekonomi",
       "pro": "Jämnar ut klassklyftor och finansierar trygghet för alla.",
       "con": "Straffar sparande och dränerar familjeföretag på kapital.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q5",
       "title": "Spannmålstullar",
       "statement": "Svenskt jordbruk bör skyddas mot billigt utländskt vete genom höjda importtullar.",
       "context": "Under 1920-talet drabbades bönderna av prisfall på spannmål på grund av billig import från Nordamerika.",
-      "category": "Jordbruk",
+      "category": "Jordbruk & Handel",
       "pro": "Räddar de svenska böndernas försörjning och landsbygden.",
       "con": "Gör baslivsmedel som bröd dyrare för arbetarfamiljer i städerna.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q6",
-      "title": "Totalt spritförbud 🍺",
+      "title": "Totalt spritförbud",
       "statement": "Inför ett totalt förbud mot tillverkning och försäljning av alkohol i Sverige.",
-      "context": "Efter den täta folkomröstningen 1922 var förbudstanken fortfarande en brännande fråga, särskilt inom nykterhetsrörelsen.",
-      "category": "Tidsmarkör",
+      "context": "Efter den jämna folkomröstningen 1922 var förbudstanken fortfarande en levande fråga inom nykterhetsrörelsen.",
+      "category": "Folkhälsa & Moral",
       "pro": "Utrotar alkoholens enorma sociala och medicinska skador.",
       "con": "Kränker den personliga friheten och ökar lönnbränningen.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": true
+      "imageCaption": ""
     },
     {
       "id": "Q7",
-      "title": "Kaffetull ☕",
+      "title": "Kaffetull",
       "statement": "Kaffe bör beläggas med en särskild importtull för att stärka statens finanser.",
       "context": "Kaffe sågs av vissa politiker som en obehövlig importlyx som försämrade Sveriges handelsbalans.",
-      "category": "Tidsmarkör",
+      "category": "Handel & Konsumtion",
       "pro": "Stärker statskassan och minskar utflödet av valuta.",
       "con": "Drabbar vanliga hushåll som unnar sig en vardagskopp.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": true
+      "imageCaption": ""
     },
     {
       "id": "Q8",
@@ -97,32 +111,29 @@
       "pro": "Järnvägen är trygg, folkägd och samhällsnyttig.",
       "con": "Biltrafiken representerar framtiden och ger fri rörlighet.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q9",
       "title": "Borgerlig vigsel",
       "statement": "Borgerlig vigsel ska göras fullt tillgänglig utan krav på utträde ur statskyrkan.",
-      "category": "Rättsfrågor",
-      "context": "Fram till 1908 krävs synnerliga skäl för borgerlig vigsel, och under 1920-talet debatterades statens kontra kyrkans roll vid äktenskap.",
+      "context": "Under 1920-talet debatterades statens kontra kyrkans roll vid äktenskap och medborgerliga rättigheter.",
+      "category": "Rättsfrågor & Kyrka",
       "pro": "Ökar den personliga och religiösa friheten.",
       "con": "Sätter kyrkans ställning och äktenskapets helgd i fara.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q10",
-      "title": "Biografcensur & Grammofonskatt 📻",
+      "title": "Biografcensur & Grammofonskatt",
       "statement": "Film och populärkultur bör underställas skärpt statlig granskning och nöjesskatt.",
-      "context": "Den nya biografevågen och grammofonskivorna väckte debatt om 'kulturförfall' bland ungdomar.",
-      "category": "Tidsmarkör",
+      "context": "Den nya biografvågen och grammofonskivorna väckte debatt om ungdomen och populärkulturen.",
+      "category": "Kultur & Nöjesliv",
       "pro": "Skyddar unga från moraliskt förfall och ger staten intäkter.",
       "con": "Inskränker kulturen och fördyrar folkliga nöjen.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": true
+      "imageCaption": ""
     },
     {
       "id": "Q11",
@@ -133,68 +144,62 @@
       "pro": "Garanterar arbetarens rätt till vila och fritid.",
       "con": "Försvårar för industrin och jordbruket under högsäsong.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q12",
       "title": "Enhetlig sexårig folkskola",
       "statement": "Läroverken ska bygga direkt på den sexåriga folkskolan för alla barn.",
       "context": "1927 års skolreform syftade till att skapa en mer jämlik skola oavsett föräldrars plånbok.",
-      "category": "Skola",
+      "category": "Utbildning",
       "pro": "Skapar en rättvis skola där begåvning avgör, inte klass.",
       "con": "Riskerar att sänka den akademiska nivån i läroverken.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q13",
-      "title": "Förbud mot offentliga dansbanor 💃",
+      "title": "Förbud mot offentliga dansbanor",
       "statement": "Kommuner ska få rätt att förbjuda offentliga dansbanor på landsbygden.",
-      "context": "Det så kallade 'dansbaneeländet' var en livlig debatt där kyrkliga och moraliska krafter ville stoppa logdanser.",
-      "category": "Tidsmarkör",
+      "context": "Det så kallade 'dansbaneeländet' var en livlig debatt där kyrkliga krafter ville stoppa logdanser.",
+      "category": "Folkhälsa & Moral",
       "pro": "Minskar fylleri och ordningsstörningar på landsbygden.",
       "con": "Stryper ungdomens viktigaste mötesplats och nöje.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": true
+      "imageCaption": ""
     },
     {
       "id": "Q14",
       "title": "Handel med Sovjetunionen",
       "statement": "Sverige bör utöka de statliga handelsförbindelserna med Sovjetunionen.",
-      "context": "Avtalet med Sovjet sågs av industrin som en stor exportchans, men kritiserades av borgerligheten av ideologiska skäl.",
-      "category": "Utrikes",
+      "context": "Handel med Sovjet sågs av industrin som en stor exportchans, men kritiserades av borgerligheten av ideologiska skäl.",
+      "category": "Utrikespolitik",
       "pro": "Öppnar en enorm marknad för svensk verkstadsindustri.",
       "con": "Gynnar en kommunistisk diktatur och innebär ekonomisk risk.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q15",
-      "title": "Försvarssekretess 🗞️",
+      "title": "Försvarssekretess",
       "statement": "Militära utredningar och försvarsbeslut ska beläggas med skärpt sekretess.",
-      "context": "Militärledningen vill begränsa insynen i beredskapsplaner för att förhindra spionage.",
-      "category": "Säkerhet",
+      "context": "Militärledningen ville begränsa insynen i beredskapsplaner för att förhindra utländskt spionage.",
+      "category": "Försvar & Säkerhet",
       "pro": "Skyddar rikets säkerhet mot utländsk underrättelsetjänst.",
       "con": "Inskränker tryckfriheten och medborgarnas insyn.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     },
     {
       "id": "Q16",
       "title": "Skattefinansiering av statsskulden",
       "statement": "Statliga investeringar ska finansieras med skatter snarare än upplåning.",
       "context": "En klassisk ekonomisk strid mellan återhållsam budgetdisciplin och investeringspolitik.",
-      "category": "Ekonomi",
+      "category": "Skatter & Ekonomi",
       "pro": "Förhindrar att staten drar på sig farliga skulder.",
       "con": "Bromsar nödvändiga investeringar i landets utveckling.",
       "imageUrl": "",
-      "imageCaption": "",
-      "obscure": false
+      "imageCaption": ""
     }
   ],
   "parties": [
