@@ -6,22 +6,22 @@
   "historicalOutcome": {
     "summary": "Högern (Allmänna Valmansförbundet) nådde sin största valframgång någonsin efter en hård kampanj mot Socialdemokraternas skatte- och arvsförslag. Arvid Lindman bildade en borgerlig regering med stöd av Frisinnade Folkpartiet som tungan på vågen.",
     "questionsOutcome": {
-      "Q1": { "description": "AK-systemet och dess låga nödhjälpslöner behölls intakta under hela mandatperioden 1928–1932 trots fackliga protester." },
-      "Q2": { "description": "Kollektivavtalslagen och Arbetsdomstolen låg fast. Trots initialt motstånd från facket kom Arbetsdomstolen snabbt att accepteras som en fungerande instans." },
-      "Q3": { "description": "1925 års nedrustningsbeslut revs inte upp av Lindmans regering. Försvarsfrågan förblev låst fram till det stora försvarsbeslutet 1936." },
-      "Q4": { "description": "Förslaget om skärpt arvsskatt röstades ner av den borgerliga majoriteten i riksdagen." },
-      "Q5": { "description": "Spannmålstullar infördes i början av 1930-talet till följd av den djupnande jordbrukskrisen och den stora depressionen." },
-      "Q6": { "description": "Det blev inget totalt spritförbud. Motbokssystemet (Bratt-systemet) fortsatte att gälla ända fram till 1955." },
-      "Q7": { "description": "Kaffetullen infördes inte under denna mandatperiod då frihandelsvänner i riksdagen röstade emot." },
-      "Q8": { "description": "Statliga SJ behöll sin starka ställning, men utbyggnaden av vägnätet tog fart i takt med att bilismen vände uppåt under 1930-talet." },
-      "Q9": { "description": "Borgerlig vigsel var sedan tidigare tillåten, men kyrkans ställning som huvudinstans förblev stark." },
-      "Q10": { "description": "Biografcensuren låg kvar, men grammofonskiva och radio blev snabbt en folkkär del av nöjeslivet utan nya restriktioner." },
-      "Q11": { "description": "Åttatimmarsarbetsdagen försvarades och låg fast som standard på arbetsmarknaden." },
-      "Q12": { "description": "1927 års skolreform började genomföras stegvis och lade grunden för en mer enhetlig skola." },
-      "Q13": { "description": "Lokalpolitiker försökte på flera håll hålla tillbaka logdanser, men dansbanekulturen fortsatte att växa starkt på landsbygden." },
-      "Q14": { "description": "Handeln med Sovjetunionen fortsatte i begränsad omfattning via industrikontrakt men utökades inte statligt i någon större skala." },
-      "Q15": { "description": "Försvarssekretessen låg kvar på en stabil nivå och skärptes ytterligare först vid andra världskrigets utbrott 1939." },
-      "Q16": { "description": "Staten iakttog strikt budgetdisciplin fram till krisuppgörelsen ('kohandeln') mellan S och Bondeförbundet 1933." }
+      "Q1": { "description": "AK-systemet och dess låga nödhjälpslöner behölls intakta under mandatperioden 1928–1932. På längre sikt kom dock systemet att kritiseras allt hårdare under depressionen innan det avskaffades helt på 1940-talet till förmån för modern arbetsmarknadspolitik." },
+      "Q2": { "description": "Kollektivavtalslagen och Arbetsdomstolen låg fast. Trots fackligt motstånd initialt kom institutionen att etablera sig som grunden för den svenska modellens 'arbetsfred' under decennierna som följde." },
+      "Q3": { "description": "1925 års nedrustningsbeslut revs inte upp av Lindmans regering. Försvarsfrågan förblev låst i politiska kompromisser fram till det stora försvarsbeslutet 1936 i skuggan av ett hotfullt Europa." },
+      "Q4": { "description": "Förslaget om skärpt arvsskatt röstades ner av den borgerliga majoriteten 1928. Frågan återkom dock under efterkrigstiden då socialdemokratiska regeringar successivt skärpte beskattningen av stora förmögenheter." },
+      "Q5": { "description": "Spannmålstullar infördes i början av 1930-talet till följd av den stora depressionen. Detta blev startskottet för decennier av fasta jordbruksregleringar som varade till jordbruksreformerna på 1990-talet." },
+      "Q6": { "description": "Det blev inget totalt spritförbud. Motbokssystemet (Bratt-systemet) fortsatte att gälla ända till 1955, då det ersattes av det moderna Systembolaget och friare försäljningsformer." },
+      "Q7": { "description": "Kaffetullen infördes inte under denna mandatperiod. Kaffe förblev en oreglerad vardagsvara för det svenska folket." },
+      "Q8": { "description": "Statliga SJ behöll sin ställning, men biltrafikens genombrott under 1930-talet tvingade fram en gigantisk statlig satsning på vägnätet som accelererade efter andra världskriget." },
+      "Q9": { "description": "Borgerlig vigsel var redan möjlig sedan 1908, men kyrklig vigsel förblev den sociala normen under hela mitten av 1900-talet." },
+      "Q10": { "description": "Biografcensuren låg kvar, men radion (Radiotjänst) och grammofonen blev snabbt omistliga delar av den moderna masskulturen utan nya statliga straffskatter." },
+      "Q11": { "description": "Åttatimmarsarbetsdagen försvarades och lade grunden för svensk lagstadgad arbetstid fram till 1970-talets lag om 40-timmarsvecka." },
+      "Q12": { "description": "1927/1928 års skolreformer var ett första steg, men den verkliga revolutionen med en enhetlig 9-årig grundskola för alla dröjde till riksdagsbeslutet 1962." },
+      "Q13": { "description": "Kommunala förbud mot dansbanor prövades på vissa håll på 1920-talet, men dansbaneeländet besegrades aldrig – logdanserna exploderade i popularitet under folkparksrörelsens guldålder." },
+      "Q14": { "description": "Handeln med Sovjetunionen fortsatte i begränsad omfattning via industrikontrakt, men några storskaliga statliga krediter dröjde till kalla krigets slutskede och EU-inträdet." },
+      "Q15": { "description": "Försvarssekretessen låg kvar på en stabil nivå och skärptes kraftigt först i och med beredskapstiden och andra världskrigets utbrott 1939." },
+      "Q16": { "description": "Staten iakttog strikt budgetdisciplin till 1933, då den legendariska 'kohandeln' mellan Socialdemokraterna och Bondeförbundet bröt den ortodoxa linjen och skapade den aktiva krispolitiken." }
     }
   },
   "questions": [
