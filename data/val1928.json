@@ -27,6 +27,7 @@
   "questions": [
     {
       "id": "Q1",
+      "quick": true,
       "title": "Arbetslöshetsunderstöd & AK-arbeten",
       "statement": "Statliga nödhjälpsarbeten ska strikt villkoras med att lönen hålls lägre än marknadens lägsta kollektivavtal.",
       "context": "Arbetslöshetskommissionen (AK) inrättades för att hjälpa arbetslösa men kritiserades hårt av facket för att hålla nere lönerna vid arbetskonflikter.",
@@ -38,6 +39,7 @@
     },
     {
       "id": "Q2",
+      "quick": true,
       "title": "Kollektivavtalslagen",
       "statement": "Den nya lagen om kollektivavtal och Arbetsdomstolen (som förbjuder vilda strejker) bör omedelbart rivas upp.",
       "context": "Lagen antogs 1928 under protester från arbetarrörelsen, som såg den som ett ingrepp i strejkrätten.",
@@ -49,6 +51,7 @@
     },
     {
       "id": "Q3",
+      "quick": true,
       "title": "Försvarsfrågan och nedrustningen",
       "statement": "Sverige bör stå fast vid 1925 års beslut om kraftig nedrustning av armén.",
       "context": "Efter första världskrigets slut drev vänstern och liberalerna igenom en stor nedrustning för att istället satsa på välfärd.",
@@ -60,6 +63,7 @@
     },
     {
       "id": "Q4",
+      "quick": true,
       "title": "Höjd arvsskatt",
       "statement": "Arvsskatten bör skärpas kraftigt för stora förmögenheter för att finansiera socialförsäkringar.",
       "context": "Socialdemokraterna föreslog höjda skatter på arv och förmögenhet för att bygga upp det nya Folkhemmet.",
@@ -71,6 +75,7 @@
     },
     {
       "id": "Q5",
+      "quick": true,
       "title": "Spannmålstullar",
       "statement": "Svenskt jordbruk bör skyddas mot billigt utländskt vete genom höjda importtullar.",
       "context": "Under 1920-talet drabbades bönderna av prisfall på spannmål på grund av billig import från Nordamerika.",
@@ -82,6 +87,7 @@
     },
     {
       "id": "Q6",
+      "quick": true,
       "title": "Totalt spritförbud",
       "statement": "Inför ett totalt förbud mot tillverkning och försäljning av alkohol i Sverige.",
       "context": "Efter den jämna folkomröstningen 1922 var förbudstanken fortfarande en levande fråga inom nykterhetsrörelsen.",
@@ -93,6 +99,7 @@
     },
     {
       "id": "Q7",
+      "quick": false,
       "title": "Kaffetull",
       "statement": "Kaffe bör beläggas med en särskild importtull för att stärka statens finanser.",
       "context": "Kaffe sågs av vissa politiker som en obehövlig importlyx som försämrade Sveriges handelsbalans.",
@@ -104,6 +111,7 @@
     },
     {
       "id": "Q8",
+      "quick": false,
       "title": "Statlig satsning: Järnväg vs. Vägar",
       "statement": "Staten ska prioritera utbyggnad av SJ framför vägnät för privatbilar och bussar.",
       "context": "Biltrafiken växte snabbt under 1920-talet och utmanade den statliga järnvägens monopol.",
@@ -115,6 +123,7 @@
     },
     {
       "id": "Q9",
+      "quick": false,
       "title": "Borgerlig vigsel",
       "statement": "Borgerlig vigsel ska göras fullt tillgänglig utan krav på utträde ur statskyrkan.",
       "context": "Under 1920-talet debatterades statens kontra kyrkans roll vid äktenskap och medborgerliga rättigheter.",
@@ -126,6 +135,7 @@
     },
     {
       "id": "Q10",
+      "quick": false,
       "title": "Biografcensur & Grammofonskatt",
       "statement": "Film och populärkultur bör underställas skärpt statlig granskning och nöjesskatt.",
       "context": "Den nya biografvågen och grammofonskivorna väckte debatt om ungdomen och populärkulturen.",
@@ -137,6 +147,7 @@
     },
     {
       "id": "Q11",
+      "quick": true,
       "title": "Åttatimmarsarbetsdagen",
       "statement": "Lagen om åttatimmars arbetsdag ska ligga fast utan nya undantag för industrin.",
       "context": "Arbetstidslagen från 1919 var en av arbetarrörelsens största segrar, men arbetsgivare krävde ofta undantag.",
@@ -148,6 +159,7 @@
     },
     {
       "id": "Q12",
+      "quick": false,
       "title": "Enhetlig sexårig folkskola",
       "statement": "Läroverken ska bygga direkt på den sexåriga folkskolan för alla barn.",
       "context": "1927 års skolreform syftade till att skapa en mer jämlik skola oavsett föräldrars plånbok.",
@@ -159,6 +171,7 @@
     },
     {
       "id": "Q13",
+      "quick": true,
       "title": "Förbud mot offentliga dansbanor",
       "statement": "Kommuner ska få rätt att förbjuda offentliga dansbanor på landsbygden.",
       "context": "Det så kallade 'dansbaneeländet' var en livlig debatt där kyrkliga krafter ville stoppa logdanser.",
@@ -170,6 +183,7 @@
     },
     {
       "id": "Q14",
+      "quick": false,
       "title": "Handel med Sovjetunionen",
       "statement": "Sverige bör utöka de statliga handelsförbindelserna med Sovjetunionen.",
       "context": "Handel med Sovjet sågs av industrin som en stor exportchans, men kritiserades av borgerligheten av ideologiska skäl.",
@@ -181,6 +195,7 @@
     },
     {
       "id": "Q15",
+      "quick": false,
       "title": "Försvarssekretess",
       "statement": "Militära utredningar och försvarsbeslut ska beläggas med skärpt sekretess.",
       "context": "Militärledningen ville begränsa insynen i beredskapsplaner för att förhindra utländskt spionage.",
@@ -192,6 +207,7 @@
     },
     {
       "id": "Q16",
+      "quick": false,
       "title": "Skattefinansiering av statsskulden",
       "statement": "Statliga investeringar ska finansieras med skatter snarare än upplåning.",
       "context": "En klassisk ekonomisk strid mellan återhållsam budgetdisciplin och investeringspolitik.",
