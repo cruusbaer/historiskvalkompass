@@ -13,6 +13,7 @@
       <p id="election-desc" class="subtitle"></p>
     </header>
 
+    <!-- STEG 1: FRÅGOKORT / QUIZ -->
     <main id="quiz-screen">
       <div class="progress-bar-container">
         <div id="progress-bar" class="progress-bar"></div>
@@ -44,7 +45,7 @@
         </div>
       </div>
 
-      <!-- 5-gradig horisontell skala -->
+      <!-- 5-gradig skala -->
       <div class="scale-container">
         <div class="scale-buttons">
           <button class="scale-btn val-1" data-value="1" title="Helt emot">1</button>
@@ -57,22 +58,40 @@
       </div>
     </main>
 
-    <!-- Vad hände sedan & Resultatsida -->
-    <section id="result-screen" class="hidden">
-      <h2>Ditt resultat & Historiskt Utfall</h2>
-      <div id="top-match" class="top-match-card"></div>
-
-      <div class="outcome-section">
-        <h3>Regeringsbildning & Mandat 1928</h3>
-        <p id="gov-info"></p>
-        <div id="mandates-chart" class="mandates-chart"></div>
-      </div>
-
-      <h3>Fråga för fråga – Vad hände sedan?</h3>
-      <div id="outcomes-list" class="outcomes-list"></div>
-
-      <button id="restart-btn" class="btn-primary">Gör om kompassen</button>
+    <!-- STEG 2: STJÄRNFRÅGOR (ÅTERSTÄLLD) -->
+    <section id="star-screen" class="hidden">
+      <h2>Välj dina stjärnfrågor</h2>
+      <p class="subtitle">Markera de frågor som var extra viktiga för dig (de viktas dubbelt i resultatet):</p>
+      <div id="star-questions-list" class="star-list"></div>
+      <button id="calculate-btn" class="btn-primary">Visa mitt resultat</button>
     </section>
+
+    <!-- STEG 3: RESULTATSIDA MED PROCENT (ÅTERSTÄLLD) -->
+    <section id="result-screen" class="hidden">
+      <h2>Ditt resultat</h2>
+      <p class="subtitle">Så här matchar dina åsikter mot partiernas linje 1928:</p>
+      
+      <div id="party-results-list" class="party-results-list"></div>
+
+      <div class="result-actions">
+        <button id="show-history-btn" class="btn-primary">Vad hände sedan?</button>
+        <button id="restart-btn-1" class="btn-secondary">Gör om kompassen</button>
+      </div>
+    </section>
+
+    <!-- STEG 4: VAD HÄNDE SEDAN? (ÅTERSTÄLLD SOM EGEN SIDA) -->
+    <section id="history-screen" class="hidden">
+      <h2>Vad hände sedan?</h2>
+      <p id="history-summary" class="history-summary-text"></p>
+
+      <div id="history-outcomes-list" class="outcomes-list"></div>
+
+      <div class="result-actions">
+        <button id="back-to-results-btn" class="btn-secondary">Tillbaka till resultatet</button>
+        <button id="restart-btn-2" class="btn-primary">Gör om kompassen</button>
+      </div>
+    </section>
+
   </div>
 
   <script src="app.js"></script>
