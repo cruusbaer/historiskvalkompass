@@ -79,3 +79,41 @@
       "title": "Spannmålstullar",
       "statement": "Svenskt jordbruk bör skyddas mot billigt utländskt spannmål genom höjda importtullar.",
       "context": "Under 1920-talet drabbades det svenska jordbruket av en svår kris på grund av fallande världsmarknadspriser på spannmål, särskilt från storskaliga jordbruk i Nordamerika. Bondeförbundet och Högern krävde skyddstullar på vete och råg för att förhindra masskonkurser på landsbygden. Socialdemokraterna och Frisinnade var motståndare, då de befarade att tullar skulle höja matpriserna för städernas arbetarbefolkning.",
+      "category": "Jordbruk & Handel",
+      "pro": "Skyddar svenska bönders försörjning och tryggar livsmedelsproduktionen på landsbygden.",
+      "con": "Gör baslivsmedel som bröd avsevärt dyrare för arbetare och tjänstemän i städerna.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "title": "Totalt spritförbud",
+      "statement": "Inför ett totalt förbud mot tillverkning och försäljning av alkohol i Sverige.",
+      "context": "Efter den extremt jämna folkomröstningen om rusdrycksförbud 1922 (där nej-sidan vann med 51 %) var frågan om totalförbud fortfarande brännande. Nykterhetsrörelsen var en enorm folkrörelse med stark förankring hos både liberaler, socialdemokrater och frikyrkliga. Motståndarna pekade på att Bratt-systemet (motboken) fungerade tillräckligt dämpande och varnade för den omfattande smuggling och lönnbränning som drabbat USA under deras förbudstid.",
+      "category": "Folkhälsa & Moral",
+      "pro": "Utrotar alkoholens enorma sociala, ekonomiska och medicinska skador i samhället.",
+      "con": "Inskränker den personliga friheten och skapar en omfattande illegal svartmarknad.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "title": "Kaffetull",
+      "statement": "Kaffe bör beläggas med en särskild importtull för att stärka statens finanser.",
+      "context": "Under 1920-talet ökade den svenska kaffekonsumtionen snabbt. Eftersom kaffe inte odlades i Sverige innebar den stora importen ett betydande utflöde av valuta, vilket påverkade Sveriges handelsbalans negativt. Vissa konservativa politiker betraktade kaffe som en obehövlig importlyx och föreslog tullar för att förbättra statsfinanserna, medan motståndarna betonade att kaffe blivit en omistlig vardagsvara för alla samhällsklasser.",
+      "category": "Handel & Konsumtion",
+      "pro": "Stärker statskassan och minskar utflödet av valuta till utlandet.",
+      "con": "Straffbeskattar en folklig vardagsvara och fördyrar hushållskassan för vanliga arbetare.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "title": "Statlig satsning: Järnväg vs. Vägar",
+      "statement": "Staten ska prioritera utbyggnad av Statens Järnvägar framför vägnätet.",
+      "context": "Under 1920-talet fick biltrafiken sitt stora genombrott i Sverige med en snabb ökning av privatbilar, bussar och lastbilar. Det svenska vägnätet bestod vid denna tid främst av grusvägar anpassade för häst och vagn. En intensiv debatt uppstod om huruvida staten skulle fortsätta prioritera det kollektivägda järnvägsnätet (SJ) eller påbörja storskaliga investeringar i vägutbyggnad och asfaltering för bilismen.",
+      "category": "Infrastruktur",
+      "pro": "Jär
