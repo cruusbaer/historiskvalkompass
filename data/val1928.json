@@ -2,7 +2,19 @@
   "election_id": "val1928",
   "title": "Andrakammarvalet 1928",
   "description": "Det legendariska 'Kosackvalet' där striden stod mellan Högern och Socialdemokraterna kring välfärd, skatter och arbetsmarknad.",
-  "historical_summary": "Högern (Allmänna Valmansförbundet) nådde sin största valframgång någonsin efter en hård kampanj mot Socialdemokraternas skatte- och arvsförslag. Arvid Lindman bildade en borgerlig regering med stöd av Frisinnade Folkpartiet som tungan på vågen.",
+  "election_outcome": {
+    "government": "Arvid Lindmans borgerliga regering (Allmänna Valmansförbundet)",
+    "support_parties": "Frisinnade Folkpartiet (Vågmästare)",
+    "summary": "Högern nådde sin största valframgång någonsin efter en hård kampanj mot Socialdemokraternas skatte- och arvsförslag. Lindman bildade regering med stöd av Frisinnade Folkpartiet som tungan på vågen.",
+    "mandates": [
+      { "party": "Allmänna Valmansförbundet (H)", "seats": 73, "color": "#1b4985" },
+      { "party": "Socialdemokraterna (S)", "seats": 90, "color": "#e02626" },
+      { "party": "Frisinnade Folkpartiet (F)", "seats": 28, "color": "#0099ff" },
+      { "party": "Sveriges Kommunistiska Parti (K)", "seats": 8, "color": "#990000" },
+      { "party": "Bondebundet (B)", "seats": 27, "color": "#1b8532" },
+      { "party": "Sveriges Liberala Parti (L)", "seats": 4, "color": "#55bbff" }
+    ]
+  },
   "questions": [
     {
       "id": "q1",
@@ -10,8 +22,8 @@
       "category": "Arbetsmarknad",
       "statement": "Statliga nödhjälpsarbeten ska ge en lägre lön än marknadens lägsta kollektivavtal.",
       "context": "Under 1920-talet var arbetslösheten stundtals mycket hög. Arbetslöshetskommissionen (AK) hade inrättats 1914 för att hjälpa arbetslösa. Statliga nödhjälpsarbeten kunde innefatta infrastrukturprojekt som väg- och brobygge, men även skogs- och jordbruksarbete. Arbetet skulle ses som en sista utväg för dem som inte kunde få jobb på annat sätt. AK-jobben kritiserades hårt av facket för att hålla nere lönerna generellt.",
-      "argument_pro": "Får arbetslösa i sysselsättning och håller statens utgifter nere.",
-      "argument_con": "Undergräver fackens avtal och låser fast arbetare i fattigdom.",
+      "argument_for": "Får arbetslösa i sysselsättning och håller statens utgifter nere.",
+      "argument_against": "Undergräver fackens avtal och låser fast arbetare i fattigdom.",
       "outcome": "AK-systemet och dess låga nödhjälpslöner behölls intakta under mandatperioden 1928–1932. På längre sikt kom dock systemet att kritiseras allt hårdare under depressionen innan det avskaffades helt på 1940-talet till förmån för modern arbetsmarknadspolitik."
     },
     {
@@ -20,8 +32,8 @@
       "category": "Arbetsmarknad",
       "statement": "Lagen om Kollektivavtal och Arbetsdomstolen, vilken förbjuder vilda strejker, bör omedelbart rivas upp.",
       "context": "Lagen antogs 1928 under protester från arbetarrörelsen, som såg den som ett ingrepp i strejkrätten.",
-      "argument_pro": "Facken behöver strejkrätt för att strida mot orättvisa villkor.",
-      "argument_con": "Skapar arbetsfred och förutsägbarhet för industrin.",
+      "argument_for": "Facken behöver strejkrätt för att strida mot orättvisa villkor.",
+      "argument_against": "Skapar arbetsfred och förutsägbarhet för industrin.",
       "outcome": "Kollektivavtalslagen och Arbetsdomstolen låg fast. Trots fackligt motstånd initialt kom institutionen att etablera sig som grunden för den svenska modellens 'arbetsfred' under decennierna som följde."
     },
     {
@@ -30,8 +42,8 @@
       "category": "Försvar & Säkerhet",
       "statement": "Sverige bör stå fast vid 1925 års beslut om kraftig nedrustning av armén.",
       "context": "Efter första världskrigets slut drev vänstern och liberalerna igenom en stor nedrustning i 1925 års försvarsbeslut. Pengarna som sparades satsades istället på välfärdsfrågor.",
-      "argument_pro": "Folkhälsa, skola och andra välfärdsfrågor bör prioriteras.",
-      "argument_con": "Sverige behöver ett starkt försvar i en osäker omvärld.",
+      "argument_for": "Folkhälsa, skola och andra välfärdsfrågor bör prioriteras.",
+      "argument_against": "Sverige behöver ett starkt försvar i en osäker omvärld.",
       "outcome": "1925 års nedrustningsbeslut revs inte upp av Lindmans regering. Försvarsfrågan förblev låst i politiska kompromisser fram till det stora försvarsbeslutet 1936 i skuggan av ett hotfullt Europa."
     },
     {
@@ -40,8 +52,8 @@
       "category": "Skatter & Ekonomi",
       "statement": "Arvsskatten bör skärpas kraftigt för stora förmögenheter för att finansiera socialförsäkringar.",
       "context": "Socialdemokraterna föreslog höjda skatter på arv och förmögenhet för att få in mer pengar till statskassan, som i sin tur skulle finansiera socialförsäkringar och andra välfärdsreformer.",
-      "argument_pro": "Jämnar ut klassklyftor och finansierar gemensamma trygghetssystem.",
-      "argument_con": "Straffar entreprenörer och sparare samt dränerar familjeföretag på kapital.",
+      "argument_for": "Jämnar ut klassklyftor och finansierar gemensamma trygghetssystem.",
+      "argument_against": "Straffar entreprenörer och sparare samt dränerar familjeföretag på kapital.",
       "outcome": "Förslaget om skärpt arvsskatt röstades ner av den borgerliga majoriteten 1928. Frågan återkom dock under efterkrigstiden då socialdemokratiska regeringar successivt skärpte beskattningen av stora förmögenheter."
     },
     {
@@ -50,8 +62,8 @@
       "category": "Jordbruk & Handel",
       "statement": "Svenskt jordbruk bör skyddas mot billigt utländskt spannmål genom höjda importtullar.",
       "context": "Under 1920-talet drabbades bönderna av kraftiga prisfall på spannmål på grund av billig import från bland annat Nordamerika.",
-      "argument_pro": "Skyddar svenska bönders försörjning och upprätthåller en levande landsbygd.",
-      "argument_con": "Gör baslivsmedel som bröd dyrare för arbetare och tjänstemän i städerna.",
+      "argument_for": "Skyddar svenska bönders försörjning och upprätthåller en levande landsbygd.",
+      "argument_against": "Gör baslivsmedel som bröd dyrare för arbetare och tjänstemän i städerna.",
       "outcome": "Spannmålstullar infördes i början av 1930-talet till följd av den stora depressionen. Detta blev startskottet för decennier av fasta jordbruksregleringar som varade fram till 1990-talets reformering."
     },
     {
@@ -60,8 +72,8 @@
       "category": "Folkhälsa & Moral",
       "statement": "Inför ett totalt förbud mot tillverkning och försäljning av alkohol i Sverige.",
       "context": "Efter den mycket jämna folkomröstningen 1922 var ett totalförbud fortfarande en levande fråga inom nykterhetsrörelsen och vissa politiska läger.",
-      "argument_pro": "Alkoholen orsakar enorma sociala, ekonomiska och medicinska skador i samhället.",
-      "argument_con": "Motverkar personlig frihet och riskerar att öka illegalt hembränning och smuggling.",
+      "argument_for": "Alkoholen orsakar enorma sociala, ekonomiska och medicinska skador i samhället.",
+      "argument_against": "Motverkar personlig frihet och riskerar att öka illegal hembränning och smuggling.",
       "outcome": "Det blev inget totalt spritförbud. Motbokssystemet (Bratt-systemet) fortsatte att gälla ända till 1955, då det ersattes av det moderna Systembolaget och friare försäljning."
     },
     {
@@ -70,8 +82,8 @@
       "category": "Handel & Konsumtion",
       "statement": "Kaffe bör beläggas med en särskild importtull för att stärka statens finanser.",
       "context": "Kaffe sågs av vissa politiker som en obehövlig lyxvara. Eftersom allt kaffe importerades ansågs konsumtionen dessutom försämra Sveriges handelsbalans.",
-      "argument_pro": "Stärker statskassan och minskar utflödet av valuta till utlandet.",
-      "argument_con": "Straffbeskattar en folklig vardagsvara och gör livet dyrare för vanliga arbetare.",
+      "argument_for": "Stärker statskassan och minskar utflödet av valuta till utlandet.",
+      "argument_against": "Straffbeskattar en folklig vardagsvara och gör livet dyrare för vanliga arbetare.",
       "outcome": "Kaffetullen infördes inte under denna mandatperiod. Kaffe förblev en oreglerad och populär vardagsvara för det svenska folket."
     },
     {
@@ -80,8 +92,8 @@
       "category": "Infrastruktur",
       "statement": "Staten ska prioritera utbyggnad av Statens Järnvägar framför vägnätet.",
       "context": "Biltrafiken – med privatbilar, lastbilar och bussar – växte snabbt under 1920-talet och började utmana den statliga järnvägens monopol.",
-      "argument_pro": "Järnvägen är trygg, miljöeffektiv, folkägd och samhällsnyttig.",
-      "argument_con": "Biltrafiken representerar framtiden och ger medborgarna fri rörlighet.",
+      "argument_for": "Järnvägen är trygg, miljöeffektiv, folkägd och samhällsnyttig.",
+      "argument_against": "Biltrafiken representerar framtiden och ger medborgarna fri rörlighet.",
       "outcome": "Statliga SJ behöll sin starka ställning, men biltrafikens genombrott under 1930-talet tvingade fram stora statliga satsningar på vägnätet som accelererade kraftigt efter andra världskriget."
     },
     {
@@ -90,8 +102,8 @@
       "category": "Rättsfrågor & Kyrka",
       "statement": "Det ska vara tillåtet med borgerlig vigsel utan krav på utträde ur statskyrkan.",
       "context": "Under 1920-talet debatterades statens kontra kyrkans roll vid äktenskap och medborgerliga rättigheter, där många ville skilja den juridiska akten från den religiösa.",
-      "argument_pro": "Ökar den personliga och religiösa friheten och gör vigseln trosneutral.",
-      "argument_con": "Sätter kyrkans traditionella ställning och äktenskapets heliga status i fara.",
+      "argument_for": "Ökar den personliga och religiösa friheten och gör vigseln trosneutral.",
+      "argument_against": "Sätter kyrkans traditionella ställning och äktenskapets heliga status i fara.",
       "outcome": "Borgerlig vigsel var lag sedan 1908, men kyrklig vigsel förblev den övervägande sociala normen i Sverige under större delen av 1900-talet."
     },
     {
@@ -100,8 +112,8 @@
       "category": "Kultur & Nöjesliv",
       "statement": "Film och populärkultur bör underställas skärpt statlig granskning och nöjesskatt.",
       "context": "Den nya biografvågen och grammofonskivornas intåg väckte debatt om den kommersiella populärkulturens påverkan på ungdomens moral och vanor.",
-      "argument_pro": "Skyddar unga från moraliskt förfall och ger staten välbehövliga skatteintäkter.",
-      "argument_con": "Inskränker den kulturen frihet och fördyrar folkliga nöjen för vanliga medborgare.",
+      "argument_for": "Skyddar unga från moraliskt förfall och ger staten välbehövliga skatteintäkter.",
+      "argument_against": "Inskränker kulturens frihet och fördyrar folkliga nöjen för vanliga medborgare.",
       "outcome": "Biografcensuren låg kvar, men radion (Radiotjänst) och grammofonen blev snabbt omistliga delar av den moderna masskulturen utan nya statliga straffskatter."
     },
     {
@@ -110,8 +122,8 @@
       "category": "Arbetsmarknad",
       "statement": "Lagen om åttatimmars arbetsdag ska ligga fast och undantag ska inte göras för industrin.",
       "context": "Arbetstidslagen från 1919 var en av arbetarrörelsens största segrar, men arbetsgivare krävde ofta undantag då behoven varierade kraftigt under året.",
-      "argument_pro": "Garanterar arbetarens rätt till vila, rekreation och fritid.",
-      "argument_con": "Försvårar för industrin och jordbruket att möta produktionstoppar under högsäsong.",
+      "argument_for": "Garanterar arbetarens rätt till vila, rekreation och fritid.",
+      "argument_against": "Försvårar för industrin och jordbruket att möta produktionstoppar under högsäsong.",
       "outcome": "Åttatimmarsarbetsdagen försvarades och lade grunden för svensk lagstadgad arbetstid fram till 1970-talets lag om 40-timmars arbetsvecka."
     },
     {
@@ -120,8 +132,8 @@
       "category": "Utbildning",
       "statement": "En gemensam sexårig folkskola ska gälla för alla barn.",
       "context": "1927 års skolreform syftade till att skapa en mer jämlik skola. Innan dess lämnade barn från välbeställda hem ofta folkskolan tidigt för att gå i läroverk, vilket skapade parallella skolsystem uppdelade efter samhällsklass.",
-      "argument_pro": "En gemensam bottenskola ger alla barn lika möjligheter till klassresor.",
-      "argument_con": "Riskerar att sänka den akademiska kunskapsnivån i de högre läroverken.",
+      "argument_for": "En gemensam bottenskola ger alla barn lika möjligheter till klassresor.",
+      "argument_against": "Riskerar att sänka den akademiska kunskapsnivån i de högre läroverken.",
       "outcome": "1927/1928 års skolreformer var ett första steg mot enhetlighet, men den slutgiltiga sammanhållna 9-åriga grundskolan för alla genomfördes först efter riksdagsbeslutet 1962."
     },
     {
@@ -130,8 +142,8 @@
       "category": "Folkhälsa & Moral",
       "statement": "Kommuner ska få rätt att förbjuda landsbygdens offentliga dansbanor.",
       "context": "Det så kallade 'dansbaneeländet' var en livlig debatt där konservativa och kyrkliga krafter ville stoppa logdanser, då det där ansågs förekomma alkohol, ordningsstörningar och moraliskt förfall.",
-      "argument_pro": "Minskar fylleri, våld och ordningsstörningar på landsbygden.",
-      "argument_con": "Inskränker ungdomens nöjesliv och begränsar viktiga folkliga mötesplatser.",
+      "argument_for": "Minskar fylleri, våld och ordningsstörningar på landsbygden.",
+      "argument_against": "Inskränker ungdomens nöjesliv och begränsar viktiga folkliga mötesplatser.",
       "outcome": "Kommunala förbud mot dansbanor prövades på vissa håll under 1920-talet, men dansbaneeländet stoppades aldrig – logdanserna exploderade i popularitet under folkparksrörelsens guldålder."
     },
     {
@@ -140,8 +152,8 @@
       "category": "Utrikespolitik",
       "statement": "Sverige bör utöka de statliga handelsförbindelserna med Sovjetunionen.",
       "context": "Handel med Sovjetunionen sågs av svensk verkstadsindustri som en enorm exportchans, men kritiserades hårt av borgerligheten av ideologiska och finansiella skäl.",
-      "argument_pro": "Öppnar en stor och växande marknad för svensk verkstadsindustri och skapar jobb.",
-      "argument_con": "Gynnar en kommunistisk diktatur och innebär stora ekonomiska kreditrisker för staten.",
+      "argument_for": "Öppnar en stor och växande marknad för svensk verkstadsindustri och skapar jobb.",
+      "argument_against": "Gynnar en kommunistisk diktatur och innebär stora ekonomiska kreditrisker för staten.",
       "outcome": "Handeln med Sovjetunionen fortsatte i begränsad omfattning via enskilda industrikontrakt, men storskaliga statliga avtal dröjde fram till det kontroversiella 'Rysslandskrediten'-avtalet 1946."
     },
     {
@@ -150,8 +162,8 @@
       "category": "Försvar & Säkerhet",
       "statement": "Militära utredningar och försvarsbeslut ska beläggas med skärpt sekretess.",
       "context": "Militärledningen ville begränsa medborgerlig och parlamentarisk insyn i beredskapsplaner för att förhindra utländskt spionage och kartläggning.",
-      "argument_pro": "Skyddar rikets säkerhet och försvarsförmåga mot utländsk underrättelsetjänst.",
-      "argument_con": "Inskränker tryckfriheten, demokratin och medborgarnas rätt till insyn i staten.",
+      "argument_for": "Skyddar rikets säkerhet och försvarsförmåga mot utländsk underrättelsetjänst.",
+      "argument_against": "Inskränker tryckfriheten, demokratin och medborgarnas rätt till insyn i staten.",
       "outcome": "Försvarssekretessen låg kvar på en stabil nivå och skärptes kraftigt först i samband med beredskapstiden och andra världskrigets utbrott 1939."
     },
     {
@@ -160,8 +172,8 @@
       "category": "Skatter & Ekonomi",
       "statement": "Statliga investeringar ska finansieras med skatter snarare än upplåning.",
       "context": "En klassisk ekonomisk-politisk strid mellan strikt budgetdisciplin å ena sidan och lånefinansierad investeringspolitik för att lindra kriser å den andra.",
-      "argument_pro": "Förhindrar att staten drar på sig ohälsosamma skulder som belastar framtida generationer.",
-      "argument_con": "Bromsar nödvändiga samhällsinvesteringar och försvårar aktiv krishantering.",
+      "argument_for": "Förhindrar att staten drar på sig ohälsosamma skulder som belastar framtida generationer.",
+      "argument_against": "Bromsar nödvändiga samhällsinvesteringar och försvårar aktiv krishantering.",
       "outcome": "Staten iakttog strikt budgetdisciplin fram till 1933, då den legendariska 'krisuppgörelsen' (kohandeln) mellan Socialdemokraterna och Bondeförbundet bröt den ortodoxa linjen och lade grunden för den moderna underbudgeteringspolitiken."
     }
   ]
