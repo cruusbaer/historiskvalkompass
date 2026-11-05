@@ -70,17 +70,20 @@ function renderQuestion() {
   const imgEl = document.getElementById("q-image");
   const captionEl = document.getElementById("q-caption");
 
-  if (q.imageUrl && q.imageUrl.trim() !== "") {
-    imgEl.src = q.imageUrl;
-    imgEl.onerror = () => { imgWrap.style.display = "none"; };
-    captionEl.innerText = q.imageCaption || "";
-    imgWrap.style.display = "block";
-  } else {
-    imgWrap.style.display = "none";
+  // Krocksäker koll ifall imageUrl eller imageCaption saknas i JSON
+  if (imgWrap && imgEl) {
+    if (q && q.imageUrl && typeof q.imageUrl === "string" && q.imageUrl.trim() !== "") {
+      imgEl.src = q.imageUrl;
+      imgEl.onerror = () => { imgWrap.style.display = "none"; };
+      if (captionEl) captionEl.innerText = q.imageCaption || "";
+      imgWrap.style.display = "block";
+    } else {
+      imgWrap.style.display = "none";
+    }
   }
 
   const catEl = document.getElementById("q-category");
-  catEl.innerText = q.category;
+  if (catEl) catEl.innerText = q.category || "";
 
   document.getElementById("q-title").innerText = `${currentQuestionIndex + 1}. ${q.title}`;
   document.getElementById("q-statement").innerText = `"${q.statement}"`;
@@ -93,8 +96,8 @@ function renderQuestion() {
     contextEl.style.display = "none";
   }
 
-  document.getElementById("q-pro").innerText = q.pro;
-  document.getElementById("q-con").innerText = q.con;
+  document.getElementById("q-pro").innerText = q.pro || "";
+  document.getElementById("q-con").innerText = q.con || "";
   document.getElementById("q-progress").innerText = `Fråga ${currentQuestionIndex + 1} av ${totalQ}`;
 
   const optionsContainer = document.getElementById("options-container");
