@@ -3,97 +3,492 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Historisk Valkompass 1928</title>
-  <link rel="stylesheet" href="style.css">
+  <title id="page-title">Historisk Valkompass</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --text: #212529;
+      --accent: #0056b3;
+      --border: #dee2e6;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      margin: 0;
+      padding: 15px;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: var(--card);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    header {
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 4px 0;
+      color: #1a2530;
+      font-size: 1.6rem;
+    }
+
+    .tagline {
+      color: #6c757d;
+      font-size: 0.9rem;
+      margin: 0;
+    }
+
+    /* Startsida & Lägesval */
+    .elections-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .election-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      background: #fff;
+    }
+
+    .election-card h2 {
+      margin: 0 0 6px 0;
+      color: var(--accent);
+      font-size: 1.25rem;
+    }
+
+    .mode-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .mode-btn {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid var(--accent);
+      background: #fff;
+      color: var(--accent);
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-align: center;
+      transition: all 0.15s ease-in-out;
+    }
+
+    .mode-btn:hover {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .gemini-footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #adb5bd;
+      margin-top: 40px;
+      border-top: 1px solid var(--border);
+      padding-top: 15px;
+    }
+
+    /* Bildhantering i quiz */
+    .question-image-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background-color: #e9ecef;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 12px;
+    }
+
+    .question-image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .image-caption {
+      font-size: 0.8rem;
+      color: #6c757d;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      font-style: italic;
+    }
+
+    /* Quiz-vy */
+    .question-card {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 18px;
+      margin-bottom: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e9ecef;
+      font-size: 0.78rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .context-box {
+      background-color: #f1f3f5;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      color: #495057;
+      margin: 10px 0;
+      border-left: 3px solid #adb5bd;
+    }
+
+    .args {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 12px 0;
+      font-size: 0.88rem;
+    }
+
+    .arg-pro {
+      background: #e8f5e9;
+      padding: 10px 12px;
+      border-radius: 6px;
+      border-left: 4px solid #2e7d32;
+    }
+
+    .arg-con {
+      background: #ffebee;
+      padding: 10px 12px;
+      border-radius: 6px;
+      border-left: 4px solid #c62828;
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 14px;
+    }
+
+    button.opt-btn {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      background: white;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: left;
+      font-size: 0.95rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.15s ease-in-out;
+    }
+
+    button.opt-btn:hover {
+      background: #f8f9fa;
+      border-color: #ced4da;
+    }
+
+    button.opt-btn[data-val="2"] { border-left: 4px solid #2e7d32; }
+    button.opt-btn[data-val="1"] { border-left: 4px solid #81c784; }
+    button.opt-btn[data-val="0"] { border-left: 4px solid #adb5bd; }
+    button.opt-btn[data-val="-1"] { border-left: 4px solid #e57373; }
+    button.opt-btn[data-val="-2"] { border-left: 4px solid #c62828; }
+
+    button.opt-btn.selected {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .nav-btns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    .btn {
+      padding: 9px 18px;
+      border: none;
+      border-radius: 6px;
+      background: var(--accent);
+      color: white;
+      cursor: pointer;
+      font-size: 0.95rem;
+    }
+
+    .btn:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background: #6c757d;
+    }
+
+    /* Sammanfattning / Viktiga frågor-vy */
+    .importance-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 15px 0;
+    }
+
+    .importance-item {
+      display: flex;
+      align-items: flex-start;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .importance-item input {
+      margin-right: 12px;
+      margin-top: 4px;
+      transform: scale(1.1);
+    }
+
+    .user-answer-badge {
+      display: inline-block;
+      font-size: 0.8rem;
+      color: #495057;
+      background: #e9ecef;
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-top: 4px;
+    }
+
+    /* Resultatvy & Facit-tabell */
+    .result-item {
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #fff;
+    }
+
+    .result-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .party-name {
+      font-weight: bold;
+      font-size: 1.05rem;
+    }
+
+    .result-score {
+      font-weight: bold;
+      color: var(--accent);
+      font-size: 1.25rem;
+    }
+
+    .breakdown-toggle {
+      background: none;
+      border: none;
+      color: var(--accent);
+      cursor: pointer;
+      padding: 6px 0 0 0;
+      font-size: 0.85rem;
+      text-decoration: underline;
+    }
+
+    .party-matrix {
+      margin-top: 10px;
+      border-top: 1px dashed var(--border);
+      padding-top: 8px;
+      font-size: 0.84rem;
+    }
+
+    .matrix-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+      border-bottom: 1px solid #f8f9fa;
+    }
+
+    .report-link {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.78rem;
+      color: #6c757d;
+      text-decoration: underline;
+    }
+
+    /* Harmonisk typografi för Vad hände sedan */
+    .history-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 14px;
+    }
+
+    .history-card h3 {
+      margin: 0 0 4px 0;
+      font-size: 1.05rem;
+      color: #1a2530;
+    }
+
+    .history-card .statement-text {
+      font-size: 0.9rem;
+      color: #495057;
+      margin: 0 0 8px 0;
+      font-style: italic;
+    }
+
+    .history-card .user-choice-text {
+      font-size: 0.9rem;
+      color: #212529;
+      margin: 4px 0;
+    }
+
+    .history-card .outcome-text {
+      font-size: 0.9rem;
+      color: #212529;
+      margin-top: 8px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 600px) {
+      .args {
+        grid-template-columns: 1fr;
+      }
+      .mode-buttons {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="app-container">
-    <header>
-      <h1 id="election-title">Historisk Valkompass</h1>
-      <p id="election-desc" class="subtitle"></p>
-    </header>
 
-    <!-- STEG 1: FRÅGOKORT / QUIZ -->
-    <main id="quiz-screen">
-      <div class="progress-bar-container">
-        <div id="progress-bar" class="progress-bar"></div>
-      </div>
-      <div class="progress-text">Fråga <span id="current-step">1</span> av <span id="total-steps">16</span></div>
+<div class="container">
+  <header>
+    <h1 id="header-title">Historisk Valkompass</h1>
+    <p class="tagline" id="header-tagline">Hur hade du röstat i dåtidens politiska ödesval?</p>
+  </header>
 
-      <div class="card">
-        <span id="question-category" class="badge">Kategori</span>
-        <h2 id="question-title">Frågetitel</h2>
+  <!-- VY 1: STARTSIDA -->
+  <main id="view-home">
+    <p>Välj ett historiskt val nedan samt om du vill göra den snabba eller fördjupade kompassen:</p>
+    
+    <div class="elections-grid">
+      <div class="election-card">
+        <h2>Andrakammarvalet 1928</h2>
+        <p><strong>Kosackvalet & Välfärdsstatens begynnelse.</strong> Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna samt flera unika tidsfrågor.</p>
         
-        <div class="statement-box">
-          <p id="question-statement"></p>
-        </div>
-
-        <div class="context-box">
-          <p id="question-context" class="context-text collapsed"></p>
-          <button id="read-more-btn" class="btn-read-more">Läs mer...</button>
-        </div>
-
-        <div class="arguments-grid">
-          <div class="arg-box pro">
-            <strong>Argument För:</strong>
-            <p id="arg-for"></p>
-          </div>
-          <div class="arg-box con">
-            <strong>Argument Emot:</strong>
-            <p id="arg-against"></p>
-          </div>
+        <div class="mode-buttons">
+          <button class="mode-btn" onclick="startElection('1928', true)">⚡ Snabbkompass (8 frågor)</button>
+          <button class="mode-btn" onclick="startElection('1928', false)">📚 Fullkompass (16 frågor)</button>
         </div>
       </div>
+    </div>
 
-      <!-- 5-gradig skala -->
-      <div class="scale-container">
-        <div class="scale-buttons">
-          <button class="scale-btn val-1" data-value="1" title="Helt emot">1</button>
-          <button class="scale-btn val-2" data-value="2" title="Delvis emot">2</button>
-          <button class="scale-btn val-3" data-value="3" title="Neutral / Hoppa över">3</button>
-          <button class="scale-btn val-4" data-value="4" title="Delvis för">4</button>
-          <button class="scale-btn val-5" data-value="5" title="Helt för">5</button>
+    <div class="gemini-footer">
+      Skapad med hjälp av Google Gemini
+    </div>
+  </main>
+
+  <!-- VY 2: QUIZ -->
+  <main id="view-quiz" style="display:none;">
+    <div class="question-card">
+      <div id="q-image-wrap" style="display:none;">
+        <div class="question-image-container">
+          <img id="q-image" src="" alt="Frågebild">
         </div>
-        <div id="scale-label" class="scale-label">3. Neutral / Hoppa över</div>
+        <div id="q-caption" class="image-caption"></div>
       </div>
-    </main>
 
-    <!-- STEG 2: STJÄRNFRÅGOR (ÅTERSTÄLLD) -->
-    <section id="star-screen" class="hidden">
-      <h2>Välj dina stjärnfrågor</h2>
-      <p class="subtitle">Markera de frågor som var extra viktiga för dig (de viktas dubbelt i resultatet):</p>
-      <div id="star-questions-list" class="star-list"></div>
-      <button id="calculate-btn" class="btn-primary">Visa mitt resultat</button>
-    </section>
-
-    <!-- STEG 3: RESULTATSIDA MED PROCENT (ÅTERSTÄLLD) -->
-    <section id="result-screen" class="hidden">
-      <h2>Ditt resultat</h2>
-      <p class="subtitle">Så här matchar dina åsikter mot partiernas linje 1928:</p>
+      <span id="q-category" class="tag"></span>
+      <h2 id="q-title" style="margin: 4px 0 8px 0; font-size: 1.3rem;"></h2>
+      <p id="q-statement" style="font-size: 1.05rem; font-weight: 500; margin-bottom: 10px;"></p>
       
-      <div id="party-results-list" class="party-results-list"></div>
+      <div id="q-context" class="context-box"></div>
 
-      <div class="result-actions">
-        <button id="show-history-btn" class="btn-primary">Vad hände sedan?</button>
-        <button id="restart-btn-1" class="btn-secondary">Gör om kompassen</button>
+      <div class="args">
+        <div class="arg-pro"><strong>Argument För:</strong> <div id="q-pro"></div></div>
+        <div class="arg-con"><strong>Argument Emot:</strong> <div id="q-con"></div></div>
       </div>
-    </section>
 
-    <!-- STEG 4: VAD HÄNDE SEDAN? (ÅTERSTÄLLD SOM EGEN SIDA) -->
-    <section id="history-screen" class="hidden">
-      <h2>Vad hände sedan?</h2>
-      <p id="history-summary" class="history-summary-text"></p>
+      <div class="options" id="options-container"></div>
+    </div>
 
-      <div id="history-outcomes-list" class="outcomes-list"></div>
+    <div class="nav-btns">
+      <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
+      <span style="font-size: 0.85rem; color: #6c757d; align-self: center;" id="q-progress"></span>
+    </div>
+  </main>
 
-      <div class="result-actions">
-        <button id="back-to-results-btn" class="btn-secondary">Tillbaka till resultatet</button>
-        <button id="restart-btn-2" class="btn-primary">Gör om kompassen</button>
+  <!-- VY 3: VIKTIGA FRÅGOR -->
+  <main id="view-importance" style="display:none;">
+    <h2>⭐ Välj dina hjärtefrågor</h2>
+    <p>Du har besvarat alla frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i resultatberäkningen):</p>
+    
+    <div id="importance-list" class="importance-list"></div>
+
+    <div class="nav-btns">
+      <button class="btn btn-secondary" onclick="backToQuiz()">Tillbaka till frågorna</button>
+      <button class="btn" onclick="calculateResults()">Visa mitt resultat</button>
+    </div>
+  </main>
+
+  <!-- VY 4: RESULTAT -->
+  <main id="view-result" style="display:none;">
+    <h2 id="result-title">Ditt resultat</h2>
+    <p id="result-subtitle"></p>
+    
+    <div id="result-list"></div>
+
+    <!-- Ihopfällbar pedagogisk förklaringsruta -->
+    <div style="margin-top: 20px;">
+      <button class="breakdown-toggle" onclick="toggleFormula()" style="font-size:0.9rem;">Så räknades ditt resultat ut ▼</button>
+      <div id="formula-box" class="context-box" style="display:none; margin-top:8px;">
+        <strong>Hur beräknas matchningen?</strong><br>
+        Ditt resultat bygger på hur nära dina åsikter ligger partiernas historiska ställningstaganden i frågorna.<br><br>
+        Ju mer du och ett parti tycker lika på skalan från "Helt för" till "Helt emot", desto högre poäng får partiet. Om ni har helt motsatta åsikter ges inga poäng.<br><br>
+        Frågor som du markerat som dina hjärtefrågor väger dubbelt så tungt. Slutligen räknas partiets sammanlagda poäng om till en procentandel av den högsta möjliga poängen.
       </div>
-    </section>
+    </div>
+    
+    <div class="nav-btns" style="margin-top:20px;">
+      <button class="btn" style="background:#28a745;" onclick="showHistoryView()">Vad hände sedan?</button>
+      <button class="btn btn-secondary" onclick="showHome()">Startsidan</button>
+    </div>
+  </main>
 
-  </div>
+  <!-- VY 5: VAD HÄNDE SEDAN? -->
+  <main id="view-history" style="display:none;">
+    <h2>Vad hände sedan i valet 1928?</h2>
+    <div id="history-summary" class="context-box" style="border-left-color: var(--accent);"></div>
 
-  <script src="app.js"></script>
+    <h3 style="margin-top:20px; font-size:1.15rem;">Fråga för fråga: Besluten vs. Dina svar</h3>
+    <div id="history-list"></div>
+
+    <div class="nav-btns" style="margin-top: 20px;">
+      <button class="btn btn-secondary" onclick="switchView('view-result')">Tillbaka till resultatet</button>
+      <button class="btn" onclick="showHome()">Välj ett annat val</button>
+    </div>
+  </main>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
