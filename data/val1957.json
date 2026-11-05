@@ -209,4 +209,60 @@
       "id": "Q16",
       "quick": false,
       "title": "Nedläggning av olönsamma järnvägar",
-      "statement": "SJ ska tillåtas lägga ned olönsamma regionala järnvägar
+      "statement": "SJ ska tillåtas lägga ned olönsamma regionala järnvägar till förmån för busstrafik.",
+      "context": "Bilismens genombrott gjorde att många smalspåriga och regionala järnvägar gick med stor förlust för staten.",
+      "category": "Infrastruktur & Glesbygd",
+      "pro": "Stoppar slöseri med statliga medel när biltrafiken tagit över.",
+      "con": "Isolerar glesbygden och försämrar kollektivtrafiken på landsbygden.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ],
+  "parties": [
+    {
+      "name": "Socialdemokraterna",
+      "description": "Leddes av Tage Erlander. Ville bygga ut välfärden med obligatorisk ATP (Linje 1) och generell omsättningsskatt (Oms).",
+      "answers": {
+        "Q1": 2, "Q2": 1, "Q3": -1, "Q4": 1, "Q5": 0, "Q6": 2,
+        "Q7": 2, "Q8": -1, "Q9": 2, "Q10": 1, "Q11": 1, "Q12": 2,
+        "Q13": 2, "Q14": 1, "Q15": 2, "Q16": 1
+      }
+    },
+    {
+      "name": "Högern (Allmänna Valmansförbundet)",
+      "description": "Leddes av Jarl Hjalmarson. Drev skattesänkningar, frivillig pension (Linje 3), starkt försvar med kärnvapen och fri företagsamhet.",
+      "answers": {
+        "Q1": -2, "Q2": -1, "Q3": 2, "Q4": 1, "Q5": 1, "Q6": -1,
+        "Q7": 1, "Q8": 1, "Q9": -2, "Q10": 1, "Q11": -2, "Q12": -2,
+        "Q13": -1, "Q14": -2, "Q15": -2, "Q16": 2
+      }
+    },
+    {
+      "name": "Folkpartiet",
+      "description": "Leddes av Bertil Ohlin. Ville ha frivilliga avtalspensioner (Linje 3) och frihetliga reformer, men stödde sociala trygghetssystem.",
+      "answers": {
+        "Q1": -2, "Q2": -2, "Q3": 0, "Q4": 1, "Q5": 0, "Q6": 2,
+        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 2, "Q11": -1, "Q12": 1,
+        "Q13": 2, "Q14": -1, "Q15": -2, "Q16": 1
+      }
+    },
+    {
+      "name": "Centerpartiet (fd Bondeförbundet)",
+      "description": "Leddes av Gunnar Hedlund. Drev Linje 2 (frivillig pensionsförsäkring med tak) och värnade landsbygd, jordbruk och decentralisering.",
+      "answers": {
+        "Q1": -1, "Q2": 2, "Q3": -2, "Q4": -2, "Q5": 1, "Q6": -1,
+        "Q7": -1, "Q8": 0, "Q9": -1, "Q10": -1, "Q11": 2, "Q12": 0,
+        "Q13": 1, "Q14": 0, "Q15": 1, "Q16": -2
+      }
+    },
+    {
+      "name": "Sveriges Kommunistiska Parti (SKP)",
+      "description": "Leddes av Hilding Hagberg. Stödde Linje 1 för ATP men var starka motståndare till svenskt kärnvapen och den nya omsättningsskatten.",
+      "answers": {
+        "Q1": 2, "Q2": 1, "Q3": -2, "Q4": -2, "Q5": -1, "Q6": 2,
+        "Q7": -2, "Q8": -2, "Q9": -2, "Q10": -1, "Q11": 2, "Q12": 2,
+        "Q13": 1, "Q14": 2, "Q15": 2, "Q16": -2
+      }
+    }
+  ]
+}
