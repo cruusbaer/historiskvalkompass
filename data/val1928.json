@@ -35,10 +35,10 @@
     },
     "partyResults": [
       {
-        "partyName": "Högern (Allmänna Valmansförbundet)",
-        "votePercentage": 29.4,
-        "seats": 73,
-        "seatChange": 8
+        "partyName": "Sveriges Kommunistiska Parti (SKP)",
+        "votePercentage": 6.4,
+        "seats": 8,
+        "seatChange": 3
       },
       {
         "partyName": "Socialdemokraterna",
@@ -47,28 +47,28 @@
         "seatChange": -14
       },
       {
-        "partyName": "Frisinnade Folkpartiet (Liberala)",
-        "votePercentage": 15.9,
-        "seats": 32,
-        "seatChange": -1
-      },
-      {
         "partyName": "Bondeförbundet",
         "votePercentage": 11.2,
         "seats": 27,
         "seatChange": 4
       },
       {
-        "partyName": "Sveriges Kommunistiska Parti (SKP)",
-        "votePercentage": 6.4,
-        "seats": 8,
-        "seatChange": 3
+        "partyName": "Frisinnade Folkpartiet (Liberala)",
+        "votePercentage": 15.9,
+        "seats": 32,
+        "seatChange": -1
       },
       {
         "partyName": "Liberala riksdagspartiet",
         "votePercentage": 3.0,
         "seats": 4,
         "seatChange": -1
+      },
+      {
+        "partyName": "Högern (Allmänna Valmansförbundet)",
+        "votePercentage": 29.4,
+        "seats": 73,
+        "seatChange": 8
       }
     ]
   },
@@ -293,7 +293,7 @@
         "Q7": -1, "Q8": -1, "Q9": 2, "Q10": 0, "Q11": -1, "Q12": 1,
         "Q13": 0, "Q14": 1, "Q15": 1, "Q16": -1
       }
-    }
+    },
     {
       "name": "Bondeförbundet",
       "description": "Partiet för landsbygd och jordbrukare. Drev krav på tullar för att skydda det svenska lantbruket mot utländsk konkurrens.",
