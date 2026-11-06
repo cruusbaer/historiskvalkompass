@@ -340,11 +340,10 @@ function renderWhatHappenedAfter(electionData) {
 
       <div class="mandate-section">
         <h4>Mandatfördelning i Andra kammaren (Totalt: ${res.seatsTotal} mandat)</h4>
-        <p class="mandate-hint">Håll muspekaren över ett parti för att se mandat och förändring</p>
         <div class="seat-bar">
   `;
 
-  // 1. Mandatfördelningsfält med hover-info för mandat + förändring
+  // 1. Mandatfördelningsfält med hover-info (utan extra instruktionstext)
   res.partyResults.forEach(party => {
     const widthPercent = (party.seats / res.seatsTotal) * 100;
     const color = getPartyColor(party.partyName);
