@@ -1,0 +1,310 @@
+{
+  "id": "1958",
+  "title": "Andrakammarvalet (ATP-valet) 1958",
+  "year": "1958",
+  "description": "Det extraval som utlystes efter att den historiska pensionsfolkomröstningen 1957 spräckte regeringen och ställde välfärdens ödesfrågor på sin spets i Sverige.",
+  "historicalOutcome": {
+    "summary": "Efter att pensionsfolkomröstningen i oktober 1957 splittrat den socialdemokratiskt-bondeförbundiska regeringen och låst riksdagen, utlyste statsminister Tage Erlander extra val till Andra kammaren den 1 juni 1958. Valet blev en stor framgång för Socialdemokraterna och Centerpartiet på Folkpartiets bekostnad. Det skapade det parlamentariska underlag som året därpå gjorde det möjligt att driva igenom ATP-reformen.",
+    "questionsOutcome": {
+      "Q1": { "description": "Linje 1 vann folkomröstningen med 45,8 % och ATP-systemet drevs igenom i riksdagen 1959. Det lade grunden för den moderna svenska välfärdsmodellen och AP-fonderna." },
+      "Q2": { "description": "Affärstidslagen skärptes inte permanent; tvärtom kom konsumtionssamhällets framväxt under 1960-talet att leda till en successiv avreglering som avskaffade lagen helt 1972." },
+      "Q3": { "description": "Sverige lade ner sitt militära kärnvapenprogram under 1960-talet. Beslutet fattades formellt 1968 när Sverige anslöt sig till icke-spridningsavtalet (NPT)." },
+      "Q4": { "description": "Trots nej-resultatet i folkomröstningen 1955 drev riksdagen igenom beslutet om högertrafikomläggning 1963. Dagen H genomfördes den 3 september 1967." },
+      "Q5": { "description": "Reglerna kring mopeder skärptes successivt under 1960- och 70-talen med hjälmtvång, men ett formellt AM-körkort med utbildningskrav dröjde till 2009." },
+      "Q6": { "description": "Riksdagen och Kyrkomötet antog lagen 1958. År 1960 prästvigdes de tre första kvinnorna i Svenska kyrkan (Margit Sahlin, Elisabeth Djurle och Ingrid Persson)." },
+      "Q7": { "description": "Den 'svenska linjen' byggdes ut med försöksreaktorn i Ågesta, men skiftade under 1960-talet mot kommersiella lättvattenreaktorer fram till kärnkraftsomröstningen 1980." },
+      "Q8": { "description": "Inköpspolitiken förblev i princip fri för museernas experter, och den abstrakta konsten etablerade sig starkt på institutioner som Moderna Museet (invigt 1958)." },
+      "Q9": { "description": "Omsättningsskatten (Oms) infördes 1960 med en sats på 4,2 %. Skatten permanentades, höjdes successivt och omvandlades 1969 till dagens Mervärdesskatt (Moms)." },
+      "Q10": { "description": "Den fria arbetskraftsinvandringen fortsatte under 1960-talets högkonjunktur och byggde upp industrin, innan regleringar infördes för utomnordisk invandring 1968." },
+      "Q11": { "description": "Folkparkerna fick viss statlig stimulans och kulturstöd under 1960-talet, men lyckades inte fullt ut stå emot televisionens och privatbilismens dominans." },
+      "Q12": { "description": "Den treveckors lagstadgade semestern genomfördes 1963. Därefter byggdes rätten ut till fyra veckor 1965 och slutligen fem veckors semester 1977." },
+      "Q13": { "description": "Svenskt U-landsbistånd organiserades och byggdes ut kraftigt under 1960-talet genom bildandet av SIDA 1965, och Sverige nådde enprocentmålet under 1970-talet." },
+      "Q14": { "description": "Pensionsåldern sänktes från 67 till 65 år vid den stora pensionsreformen 1976." },
+      "Q15": { "description": "Monopolet behölls intakt. Sveriges Radio fick sin andra TV-kanal (TV2) 1969 i statlig regi, och kommersiell media tilläts först i början av 1990-talet." },
+      "Q16": { "description": "Nedläggningen av olönsamma regionala banor (den s.k. 'järnvägsdöden') accelererade kraftigt under 1960-talet när SJ anpassade sig till bilsamhället." }
+    }
+  },
+  "electionResults": {
+    "seatsTotal": 231,
+    "government": {
+      "type": "Socialdemokratisk minoritetsregering",
+      "primeMinister": "Tage Erlander",
+      "rulingParties": ["Socialdemokraterna"],
+      "supportParties": ["Sveriges Kommunistiska Parti (SKP)"],
+      "opposition": ["Högern (Allmänna Valmansförbundet)", "Folkpartiet", "Centerpartiet"]
+    },
+    "partyResults": [
+      {
+        "partyName": "Socialdemokraterna",
+        "votePercentage": 46.2,
+        "seats": 111,
+        "seatChange": 5
+      },
+      {
+        "partyName": "Högern (Allmänna Valmansförbundet)",
+        "votePercentage": 19.5,
+        "seats": 45,
+        "seatChange": 3
+      },
+      {
+        "partyName": "Folkpartiet",
+        "votePercentage": 18.2,
+        "seats": 38,
+        "seatChange": -20
+      },
+      {
+        "partyName": "Centerpartiet",
+        "votePercentage": 12.7,
+        "seats": 32,
+        "seatChange": 13
+      },
+      {
+        "partyName": "Sveriges Kommunistiska Parti (SKP)",
+        "votePercentage": 3.4,
+        "seats": 5,
+        "seatChange": -1
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "title": "Obligatorisk ATP (Tilläggspension)",
+      "statement": "Staten ska garantera alla anställda en lagstadgad och värdesäkrad tilläggspension (Linje 1).",
+      "context": "Pensionsfrågan var 1950-talets största inrikespolitiska strid som ledde fram till extravalet 1958. Linje 1 ville ha lagstadgad pension, medan motståndarna förespråkade frivilliga avtalslösningar.",
+      "category": "Socialpolitik & Välfärd",
+      "pro": "Ger alla löntagare en trygg och rättvis pension kopplad till tidigare inkomst.",
+      "con": "Innebär statligt tvång, höga skatter och enorm statlig makt över pensionskapitalet.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "title": "Skärpta Butiksöppettider",
+      "statement": "Affärstidslagen ska skärpas för att förbjuda kvälls- och söndagsöppet i handeln.",
+      "context": "Affärstiderna var en het debatt där fackförbund och kyrkliga grupper ville skydda anställdas helgfred mot handlarnas önskan om friare öppettider.",
+      "category": "Skatter, Ekonomi & Handel",
+      "pro": "Skyddar butiksanställdas arbetsmiljö och värnar helgfreden.",
+      "con": "Inskränker konsumenternas frihet och hindrar modern handel.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "title": "Svenska atomvapen",
+      "statement": "Sverige bör utveckla egna taktiska kärnvapen för att stärka det nationella försvaret.",
+      "context": "Under kalla kriget debatterades intensivt om det svenska försvaret behövde egna atomvapen för att avskräcka från ett utländskt angrepp.",
+      "category": "Utrikes & Försvar",
+      "pro": "Gör den svenska neutraliteten trovärdig och avskräcker stormakter.",
+      "con": "Ökar spänningen i Norden och riskerar att dra in Sverige i ett kärnvapenkrig.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "title": "Omläggning till Högertrafik",
+      "statement": "Sverige ska genomföra omläggning till högertrafik trots nej-resultatet i folkomröstningen 1955.",
+      "context": "Trots att 83 % röstade nej till högertrafik 1955 ansåg riksdagsmajoriteten att den ökande gränsöverskridande biltrafiken i Europa krävde en ändring.",
+      "category": "Infrastruktur & Trafik",
+      "pro": "Ökar trafiksäkerheten och anpassar Sverige till övriga Europa.",
+      "con": "Kostar enorma skattepengar och kör över folkviljan från 1955.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q5",
+      "quick": false,
+      "title": "Mopedreglering",
+      "statement": "Det bör införas 16-årsgräns och obligatoriskt förarbevis för att köra moped.",
+      "context": "Mopeden slog igenom stort hos ungdomar på 1950-talet utan krav på körkort, vilket ledde till debatt om olyckor och buskörning i trafiken.",
+      "category": "Infrastruktur & Trafik",
+      "pro": "Minskar olyckstalen och skapar ordning i trafiken.",
+      "con": "Begränsar ungdomars och landsbygdsbefolkningens enkla transportmedel.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "title": "Kvinnliga präster i Svenska kyrkan",
+      "statement": "Kvinnor ska ges lagstadgad rätt att prästvigas på samma villkor som män i Svenska kyrkan.",
+      "context": "Frågan om kvinnliga präster var en av 1950-talets mest laddade värderingsfrågor mellan kyrklig tradition och statliga jämlikhetskrav.",
+      "category": "Religion & Jämlikhet",
+      "pro": "En fundamental jämlikhetsfråga om alla människors lika värde.",
+      "con": "Bryter mot kyrkans teologiska tradition och inkräktar på kyrkans oberoende.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "title": "Storsatsning på statlig Kärnkraft",
+      "statement": "Staten ska storsatsa på den 'svenska linjen' för kärnkraft för att säkra landets elförsörjning.",
+      "context": "Sveriges snabba industrialisering krävde mer el, och staten satsade hårt på egenutvecklad kärnteknik med svenska reaktorer.",
+      "category": "Energi & Industri",
+      "pro": "Säkrar billig och oberoende el för industrin och hushållen.",
+      "con": "Innebär gigantiska ekonomiska risker och oöverskådliga miljökonsekvenser.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q8",
+      "quick": true,
+      "title": "Inköp av Modern Konst",
+      "statement": "Statliga museer ska prioritera traditionell föreställande konst framför abstrakt modern konst.",
+      "context": "Den nya abstrakta konsten väckte hård debatt på 1950-talet om vad skattebetalarnas kulturpengar egentligen borde gå till.",
+      "category": "Kultur & Samhällsliv",
+      "pro": "Säkerställer att skattepengar går till folkligt förståelig och beprövad konst.",
+      "con": "Inskränker den konstnärliga friheten och stoppar nyskapande kultur.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "title": "Införande av Omsättningsskatt (Oms)",
+      "statement": "Staten ska införa en generell omsättningsskatt på varor för att finansiera välfärden.",
+      "context": "Skatteintäkterna räckte inte till för 1950-talets stora välfärdsreformer, vilket fick regeringen att föreslå en generell konsumtionsskatt.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Breddar skattebasen och säkrar långsiktig finansiering av vård och skola.",
+      "con": "Fördyrar alla vardagsvaror och slår hårdast mot låginkomsttagare.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "title": "Fri arbetskraftsinvandring",
+      "statement": "Sverige ska upprätthålla helt fri arbetskraftsinvandring från Norden och övriga Europa.",
+      "context": "Den svenska industrin gick för högtryck under 1950-talet och led av akut brist på arbetskraft, vilket öppnade för omfattande invandring.",
+      "category": "Arbetsmarknad & Migration",
+      "pro": "Räddar industrins tillväxt och bygger upp Sveriges välstånd.",
+      "con": "Riskerar att skada fackets förhandlingsposition och skapa bostadsbrist.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "title": "Statsbidrag till Folkparkerna",
+      "statement": "Staten bör ge direkt ekonomiskt stöd till landsbygdens folkparker och dansbanor.",
+      "context": "TV-sändningarnas start 1956 och privatbilismens genombrott hotade de traditionella folkparkernas överlevnad.",
+      "category": "Kultur & Samhällsliv",
+      "pro": "Bevarar en unikt svensk folkrörelse och kulturarv på landsbygden.",
+      "con": "Det är inte statens uppgift att subventionera kommersiella nöjesetablissemang.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q12",
+      "quick": true,
+      "title": "Förlängd semester",
+      "statement": "Den lagstadgade semestern ska förlängas från två till tre veckor per år.",
+      "context": "Efterkrigstidens goda ekonomi skapade utrymme för arbetarrörelsen att kräva mer återhämtning och fritid för alla löntagare.",
+      "category": "Arbetsmarknad & Arbetsrätt",
+      "pro": "Ökar arbetarnas hälsa, livskvalitet och möjlighet till rekreation.",
+      "con": "Ökar produktionskostnaderna och minskar industrins konkurrenskraft.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "title": "Statligt U-landsbistånd",
+      "statement": "Sverige ska avsätta en fast del av statens budget till bistånd till utvecklingsländer.",
+      "context": "Avkoloniseringen i Afrika och Asien väckte ett starkt svenskt engagemang för internationell solidaritet och fattigdomsbekämpning.",
+      "category": "Utrikes & Försvar",
+      "pro": "En moralisk plikt för ett rikt land att hjälpa fattiga nationer.",
+      "con": "Svenska skattepengar bör i första hand användas till svensk välfärd.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "title": "Sänkt allmän pensionsålder",
+      "statement": "Den allmänna folkpensionsåldern bör sänkas från 67 till 65 år för alla medborgare.",
+      "context": "Trots att medellivslängden ökade krävde fackföreningarna att äldre arbetare skulle få rätt till tidigare pension.",
+      "category": "Socialpolitik & Välfärd",
+      "pro": "Ger utslitna arbetare rätt till välförtjänt vila i tid.",
+      "con": "Kostar statskassan enorma summor och minskar arbetsutbudet.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "title": "Statligt Eter-monopol",
+      "statement": "Staten ska behålla monopolet på radio och TV och förbjuda kommersiella sändningar.",
+      "context": "När televisionen startade 1956 väcktes frågan om sändningarna skulle hållas helt statliga eller släppa in privat reklamfinansierad radio/TV.",
+      "category": "Kultur & Media",
+      "pro": "Garanterar opartisk bildning och folkuppfostran fri från kommersiella intressen.",
+      "con": "Begränsar yttrandefriheten och stoppar mångfald i medielandskapet.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "title": "Nedläggning av olönsamma järnvägar",
+      "statement": "SJ ska tillåtas lägga ned olönsamma regionala järnvägar till förmån för busstrafik.",
+      "context": "Bilismens genombrott gjorde att många smalspåriga och regionala järnvägar gick med stor förlust för staten.",
+      "category": "Infrastruktur & Glesbygd",
+      "pro": "Stoppar slöseri med statliga medel när biltrafiken tagit över.",
+      "con": "Isolerar glesbygden och försämrar kollektivtrafiken på landsbygden.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ],
+  "parties": [
+    {
+      "name": "Socialdemokraterna",
+      "description": "Leddes av Tage Erlander. Drev igenom den obligatoriska ATP-linjen (Linje 1) och generell omsättningsskatt för att finansiera välfärdsstaten.",
+      "answers": {
+        "Q1": 2, "Q2": 1, "Q3": -1, "Q4": 1, "Q5": 0, "Q6": 2,
+        "Q7": 2, "Q8": -1, "Q9": 2, "Q10": 1, "Q11": 1, "Q12": 2,
+        "Q13": 2, "Q14": 1, "Q15": 2, "Q16": 1
+      }
+    },
+    {
+      "name": "Högern (Allmänna Valmansförbundet)",
+      "description": "Leddes av Jarl Hjalmarson. Drev skattesänkningar, frivillig pension (Linje 3), starkt försvar med kärnvapen och fri företagsamhet.",
+      "answers": {
+        "Q1": -2, "Q2": -1, "Q3": 2, "Q4": 1, "Q5": 1, "Q6": -1,
+        "Q7": 1, "Q8": 1, "Q9": -2, "Q10": 1, "Q11": -2, "Q12": -2,
+        "Q13": -1, "Q14": -2, "Q15": -2, "Q16": 2
+      }
+    },
+    {
+      "name": "Folkpartiet",
+      "description": "Leddes av Bertil Ohlin. Ville ha frivilliga avtalspensioner (Linje 3) och frihetliga reformer, men drabbades hårt av väljartapp i valet 1958.",
+      "answers": {
+        "Q1": -2, "Q2": -2, "Q3": 0, "Q4": 1, "Q5": 0, "Q6": 2,
+        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 2, "Q11": -1, "Q12": 1,
+        "Q13": 2, "Q14": -1, "Q15": -2, "Q16": 1
+      }
+    },
+    {
+      "name": "Centerpartiet",
+      "description": "Leddes av Gunnar Hedlund. Drev Linje 2 (frivillig pensionsförsäkring med tak) och värnade landsbygd, jordbruk och decentralisering.",
+      "answers": {
+        "Q1": -1, "Q2": 2, "Q3": -2, "Q4": -2, "Q5": 1, "Q6": -1,
+        "Q7": -1, "Q8": 0, "Q9": -1, "Q10": -1, "Q11": 2, "Q12": 0,
+        "Q13": 1, "Q14": 0, "Q15": 1, "Q16": -2
+      }
+    },
+    {
+      "name": "Sveriges Kommunistiska Parti (SKP)",
+      "description": "Leddes av Hilding Hagberg. Stödde Linje 1 för ATP men var starka motståndare till svenskt kärnvapen och den nya omsättningsskatten.",
+      "answers": {
+        "Q1": 2, "Q2": 1, "Q3": -2, "Q4": -2, "Q5": -1, "Q6": 2,
+        "Q7": -2, "Q8": -2, "Q9": -2, "Q10": -1, "Q11": 2, "Q12": 2,
+        "Q13": 1, "Q14": 2, "Q15": 2, "Q16": -2
+      }
+    }
+  ]
+}
