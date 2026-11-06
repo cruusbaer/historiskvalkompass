@@ -280,9 +280,17 @@ function toggleFormula() {
 function showHistoryView() {
   switchView("view-history");
   
+  // 1. Övergripande historisk sammanfattning
   const summaryEl = document.getElementById("history-summary");
-  summaryEl.innerHTML = `<strong>Historiskt utfall 1928:</strong> ${currentElectionData.historicalOutcome.summary}`;
+  summaryEl.innerHTML = `<strong>Historiskt utfall ${currentElectionData.year || ''}:</strong> ${currentElectionData.historicalOutcome.summary}`;
 
+  // 2. Rendera regeringsbildning, mandatfördelning och procentstaplar i containern
+  const aftermathContainer = document.getElementById("election-aftermath-container");
+  if (aftermathContainer) {
+    aftermathContainer.innerHTML = renderWhatHappenedAfter(currentElectionData);
+  }
+
+  // 3. Fråga för fråga-genomgången
   const listEl = document.getElementById("history-list");
   listEl.innerHTML = "";
 
@@ -309,4 +317,77 @@ function showHome() {
 
   history.pushState({}, "", window.location.pathname);
   switchView("view-home");
+}
+
+/* --- HJÄLPFUNKTIONER FÖR "VAD HÄNDE SEDAN"-VISUALISERING --- */
+
+function renderWhatHappenedAfter(electionData) {
+  const res = electionData.electionResults;
+  if (!res) return "<p>Ingen valresultatsdata tillgänglig för detta val.</p>";
+
+  let html = `
+    <div class="historical-aftermath">
+      <h3>Valresultat & Regeringsbildning</h3>
+      
+      <div class="government-card">
+        <h4>Regering efter valet</h4>
+        <p><strong>Typ:</strong> ${res.government.type}</p>
+        <p><strong>Statsminister:</strong> ${res.government.primeMinister}</p>
+        <p><strong>Regerande parti(er):</strong> ${res.government.rulingParties.join(", ")}</p>
+        ${res.government.supportParties && res.government.supportParties.length > 0 ? `<p><strong>Stödparti:</strong> ${res.government.supportParties.join(", ")}</p>` : ''}
+        <p><strong>Opposition:</strong> ${res.government.opposition.join(", ")}</p>
+      </div>
+
+      <div class="mandate-section">
+        <h4>Mandatfördelning i Andra kammaren (Totalt: ${res.seatsTotal} mandat)</h4>
+        <p class="mandate-hint">Håll muspekaren över ett parti för att se mandat och förändring</p>
+        <div class="seat-bar">
+  `;
+
+  // 1. Mandatfördelningsfält med hover-info för mandat + förändring
+  res.partyResults.forEach(party => {
+    const widthPercent = (party.seats / res.seatsTotal) * 100;
+    const color = getPartyColor(party.partyName);
+    
+    let changeFormatted = party.seatChange > 0 ? `+${party.seatChange}` : `${party.seatChange}`;
+    if (party.seatChange === 0) changeFormatted = "±0";
+
+    const tooltipText = `${party.partyName}: ${party.seats} mandat (${changeFormatted} sedan förra valet)`;
+
+    html += `
+      <div class="seat-segment" 
+           style="width: ${widthPercent}%; background-color: ${color};" 
+           title="${tooltipText}">
+        <span class="seat-label">${party.seats}</span>
+      </div>
+    `;
+  });
+
+  html += `</div></div><div class="percentage-section"><h4>Röstetal i valet (%)</h4>`;
+
+  // 2. Renodlad procentlista
+  res.partyResults.forEach(party => {
+    html += `
+      <div class="bar-row">
+        <span class="party-name">${party.partyName}</span>
+        <div class="bar-track">
+          <div class="bar-fill" style="width: ${party.votePercentage}%; background-color: ${getPartyColor(party.partyName)};"></div>
+        </div>
+        <span class="party-pct">${party.votePercentage}%</span>
+      </div>
+    `;
+  });
+
+  html += `</div></div>`;
+  return html;
+}
+
+function getPartyColor(partyName) {
+  if (partyName.includes("Socialdemokraterna")) return "#e81123";
+  if (partyName.includes("Högern")) return "#005595";
+  if (partyName.includes("Folkpartiet") || partyName.includes("Frisinnade")) return "#006699";
+  if (partyName.includes("Centerpartiet") || partyName.includes("Bondeförbundet")) return "#00853F";
+  if (partyName.includes("Kommunistiska") || partyName.includes("SKP")) return "#990000";
+  if (partyName.includes("Liberala riksdagspartiet")) return "#4682B4";
+  return "#777777";
 }
