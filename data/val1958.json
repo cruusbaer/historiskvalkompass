@@ -35,22 +35,16 @@
     },
     "partyResults": [
       {
+        "partyName": "Sveriges Kommunistiska Parti (SKP)",
+        "votePercentage": 3.4,
+        "seats": 5,
+        "seatChange": -1
+      },
+      {
         "partyName": "Socialdemokraterna",
         "votePercentage": 46.2,
         "seats": 111,
         "seatChange": 5
-      },
-      {
-        "partyName": "Högern (Allmänna Valmansförbundet)",
-        "votePercentage": 19.5,
-        "seats": 45,
-        "seatChange": 3
-      },
-      {
-        "partyName": "Folkpartiet",
-        "votePercentage": 18.2,
-        "seats": 38,
-        "seatChange": -20
       },
       {
         "partyName": "Centerpartiet",
@@ -59,10 +53,16 @@
         "seatChange": 13
       },
       {
-        "partyName": "Sveriges Kommunistiska Parti (SKP)",
-        "votePercentage": 3.4,
-        "seats": 5,
-        "seatChange": -1
+        "partyName": "Folkpartiet",
+        "votePercentage": 18.2,
+        "seats": 38,
+        "seatChange": -20
+      },
+      {
+        "partyName": "Högern (Allmänna Valmansförbundet)",
+        "votePercentage": 19.5,
+        "seats": 45,
+        "seatChange": 3
       }
     ]
   },
