@@ -368,6 +368,127 @@
       line-height: 1.5;
     }
 
+    /* Styckesbehållare för valresultat & regeringsbildning */
+.historical-aftermath {
+  margin-top: 15px;
+  padding: 20px;
+  background: var(--bg-card, #ffffff);
+  border-radius: 10px;
+  border: 1px solid var(--border-color, #e0e0e0);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.historical-aftermath h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: var(--text-main, #222);
+}
+
+.historical-aftermath h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: var(--text-sub, #444);
+}
+
+/* Regeringskortet */
+.government-card {
+  background: var(--bg-sub, #f8f9fa);
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid var(--accent, #005595);
+  margin-bottom: 25px;
+}
+
+.government-card p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Graf 1: Mandatfördelning (Proportionerlig färgbar) */
+.mandate-section {
+  margin-bottom: 25px;
+}
+
+.mandate-hint {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 6px;
+  font-style: italic;
+}
+
+.seat-bar {
+  display: flex;
+  height: 38px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 6px 0 8px 0;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);
+  background-color: #eee;
+  position: relative;
+}
+
+.seat-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.seat-segment:hover {
+  filter: brightness(1.1);
+  z-index: 2;
+}
+
+/* Graf 2: Röstetal i procent */
+.percentage-section {
+  margin-top: 20px;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.bar-row .party-name {
+  width: 230px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bar-track {
+  flex-grow: 1;
+  background: var(--bg-bar-track, #e9ecef);
+  height: 18px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 0 12px;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.bar-row .party-pct {
+  width: 60px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: var(--text-main, #222);
+}
+
     @media (max-width: 600px) {
       .args {
         grid-template-columns: 1fr;
@@ -486,12 +607,18 @@
   <!-- VY 5: VAD HÄNDE SEDAN? -->
   <main id="view-history" style="display:none;">
     <h2>Vad hände efter valet?</h2>
+    
+    <!-- Den övergripande sammanfattningen (historisk bakgrund) -->
     <div id="history-summary" class="context-box" style="border-left-color: var(--accent);"></div>
 
-    <h3 style="margin-top:20px; font-size:1.15rem;">Fråga för fråga: Besluten vs. Dina svar</h3>
+    <!-- HÄR LÄGGER VI IN VALRESULTAT OCH MANDATFÖRDELNING -->
+    <div id="election-aftermath-container" style="margin: 25px 0;"></div>
+
+    <!-- Fråga för fråga-genomgången -->
+    <h3 style="margin-top:30px; font-size:1.15rem;">Fråga för fråga: Besluten vs. Dina svar</h3>
     <div id="history-list"></div>
 
-    <div class="nav-btns" style="margin-top: 20px;">
+    <div class="nav-btns" style="margin-top: 25px;">
       <button class="btn btn-secondary" onclick="switchView('view-result')">Tillbaka till resultatet</button>
       <button class="btn" onclick="showHome()">Välj ett annat val</button>
     </div>
