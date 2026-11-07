@@ -137,36 +137,31 @@
     }
 
     /* --- BAKGRUNDSBILD FÖR FRÅGEKORT --- */
+/* --- HISTORISK BAKGRUNDSBILD BANNERTOPP --- */
 
-/* Aktiverar positionering och lagerhantering för kortet */
 #question-card.has-bg-image {
-  position: relative;
-  overflow: hidden;
-  isolation: isolate;
+  position: relative !important;
+  overflow: hidden !important;
 }
 
-/* Pseudo-element som ritar ut den svaga och dimmiga bakgrunden */
+/* Skapar en snygg 4:1-banner högst upp i frågekortet för bilden */
 #question-card.has-bg-image::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: var(--bg-image);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  content: "" !important;
+  display: block !important;
+  width: 100% !important;
+  height: 90px !important; /* Justera höjden här om du vill ha den smalare eller bredare */
+  background-image: var(--bg-image) !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
   
-  /* Ljusstyrka & ton: 0.12 ger en mycket subtil ton som inte stör textläsbarheten */
-  opacity: 0.12; 
+  /* Dimmighet och ljushet */
+  opacity: 0.35 !important;
+  filter: blur(0.8px) !important;
   
-  /* Ger bilden en lätt dimmig effekt så att den smälter in i kortet */
-  filter: blur(1.5px); 
-  
-  /* Lägger bakgrunden bakom kortets innehåll */
-  z-index: -1; 
-  pointer-events: none;
+  /* Snygga rundade hörn upptill som följer kortets form */
+  border-radius: 8px 8px 0 0 !important;
+  margin-bottom: 12px !important; /* Skapar luft ner till kategori och rubrik */
 }
     
     /* Diskret framstegsstreck */
