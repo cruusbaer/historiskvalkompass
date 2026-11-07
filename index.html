@@ -136,6 +136,23 @@
       margin-bottom: 18px;
     }
 
+    /* Diskret framstegsstreck */
+  .progress-bar-track {
+    width: 100%;
+    height: 3px;               /* Mycket tunt streck */
+    background-color: #e9ecef; /* Dämpad spårfärg */
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 15px;      /* Utrymme ner till frågan */
+  }
+
+  .progress-bar-fill {
+    height: 100%;
+    width: 0%;                 /* Uppdateras dynamiskt i JS */
+    background-color: var(--accent, #005595); /* Partilös/Accent-färg */
+    transition: width 0.3s ease; /* Mjuk och smidig animation */
+  }
+
     .tag {
       display: inline-block;
       background: #e9ecef;
@@ -546,7 +563,10 @@
         </div>
         <div id="q-caption" class="image-caption"></div>
       </div>
-
+      <!-- Diskret framstegsstreck -->
+      <div class="progress-bar-track">
+        <div id="progress-bar-fill" class="progress-bar-fill"></div>
+      </div>
       <span id="q-category" class="tag"></span>
       <h2 id="q-title" style="margin: 4px 0 8px 0; font-size: 1.3rem;"></h2>
       <p id="q-statement" style="font-size: 1.05rem; font-weight: 500; margin-bottom: 10px;"></p>
