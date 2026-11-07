@@ -120,6 +120,10 @@ function renderQuestion() {
   });
 
   document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
+
+  // Uppdatera det tunna framstegsstrecket (0% till 100%)
+  const progressPercent = ((currentQuestionIndex + 1) / totalQ) * 100;
+  document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
 }
 
 function selectOptionAndAdvance(qId, val) {
