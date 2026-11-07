@@ -1,0 +1,310 @@
+{
+  "id": "1940",
+  "title": "Andrakammarvalet (Samlingsvalet) 1940",
+  "year": "1940",
+  "description": "Beredskapsvalet mitt under brinnande världskrig, där samlingsregeringen sökte folkets mandat för Sveriges neutralitetslinje och krigsekonomi efter ockupationen av grannländerna.",
+  "historicalOutcome": {
+    "summary": "Valet den 15 september 1940 hölls i skuggan av Tysklands ockupation av Danmark och Norge. Trots att Socialdemokraterna ingick i en bred samlingsregering med Högern, Folkpartiet och Bondeförbundet, gjorde S sitt bästa val någonsin och vann egen majoritet i Andra kammaren (53,8 % av rösterna). Per Albin Hansson valde dock att behålla samlingsregeringen under resten av kriget för att upprätthålla nationell enhet.",
+    "questionsOutcome": {
+      "Q1": { "description": "Permitteringstrafiken inleddes i juni 1940 och pågick fram till augusti 1943, då regeringen sa upp avtalet i takt med att det tyska krigslyckan vände." },
+      "Q2": { "description": "Priskontrollnämnden inrättades 1940 och ett generellt prisstopp infördes 1942. Systemet avvecklades successivt efter krigsslutet under andra hälften av 1940-talet." },
+      "Q3": { "description": "Transportförbudet tillämpades hårt under beredskapsåren mot framför allt den kommunistiska pressen och anti-nazistiska tidningar. Lagen avskaffades 1944." },
+      "Q4": { "description": "Statens informationsstyrelse och regeringen samverkade med filmbranschen kring beredskapsfilmer och korta journalfilmer, vilka visades flitigt på biograferna under hela kriget." },
+      "Q5": { "description": "Det statliga stödet till Finland under Vinterkriget bestod av omfattande vapenleveranser och ca 8 000 frivilliga i Svenska frivilligkåren. Under Fortsättningskriget (1941–1944) upprätthölls humanitärt stöd och frivilliginsatser." },
+      "Q6": { "description": "Kvinnors yrkesinträde ökade kraftigt under beredskapsåren för att ersätta inkallade män, men efter krigsslutet återgick arbetsmarknaden och familjepolitiken delvis till traditionella mönster fram till 1960-talets expanderande välfärdsstat." },
+      "Q7": { "description": "1939 års järnvägsbeslut om ett samlat statligt järnvägsnät genomfördes i snabb takt under 1940-talet, varpå de allra flesta privata banor köptes in och inordnades i SJ." },
+      "Q8": { "description": "Krigskonjunkturskatten infördes 1940 och uttogs under hela beredskapstiden på vinster som översteg normala förkrigsnivåer. Skatten avvecklades efter krigsslutet." },
+      "Q9": { "description": "Trots krigets ekonomiska påfrestningar behölls och byggdes stödformerna till barnrika familjer ut, vilket lade grunden för införandet av de allmänna barnbidragen 1948." },
+      "Q10": { "description": "Säkerhetstjänsten och militären bedrev omfattande åsiktsregistrering av främst kommunister under krigsåren. Övervakningen fortsatte även under det kalla kriget." },
+      "Q11": { "description": "Sommarbarnsverksamheten organiserades i stor skala från 1940 och framåt, där tiotusentals stadsbarn fick vistelse på landsbygden under beredskapsåren och efterkrigstiden." },
+      "Q12": { "description": "Försvarslånen blev en enorm folklig framgång; genom tre stora rikslån under kriget samlade staten in flera miljarder kronor direkt från allmänheten och företagen." },
+      "Q13": { "description": "Samlingsregeringen satt kvar under hela kriget och upplöstes först i juli 1945, varpå Per Albin Hansson bildade en ren socialdemokratisk regering." },
+      "Q14": { "description": "Rågummi belades med strikt statlig licensstyrelse, och privat användning av gummi upphörde nästan helt till förmån för försvarets fordon och beredskapsbehov." },
+      "Q15": { "description": "Statens livsmedelskommission införde ett heltäckande ransoneringssystem för nästan alla baslivsmedel och bränslen. Ransoneringen avvecklades stegvis fram till 1951." },
+      "Q16": { "description": "Hundskatten skärptes lokalt och kontrollen av utfodring med ransonerade livsmedel var sträng, men ett totalt statligt förbud mot sällskapsdjur infördes aldrig." }
+    }
+  },
+  "electionResults": {
+    "seatsTotal": 230,
+    "government": {
+      "type": "Samlingsregering",
+      "primeMinister": "Per Albin Hansson",
+      "rulingParties": ["Socialdemokraterna", "Högern (Allmänna Valmansförbundet)", "Folkpartiet", "Bondeförbundet"],
+      "supportParties": [],
+      "opposition": ["Sveriges Kommunistiska Parti (SKP)"]
+    },
+    "partyResults": [
+      {
+        "partyName": "Sveriges Kommunistiska Parti (SKP)",
+        "votePercentage": 3.5,
+        "seats": 3,
+        "seatChange": -2
+      },
+      {
+        "partyName": "Socialdemokraterna",
+        "votePercentage": 53.8,
+        "seats": 134,
+        "seatChange": 22
+      },
+      {
+        "partyName": "Bondeförbundet",
+        "votePercentage": 12.0,
+        "seats": 28,
+        "seatChange": -8
+      },
+      {
+        "partyName": "Folkpartiet",
+        "votePercentage": 12.0,
+        "seats": 23,
+        "seatChange": -4
+      },
+      {
+        "partyName": "Högern (Allmänna Valmansförbundet)",
+        "votePercentage": 18.0,
+        "seats": 42,
+        "seatChange": -2
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "title": "Permitteringstrafiken",
+      "statement": "Sverige bör tillåta Tyskland att transportera obeväpnade soldater och krigsmateriel på svenska järnvägar till och från ockuperade Norge.",
+      "context": "Efter ockupationen av Norge i april 1940 krävde Tyskland att få transportera militär personal och materiel på svenska spår. Regeringen medgav avtalet i juni 1940 för att förhindra ett tyskt anfall mot Sverige.",
+      "category": "Utrikes & Försvar",
+      "pro": "Nödvändig pragmatisk eftergift för att bevara freden och hålla Sverige utanför kriget.",
+      "con": "Ett oacceptabelt avsteg från neutraliteten som underlättar ockupationen av vårt grannland Norge.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "title": "Strikt priskontroll och pristak",
+      "statement": "Staten ska införa tvingande pristak på basvaror och hyror för att förhindra skenade levnadskostnader under krigskonjunkturen.",
+      "context": "Krigsutbrottet ledde till avskurna handelsvägar och skenade importpriser. För att förhindra en inflationsspiral ställdes krav på statlig prisreglering.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Skyddar hushållens köpkraft och förhindrar att svaga grupper drabbas av krisinflation.",
+      "con": "Stör marknadens funktionssätt, snedvrider tillgången på varor och hämmar produktionen.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "title": "Transportförbud för tidningar",
+      "statement": "Staten ska kunna belägga tidningar med transportförbud på tåg och post om deras publiceringar hotar Sveriges neutralitet.",
+      "context": "För att undvika att provocera Hitler eller Stalin införde regeringen möjlighet att hindra distribution av tidningar som riktade hård kritik mot stormakterna.",
+      "category": "Rättigheter & Säkerhet",
+      "pro": "Förhindrar att enskilda publicister drar in Sverige i ett förödande stormaktskrig.",
+      "con": "Innebär förtäckt statscensur och urholkar grundlagsskyddad tryckfrihet i en ödesstund.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "title": "Beredskapsfilmer på biograf",
+      "statement": "Staten ska finansiera och kräva visning av beredskaps- och upplysningsfilmer på alla biografer före huvudfilmen.",
+      "context": "Biografen var 1940 års viktigaste massmedium. Staten ville utnyttja filmen för att informera om ransonering, sparande och hålla försvarsandan uppe.",
+      "category": "Offentlig Förvaltning",
+      "pro": "Stärker medborgarnas försvarsvilja, sammanhållning och kunskap om krisledningen.",
+      "con": "Inskränker biografernas oberoende och utgör ett statligt ingrepp i nöjeslivet.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q5",
+      "quick": false,
+      "title": "Stödet till Finland",
+      "statement": "Svenska staten ska underlätta omfattande materialleveranser och frivilliginsatser till Finland för att stoppa den sovjetiska expansionen.",
+      "context": "Under Vinterkriget 1939–1940 enades stora delar av Sverige under parollen 'Finlands sak är vår', men balansen mellan hjälp och neutralitet var hårfin.",
+      "category": "Utrikes & Försvar",
+      "pro": "Det är vår moraliska plikt att stötta ett nordiskt broderland mot ett aggressivt anfallskrig.",
+      "con": "Riskerar att dra in Sverige som officiellt krigförande part i en stormaktskonflikt.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "title": "Kvinnors yrkesarbete i beredskapen",
+      "statement": "Staten bör aktivt underlätta för kvinnor att träda in i industri- och ersättningsarbete när männen är inkallade.",
+      "context": "När hundratusentals män var inkallade till gränsförsvaret uppstod akut brist på arbetskraft i både industrin, transportsektorn och jordbruket.",
+      "category": "Arbetsmarknad & Välfärd",
+      "pro": "Nödvändigt för att hålla landets produktion och försörjning igång under beredskapen.",
+      "con": "Riskerar att splittra familjestrukturen och ta modern från hemmets och barnens omvårdnad.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "title": "Förstatligande av enskilda järnvägar",
+      "statement": "Staten ska snabba på övertagandet av alla privata järnvägar för att skapa ett sammanhållet statligt transportnät.",
+      "context": "Sveriges järnvägar var 1940 uppdelade mellan SJ och ett stort antal enskilda bolag, vilket skapade logistiska problem för militär- och vedtransporter.",
+      "category": "Offentlig Förvaltning",
+      "pro": "Skapar ett enhetligt och effektivt järnvägsnät som är helt avgörande för totalförsvaret.",
+      "con": "Inkräktar på den privata äganderätten och innebär stora utgifter för statskassan.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "title": "Krigskonjunkturskatt på företag",
+      "statement": "Företag som gör extraordinära vinster på grund av krigssituationen ska beläggas med en särskild extraskatt.",
+      "context": "Vissa branscher, som skogs- och stålindustrin, gjorde stora vinster på beredskapen och exporten, vilket väckte krav på att förhindra krigsvinstmakeri.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Rättvist att förhindra spekulationsvinster och fördela krisens ekonomiska bördor.",
+      "con": "Dränerar företagens kapitalreserver som behövs för återuppbyggnad och investeringar efter krisen.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "title": "Statligt stöd till barnrika familjer",
+      "statement": "Staten ska trots beredskapskostnaderna bygga ut det sociala stödet och kostfria skolmåltider för barnrika familjer.",
+      "context": "1930-talets kris i befolkningsfrågan gjorde att Socialdemokraterna ville förhindra att kriget stoppade uppbyggnaden av familjevälfärden.",
+      "category": "Arbetsmarknad & Välfärd",
+      "pro": "Säkrar uppväxande generationers hälsa och förhindrar barnfattigdom i kris- och krigstid.",
+      "con": "Skattepengarna måste stramas åt och i första hand gå till rikets omedelbara försvar.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "title": "Registrering av radikaler",
+      "statement": "Säkerhetstjänsten och militären ska få upprätta register och övervaka personer som misstänks för extrema politiska sympatier.",
+      "context": "Rädslan för 'femtekolonnare' och sabotörer som kunde underlätta en invasion från Nazityskland eller Sovjetunionen var mycket hög 1940.",
+      "category": "Rättigheter & Säkerhet",
+      "pro": "Nödvändig säkerhetsåtgärd för att skydda försvarsanläggningar och infrastrukturen mot sabotage.",
+      "con": "Sätter rättssäkerheten ur spel och riskerar att leda till godtycklig politisk åsiktsregistrering.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "title": "Sommarbarns- och kollovistelser",
+      "statement": "Staten ska organisera och finansiera förflyttning av stadsbarn till landsbygden under somrarna.",
+      "context": "Livsmedelsbristen och faran för luftanfall i städerna fick regeringen att underlätta för stadsbarn att få god mat och frisk luft hos bondefamiljer.",
+      "category": "Arbetsmarknad & Välfärd",
+      "pro": "Garanterar god näring och trygghet för barn i tider av stadsbrist och beredskapshot.",
+      "con": "Innebär statlig styrning av familjelivet och belastar landsbygdshushållen i onödan.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "title": "Beredskapsfinansiering och försvarslån",
+      "statement": "Den militära upprustningen ska i huvudsak finansieras genom statliga försvarslån från allmänheten framför omedelbara skattehöjningar.",
+      "context": "Försvarsutgifterna mangedubblades 1940. Regeringen valde att storsatsa på frihets- och försvarslån riktade till svenska folket.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Engagerar medborgarna frivilligt och fördelar finansieringen över en längre tidsperiod.",
+      "con": "Skjuter statsskulden på framtiden istället för att ta kostnaden direkt via progressiv skatt.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "title": "Samlingsregeringens bestående",
+      "statement": "Sverige bör fortsätta att styras av en bred samlingsregering som dämpar den vanliga partipolitiska oppositionen under kriget.",
+      "context": "Fyra av de fem riksdagspartierna satt i samlingsregeringen. Frågan var om landet krävde politisk enighet eller om partipolitiken borde återupptas.",
+      "category": "Offentlig Förvaltning",
+      "pro": "Sänder ut en stark signal om nationell enhet och handlingskraft mot yttre hot.",
+      "con": "Försvagar den demokratiska granskningen och sätter den parlamentariska oppositionen ur spel.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "title": "Begränsning av rågummi för nöje",
+      "statement": "Staten ska förbjuda användning av rågummi till leksaker och sportartiklar för att säkra försvarets fordon och beredskap.",
+      "context": "När gummiförsörjningen från Asien bröt samman blev kautschuk en akut bristvara. Staten prioriterade hårda restriktioner för civil konsumtion.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Rågummi måste oavkortat reserveras för militärens däck, stövlar och krigsmateriel.",
+      "con": "Detaljreglerar näringslivet och stryper produktionen av vardagliga förnödenheter och leksaker.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "title": "Statlig ransonering av bristvaror",
+      "statement": "Tillgången på mat, kaffe, bensin och bränsle ska styras helt genom statliga ransoneringskort framför fri prissättning.",
+      "context": "Skagerrakspärren gjorde att importen stannade av. Staten införde licenser och kuponger för att förhindra bunkring och svält.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Enda sättet att garantera att alla medborgare får en rättvis minimigiv av livsmedel.",
+      "con": "Skapar byråkrati, främjar en svart marknad och inskränker individens konsumtionsfrihet.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "title": "Särskild beskattning på sällskapsdjur",
+      "statement": "Skatten på sällskapshundar i städerna ska höjas kraftigt för att spara livsmedel och foder åt nyttodjur.",
+      "context": "Under matkrisen uppstod debatt i pressen om huruvida sällskapsdjur i städerna konsumerade kött och mjölk som istället behövdes till befolkningen.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Manar till återhållsamhet och prioriterar matförsörjningen till medborgare och lantbrukets nyttodjur.",
+      "con": "Straffar djurägare orättvist och innebär en kallsinnig statlig syn på människors sällskapsdjur.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ],
+  "parties": [
+    {
+      "name": "Socialdemokraterna",
+      "description": "Leddes av statsminister Per Albin Hansson. Drev samlingsregeringens pragmatiska neutralitetslinje, strikt krisreglering och bevarad välfärdsgrund.",
+      "answers": {
+        "Q1": 2, "Q2": 2, "Q3": 1, "Q4": 2, "Q5": 0, "Q6": 2,
+        "Q7": 2, "Q8": 2, "Q9": 2, "Q10": 1, "Q11": 2, "Q12": 1,
+        "Q13": 2, "Q14": 2, "Q15": 2, "Q16": 1
+      }
+    },
+    {
+      "name": "Högern (Allmänna Valmansförbundet)",
+      "description": "Leddes av Gösta Bagge. Förespråkade starkt försvar, friare näringsliv, restriktivitet med statsskulden och ett fast stöd till Finland.",
+      "answers": {
+        "Q1": 1, "Q2": -1, "Q3": 1, "Q4": 0, "Q5": 2, "Q6": -1,
+        "Q7": -2, "Q8": -2, "Q9": -1, "Q10": 2, "Q11": -1, "Q12": 2,
+        "Q13": 2, "Q14": 1, "Q15": 0, "Q16": 0
+      }
+    },
+    {
+      "name": "Folkpartiet",
+      "description": "Leddes av Gustaf Andersson i Rasjön. Stödde samlingsregeringens linje men slog vakt om tryckfrihet, rättssäkerhet och enskilt initiativ.",
+      "answers": {
+        "Q1": 1, "Q2": -1, "Q3": -1, "Q4": -1, "Q5": 1, "Q6": 1,
+        "Q7": -1, "Q8": -1, "Q9": 1, "Q10": 0, "Q11": 1, "Q12": 1,
+        "Q13": 1, "Q14": 0, "Q15": 1, "Q16": -1
+      }
+    },
+    {
+      "name": "Bondeförbundet",
+      "description": "Leddes av Axel Pehrsson-Bramstorp. Värnade om jordbrukets försörjningsvillkor, landsbygdens behov, starkt försvar och traditionella familjevärden.",
+      "answers": {
+        "Q1": 1, "Q2": 1, "Q3": 1, "Q4": 1, "Q5": 2, "Q6": -1,
+        "Q7": 1, "Q8": -1, "Q9": 1, "Q10": 2, "Q11": 1, "Q12": 1,
+        "Q13": 2, "Q14": 1, "Q15": 1, "Q16": 2
+      }
+    },
+    {
+      "name": "Sveriges Kommunistiska Parti (SKP)",
+      "description": "Leddes av Sven Linderot. Stod helt utanför samlingsregeringen; starka motståndare till permitteringstrafiken, transportförbuden och åsiktsregistreringen.",
+      "answers": {
+        "Q1": -2, "Q2": 2, "Q3": -2, "Q4": -1, "Q5": -2, "Q6": 2,
+        "Q7": 2, "Q8": 2, "Q9": 2, "Q10": -2, "Q11": 2, "Q12": -2,
+        "Q13": -2, "Q14": -1, "Q15": 1, "Q16": -2
+      }
+    }
+  ]
+}
