@@ -136,6 +136,39 @@
       margin-bottom: 18px;
     }
 
+    /* --- BAKGRUNDSBILD FÖR FRÅGEKORT --- */
+
+/* Aktiverar positionering och lagerhantering för kortet */
+#question-card.has-bg-image {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* Pseudo-element som ritar ut den svaga och dimmiga bakgrunden */
+#question-card.has-bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Ljusstyrka & ton: 0.12 ger en mycket subtil ton som inte stör textläsbarheten */
+  opacity: 0.12; 
+  
+  /* Ger bilden en lätt dimmig effekt så att den smälter in i kortet */
+  filter: blur(1.5px); 
+  
+  /* Lägger bakgrunden bakom kortets innehåll */
+  z-index: -1; 
+  pointer-events: none;
+}
+    
     /* Diskret framstegsstreck */
   .progress-bar-track {
     width: 100%;
@@ -562,37 +595,41 @@
     </div>
   </main>
 
-  <!-- VY 2: QUIZ -->
-  <main id="view-quiz" style="display:none;">
-    <div class="question-card">
-      <div id="q-image-wrap" style="display:none;">
-        <div class="question-image-container">
-          <img id="q-image" src="" alt="Frågebild">
-        </div>
-        <div id="q-caption" class="image-caption"></div>
+<!-- VY 2: QUIZ -->
+<main id="view-quiz" style="display:none;">
+  <div class="question-card" id="question-card">
+    <!-- Dölj gammalt bildblock så det inte stör bakgrundsbilden -->
+    <div id="q-image-wrap" style="display:none;">
+      <div class="question-image-container">
+        <img id="q-image" src="" alt="Frågebild">
       </div>
-      <span id="q-category" class="tag"></span>
-      <h2 id="q-title" style="margin: 4px 0 8px 0; font-size: 1.3rem;"></h2>
-      <p id="q-statement" style="font-size: 1.05rem; font-weight: 500; margin-bottom: 10px;"></p>
-      
-      <div id="q-context" class="context-box"></div>
-
-      <div class="args">
-        <div class="arg-pro"><strong>Argument För:</strong> <div id="q-pro"></div></div>
-        <div class="arg-con"><strong>Argument Emot:</strong> <div id="q-con"></div></div>
-      </div>
-      <!-- Diskret framstegsstreck -->
-      <div class="progress-bar-track">
-        <div id="progress-bar-fill" class="progress-bar-fill"></div>
-      </div>
-      <div class="options" id="options-container"></div>
+      <div id="q-caption" class="image-caption"></div>
     </div>
 
-    <div class="nav-btns">
-      <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
-      <span style="font-size: 0.85rem; color: #6c757d; align-self: center;" id="q-progress"></span>
+    <span id="q-category" class="tag"></span>
+    <h2 id="q-title" style="margin: 4px 0 8px 0; font-size: 1.3rem;"></h2>
+    <p id="q-statement" style="font-size: 1.05rem; font-weight: 500; margin-bottom: 10px;"></p>
+    
+    <div id="q-context" class="context-box"></div>
+
+    <div class="args">
+      <div class="arg-pro"><strong>Argument För:</strong> <div id="q-pro"></div></div>
+      <div class="arg-con"><strong>Argument Emot:</strong> <div id="q-con"></div></div>
     </div>
-  </main>
+
+    <!-- Diskret framstegsstreck -->
+    <div class="progress-bar-track">
+      <div id="progress-bar-fill" class="progress-bar-fill"></div>
+    </div>
+
+    <div class="options" id="options-container"></div>
+  </div>
+
+  <div class="nav-btns">
+    <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
+    <span style="font-size: 0.85rem; color: #6c757d; align-self: center;" id="q-progress"></span>
+  </div>
+</main>
 
   <!-- VY 3: VIKTIGA FRÅGOR -->
   <main id="view-importance" style="display:none;">
