@@ -62,21 +62,56 @@ function switchView(viewId) {
   window.scrollTo(0, 0);
 }
 
+// Hjälpfunktion för att hämta bild & bildtext med reserv (fallback till Q1)
+function getQuestionImageData(q) {
+  let imgUrl = q.imageUrl && q.imageUrl.trim() !== "" ? q.imageUrl : "";
+  let imgCaption = q.imageCaption || "";
+
+  // Om den aktuella frågan saknar bild, sök i Q1
+  if (!imgUrl && activeQuestions.length > 0) {
+    const q1 = activeQuestions.find(item => item.id === "Q1");
+    if (q1 && q1.imageUrl && q1.imageUrl.trim() !== "") {
+      imgUrl = q1.imageUrl;
+      imgCaption = q1.imageCaption || "";
+    }
+  }
+
+  return { imgUrl, imgCaption };
+}
+
 function renderQuestion() {
   const q = activeQuestions[currentQuestionIndex];
   const totalQ = activeQuestions.length;
 
+  // Hämta bild med fallback-logik till Q1
+  const { imgUrl, imgCaption } = getQuestionImageData(q);
+
   const imgWrap = document.getElementById("q-image-wrap");
   const imgEl = document.getElementById("q-image");
   const captionEl = document.getElementById("q-caption");
+  const cardEl = document.getElementById("question-card");
 
-  if (q.imageUrl && q.imageUrl.trim() !== "") {
-    imgEl.src = q.imageUrl;
-    imgEl.onerror = () => { imgWrap.style.display = "none"; };
-    captionEl.innerText = q.imageCaption || "";
-    imgWrap.style.display = "block";
-  } else {
-    imgWrap.style.display = "none";
+  // Uppdatera fristående bild/bildtext om elementen finns i HTML
+  if (imgWrap && imgEl && captionEl) {
+    if (imgUrl) {
+      imgEl.src = imgUrl;
+      imgEl.onerror = () => { imgWrap.style.display = "none"; };
+      captionEl.innerText = imgCaption;
+      imgWrap.style.display = "block";
+    } else {
+      imgWrap.style.display = "none";
+    }
+  }
+
+  // Uppdatera kortets bakgrundsbild (CSS custom property för lättare styling i CSS)
+  if (cardEl) {
+    if (imgUrl) {
+      cardEl.style.setProperty("--bg-image", `url('${imgUrl}')`);
+      cardEl.classList.add("has-bg-image");
+    } else {
+      cardEl.style.removeProperty("--bg-image");
+      cardEl.classList.remove("has-bg-image");
+    }
   }
 
   const catEl = document.getElementById("q-category");
@@ -121,7 +156,7 @@ function renderQuestion() {
 
   document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
 
-  // Uppdatera det tunna framstegsstrecket (0% till 100%)
+  // Uppdatera framstegsstrecket (0% till 100%)
   const progressPercent = ((currentQuestionIndex + 1) / totalQ) * 100;
   document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
 }
@@ -347,7 +382,7 @@ function renderWhatHappenedAfter(electionData) {
         <div class="seat-bar">
   `;
 
-  // 1. Mandatfördelningsfält med hover-info (utan extra instruktionstext)
+  // 1. Mandatfördelningsfält med hover-info
   res.partyResults.forEach(party => {
     const widthPercent = (party.seats / res.seatsTotal) * 100;
     const color = getPartyColor(party.partyName);
