@@ -137,31 +137,45 @@
     }
 
     /* --- BAKGRUNDSBILD FÖR FRÅGEKORT --- */
-/* --- HISTORISK BAKGRUNDSBILD BANNERTOPP --- */
+/* --- HISTORISK BAKGRUNDSBILD FÖR TOPPDELEN --- */
 
-#question-card.has-bg-image {
+#question-card {
   position: relative !important;
   overflow: hidden !important;
 }
 
-/* Skapar en snygg 4:1-banner högst upp i frågekortet för bilden */
-#question-card.has-bg-image::before {
-  content: "" !important;
-  display: block !important;
+/* En dedikerad yta för bilden som ligger överst i kortet, bakom texten */
+.question-top-banner {
+  position: relative !important;
   width: 100% !important;
-  height: 90px !important; /* Justera höjden här om du vill ha den smalare eller bredare */
+  height: 110px !important; /* Anpassar höjden så 4:1-proportionen behålls snyggt */
   background-image: var(--bg-image) !important;
-  background-size: cover !important;
+  background-size: cover !important; /* Eller 'contain' om du vill se hela utan att något döljs */
   background-position: center center !important;
   background-repeat: no-repeat !important;
   
-  /* Dimmighet och ljushet */
-  opacity: 0.35 !important;
+  /* Dimmighet och transparens */
+  opacity: 0.25 !important;
   filter: blur(0.8px) !important;
-  
-  /* Snygga rundade hörn upptill som följer kortets form */
-  border-radius: 8px 8px 0 0 !important;
-  margin-bottom: 12px !important; /* Skapar luft ner till kategori och rubrik */
+  border-radius: 6px !important;
+  margin-bottom: -90px !important; /* Detta drar upp texten så den hamnar *framför* bilden! */
+  z-index: 1 !important;
+  pointer-events: none !important;
+  display: none;
+}
+
+/* Visas endast när frågan har en bild */
+#question-card.has-bg-image .question-top-banner {
+  display: block !important;
+}
+
+/* Ser till att kategori, rubrik och fråga hamnar ovanför bilden */
+#question-card .tag,
+#question-card h2,
+#question-card p#q-statement,
+#question-card .context-box {
+  position: relative !important;
+  z-index: 2 !important;
 }
     
     /* Diskret framstegsstreck */
@@ -593,14 +607,11 @@
 <!-- VY 2: QUIZ -->
 <main id="view-quiz" style="display:none;">
   <div class="question-card" id="question-card">
-    <!-- Dölj gammalt bildblock så det inte stör bakgrundsbilden -->
-    <div id="q-image-wrap" style="display:none;">
-      <div class="question-image-container">
-        <img id="q-image" src="" alt="Frågebild">
-      </div>
-      <div id="q-caption" class="image-caption"></div>
-    </div>
+    
+    <!-- BAKGRUNDSBILDEN FÖR TOPPDELEN (Här hamnar 4:1-bilden) -->
+    <div class="question-top-banner"></div>
 
+    <!-- Texten hamnar ovanpå bilden tack vare z-index -->
     <span id="q-category" class="tag"></span>
     <h2 id="q-title" style="margin: 4px 0 8px 0; font-size: 1.3rem;"></h2>
     <p id="q-statement" style="font-size: 1.05rem; font-weight: 500; margin-bottom: 10px;"></p>
