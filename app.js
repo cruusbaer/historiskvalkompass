@@ -84,26 +84,10 @@ function renderQuestion() {
   const totalQ = activeQuestions.length;
 
   // Hämta bild med fallback-logik till Q1
-  const { imgUrl, imgCaption } = getQuestionImageData(q);
-
-  const imgWrap = document.getElementById("q-image-wrap");
-  const imgEl = document.getElementById("q-image");
-  const captionEl = document.getElementById("q-caption");
+  const { imgUrl } = getQuestionImageData(q);
   const cardEl = document.getElementById("question-card");
 
-  // Uppdatera fristående bild/bildtext om elementen finns i HTML
-  if (imgWrap && imgEl && captionEl) {
-    if (imgUrl) {
-      imgEl.src = imgUrl;
-      imgEl.onerror = () => { imgWrap.style.display = "none"; };
-      captionEl.innerText = imgCaption;
-      imgWrap.style.display = "block";
-    } else {
-      imgWrap.style.display = "none";
-    }
-  }
-
-  // Uppdatera kortets bakgrundsbild (CSS custom property för lättare styling i CSS)
+  // Sätt eller rensa bakgrundsbilden på frågekortet för bannern
   if (cardEl) {
     if (imgUrl) {
       cardEl.style.setProperty("--bg-image", `url('${imgUrl}')`);
