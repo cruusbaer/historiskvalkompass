@@ -1,0 +1,501 @@
+{
+  "id": "1994",
+  "title": "Riksdagsvalet 1994",
+  "year": "1994",
+  "description": "Ödesvalet i skuggan av 90-talets djupa ekonomiska kris och den kommande folkomröstningen om EU-medlemskap. Socialdemokraterna återtog regeringsmakten under Ingvar Carlsson medan Ny Demokrati föll ur riksdagen och Miljöpartiet gjorde comeback.",
+  "historicalOutcome": {
+    "summary": "Socialdemokraterna vann valet stort med 45,3 % av rösterna och Ingvar Carlsson bildade en minoritetsregering. Vänsterblocket (S och V) fick egen majoritet i riksdagen med 183 mandat. Miljöpartiet återkom till riksdagen (5,0 %) medan Ny Demokrati kraschade ur med 1,2 %. Två månader efter valet röstade det svenska folket 'Ja' till EU-medlemskap i folkomröstningen i november 1994.",
+    "questionsOutcome": {
+      "Q1": {
+        "description": "Den nya socialdemokratiska regeringen genomförde ett omfattande saneringsprogram med både skattehöjningar och tuffa utgiftsbesparingar som på några år återställde balansen i de statliga finanserna."
+      },
+      "Q2": {
+        "description": "Sverige röstade Ja i folkomröstningen i november 1994 (52,3 % Ja) och blev fullvärdig medlem i EU den 1 januari 1995."
+      },
+      "Q3": {
+        "description": "Ersättningsnivåerna i a-kassan och sjukförsäkringen sänktes tillfälligt under krisåren till 75 %, men återställdes delvis senare av S-regeringen i takt med att statens finanser förbättrades."
+      },
+      "Q4": {
+        "description": "Kommunaliseringen av skolan revs inte upp; kommunerna behöll huvudmannaskapet och friskolereformen låg fast, men statlig granskning och läroplansstyrning skärptes över tid."
+      },
+      "Q5": {
+        "description": "Ett snabbt förtida stopp för alla kärnkraftverk genomfördes inte, men reaktorn Barsebäck 1 stängdes 1999 och Barsebäck 2 år 2005 efter politiska beslut."
+      },
+      "Q6": {
+        "description": "Asyllagstiftningen och uppehållstillstånd för flyktingar från krigen i f.d. Jugoslavien stramades åt under mitten av 90-talet genom praxisändringar och visumkrav."
+      },
+      "Q7": {
+        "description": "Systembolagets detaljhandelsmonopol behölls och förhandlades med EU, och kommersiell gårdsförsäljning av alkohol tilläts inte."
+      },
+      "Q8": {
+        "description": "Utförsäljningarna av statliga bolag bromsades inledningsvis av S-regeringen, men återupptogs senare under kontrollerade former (bland annat börsnoteringen av Telia år 2000)."
+      },
+      "Q9": {
+        "description": "Friskolereformen och valfrihetssystemen inom vård och omsorg bevarades i huvudsak och kom att växa kraftigt under de följande decennierna."
+      },
+      "Q10": {
+        "description": "Försvarsanslagen skars ner kraftigt i flera försvarsbeslut under 1990- och 2000-talen, vilket omvandlade det svenska försvaret från ett stort invasionsförsvar till ett mindre insatsförsvar."
+      },
+      "Q11": {
+        "description": "Straffskalorna för grova vålds- och sexualbrott skärptes stegvis under 1990- och 2000-talen, och brottsoffrets ställning stärktes i lagstiftningen."
+      },
+      "Q12": {
+        "description": "Koldioxidskatten behölls och höjdes i flera steg under 1990-talet som ett centralt styrmedel i svensk miljö- och klimatpolitik."
+      },
+      "Q13": {
+        "description": "S-regeringen höjde tillfälligt kapitalskatter och införde en tillfällig egenavgift/värnskatt för höginkomsttagare för att finansiera budgetsaneringen."
+      },
+      "Q14": {
+        "description": "Avregleringen av etermedierna bestod. Kommersiell lokalradio och TV4 fortsatte sin expansion och monopolet i svensk etermedia var definitivt brutet."
+      },
+      "Q15": {
+        "description": "De statliga räntesubventionerna till bostadsbyggandet avvecklades gradvis under 1990-talet för att minska statens utgifter, vilket dämpade nybyggnationen avsevärt."
+      },
+      "Q16": {
+        "description": "Spelautomater (Vegas-automater) reglerades och lades under statliga Svenska Spels monopol 1996 med strikta ålders- och tillståndskrav."
+      }
+    }
+  },
+  "electionResults": {
+    "seatsTotal": 349,
+    "government": {
+      "type": "Socialdemokratisk minoritetsregering",
+      "primeMinister": "Ingvar Carlsson",
+      "rulingParties": [
+        "Socialdemokraterna"
+      ],
+      "supportParties": [
+        "Vänsterpartiet",
+        "Centerpartiet"
+      ],
+      "opposition": [
+        "Moderata Samlingspartiet",
+        "Folkpartiet",
+        "Kristdemokraterna",
+        "Miljöpartiet de gröna"
+      ]
+    },
+    "partyResults": [
+      {
+        "partyName": "Vänsterpartiet",
+        "votePercentage": 6.2,
+        "seats": 22,
+        "seatChange": 6
+      },
+      {
+        "partyName": "Socialdemokraterna",
+        "votePercentage": 45.3,
+        "seats": 161,
+        "seatChange": 23
+      },
+      {
+        "partyName": "Miljöpartiet de gröna",
+        "votePercentage": 5.0,
+        "seats": 18,
+        "seatChange": 18
+      },
+      {
+        "partyName": "Centerpartiet",
+        "votePercentage": 7.7,
+        "seats": 27,
+        "seatChange": -4
+      },
+      {
+        "partyName": "Folkpartiet",
+        "votePercentage": 7.2,
+        "seats": 26,
+        "seatChange": -7
+      },
+      {
+        "partyName": "Kristdemokraterna",
+        "votePercentage": 4.1,
+        "seats": 15,
+        "seatChange": -11
+      },
+      {
+        "partyName": "Moderata Samlingspartiet",
+        "votePercentage": 22.4,
+        "seats": 80,
+        "seatChange": 0
+      },
+      {
+        "partyName": "Ny Demokrati",
+        "votePercentage": 1.2,
+        "seats": 0,
+        "seatChange": -25
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "title": "Saneringspaketet",
+      "statement": "Staten ska genomföra akuta och lagstadgade nedskärningar i välfärdstjänster och kommunbidrag för att sanera budgetunderskottet.",
+      "context": "90-talskrisen skapade ett skenande statsskuld- och budgetunderskott som krävde stenhårda offentliga besparingsåtgärder.",
+      "category": "Ekonomi & Offentliga Finanser",
+      "pro": "Tvingar fram ordning och reda i statens finanser och förhindrar en kollaps för den svenska kronan.",
+      "con": "Urhålkar välfärden och slår hårdast mot sjuka, arbetslösa och låginkomsttagare.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "title": "EU-medlemskapet",
+      "statement": "Sverige ska ratificera anslutningsfördraget och fullt ut bli medlemmar i Europeiska unionen (EU) från och med januari 1995.",
+      "context": "Riksdagsvalet ägde rum två månader före folkomröstningen om svenska medlemskapet i EU i november 1994.",
+      "category": "EU & Utrikespolitik",
+      "pro": "Stärker svensk ekonomi, öppnar Europas marknad och ger Sverige inflytande i europeiskt samarbete.",
+      "con": "Hotar den svenska suveräniteten, alliansfriheten och den nationella välfärds- och miljömodellen.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q3",
+      "quick": false,
+      "title": "A-kassan och ersättningsnivåer",
+      "statement": "Ersättningsgraden i a-kassan och sjukförsäkringen ska sänkas för att minska statens utgifter och öka arbetsviljan.",
+      "context": "Regeringen Bildt införde karensdagar och sänkta ersättningsnivåer för att dämpa kostnaderna i socialförsäkringarna under krisen.",
+      "category": "Arbetsmarknad & Välfärd",
+      "pro": "Minskar statens utgifter och skapar starkare ekonomiska drivkrafter att söka nytt arbete.",
+      "con": "Straffar människor som drabbats av krisen och skapar otrygghet för vanliga löntagare.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "title": "Kommunaliseringen av skolan",
+      "statement": "Kommunaliseringen av skolan och lärarna ska rivas upp så att staten återigen tar över det fulla huvudmannaskapet.",
+      "context": "Kommunaliseringen av skolan från 1991 mötte stark kritik från lärare och opposition för att skape ojämlikhet mellan kommuner.",
+      "category": "Skola & Utbildning",
+      "pro": "Garanterar en likvärdig skola och nationella standarder oavsett vilken kommun eleven bor i.",
+      "con": "Kommunerna känner sina medborgare bäst och har bäst förutsättningar att anpassa skolan lokalt.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "title": "Kärnkraftsavvecklingen",
+      "statement": "De svenska kärnkraftverken ska börja stängas av i förtid i enlighet med folkomröstningens linje om avveckling till år 2010.",
+      "context": "Miljöpartiet och Centerpartiet krävde konkreta beslut om stängning av reaktorer i skuggan av folkomröstningsbeslutet från 1980.",
+      "category": "Miljö & Energi",
+      "pro": "Minskar risken för kärnkraftsolyckor och ställer om Sverige till förnybar och säker energi.",
+      "con": "Hotar den svenska basindustrins elförsörjning och driver upp elpriserna för hushållen.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "title": "Flykting- och invandringspolitik",
+      "statement": "Sverige ska tillfälligt skärpa asyllagstiftningen och kraftigt begränsa antalet anhöriginvandrare för att klara integrationen.",
+      "context": "Flyktingströmmarna från krigen i f.d. Jugoslavien och Ny Demokratis framgångar gjorde asyl- och integrationspolitiken brännhet.",
+      "category": "Trygghet & Migration",
+      "pro": "Ger kommunerna andrum att klara bostäder, skola och integration under den ekonomiska krisen.",
+      "con": "Sverige ska stå upp för medmänsklighet och erbjuda skydd åt människor på flykt från krig.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "title": "Gårdsförsäljning av vin och starköl",
+      "statement": "Svenska vin- och ölbönder ska tillåtas sälja sina egenproducerade drycker direkt på gården vid sidan av Systembolaget.",
+      "context": "Anpassningen till EU:s inre marknad väckte debatt om svensk alkohollagstiftning och gårdsförsäljning på landsbygden.",
+      "category": "Handel & Konsumtion",
+      "pro": "Gynnar svensk landsbygdsutveckling, turism och lokala hantverksmatproducenter.",
+      "con": "Urhålkar den svenska alkoholpolitiken och utmanar Systembolagets detaljhandelsmonopol.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "title": "Privatiseringar av statliga bolag",
+      "statement": "Staten ska sälja ut delar av det statliga bolagsinnehavet för att amortera på den växande statsskulden.",
+      "context": "Regeringen Bildt inledde försäljningar av statliga företag för att banta statens roll i näringslivet och sänka skulden.",
+      "category": "Ekonomi & Offentliga Finanser",
+      "pro": "Minskar statsskuldens räntebörda och ökar effektiviteten genom private ägande.",
+      "con": "Slösar bort medborgarnas gemensamma tillgångar och strategiska framtidsintäkter.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "title": "Vinstdrivande företag i skola och vård",
+      "statement": "Privata entreprenörer och vinstdrivande bolag ska tillåtas driva skolor och vårdinrättningar med skattefinansiering.",
+      "context": "Friskolereformen 1992 och husläkarsystemet lade grunden för valfrihet och privata aktörer inom skola och vård.",
+      "category": "Arbetsmarknad & Välfärd",
+      "pro": "Ökar valfriheten för medborgarna och stimulerar innovation och kvalitet i välfärden.",
+      "con": "Släpper in vinstintressen i välfärden vilket riskerar att leda till segregation och dränerade resurser.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "title": "Nedskärning av det militära försvaret",
+      "statement": "Försvarsmakten ska banta sin organisation och lägga ner regementen för att frigöra miljarder till statsbudgeten.",
+      "context": "Efter Sovjetunionens fall och kalla krigets slut debatterades nedrustning och 'fredsdividend' för att stärka statskassan.",
+      "category": "EU & Utrikespolitik",
+      "pro": "Frigör stora statliga resurser till välfärd och skola i ett förändrat säkerhetsläge.",
+      "con": "Äventyrar Sveriges totalförsvar och förmågan att hävda det egna territoriet.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "title": "Skärpta straff för våldsbrott",
+      "statement": "Straffsatserna för grova våldsbrott och sexualbrott ska skärpas och fokus i kriminalvården flyttas från vård till straff.",
+      "context": "Debatten om trygghet och brottsoffer stärktes under tidigt 90-tal med krav på hårdare tag mot grov brottslighet.",
+      "category": "Trygghet & Migration",
+      "pro": "Ger upprättelse åt brottsoffren och markerar samhällets avsky mot grovt våld.",
+      "con": "Långa fängelsestraff minskar inte återfall i brott och löser inte brottslighetens grundorsaker.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "title": "Koldioxidskatter och miljöavgifter",
+      "statement": "Miljö- och koldioxidskatterna på bensin och olja ska höjas kraftigt för att tvinga fram en grön omställning.",
+      "context": "Ekonomiska styrmedel inom miljöpolitiken växte i betydelse för att minska fossilberoendet och nå klimatmål.",
+      "category": "Miljö & Energi",
+      "pro": "Styr konsumtion och industri mot hållbara och miljövänliga alternativ.",
+      "con": "Slår hårt mot pendlare och hushåll på landsbygden som saknar kollektivtrafik.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "title": "Skärpt skatt på kapital och förmögenhet",
+      "statement": "Fastighetsskatten, förmögenhetsskatten och kapitalskatterna ska höjas för att bidra till budgetsaneringen.",
+      "context": "Striden stod om hur skattebördan för att sanera krisens underskott skulle fördelas mellan kapitalägare och löntagare.",
+      "category": "Ekonomi & Offentliga Finanser",
+      "pro": "Säkerställer en rättvis fördelning där de med störst ekonomiska resurser bidrar mest.",
+      "con": "Dämpar investeringsviljan, skrämmer bort kapital från Sverige och missgynnar sparande.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "title": "Avreglering av etermedierna",
+      "statement": "Staten ska tillåta fri etablering för kommersiella TV-kanaler och radiostationer för att bryta Public Service-monopolet.",
+      "context": "Kommersiell lokalradio och privat-TV (t.ex. TV4) slog igenom på bred front under början av 1990-talet.",
+      "category": "Kultur & Medier",
+      "pro": "Ökar valfriheten för tittare och lyssnare samt bryter det statliga mediemonopolet.",
+      "con": "Hotar den oberoende Public Service-kulturens ställning till förmån för kommersiellt utbud.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q15",
+      "quick": true,
+      "title": "Statliga räntesubventioner för bostäder",
+      "statement": "De statliga subventionerna till bostadsbyggandet ska dras in omedelbart för att spara pengar i statsbudgeten.",
+      "context": "Den borgerliga regeringen inledde avvecklingen av de omfattande ränte- och byggsubventionerna för att lätta trycket på statskassan.",
+      "category": "Bostäder & Infrastruktur",
+      "pro": "Minskar statens utgifter och låter marknadens tillgång och efterfrågan styra bostadsbyggandet.",
+      "con": "Driver upp boendekostnaderna och orsakar tvärstopp i nyproduktionen av bostäder.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "title": "Förbud mot enarmade banditer",
+      "statement": "Staten ska totalförbjuda utplacering av enarmade banditer och spelautomater på restauranger och pubar.",
+      "context": "Framväxten av spelautomater på krogarna under tidigt 90-tal ledde till debatt om spelberoende och sociala problem.",
+      "category": "Folkhälsa & Moral",
+      "pro": "Skyddar unga och ekonomiskt svaga från att fastna i akut spelmissbruk.",
+      "con": "En onödig förmyndarpolitik som begränsar vuxna människors nöjesliv och krognäringens intäkter.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ],
+  "parties": [
+    {
+      "name": "Socialdemokraterna",
+      "description": "Leddes av Ingvar Carlsson. Gick till val på att sanera statsekonomin genom en rättvis fördelning, skydda välfärdens kärna och riva upp borgerliga försämringar i a-kassan.",
+      "answers": {
+        "Q1": 1,
+        "Q2": 2,
+        "Q3": -2,
+        "Q4": 1,
+        "Q5": -1,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": -2,
+        "Q9": -2,
+        "Q10": 1,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": 1,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Moderata Samlingspartiet",
+      "description": "Leddes av statsminister Carl Bildt. Drev på för marknadsekonomiska reformer, privatiseringar, valfrihet i välfärden, sänkta skatter och ett ja till EU.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": -2,
+        "Q5": -2,
+        "Q6": 1,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": 2,
+        "Q10": -2,
+        "Q11": 2,
+        "Q12": -1,
+        "Q13": -2,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": -2
+      }
+    },
+    {
+      "name": "Centerpartiet",
+      "description": "Leddes av Olof Johansson. Ingick i den borgerliga regeringen men värnade landsbygden, miljön, grön skatteväxling och ett försiktigt ja till EU med förbehåll.",
+      "answers": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q4": -1,
+        "Q5": 2,
+        "Q6": 0,
+        "Q7": 2,
+        "Q8": 0,
+        "Q9": 1,
+        "Q10": -1,
+        "Q11": 1,
+        "Q12": 2,
+        "Q13": -1,
+        "Q14": 1,
+        "Q15": 1,
+        "Q16": 0
+      }
+    },
+    {
+      "name": "Folkpartiet",
+      "description": "Leddes av Bengt Westerberg. Drev en socialliberal linje med starkt stöd för EU, valfrihet i skola och vård, samtidigt som de markerade hårt mot Ny Demokrati.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": -1,
+        "Q5": -1,
+        "Q6": -2,
+        "Q7": 1,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": -1,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": -1,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": -1
+      }
+    },
+    {
+      "name": "Vänsterpartiet",
+      "description": "Leddes av Gudrun Schyman. Gick starkt framåt med tydligt nej till EU, hårt motstånd mot borgerliga nedskärningar och avregleringar samt krav på höjda kapitalskatter.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -2,
+        "Q3": -2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": -2,
+        "Q7": -2,
+        "Q8": -2,
+        "Q9": -2,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": -2,
+        "Q15": -1,
+        "Q16": 2
+      }
+    },
+    {
+      "name": "Kristdemokraterna",
+      "description": "Leddes av Alf Svensson. Värnade familjen, etiska värderingar, valfrihet i barnomsorgen och en human flyktingpolitik inom ramen för det borgerliga samarbetet.",
+      "answers": {
+        "Q1": 1,
+        "Q2": 2,
+        "Q3": 1,
+        "Q4": -1,
+        "Q5": -1,
+        "Q6": -1,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": -1,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": -1,
+        "Q14": 1,
+        "Q15": 1,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Miljöpartiet de gröna",
+      "description": "Leddes av språkrören Birger Schlaug och Marianne Samuelsson. Gjorde comeback i riksdagen med fokus på ett nej till EU, snabb kärnkraftsavveckling och grön skatteväxling.",
+      "answers": {
+        "Q1": -1,
+        "Q2": -2,
+        "Q3": -1,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": -2,
+        "Q9": -1,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": 2,
+        "Q13": 1,
+        "Q14": -1,
+        "Q15": -1,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Ny Demokrati",
+      "description": "Leddes av Vivianne Franzén (efter att Ian Wachtmeister och Bert Karlsson lämnat). Drev populistiska krav på kraftigt minskad invandring, sänkta skatter och avskaffad byråkrati.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 1,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": -2,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": 2,
+        "Q10": -1,
+        "Q11": 2,
+        "Q12": -2,
+        "Q13": -2,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": -2
+      }
+    }
+  ]
+}
