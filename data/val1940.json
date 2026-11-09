@@ -95,11 +95,11 @@
       "id": "Q3",
       "quick": true,
       "title": "Transportförbud för tidningar",
-      "statement": "Tryckfriheten ska upprätthållas oavkortad under beredskapen, utan statliga ingrepp mot tidningar som kritiserar utländska stormakter.",
+      "statement": "Staten ska kunna belägga tidningar som publicerar skarp kritik mot utländska makter med transportförbud.",
       "context": "För att undvika att provocera Tyskland eller Sovjetunionen införde regeringen möjlighet att belägga kritiska tidningar med transportförbud på tåg och post.",
       "category": "Rättigheter & Säkerhet",
-      "pro": "En levande demokrati kan inte kompromissa med yttrandefriheten, ens under yttre hot.",
-      "con": "Statlig begränsning behövs för att hindra att enskilda publicister provocerar fram ett svenskt krigsinträde.",
+      "pro": "Nödvändigt för att förhindra att enskilda tidningar provocerar fram ett krig eller en invasion av Sverige.",
+      "con": "Innebörden urholkar tryckfriheten och tystar den legitima demokratiska debatten.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -107,11 +107,11 @@
       "id": "Q4",
       "quick": true,
       "title": "Beredskapsfilmer på biograf",
-      "statement": "Kommersiella biografer ska hållas fria från statligt påbjudna beredskaps- och instruktionsfilmer.",
+      "statement": "Biograferna ska åläggas att visa statliga beredskaps- och instruktionsfilmer före huvudfilmen.",
       "context": "Biografen var 1940 års viktigaste massmedium. Regeringen övervägde att nyttja dukarna för att informera om ransonering, sparande och hålla försvarsandan uppe.",
       "category": "Offentlig Förvaltning",
-      "pro": "Värnar nöjeslivets och biografägarnas oberoende från statlig styrning och propaganda.",
-      "con": "Filmen är statens effektivaste verktyg för att stärka folkets beredskapsanda och krisinsikt.",
+      "pro": "Effektivt och nödvändigt för att snabbt nå ut med krisinformation och stärka försvarsandan hos allmänheten.",
+      "con": "Biografer och kommersiella nöjen ska hållas helt fria från statlig påbjuden information och propaganda.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -143,11 +143,11 @@
       "id": "Q7",
       "quick": false,
       "title": "Förstatligande av enskilda järnvägar",
-      "statement": "Privata järnvägar bör bevaras i enskild ägo och inte tvångsinlösas av staten under beredskapen.",
+      "statement": "Staten ska tvångsinlösa privata järnvägar för att skapa ett helt samordnat nät under totalförsvaret.",
       "context": "Sveriges järnvägar var 1940 uppdelade mellan SJ och ett stort antal privata bolag, vilket ledde till debatt om totalförsvarets logistik kontra äganderätten.",
       "category": "Offentlig Förvaltning",
-      "pro": "Skyddar den privata äganderätten och undviker stora och osäkra utgifter för statskassan.",
-      "con": "Ett sammanhållet statligt järnvägsnät är helt avgörande för militärens logistik och krisens transporter.",
+      "pro": "Ett samlat statligt grepp om järnvägarna är helt avgörande för militärens transporter och krigstidens logistik.",
+      "con": "Kränker den privata äganderätten och belastar statskassan med stora, omotiverade utgifter.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -226,24 +226,24 @@
     {
       "id": "Q14",
       "quick": false,
-      "title": "Begränsning av rågummi för nöje",
-      "statement": "Försäljning av rågummi till privata konsumtionsvaror och leksaker ska tillåtas så länge lager finns kvar.",
+      "title": "Beslagtagande av rågummi",
+      "statement": "All försäljning av rågummi till civila leksaker och konsumtionsvaror ska omedelbart stoppas till förmån för försvaret.",
       "context": "När gummiförsörjningen från Asien bröt samman uppstod debatt om staten omedelbart skulle beslagta allt rågummi eller tillåta marknaden att sälja ut befintliga lager.",
       "category": "Skatter & Ekonomi",
-      "pro": "Skyddar näringsfriheten och förhindrar att staten går in och detaljreglerar handel och vardagsvaror.",
-      "con": "Rågummi är en kritisk krigsvara som oavbrutet måste reserveras för försvarets fordon och beredskap.",
+      "pro": "Rågummi är en livsviktig krigsvara som oavkortat måste reserveras för militärens fordon och beredskapsbehov.",
+      "con": "Näringsfriheten måste värnas, och handeln bör få sälja ut sina befintliga lager av civila varor i fred.",
       "imageUrl": "",
       "imageCaption": ""
     },
     {
       "id": "Q15",
       "quick": false,
-      "title": "Statlig ransonering av bristvaror",
-      "statement": "Fördelningen av mat och bränsle ska hanteras via fri prissättning och marknadskrafter framför statliga ransoneringskort.",
+      "title": "Statlig ransonering av mat och bränsle",
+      "statement": "Staten ska införa ett heltäckande system med ransoneringskort för att fördela mat och bränsle rättvist.",
       "context": "Skagerrakspärren strypte importen. Frågan var om priserna skulle få stiga fritt för att dämpa efterfrågan eller om staten skulle styra tillgången med kuponger.",
       "category": "Skatter & Ekonomi",
-      "pro": "Undviker enorm byråkrati, svarta marknader och inskränkningar i den individuella valfriheten.",
-      "con": "Ransoneringskort är det enda sättet att garantera att fattiga hushåll får en rättvis minimigiv av mat.",
+      "pro": "Ransoneringskort är det enda sättet att garantera att även fattiga hushåll får en trygg minimigiv av livsmedel under bristsituationer.",
+      "con": "Skapar enorm byråkrati och svarta marknader; den fria prissättningen ska få dämpa efterfrågan istället.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -265,45 +265,45 @@
       "name": "Socialdemokraterna",
       "description": "Leddes av statsminister Per Albin Hansson. Drev samlingsregeringens pragmatiska neutralitetslinje, strikt krisreglering och bevarad välfärdsgrund.",
       "answers": {
-        "Q1": -2, "Q2": 2, "Q3": -1, "Q4": -2, "Q5": 0, "Q6": 2,
-        "Q7": -2, "Q8": 2, "Q9": -2, "Q10": 1, "Q11": 2, "Q12": -1,
-        "Q13": -2, "Q14": -2, "Q15": -2, "Q16": 1
+        "Q1": -2, "Q2": 2, "Q3": 1, "Q4": 2, "Q5": 0, "Q6": 2,
+        "Q7": 2, "Q8": 2, "Q9": -2, "Q10": 1, "Q11": 2, "Q12": -1,
+        "Q13": -2, "Q14": 2, "Q15": 2, "Q16": 1
       }
     },
     {
       "name": "Högern (Allmänna Valmansförbundet)",
       "description": "Leddes av Gösta Bagge. Förespråkade starkt försvar, friare näringsliv, restriktivitet med statsskulden och ett fast stöd till Finland.",
       "answers": {
-        "Q1": -1, "Q2": -1, "Q3": -1, "Q4": 0, "Q5": 2, "Q6": -1,
-        "Q7": 2, "Q8": -2, "Q9": 1, "Q10": 2, "Q11": -1, "Q12": 2,
-        "Q13": -2, "Q14": -1, "Q15": 0, "Q16": 0
+        "Q1": -1, "Q2": -1, "Q3": 1, "Q4": 0, "Q5": 2, "Q6": -1,
+        "Q7": -2, "Q8": -2, "Q9": 1, "Q10": 2, "Q11": -1, "Q12": 2,
+        "Q13": -2, "Q14": 1, "Q15": 0, "Q16": 0
       }
     },
     {
       "name": "Folkpartiet",
       "description": "Leddes av Gustaf Andersson i Rasjön. Stödde samlingsregeringens linje men slog vakt om tryckfrihet, rättssäkerhet och enskilt initiativ.",
       "answers": {
-        "Q1": -1, "Q2": -1, "Q3": 1, "Q4": 1, "Q5": 1, "Q6": 1,
-        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 0, "Q11": 1, "Q12": -1,
-        "Q13": -1, "Q14": 0, "Q15": -1, "Q16": -1
+        "Q1": -1, "Q2": -1, "Q3": -1, "Q4": -1, "Q5": 1, "Q6": 1,
+        "Q7": -1, "Q8": -1, "Q9": -1, "Q10": 0, "Q11": 1, "Q12": -1,
+        "Q13": -1, "Q14": 0, "Q15": 1, "Q16": -1
       }
     },
     {
       "name": "Bondeförbundet",
       "description": "Leddes av Axel Pehrsson-Bramstorp. Värnade om jordbrukets försörjningsvillkor, landsbygdens behov, starkt försvar och traditionella familjevärden.",
       "answers": {
-        "Q1": -1, "Q2": 1, "Q3": -1, "Q4": -1, "Q5": 2, "Q6": -1,
-        "Q7": -1, "Q8": -1, "Q9": -1, "Q10": 2, "Q11": 1, "Q12": -1,
-        "Q13": -2, "Q14": -1, "Q15": -1, "Q16": 2
+        "Q1": -1, "Q2": 1, "Q3": 1, "Q4": 1, "Q5": 2, "Q6": -1,
+        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 2, "Q11": 1, "Q12": -1,
+        "Q13": -2, "Q14": 1, "Q15": 1, "Q16": 2
       }
     },
     {
       "name": "Sveriges Kommunistiska Parti (SKP)",
       "description": "Leddes av Sven Linderot. Stod helt utanför samlingsregeringen; starka motståndare till permitteringstrafiken, transportförbuden och åsiktsregistreringen.",
       "answers": {
-        "Q1": 2, "Q2": 2, "Q3": 2, "Q4": 1, "Q5": -2, "Q6": 2,
-        "Q7": -2, "Q8": 2, "Q9": -2, "Q10": -2, "Q11": 2, "Q12": 2,
-        "Q13": 2, "Q14": 1, "Q15": -1, "Q16": -2
+        "Q1": 2, "Q2": 2, "Q3": -2, "Q4": -1, "Q5": -2, "Q6": 2,
+        "Q7": 2, "Q8": 2, "Q9": -2, "Q10": -2, "Q11": 2, "Q12": 2,
+        "Q13": 2, "Q14": -1, "Q15": 1, "Q16": -2
       }
     }
   ]
