@@ -405,11 +405,22 @@ function renderWhatHappenedAfter(electionData) {
 }
 
 function getPartyColor(partyName) {
+  // Vänsterblocket & Arbetarrörelsen
   if (partyName.includes("Socialdemokraterna")) return "#e81123";
-  if (partyName.includes("Högern")) return "#005595";
-  if (partyName.includes("Folkpartiet") || partyName.includes("Frisinnade")) return "#006699";
+  if (partyName.includes("Kommunistiska") || partyName.includes("SKP") || partyName.includes("Vänsterpartiet")) return "#990000";
+
+  // Gröna partier
+  if (partyName.includes("Miljöpartiet")) return "#83CF39";
   if (partyName.includes("Centerpartiet") || partyName.includes("Bondeförbundet")) return "#00853F";
-  if (partyName.includes("Kommunistiska") || partyName.includes("SKP")) return "#990000";
-  if (partyName.includes("Liberala riksdagspartiet")) return "#4682B4";
+
+  // Borgerliga partier
+  if (partyName.includes("Moderata") || partyName.includes("Högern")) return "#005595";
+  if (partyName.includes("Folkpartiet") || partyName.includes("Frisinnade") || partyName.includes("Liberala riksdagspartiet")) return "#006699";
+  if (partyName.includes("Kristdemokraterna") || partyName.includes("KDS")) return "#005ea1";
+
+  // Övriga riksdagspartier
+  if (partyName.includes("Ny Demokrati")) return "#ffc600";
+
+  // Standardfärg för okända/övriga partier
   return "#777777";
 }
