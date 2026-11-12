@@ -1,0 +1,414 @@
+{
+  "id": "1976",
+  "title": "Riksdagsvalet 1976",
+  "year": "1976",
+  "description": "Det historiska ödesvalet där Kärnkraftsfrågan och Löntagarfonderna stod i centrum, vilket ledde till det första maktskiftet på 44 år och slutet på Socialdemokraternas obrutna regeringsinnehav.",
+  "historicalOutcome": {
+    "summary": "De tre borgerliga partierna (Centerpartiet, Moderaterna och Folkpartiet) vann en knapp majoritet med 180 mandat mot vänsterblockets 149. Thorbjörn Fälldin (C) bildade Sveriges första borgerliga regering sedan 1936. Valet markerade ett historiskt tronskifte i svensk politik där miljö- och energifrågan för första gången avgjorde ett riksdagsval.",
+    "questionsOutcome": {
+      "Q1": {
+        "description": "Fälldins regering hamnade snabbt i djup intern kris kring kärnkraften. Trots Centerpartiets löfte om att stoppa laddningen av nya reaktorer tvingades Fälldin till kompromisser med M och FP (bland annat Villkorslagen 1977), vilket till sist ledde till att regeringen sprakk 1978. Efter Harrisburgolyckan 1979 hölls en rådgivande folkomröstning 1980 som resulterade i att kärnkraften skulle avvecklas 'i den takt som är möjlig med hänsyn till behovet av elektrisk kraft'."
+      },
+      "Q2": {
+        "description": "Musikrörelsen/proggen nådde sin kulmen under mitten av 70-talet med den alternativa festivalen 1975, men ABBA:s internationella supersuccé fortsatte oavbrutet. Under det sena 70-talet kommersialiserades musikmarknaden ytterligare, och proggens politiska dominans över kulturlivet ebbande ut till förmån för punk och nydansande pop."
+      },
+      "Q3": {
+        "description": "Striden om löntagarfonderna blev en av 1980-talets största politiska konflikter (med 4 oktober-demonstrationerna 1983). När Socialdemokraterna återkom till makten infördes en kraftigt urvattnad variant av löntagarfonder 1983, vilka sedan avskaffades helt av regeringen Bildt 1991. Fondkapitalet användes istället till att stiftelsefinansiera forskning (t.ex. SSF och Stiftelsen för miljöstrategisk forskning)."
+      },
+      "Q4": {
+        "description": "Under slutet av 1970-talet och ingången till 80-talet svängde bostadsbyggandet kraftigt. Miljonprogrammets storskaliga flerbostadshus upphörde nästan helt och ersattes av en boom för småhus och radhus, helt i linje med borgerlighetens och allmänhetens drömmar om egnahem."
+      },
+      "Q5": {
+        "description": "Sveriges frihandelsavtal med EEG från 1972 låg fast och utvidgades successivt utan att utmana den formella neutralitetspolitiken. Det var först efter Berlinmurens fall och kalla krigets slut som Sverige 1990 ansökte om fullt medlemskap i Europeiska unionen (EU)."
+      },
+      "Q6": {
+        "description": "Den regionala balansen och sjukvårdens utbyggnad fortsatte att vara en central politisk fråga. Under 1980- och 90-talen genomfördes flera ädelreformer och strukturförändringar där landstingen behöll huvudmannaskapet men staten införde riktade utjämningssystem (skatteutjämningen) för att täcka regionala skillnader."
+      },
+      "Q7": {
+        "description": "Ingen särskild straffskatt på charterresor infördes. Massturismen till Sydeuropa fortsatte att växa lavinartat under 1970- och 80-talen och blev en naturlig del av den svenska folkhälsan och semesternormen."
+      },
+      "Q8": {
+        "description": "Marginalskattedebatten nådde sin kulmen under slutet av 70-talet. År 1981 slöts 'den underbara natten' – en överenskommelse mellan mittenregeringen och Socialdemokraterna om att sänka marginalskatterna, vilket beredde väg för den stora skattereformen 1990/91 ('århundradets skattereform')."
+      },
+      "Q9": {
+        "description": "Kollektivtrafiken byggdes ut och subventionerades kraftigt under 1980-talet, bland annat genom införandet av regionala länstrafikbolag och månadskort (t.ex. SL-kortet). Helt avgiftsfri kollektivtrafik genomfördes dock inte på nationell nivå."
+      },
+      "Q10": {
+        "description": "Oljekriserna 1973 och 1979 ledde till en massiv statlig satsning på energibesparing, fjärrvärmeutbyggnad och övergång till elvärme/värmepumpar. Sveriges oljeberoende för uppvärmning sjönk dramatiskt under 1980-talet."
+      },
+      "Q11": {
+        "description": "AP-fondernas roll förblev en politisk dragkamp. Den borgerliga regeringen bromsade fondkapitalets användning för direktaktieköp i näringslivet, men fonderna förblev den absolut viktigaste finansiella pelaren i det svenska pensionssystemet fram till den stora pensionsreformen på 1990-talet."
+      },
+      "Q12": {
+        "description": "Presstödet behölls och utökades under såväl borgerliga som socialdemokratiska regeringar för att förhindra tidningsdöd och värna mångfalden inom dagspressen, vilket bevarade Sveriges unika lokaltidningsstruktur under flera decennier."
+      },
+      "Q13": {
+        "description": "Sverige nådde enprocentsmålet för u-landsbiståndet 1975 och behöll denna höga ambition under lång tid som en hörnsten i svensk utrikespolitik, vilket gav Sverige en stark internationell profil i FN och i den tredje världen."
+      },
+      "Q14": {
+        "description": "Inrikesflyget och det regionala flygnätet (bl.a. Linjeflyg) expanderade kraftigt under 1980-talet. Statliga och kommunala investeringar byggde ut flygplatser över hela landet, vilket knöt samman Norrland och regionala centra med Stockholm."
+      },
+      "Q15": {
+        "description": "Föräldraförsäkringen byggdes ut gradvis, men det var först 1995 som den så kallade 'pappamånaden' (en reserverad månad för vardera föräldern) infördes av regeringen Carlsson för att stimulera ett mer jämställt uttag av föräldraledigheten."
+      },
+      "Q16": {
+        "description": "Bilbälteslagen från 1975 accepterades snabbt av allmänheten och ledde till en omedelbar och mätbar minskning av svåra trafikskador och dödsfall. Frihetskritiken tystnade i takt med att bältesingreppet sågs som en självklik säkerhetsåtgärd."
+      }
+    }
+  },
+  "electionResults": {
+    "seatsTotal": 349,
+    "government": {
+      "type": "Borgerlig trepartiregering (majoritet)",
+      "primeMinister": "Thorbjörn Fälldin",
+      "rulingParties": [
+        "Centerpartiet",
+        "Moderata Samlingspartiet",
+        "Folkpartiet"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Socialdemokraterna",
+        "Vänsterpartiet Kommunisterna (VPK)"
+      ]
+    },
+    "partyResults": [
+      {
+        "partyName": "Vänsterpartiet Kommunisterna (VPK)",
+        "votePercentage": 4.8,
+        "seats": 17,
+        "seatChange": -2
+      },
+      {
+        "partyName": "Socialdemokraterna",
+        "votePercentage": 42.7,
+        "seats": 152,
+        "seatChange": -4
+      },
+      {
+        "partyName": "Centerpartiet",
+        "votePercentage": 24.1,
+        "seats": 86,
+        "seatChange": -4
+      },
+      {
+        "partyName": "Folkpartiet",
+        "votePercentage": 11.1,
+        "seats": 39,
+        "seatChange": 5
+      },
+      {
+        "partyName": "Moderata Samlingspartiet",
+        "votePercentage": 15.6,
+        "seats": 55,
+        "seatChange": 4
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "title": "Kärnkraftens utbyggnad",
+      "statement": "De reaktorer som är under uppförande ska färdigställas, men inga ytterligare kärnkraftverk får byggas i Sverige.",
+      "context": "Debatten om kärnkraftens säkerhet och avfallshantering briserade på allvar i mitten av 1970-talet. Centerpartiet och Thorbjörn Fälldin gjorde kärnkraftsmotståndet till sin absoluta ödesfråga inför valet 1976.",
+      "category": "Energi & Miljö",
+      "pro": "Skyddar miljön och framtida generationer från livsfarligt radioaktivt avfall och katastrofrisker.",
+      "con": "Sverige behöver billig och säker el för att säkra industri expansion och välfärd.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "title": "ABBA och den kommersiella musikindustrin",
+      "statement": "Det statliga kulturstödet ska aktivt motverka kommersiell schlager- och popmusik till förmån för progg och politisk teater.",
+      "context": "Efter ABBA:s Eurovision-vinst 1974 rasade den proggresiva musikrörelsen mot den vinstdrivande musikindustrin. När Sverige arrangerade Eurovision 1975 anordnades en alternativ musikfestival i protest.",
+      "category": "Kultur & Nöjesliv",
+      "pro": "Kulturen ska väcka politisk medvetenhet och stå fri från storföretagens vinstintressen.",
+      "con": "Folket ska få lyssna på den musik de faktiskt gillar utan pekpinnar från kultureliter.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "title": "Löntagarfonder för gemensamt ägande",
+      "statement": "Vinstmedel från företag ska successivt föras över till fonder som ägs av de anställda för att öka löntagarnas inflytande.",
+      "context": "Rudolf Meidners förslag om löntagarfonder presenterades 1975 och blev valrörelsens mest laddade ekonomiska och ideologiska konflikt mellan näringslivet och arbetarrörelsen.",
+      "category": "Ekonomi & Arbetsmarknad",
+      "pro": "Sprider ägandet i samhället och ger arbetarna makten över sin egen arbetsplats.",
+      "con": "Konfiskering av privat kapital som hotar näringsfriheten och skrämmer bort investeringar.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "title": "Miljonprogrammet och bostadspolitiken",
+      "statement": "Bostadspolitiken ska styra om subventioner från stora flerbostadshus till förmån för byggande av egnahem och småhus.",
+      "context": "Miljonprogrammets sista skälvande år mötte stark kritik för att ha skapat storskaliga betongförorter, och drömmen om eget småhus växte sig allt starkare bland svenska familjer.",
+      "category": "Infrastruktur & Bostadspolitik",
+      "pro": "Ger familjer möjlighet att äga sitt boende i trygga och grönskande miljöer.",
+      "con": "Gynnar välbärgade hushåll och riskerar att leda till ökade sociala klyftor och segregation.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "title": "Svensk neutralitet och EU/EG",
+      "statement": "Sverige ska värna sin strikta neutralitet genom att hålla sig utanför alla former av överstatligt europeiskt samarbete.",
+      "context": "Det frihandelsavtal med EEG (nuvarande EU) som slöts 1972 debatterades intensivt gällande hur nära integrationen fick bli utan att hotade den svenska alliansfriheten.",
+      "category": "Utrikes, Försvar & Säkerhet",
+      "pro": "Alliansfrihet i fred syftande till neutralitet i krig är grunden för Sveriges säkerhet.",
+      "con": "Försvårar svensk växt och avskärmar oss från det ekonomiska samarbetet i Europa.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "title": "Sjukvård och regional balans",
+      "statement": "Staten ska ta ett större direkt ansvar för sjukvården för att garantera samma vårdstandard i hela landet.",
+      "context": "Landstingen hade fått ett utökat ansvar för hälso- och sjukvården, men regionala skillnader i vårdköer och resurser väckte debatt om statlig styrning.",
+      "category": "Välfärd, Socialpolitik & Skola",
+      "pro": "Garanterar en jämlik vård i hela landet oavsett om man bor i glesbygd eller storstad.",
+      "con": "Det lokala och regionala självstyret vet bäst hur sjukvården ska organiseras lokalt.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "title": "Charterresor och gränslös semester",
+      "statement": "Staten bör införa en särskild charter- och utlandsreseskatt för att dämpa svenskarnas massturism till Sydeuropa.",
+      "context": "På 1970-talet exploderade sällskapsresorna till Spanien och Grekland. Det skapade debatt bland politiker om valutautflöde och dämpad konsumtion på hemmaplan.",
+      "category": "Handel & Konsumtion",
+      "pro": "Håller kvar svenskarnas semesterpengar i landet och gynnar den inhemska turismen.",
+      "con": "Låt vanliga arbetare få njuta av sol och värme efter en lång och grå arbetsvinter.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q8",
+      "quick": true,
+      "title": "Sänkt skattetryck för löntagare",
+      "statement": "Det svenska skattetrycket och marginalskatterna har blivit för höga och måste sänkas för att det ska löna sig att arbeta.",
+      "context": "Sverige hade vid denna tid ett av världens högsta skattetryck. Debatten rasade om höga marginalskatter, där bland annat Astrid Lindgrens 'Pomperipossa'-artikel uppmärksammade över 100 % i skatt.",
+      "category": "Ekonomi & Arbetsmarknad",
+      "pro": "Ökar arbetsviljan, uppmuntrar entreprenörskap och stoppar skatteflykt.",
+      "con": "Urhålmar välfärdens finansiering och ökar de ekonomiska klyftorna i samhället.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "title": "Kollektivtrafik vs. Bilism",
+      "statement": "Staten och kommunerna ska kraftigt subventionera kollektivtrafiken för att göra den mycket billig för alla resenärer.",
+      "context": "Efter 1970-talets oljekriser debatterades biltrafikens dominans och behovet av att stärka buss- och tågtrafiken som ett miljövänligt och billigt alternativ.",
+      "category": "Infrastruktur & Bostadspolitik",
+      "pro": "Minskar bilismens miljöförstöring och ger alla medborgare god rörlighet.",
+      "con": "Biltrafikanten ska inte tvingas subventionera kollektivtrafikresenärer via skattsedeln.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "title": "Oljeberoende och energisparande",
+      "statement": "Staten bör införa kraftiga skatteincitament och subventioner för att ställa om uppvärmningen från olja till el och fjärrvärme.",
+      "context": "1973 års oljekris visade på Sveriges extrema sårbarhet på grund av det höga oljeberoendet för fastighetsuppvärmning.",
+      "category": "Energi & Miljö",
+      "pro": "Minskar Sveriges sårbarhet vid internationella kriser och förbättrar miljön.",
+      "con": "Marknaden och fastighetsägarna bör själva få välja sin energikälla utan statlig styrning.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "title": "Pensionssystemet",
+      "statement": "AP-fondernas kapital ska i högre grad styras till samhällsnyttiga investeringar som bostadsbyggande.",
+      "context": "AP-fonderna växte enormt på 70-talet och utgjorde en betydande maktfaktor i svensk ekonomi och kapitalförsörjning.",
+      "category": "Välfärd, Socialpolitik & Skola",
+      "pro": "Säkrar trygga bostäder och samhällsutveckling med folkets gemensamma pensionspengar.",
+      "con": "Pensionspengarna ska förvaltas med maximal avkastning och trygghet för pensionärerna.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "title": "Stödet till dagspressen",
+      "statement": "Staten ska ge ekonomiskt stöd till tidningar som har svårt att klara konkurrensen, för att värna åsiktsmångfalden.",
+      "context": "Det statliga presstödet byggdes ut under tidigt 70-tal för att rädda andratidningar från nedläggning och förhindra tidningsmonopol.",
+      "category": "Kultur & Medier",
+      "pro": "Värnar en mångfald av röster och oberoende journalistik i hela landet.",
+      "con": "Konkurrenssnedvridande stöd som håller liv i olönsamma tidningar på skattebetalarnas bekostnad.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "title": "Utlandsbistånd och internationell solidaritet",
+      "statement": "Sverige ska hålla fast vid målet att avsätta minst 1 procent av BNI till statligt u-landsbistånd.",
+      "context": "Under Olof Palmes ledning byggde Sverige en profil som en stark röst för internationell solidaritet, avkolonisering och stöd till utvecklingsländer.",
+      "category": "Utrikes, Försvar & Säkerhet",
+      "pro": "Sverige har en moralisk plikt att hjälpa fattiga länder och lindra nöden i världen.",
+      "con": "Biståndet bör anpassas efter det egna landets ekonomiska läge och behov på hemmaplan.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q14",
+      "quick": true,
+      "title": "Utbyggnad av regionala flygplatser",
+      "statement": "Staten ska medfinansiera ett nät av mindre regionala flygplatser för att binda ihop landet.",
+      "context": "Det regionala inrikesflyget började byggas ut på bred front under 1970-talet för att korta restiderna mellan landsbygd/Norrland och huvudstaden.",
+      "category": "Infrastruktur & Bostadspolitik",
+      "pro": "Skapar snabba snabba kommunikationer och stimulerar näringslivet i hela landet.",
+      "con": "Dyra investeringar som gynnar ett fåtal och orsakar onödig miljöbelastning.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "title": "Pappan i hemmet och pappamånaden",
+      "statement": "Män bör tvingas ta ut en del av den nya föräldraförsäkringen för att ändra den traditionella könsuppdelningen i hemmet.",
+      "context": "Föräldraförsäkringen infördes 1974 och gav pappor rätt till betald ledighet. Debatten rasade om huruvida staten borde kvotera ledigheten för att skapa jämställdhet.",
+      "category": "Folkhälsa & Moral",
+      "pro": "Det enda effektiv sättet att bryta traditionella könsroller och uppnå verklig jämställdhet.",
+      "con": "Staten ska inte lägga sig i hur enskilda familjer fördelar ansvaret i hemmet.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "title": "80-gräns och bilbältestvång",
+      "statement": "Det statliga tvånget att bära bilbälte och de sänkta hastighetsgränserna på landsväg kränker den enskilde bilistens frihet.",
+      "context": "Lagen om obligatoriskt bilbälte trädde i kraft den 1 januari 1975, vilket möttes av högljudda protester från bilister som synen på det som förmyndarpolitik.",
+      "category": "Infrastruktur & Fritid",
+      "pro": "Bilkörning handlar om personligt ansvar och staten ska inte finreglera hur medborgare sitter i bilen.",
+      "con": "Bilbälteslagen räddar hundratals liv årligen och minskar trycket på sjukvården.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ],
+  "parties": [
+    {
+      "name": "Moderata Samlingspartiet",
+      "description": "Leddes av Gösta Bohman. Värnade den privata äganderätten, sänkta skatter, marknadsekonomi och ett starkt försvar. Gick hårt till attack mot löntagarfonder och socialism.",
+      "answers": {
+        "Q1": -1,
+        "Q2": -2,
+        "Q3": -2,
+        "Q4": 2,
+        "Q5": -1,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": -1,
+        "Q11": -2,
+        "Q12": -2,
+        "Q13": -1,
+        "Q14": 2,
+        "Q15": -2,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Centerpartiet",
+      "description": "Leddes av Thorbjörn Fälldin. Valets största borgerliga parti. Drev hårt motståndet mot kärnkraften, värnade landsbygden, miljön, decentralisering och småföretagande.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -1,
+        "Q3": -2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": 1,
+        "Q14": 1,
+        "Q15": -1,
+        "Q16": -1
+      }
+    },
+    {
+      "name": "Folkpartiet",
+      "description": "Leddes av Per Ahlmark. Kombinerade socialliberalism med borgerlig samverkan. Förespråkade skattesänkningar, jämställdhet och sociala reformer men avvisade löntagarfonder.",
+      "answers": {
+        "Q1": 0,
+        "Q2": -1,
+        "Q3": -2,
+        "Q4": 1,
+        "Q5": -1,
+        "Q6": 0,
+        "Q7": -2,
+        "Q8": 2,
+        "Q9": 1,
+        "Q10": 1,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": 1,
+        "Q14": 1,
+        "Q15": 1,
+        "Q16": -1
+      }
+    },
+    {
+      "name": "Socialdemokraterna",
+      "description": "Leddes av statsminister Olof Palme. Ville bygga vidare på den starka välfärdsstaten, fortsätta kärnkraftsutbyggnaden och införa löntagarfonder för ökad ekonomisk demokrati.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 1,
+        "Q3": 2,
+        "Q4": -2,
+        "Q5": 1,
+        "Q6": 1,
+        "Q7": 1,
+        "Q8": -2,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": 1,
+        "Q16": -2
+      }
+    },
+    {
+      "name": "Vänsterpartiet Kommunisterna (VPK)",
+      "description": "Leddes av Lars Werner. Drev en radikal socialistisk och anti-kapitalistisk linje. Kräver omedelbart stopp för kärnkraften, kraftfulla löntagarfonder och mer resurser till välfärden.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": -2,
+        "Q5": 2,
+        "Q6": 2,
+        "Q7": 1,
+        "Q8": -2,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": -2,
+        "Q15": 2,
+        "Q16": -2
+      }
+    }
+  ]
+}
