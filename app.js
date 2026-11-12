@@ -420,6 +420,8 @@ function getPartyColor(partyName) {
 
   // Övriga riksdagspartier
   if (partyName.includes("Ny Demokrati")) return "#ffc600";
+  if (partyName.includes("Lantmannapartiet")) return "#005595"; // Konservativt/agrart blå
+  if (partyName.includes("Frihandelsvänliga centern")) return "#4682B4"; // Måttfullt liberal stålblå
 
   // Standardfärg för okända/övriga partier
   return "#777777";
