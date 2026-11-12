@@ -1,0 +1,385 @@
+{
+  "id": "1896",
+  "title": "Riksdagsvalet 1896",
+  "year": "1896",
+  "description": "Det historiska genombrottsvalet vid 1800-talets slut då Socialdemokraterna fick sin allra första riksdagsman genom Hjalmar Branting, samtidigt som striderna rasade om rösträttsstrecken, spannmålstullar, fackföreningar och norrländska träpatroner.",
+  "historicalOutcome": {
+    "summary": "Valet 1896 gav en fortsatt majoritet för de konservativa och tullvänliga grupperingarna i andra kammaren, men blev samtidigt en historisk milstolpe: Hjalmar Branting valdes in i Stockholm (på en liberal lista) som Sveriges förste socialdemokratiske riksdagsman. De tidiga liberalerna i Folkpartiet och frihandlarna stärkte sina positioner och lade grunden för det kommande genombrottet i rösträttsfrågan under det tidiga 1900-talet.",
+    "questionsOutcome": {
+      "Q1": {
+        "description": "Rösträttsstrecken avskaffades inte 1896, men trycket ökade snabbt. Först genom rösträttsreformen 1907–1909 infördes allmän rösträtt för män till andra kammaren, och kvinnlig rösträtt beslutades slutgiltigt 1919–1921."
+      },
+      "Q2": {
+        "description": "Spannmålstullarna behölls efter 1896 eftersom de tullvänliga lantmannapartisterna och högern dominerade riksdagen, och tullsystemet kom att prägla svensk handelspolitik under decennier."
+      },
+      "Q3": {
+        "description": "Inget nationellt förbud mot velocipeder infördes, men lokala ordningsstadgor och hastighetsbegränsningar på 10–15 km/h samt ringklockekrav infördes i flera städer och på promenadstråk."
+      },
+      "Q4": {
+        "description": "Fackföreningarna förbjöds inte, men 1899 antogs den hårt kritiserade Åkarpslagen som kriminaliserade försök att tvinga någon till strejk, vilket skapade bittra strider på arbetsmarknaden."
+      },
+      "Q5": {
+        "description": "Statskyrkosystemet bestod orubbat under hela 1800- och 1900-talet; Svenska kyrkan skildes från staten först den 1 januari år 2000."
+      },
+      "Q6": {
+        "description": "Det gamla indelningsverket avskaffades slutgiltigt genom 1901 års härordning och ersattes av en modern, utbyggd allmän värnplikt."
+      },
+      "Q7": {
+        "description": "Fideikommissen avskaffades inte i slutet av 1800-talet; nyinrättande förbjöds 1810, men avvecklingen av befintliga fideikommiss beslutades först genom en särskild avvecklingslag 1963."
+      },
+      "Q8": {
+        "description": "Något generellt lagförbud mot tobaksförsäljning till minderåriga infördes inte på 1890-talet; en lagstadgad 18-årsgräns för tobak dröjde ända till 1997."
+      },
+      "Q9": {
+        "description": "Debatten om 'bolagsvåset' ledde till tillsättandet av Norrlandskommittén 1901 och mynnade ut i den norrländska förbudslagen 1906, som förbjöd bolag att köpa upp bondejord i Norrland och Dalarna."
+      },
+      "Q10": {
+        "description": "Totalförbud mot brännvin infördes inte (och avvisades senare även i folkomröstningen 1922), utan politiken styrdes i stället in mot lokala restriktioner och senare Brattsystemets motbok."
+      },
+      "Q11": {
+        "description": "Sverige behöll guldmyntfoten och den skandinaviska myntunionen fram till första världskrigets utbrott 1914, då sedelinlösen i guld tillfälligt upphävdes."
+      },
+      "Q12": {
+        "description": "Ingen statlig hatt-skatt infördes, men flera teatrar och konserthus införde egna ordningsregler som krävde att damer tog av sig stora hattar under föreställningar."
+      },
+      "Q13": {
+        "description": "Efter långa utredningar antogs 1901 års lag om ersättning för skada till följd av olycksfall i arbete, vilket blev det första steget mot modern svensk arbetsskadeförsäkring."
+      },
+      "Q14": {
+        "description": "Kommunalskatten förblev i huvudsak proportionell och knuten till det graderade fyrktalet fram till kommunala rösträtts- och skattereformer under 1900-talets första decennier."
+      },
+      "Q15": {
+        "description": "Sabbatslagstiftningen behölls strikt under slutet av 1800-talet med begränsningar för handel och nöjen på söndagar, men luckrades gradvis upp under 1900-talet."
+      },
+      "Q16": {
+        "description": "Läroverken reformerades stegvis, bland annat genom 1905 års läroverksreform som införde realskolan och breddade vägarna till högre studier."
+      }
+    }
+  },
+  "electionResults": {
+    "seatsTotal": 230,
+    "government": {
+      "type": "Konservativ ämbetsmanna- och protektionistregering",
+      "primeMinister": "Erik Gustaf Boström",
+      "rulingParties": [
+        "Lantmannapartiet"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Folkpartiet (1895)",
+        "Frihandelsvänliga centern",
+        "Socialdemokratiska arbetarepartiet"
+      ]
+    },
+    "partyResults": [
+      {
+        "partyName": "Lantmannapartiet",
+        "votePercentage": 54.0,
+        "seats": 128,
+        "seatChange": 0
+      },
+      {
+        "partyName": "Frihandelsvänliga centern",
+        "votePercentage": 26.5,
+        "seats": 62,
+        "seatChange": -4
+      },
+      {
+        "partyName": "Folkpartiet (1895)",
+        "votePercentage": 18.0,
+        "seats": 39,
+        "seatChange": 4
+      },
+      {
+        "partyName": "Socialdemokratiska arbetarepartiet",
+        "votePercentage": 1.5,
+        "seats": 1,
+        "seatChange": 1
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "title": "Utvidgning av den politiska rösträtten",
+      "statement": "Inkomst- och förmögenhetsstrecken i val till andra kammaren ska avskaffas och rösträtten utvidgas till att omfatta alla myndiga män samt skattebetalande kvinnor.",
+      "context": "Endast omkring 6–7 procent av befolkningen hade rösträtt 1896 på grund av höga inkomst- och egendomskrav. Kravet på utvidgad rösträtt enade liberaler, frikyrkliga och den framväxande arbetarrörelsen.",
+      "category": "Rösträtt & Demokrati",
+      "pro": "Ett rättvist samhälle kräver att den politiska makten vilar på medborgarna snarare än på förmögenhet och kön.",
+      "con": "Att släppa in egendomslösa massor i riksdagen hotar statens finansiella stabilitet och rubbar samhällets invanda ordning.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "title": "Tullar på importerat spannmål och mat",
+      "statement": "Staten ska behålla eller höja tullarna på utländskt mjöl och spannmål för att skydda det svenska jordbruket från utländsk konkurrens.",
+      "context": "Den bittra striden mellan protektionister (konservativa och agrara lantmannapartister) och frihandlare präglade hela 1880- och 90-talens politik.",
+      "category": "Ekonomi & Tullstrider",
+      "pro": "Räddar det svenska bondesamhället från konkurs och säkerställer landets livsmedelsförsörjning i orostider.",
+      "con": "Driver upp priset på basföda som bröd och mjöl för fattiga stadsbor och industriarbetare.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "title": "Förbud mot velocipeder (cyklar) på gång- och ridvägar",
+      "statement": "Staten ska införa en nationell lag som förbjuder cykling på allmänna landsvägar och gångbanor för att värna fotgängare, hästar och allmän ordning.",
+      "context": "Cykeln (velocipeden) slog igenom stort under 1890-talet och orsakade oro bland den äldre generationen när hästar skyggade och fotgängare blev påkörda.",
+      "category": "Teknik & Samhälle",
+      "pro": "Skyddar vägfarande, skrämmer inte draghästar och återställer lugnet och säkerheten på vägar och promenadstråk.",
+      "con": "Velocipeden är ett modernt, hälsosamt och billigt fortskaffningsmedel som inte bör stoppas av gammalmodig rädsla.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "title": "Förbud mot illasinnade fackföreningar",
+      "statement": "Staten och polisväsendet ska ingripa kraftfullt och genom lagstiftning stävja fackföreningars strejker och blockader som lamslår svensk industri.",
+      "context": "Under 1890-talet växte fackföreningsrörelsen snabbt och genomförde stora strejker, vilket skrämde arbetsgivare och det etablerade ståndssamhället.",
+      "category": "Sociala frågor",
+      "pro": "Skyddar arbetsro, äganderätten och den enskilda arbetarens frihet att arbeta utan påtryckningar.",
+      "con": "Arbetarna har en grundläggande rätt att organisera sig kollektivt för att förhandla om drägliga löner och villkor.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q5",
+      "quick": false,
+      "title": "Trossamfundens skiljande från staten",
+      "statement": "Svenska kyrkan ska upphöra att vara statskyrka och all obligatorisk skattskyldighet till den ska avskaffas.",
+      "context": "Frikyrkorörelsen växte sig stark under slutet av 1800-talet och krävde full religionsfrihet, avskaffat kyrkotvång och frihet från kyrkoskatt.",
+      "category": "Kultur, Kyrka & Moral",
+      "pro": "Ingen människa ska tvingas betala skatt till en statskyrka vars lära de inte delar; sann tro måste vara frivillig.",
+      "con": "Hotar nationens andliga sammanhållning och bryter mot uråldriga svenska traditioner och moralisk fostran.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "title": "Utbyggnad av den allmänna värnplikten",
+      "statement": "Det gamla indelta soldatsystemet ska avskaffas och ersättas av en utökad, allmän värnplikt för alla unga svenska män.",
+      "context": "Försvarsfrågan brann i skuggan av stormakternas rustningar och den knakande unionen med Norge.",
+      "category": "Försvar & Militär",
+      "pro": "Skapar ett modernt, slagkraftigt och likvärdigt folkförsvar i stället för ett föråldrat ståndsmässigt system.",
+      "con": "Tynger landets unga män och jordbruket med långa övningsdagar, militarism och tunga skattebördor.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "title": "Förbud mot fasta adliga egendomar (fideikommiss)",
+      "statement": "Lagen om fideikommiss ska upphävas så att stora adliga jordegendomar kan styckas upp och köpas av bärkraftiga bönder.",
+      "context": "Adeln satt på enorma ärvda jordegendomar som enligt fideikommissbrev inte fick säljas eller delas upp, vilket hämmade den fria jordmarknaden.",
+      "category": "Infrastruktur & Jordbruk",
+      "pro": "Demokratiserar jordinnehavet och ger driftiga bönder och torpare chansen att äga och bruka sin egen mark.",
+      "con": "Bevarar historiska kulturmiljöer och sammanhållna gods som driver effektivt storskaligt jordbruk.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "title": "Totalförbud mot försäljning av tobak till pojkar under 18 år",
+      "statement": "Tobakshandlare ska vid bötesstraff förbjudas att sälja snus, cigarrer och cigaretter till minderåriga under 18 år.",
+      "context": "Snusning och rökning var utbrett även bland unga pojkar, men läkarvetenskapen började varna för att tobak hämmade ungdomens växande kroppar.",
+      "category": "Folkhälsa",
+      "pro": "Skyddar det uppväxande släktets hälsa, växtkraft och sedlighet från tobakens skadliga verkningar.",
+      "con": "Ett onödigt förmyndaringrepp i den fria handeln och föräldrarnas eget ansvar för sina barns uppfostran.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "title": "Förbud för bolag att köpa upp bondelag i Norrland (Bolagsvåset)",
+      "statement": "Stora sågverksbolag och träpatroner ska förbjudas att köpa upp fast egendom och skogsmark av skuldtyngda bönder i Norrland.",
+      "context": "Norrlands skogsindustrier köpte upp mängder av bondehemman ('bolagsvåset'), vilket förvandlade självägande bönder till fattiga arrendatorer.",
+      "category": "Vetenskap, Skola & Juridik",
+      "pro": "Räddar den självägande norrländska bondeklassen från att bli rättslösa under storbolagens välde.",
+      "con": "Inskränker den fria äganderätten och hindrar skogsindustrin från att bedriva effektiv, storskalig skogsvård.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "title": "Totalförbud mot försäljning av brännvin",
+      "statement": "Staten ska införa ett totalt förbud mot tillverkning och försäljning av brännvin och andra rusdrycker i hela riket.",
+      "context": "Nykterhetsrörelsen var en av 1890-talets största folkrörelser och krävde radikala lagar mot det utbredda superiet.",
+      "category": "Kultur, Kyrka & Moral",
+      "pro": "Stoppar dryckenskapen som ödelägger familjer, skapar nöd och fyller landets fängelser och fattighus.",
+      "con": "Ett oacceptabelt ingrepp i den personliga friheten som dessutom slår hårt mot jordbrukets avsättning av spannmål och potatis.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "title": "Guldmyntfot för den svenska kronan",
+      "statement": "Sverige ska ovillkorligen hålla fast vid guldmyntfoten och en fast växelkurs för att garantera den svenska kronans värde.",
+      "context": "Den skandinaviska myntunionen band kronan vid guldet, vilket hyllades av finansvärlden men kritiserades av skuldtyngda jordbrukare.",
+      "category": "Ekonomi & Tullstrider",
+      "pro": "Skapar trygghet i internationell handel, håller penningvärdet stabilt och förhindrar ansvarslös sedelutgivning.",
+      "con": "Binder penningmängden för hårt, driver fram prisfall och förvärrar skuldbördan för bönder och företagare.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q12",
+      "quick": true,
+      "title": "Skatt på stora damhattar i teatrar och kyrkor",
+      "statement": "Staten ska införa en särskild avgift eller förbud mot att bära skrymmande damhattar prydda med fjädrar och plymer vid teatrar och gudstjänster.",
+      "context": "1890-talets enorma damhattar skapade häftig debatt i pressen eftersom de skymde sikten i kyrkor och teatersalonger samt hotade sällsynta fågelarter.",
+      "category": "Kultur & Offentlig moral",
+      "pro": "Säkerställer fri sikt för alla besökare i offentliga lokaler och stävjar fåfänga och utrotning av fåglar.",
+      "con": "Riksdagen ska stifta rikets lagar, inte ägna sig åt löjligt förmynderi över kvinnors klädsel och mode.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "title": "Obligatorisk arbetsgivarförsäkring vid skador",
+      "statement": "Fabriks- och bruksägare ska åläggas genom lag att försäkra sina anställda mot invaliditet och dödsolyckor i arbetet.",
+      "context": "Vid arbetsplatsolyckor i de farliga fabrikerna och sågverken saknade arbetarna lagstadgat skydd och hänvisades ofta till fattigvården.",
+      "category": "Sociala frågor",
+      "pro": "Det är arbetsgivarens moraliska plikt att sörja för att den som skadas i industrins tjänst inte lämnas åt svält.",
+      "con": "Betungande tvångslagstiftning som ökar kostnaderna för svenska företag och hämmar industriell utveckling.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "title": "Progressiv kommunalskatt efter bärkraft",
+      "statement": "Kommunerna ska ges rätt att beskatta inkomster progressivt så att förmögna betalar en större andel av sin inkomst i skatt.",
+      "context": "Det kommunala skatte- och röstsystemet byggde på fyrktalet, där skatten var proportionell medan rika bolag och godsägare hade mångdubbel rösträtt.",
+      "category": "Ekonomi & Beskattning",
+      "pro": "Skattebördan bör fördelas efter bärkraft så att de som äger mest också bidrar mest till kommunens utgifter.",
+      "con": "Straffar sparsamhet, flit och kapitalbildning samt undergräver ordningen i den kommunala förvaltningen.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "title": "Skärpt sabbatsvila med förbud mot handel och nöjen på söndagar",
+      "statement": "Alla offentliga nöjen, restaurangorkestrar och handelsbodar ska hållas strikt stängda på söndagar för att helga vilodagen.",
+      "context": "Det traditionella religiösa samhället kolliderade med den växande stadsbefolkningens behov av att handla och roa sig på sin enda lediga dag.",
+      "category": "Religion & Vila",
+      "pro": "Värnar den kristna söndagsfriden och ger även handelsanställda och tjänstefolk en garanterad vilodag.",
+      "con": "Inskränker arbetarnas frihet att nyttja sin enda lediga dag i veckan till rekreation, kultur och inköp.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "title": "Utvidgad statlig läroverksutbildning",
+      "statement": "Staten ska bygga ut de allmänna läroverken och sänka terminsavgifterna så att även begåvade barn ur lägre samhällsklasser kan studera vidare.",
+      "context": "Högre utbildning var i praktiken förbehållen överklassen och det förmögna borgerskapet på grund av höga avgifter och få läroverk.",
+      "category": "Vetenskap, Skola & Juridik",
+      "pro": "Tillvaratar hela nationens begåvning och bryter bildningsmonopolet som håller arbetar- och bondebarn tillbaka.",
+      "con": "Skapar ett överflöd av teoretiskt utbildade tjänstemän och drar arbetskraft bort från jordbruk och hantverk.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ],
+  "parties": [
+    {
+      "name": "Lantmannapartiet",
+      "description": "Andra kammarens största parti, dominerat av självägande bönder och konservativa godsägare. Förespråkade spannmålstullar, sparsamhet med statens medel, kyrkans ställning och motstånd mot allmän rösträtt.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": 1,
+        "Q4": 2,
+        "Q5": -2,
+        "Q6": -1,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": -1,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": -1,
+        "Q14": -2,
+        "Q15": 2,
+        "Q16": -1
+      }
+    },
+    {
+      "name": "Frihandelsvänliga centern",
+      "description": "Måttfulla liberaler och stadsrepresentanter som motsatte sig spannmålstullar och önskade försiktiga reformer i rösträtts- och socialfrågor utan radikala omvälvningar.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -2,
+        "Q3": -1,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": 1,
+        "Q7": 1,
+        "Q8": 0,
+        "Q9": 0,
+        "Q10": -1,
+        "Q11": 2,
+        "Q12": 0,
+        "Q13": 1,
+        "Q14": -1,
+        "Q15": -1,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Folkpartiet (1895)",
+      "description": "Det nybildade radikalliberala partiet i andra kammaren (föregångare till Liberala samlingspartiet). Drev krav på allmän rösträtt, frihandel, religionsfrihet, nykterhet och sociala reformer.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": -1,
+        "Q4": -1,
+        "Q5": 2,
+        "Q6": 1,
+        "Q7": 2,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 1,
+        "Q12": -1,
+        "Q13": 2,
+        "Q14": 1,
+        "Q15": 0,
+        "Q16": 2
+      }
+    },
+    {
+      "name": "Socialdemokratiska arbetarepartiet",
+      "description": "Leddes av Hjalmar Branting som i valet 1896 blev partiets förste riksdagsman. Krävde allmän och lika rösträtt, fri facklig organisering, arbetarskydd och avskaffande av klassprivilegier.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 2,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": 1,
+        "Q11": -1,
+        "Q12": -2,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": -2,
+        "Q16": 2
+      }
+    }
+  ]
+}
