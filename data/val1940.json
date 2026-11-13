@@ -1,71 +1,162 @@
 {
-  "id": "1940",
+  "id": "se-1940",
   "title": "Andrakammarvalet (Samlingsvalet) 1940",
-  "year": "1940",
+  "year": 1940,
+  "tagline": "Beredskapsvalet i skuggan av andra världskriget",
   "description": "Beredskapsvalet mitt under brinnande världskrig, där samlingsregeringen sökte folkets mandat för Sveriges neutralitetslinje och krigsekonomi efter ockupationen av grannländerna.",
-  "historicalOutcome": {
-    "summary": "Valet den 15 september 1940 hölls i skuggan av Tysklands ockupation av Danmark och Norge. Trots att Socialdemokraterna ingick i en bred samlingsregering med Högern, Folkpartiet och Bondeförbundet, gjorde S sitt bästa val någonsin och vann egen majoritet i Andra kammaren (53,8 % av rösterna). Per Albin Hansson valde dock att behålla samlingsregeringen under resten av kriget för att upprätthålla nationell enhet.",
-    "questionsOutcome": {
-      "Q1": { "description": "Permitteringstrafiken inleddes i juni 1940 och pågick fram till augusti 1943, då regeringen sa upp avtalet i takt med att den tyska krigslyckan vände." },
-      "Q2": { "description": "Priskontrollnämnden inrättades 1940 och ett generellt prisstopp infördes 1942. Systemet avvecklades successivt efter krigsslutet under andra hälften av 1940-talet." },
-      "Q3": { "description": "Transportförbudet tillämpades hårt under beredskapsåren mot framför allt den kommunistiska pressen och anti-nazistiska tidningar. Lagen avskaffades 1944." },
-      "Q4": { "description": "Statens informationsstyrelse och regeringen samverkade med filmbranschen kring beredskapsfilmer och korta journalfilmer, vilka visades flitigt på biograferna under hela kriget." },
-      "Q5": { "description": "Det statliga stödet till Finland under Vinterkriget bestod av omfattande vapenleveranser och ca 8 000 frivilliga i Svenska frivilligkåren. Under Fortsättningskriget (1941–1944) upprätthölls humanitärt stöd och frivilliginsatser." },
-      "Q6": { "description": "Kvinnors yrkesinträde ökade kraftigt under beredskapsåren för att ersätta inkallade män, men efter krigsslutet återgick arbetsmarknaden och familjepolitiken delvis till traditionella mönster fram till 1960-talets expanderande välfärdsstat." },
-      "Q7": { "description": "1939 års järnvägsbeslut om ett samlat statligt järnvägsnät genomfördes i snabb takt under 1940-talet, varpå de allra flesta privata banor köptes in och inordnades i SJ." },
-      "Q8": { "description": "Krigskonjunkturskatten infördes 1940 och uttogs under hela beredskapstiden på vinster som översteg normala förkrigsnivåer. Skatten avvecklades efter krigsslutet." },
-      "Q9": { "description": "Trots krigets ekonomiska påfrestningar behölls och byggdes stödformerna till barnrika familjer ut, vilket lade grunden för införandet av de allmänna barnbidragen 1948." },
-      "Q10": { "description": "Säkerhetstjänsten och militären bedrev omfattande åsiktsregistrering av främst kommunister under krigsåren. Övervakningen fortsatte även under det kalla kriget." },
-      "Q11": { "description": "Sommarbarnsverksamheten organiserades i stor skala från 1940 och framåt, där tiotusentals stadsbarn fick vistelse på landsbygden under beredskapsåren och efterkrigstiden." },
-      "Q12": { "description": "Försvarslånen blev en enorm folklig framgång; genom tre stora rikslån under kriget samlade staten in flera miljarder kronor direkt från allmänheten och företagen." },
-      "Q13": { "description": "Samlingsregeringen satt kvar under hela kriget och upplöstes först i juli 1945, varpå Per Albin Hansson bildade en ren socialdemokratisk regering." },
-      "Q14": { "description": "Rågummi belades med strikt statlig licensstyrelse, och privat användning av gummi upphörde nästan helt till förmån för försvarets fordon och beredskapsbehov." },
-      "Q15": { "description": "Statens livsmedelskommission införde ett heltäckande ransoneringssystem för nästan alla baslivsmedel och bränslen. Ransoneringen avvecklades stegvis fram till 1951." },
-      "Q16": { "description": "Hundskatten skärptes lokalt och kontrollen av utfodring med ransonerade livsmedel var sträng, men ett totalt statligt förbud mot sällskapsdjur infördes aldrig." }
-    }
-  },
+
   "electionResults": {
     "seatsTotal": 230,
+    "summary": "Valet den 15 september 1940 hölls i skuggan av Tysklands ockupation av Danmark och Norge. Trots att Socialdemokraterna ingick i en bred samlingsregering med Högern, Folkpartiet och Bondeförbundet, gjorde S sitt bästa val någonsin och vann egen majoritet i Andra kammaren (53,8 % av rösterna). Per Albin Hansson valde dock att behålla samlingsregeringen under resten av kriget för att upprätthålla nationell enhet.",
     "government": {
       "type": "Samlingsregering",
       "primeMinister": "Per Albin Hansson",
-      "rulingParties": ["Socialdemokraterna", "Högern (Allmänna Valmansförbundet)", "Folkpartiet", "Bondeförbundet"],
+      "rulingParties": [
+        "Socialdemokraterna",
+        "Högern (Allmänna Valmansförbundet)",
+        "Folkpartiet",
+        "Bondeförbundet"
+      ],
       "supportParties": [],
-      "opposition": ["Sveriges Kommunistiska Parti (SKP)"]
-    },
-    "partyResults": [
-      {
-        "partyName": "Sveriges Kommunistiska Parti (SKP)",
-        "votePercentage": 3.5,
-        "seats": 3,
-        "seatChange": -2
-      },
-      {
-        "partyName": "Socialdemokraterna",
-        "votePercentage": 53.8,
-        "seats": 134,
-        "seatChange": 22
-      },
-      {
-        "partyName": "Bondeförbundet",
-        "votePercentage": 12.0,
-        "seats": 28,
-        "seatChange": -8
-      },
-      {
-        "partyName": "Folkpartiet",
-        "votePercentage": 12.0,
-        "seats": 23,
-        "seatChange": -4
-      },
-      {
-        "partyName": "Högern (Allmänna Valmansförbundet)",
-        "votePercentage": 18.0,
-        "seats": 42,
-        "seatChange": -2
-      }
-    ]
+      "opposition": [
+        "Sveriges Kommunistiska Parti (SKP)"
+      ]
+    }
   },
+
+  "parties": [
+    {
+      "name": "Socialdemokraterna",
+      "color": "#E8112D",
+      "votePercentage": 53.8,
+      "seats": 134,
+      "seatChange": 22,
+      "description": "Leddes av statsminister Per Albin Hansson. Drev samlingsregeringens pragmatiska neutralitetslinje, strikt krisreglering och bevarad välfärdsgrund.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": 1,
+        "Q4": 2,
+        "Q5": 0,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": 1,
+        "Q11": 2,
+        "Q12": -1,
+        "Q13": -2,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Högern (Allmänna Valmansförbundet)",
+      "color": "#005595",
+      "votePercentage": 18.0,
+      "seats": 42,
+      "seatChange": -2,
+      "description": "Leddes av Gösta Bagge. Förespråkade starkt försvar, friare näringsliv, restriktivitet med statsskulden och ett fast stöd till Finland.",
+      "answers": {
+        "Q1": -1,
+        "Q2": -1,
+        "Q3": 1,
+        "Q4": 0,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": -2,
+        "Q9": 1,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": 2,
+        "Q13": -2,
+        "Q14": 1,
+        "Q15": 0,
+        "Q16": 0
+      }
+    },
+    {
+      "name": "Folkpartiet",
+      "color": "#006AB3",
+      "votePercentage": 12.0,
+      "seats": 23,
+      "seatChange": -4,
+      "description": "Leddes av Gustaf Andersson i Rasjön. Stödde samlingsregeringens linje men slog vakt om tryckfrihet, rättssäkerhet och enskilt initiativ.",
+      "answers": {
+        "Q1": -1,
+        "Q2": -1,
+        "Q3": -1,
+        "Q4": -1,
+        "Q5": 1,
+        "Q6": 1,
+        "Q7": -1,
+        "Q8": -1,
+        "Q9": -1,
+        "Q10": 0,
+        "Q11": 1,
+        "Q12": -1,
+        "Q13": -1,
+        "Q14": 0,
+        "Q15": 1,
+        "Q16": -1
+      }
+    },
+    {
+      "name": "Bondeförbundet",
+      "color": "#00853F",
+      "votePercentage": 12.0,
+      "seats": 28,
+      "seatChange": -8,
+      "description": "Leddes av Axel Pehrsson-Bramstorp. Värnade om jordbrukets försörjningsvillkor, landsbygdens behov, starkt försvar och traditionella familjevärden.",
+      "answers": {
+        "Q1": -1,
+        "Q2": 1,
+        "Q3": 1,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": -1,
+        "Q9": -1,
+        "Q10": 2,
+        "Q11": 1,
+        "Q12": -1,
+        "Q13": -2,
+        "Q14": 1,
+        "Q15": 1,
+        "Q16": 2
+      }
+    },
+    {
+      "name": "Sveriges Kommunistiska Parti (SKP)",
+      "color": "#8B0000",
+      "votePercentage": 3.5,
+      "seats": 3,
+      "seatChange": -2,
+      "description": "Leddes av Sven Linderot. Stod helt utanför samlingsregeringen; starka motståndare till permitteringstrafiken, transportförbuden och åsiktsregistreringen.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": -2,
+        "Q4": -1,
+        "Q5": -2,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": -2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": 1,
+        "Q16": -2
+      }
+    }
+  ],
+
   "questions": [
     {
       "id": "Q1",
@@ -76,6 +167,7 @@
       "category": "Utrikes & Försvar",
       "pro": "Att vägra är den enda principiellt hållbara neutralitetslinjen och visar solidaritet med ockuperade grannländer.",
       "con": "En pragmatisk eftergift är nödvändig för att förhindra att Sverige dras in i kriget och ockuperas.",
+      "outcome": "Permitteringstrafiken inleddes i juni 1940 och pågick fram till augusti 1943, då regeringen sa upp avtalet i takt med att den tyska krigslyckan vände.",
       "imageUrl": "images/1940/1940.jpg",
       "imageCaption": "Samlingsregeringen på bild"
     },
@@ -88,6 +180,7 @@
       "category": "Skatter & Ekonomi",
       "pro": "Skyddar hushållens köpkraft och förhindrar att svaga grupper drabbas av krisinflation.",
       "con": "Stör marknadens funktionssätt, snedvrider tillgången på varor och hämmar produktionen.",
+      "outcome": "Priskontrollnämnden inrättades 1940 och ett generellt prisstopp infördes 1942. Systemet avvecklades successivt efter krigsslutet under andra hälften av 1940-talet.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -100,6 +193,7 @@
       "category": "Rättigheter & Säkerhet",
       "pro": "Nödvändigt för att förhindra att enskilda tidningar provocerar fram ett krig eller en invasion av Sverige.",
       "con": "Innebörden urholkar tryckfriheten och tystar den legitima demokratiska debatten.",
+      "outcome": "Transportförbudet tillämpades hårt under beredskapsåren mot framför allt den kommunistiska pressen och anti-nazistiska tidningar. Lagen avskaffades 1944.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -112,6 +206,7 @@
       "category": "Offentlig Förvaltning",
       "pro": "Effektivt och nödvändigt för att snabbt nå ut med krisinformation och stärka försvarsandan hos allmänheten.",
       "con": "Biografer och kommersiella nöjen ska hållas helt fria från statlig påbjuden information och propaganda.",
+      "outcome": "Statens informationsstyrelse och regeringen samverkade med filmbranschen kring beredskapsfilmer och korta journalfilmer, vilka visades flitigt på biograferna under hela kriget.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -124,6 +219,7 @@
       "category": "Utrikes & Försvar",
       "pro": "Det är vår moraliska plikt att stötta ett nordiskt broderland mot ett aggressivt anfallskrig.",
       "con": "Riskerar att dra in Sverige som officiellt krigförande part i en stormaktskonflikt.",
+      "outcome": "Det statliga stödet till Finland under Vinterkriget bestod av omfattande vapenleveranser och ca 8 000 frivilliga i Svenska frivilligkåren. Under Fortsättningskriget (1941–1944) upprätthölls humanitärt stöd och frivilliginsatser.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -136,6 +232,7 @@
       "category": "Arbete & Välfärd",
       "pro": "Nödvändigt för att hålla landets produktion och försörjning igång under beredskapen.",
       "con": "Riskerar att splittra familjestrukturen och ta modern från hemmets och barnens omvårdnad.",
+      "outcome": "Kvinnors yrkesinträde ökade kraftigt under beredskapsåren för att ersätta inkallade män, men efter krigsslutet återgick arbetsmarknaden och familjepolitiken delvis till traditionella mönster fram till 1960-talets expanderande välfärdsstat.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -148,6 +245,7 @@
       "category": "Offentlig Förvaltning",
       "pro": "Ett samlat statligt grepp om järnvägarna är helt avgörande för militärens transporter och krigstidens logistik.",
       "con": "Kränker den privata äganderätten och belastar statskassan med stora, omotiverade utgifter.",
+      "outcome": "1939 års järnvägsbeslut om ett samlat statligt järnvägsnät genomfördes i snabb takt under 1940-talet, varpå de allra flesta privata banor köptes in och inordnades i SJ.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -160,6 +258,7 @@
       "category": "Skatter & Ekonomi",
       "pro": "Rättvist att förhindra spekulationsvinster och fördela krisens ekonomiska bördor.",
       "con": "Dränerar företagens kapitalreserver som behövs för återuppbyggnad och investeringar efter krisen.",
+      "outcome": "Krigskonjunkturskatten infördes 1940 och uttogs under hela beredskapstiden på vinster som översteg normala förkrigsnivåer. Skatten avvecklades efter krigsslutet.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -172,6 +271,7 @@
       "category": "Arbete & Välfärd",
       "pro": "Statens resurser måste oavkortat prioriteras till rikets omedelbara försvar och militära upprustning.",
       "con": "Att säkra barnrika familjers näring och hälsa är en ödesfråga som inte får avstanna under krigstid.",
+      "outcome": "Trots krigets ekonomiska påfrestningar behölls och byggdes stödformerna till barnrika familjer ut, vilket lade grunden för införandet av de allmänna barnbidragen 1948.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -184,6 +284,7 @@
       "category": "Rättigheter & Säkerhet",
       "pro": "Nödvändig säkerhetsåtgärd för att skydda försvarsanläggningar och infrastrukturen mot sabotage.",
       "con": "Sätter rättssäkerheten ur spel och riskerar att leda till godtycklig politisk åsiktsregistrering.",
+      "outcome": "Säkerhetstjänsten och militären bedrev omfattande åsiktsregistrering av främst kommunister under krigsåren. Övervakningen fortsatte även under det kalla kriget.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -196,6 +297,7 @@
       "category": "Arbete & Välfärd",
       "pro": "Garanterar god näring och trygghet för barn i tider av stadsbrist och beredskapshot.",
       "con": "Innebär statlig styrning av familjelivet och belastar landsbygdshushållen i onödan.",
+      "outcome": "Sommarbarnsverksamheten organiserades i stor skala från 1940 och framåt, där tiotusentals stadsbarn fick vistelse på landsbygden under beredskapsåren och efterkrigstiden.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -208,6 +310,7 @@
       "category": "Skatter & Ekonomi",
       "pro": "Täcker krisens kostnader direkt utan att bygga upp en enorm statsskuld för framtida generationer.",
       "con": "Lån från allmänheten sprider bördan över tid och engagerar medborgarna frivilligt utan drastiska skattechocker.",
+      "outcome": "Försvarslånen blev en enorm folklig framgång; genom tre stora rikslån under kriget samlade staten in flera miljarder kronor direkt från allmänheten och företagen.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -220,6 +323,7 @@
       "category": "Offentlig Förvaltning",
       "pro": "Bevarar en levande parlamentarisk opposition och förhindrar att regeringen styr utan granskning.",
       "con": "Samlingsregeringen sänder en avgörande signal om nationell enhet och handlingskraft mot yttre hot.",
+      "outcome": "Samlingsregeringen satt kvar under hela kriget och upplöstes först i juli 1945, varpå Per Albin Hansson bildade en ren socialdemokratisk regering.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -232,6 +336,7 @@
       "category": "Skatter & Ekonomi",
       "pro": "Rågummi är en livsviktig krigsvara som oavkortat måste reserveras för militärens fordon och beredskapsbehov.",
       "con": "Näringsfriheten måste värnas, och handeln bör få sälja ut sina befintliga lager av civila varor i fred.",
+      "outcome": "Rågummi belades med strikt statlig licensstyrelse, och privat användning av gummi upphörde nästan helt till förmån för försvarets fordon och beredskapsbehov.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -244,6 +349,7 @@
       "category": "Skatter & Ekonomi",
       "pro": "Ransoneringskort är det enda sättet att garantera att även fattiga hushåll får en trygg minimigiv av livsmedel under bristsituationer.",
       "con": "Skapar enorm byråkrati och svarta marknader; den fria prissättningen ska få dämpa efterfrågan istället.",
+      "outcome": "Statens livsmedelskommission införde ett heltäckande ransoneringssystem för nästan alla baslivsmedel och bränslen. Ransoneringen avvecklades stegvis fram till 1951.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -256,55 +362,9 @@
       "category": "Skatter & Ekonomi",
       "pro": "Manar till återhållsamhet och prioriterar matförsörjningen till medborgare och lantbrukets nyttodjur.",
       "con": "Straffar djurägare orättvist och innebär en kallsinnig statlig syn på människors sällskapsdjur.",
+      "outcome": "Hundskatten skärptes lokalt och kontrollen av utfodring med ransonerade livsmedel var sträng, men ett totalt statligt förbud mot sällskapsdjur infördes aldrig.",
       "imageUrl": "",
       "imageCaption": ""
-    }
-  ],
-  "parties": [
-    {
-      "name": "Socialdemokraterna",
-      "description": "Leddes av statsminister Per Albin Hansson. Drev samlingsregeringens pragmatiska neutralitetslinje, strikt krisreglering och bevarad välfärdsgrund.",
-      "answers": {
-        "Q1": -2, "Q2": 2, "Q3": 1, "Q4": 2, "Q5": 0, "Q6": 2,
-        "Q7": 2, "Q8": 2, "Q9": -2, "Q10": 1, "Q11": 2, "Q12": -1,
-        "Q13": -2, "Q14": 2, "Q15": 2, "Q16": 1
-      }
-    },
-    {
-      "name": "Högern (Allmänna Valmansförbundet)",
-      "description": "Leddes av Gösta Bagge. Förespråkade starkt försvar, friare näringsliv, restriktivitet med statsskulden och ett fast stöd till Finland.",
-      "answers": {
-        "Q1": -1, "Q2": -1, "Q3": 1, "Q4": 0, "Q5": 2, "Q6": -1,
-        "Q7": -2, "Q8": -2, "Q9": 1, "Q10": 2, "Q11": -1, "Q12": 2,
-        "Q13": -2, "Q14": 1, "Q15": 0, "Q16": 0
-      }
-    },
-    {
-      "name": "Folkpartiet",
-      "description": "Leddes av Gustaf Andersson i Rasjön. Stödde samlingsregeringens linje men slog vakt om tryckfrihet, rättssäkerhet och enskilt initiativ.",
-      "answers": {
-        "Q1": -1, "Q2": -1, "Q3": -1, "Q4": -1, "Q5": 1, "Q6": 1,
-        "Q7": -1, "Q8": -1, "Q9": -1, "Q10": 0, "Q11": 1, "Q12": -1,
-        "Q13": -1, "Q14": 0, "Q15": 1, "Q16": -1
-      }
-    },
-    {
-      "name": "Bondeförbundet",
-      "description": "Leddes av Axel Pehrsson-Bramstorp. Värnade om jordbrukets försörjningsvillkor, landsbygdens behov, starkt försvar och traditionella familjevärden.",
-      "answers": {
-        "Q1": -1, "Q2": 1, "Q3": 1, "Q4": 1, "Q5": 2, "Q6": -1,
-        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 2, "Q11": 1, "Q12": -1,
-        "Q13": -2, "Q14": 1, "Q15": 1, "Q16": 2
-      }
-    },
-    {
-      "name": "Sveriges Kommunistiska Parti (SKP)",
-      "description": "Leddes av Sven Linderot. Stod helt utanför samlingsregeringen; starka motståndare till permitteringstrafiken, transportförbuden och åsiktsregistreringen.",
-      "answers": {
-        "Q1": 2, "Q2": 2, "Q3": -2, "Q4": -1, "Q5": -2, "Q6": 2,
-        "Q7": 2, "Q8": 2, "Q9": -2, "Q10": -2, "Q11": 2, "Q12": 2,
-        "Q13": 2, "Q14": -1, "Q15": 1, "Q16": -2
-      }
     }
   ]
 }
