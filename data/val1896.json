@@ -1,12 +1,13 @@
 {
-  "id": "1896",
+  "id": "se-1896",
   "title": "Riksdagsvalet 1896",
-  "year": "1896",
+  "year": 1896,
   "tagline": "Rösträttsstriden & Arbetarrörelsens intåg",
   "description": "Det historiska genombrottsvalet vid 1800-talets slut då Socialdemokraterna fick sin allra första riksdagsman genom Hjalmar Branting, samtidigt som striderna rasade om rösträttsstrecken, spannmålstullar, fackföreningar och norrländska träpatroner.",
   
   "electionResults": {
     "seatsTotal": 230,
+    "summary": "Lantmannapartiet behöll sin starka ställning i andra kammaren och den konservativa ämbetsmannaregeringen under Erik Gustaf Boström satt kvar, men valets stora historiska händelse var att Hjalmar Branting valdes in i Stockholms valkrets som den förste socialdemokratiske riksdagsmannen.",
     "government": {
       "type": "Konservativ ämbetsmanna- och protektionistregering",
       "primeMinister": "Erik Gustaf Boström",
