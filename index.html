@@ -566,70 +566,53 @@
     <p class="tagline" id="header-tagline">Hur hade du röstat i dåtidens politiska ödesval?</p>
   </header>
 
-  <!-- VY 1: STARTSIDA -->
+ <!-- VY 1: STARTSIDA -->
   <main id="view-home">
     <p>Välj ett historiskt val nedan samt om du vill göra den snabba eller fördjupade kompassen:</p>
     
-    <div class="elections-grid">
-      <div class="election-card">
-        <h2>Valet 1896</h2>
-        <p><strong>Rösträttsstriden & Arbetarrörelsens intåg.</strong> Det historiska sekelskiftesvalet där striden om spannmålstullar och rösträtt rasade som hårdast, och där Hjalmar Branting tog plats som Sveriges allra första socialdemokratiska riksdagsman.</p>
-        
-        <div class="mode-buttons">
-          <button class="mode-btn" onclick="startElection('1896', true)">⚡ Snabbkompass (8 frågor)</button>
-          <button class="mode-btn" onclick="startElection('1896', false)">📚 Fullkompass (16 frågor)</button>
-        </div>
-      </div>
-      <div class="election-card">
-        <h2>Andrakammarvalet 1928</h2>
-        <p><strong>Kosackvalet & Välfärdsstatens begynnelse.</strong> Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna.</p>
-        
-        <div class="mode-buttons">
-          <button class="mode-btn" onclick="startElection('1928', true)">⚡ Snabbkompass (8 frågor)</button>
-          <button class="mode-btn" onclick="startElection('1928', false)">📚 Fullkompass (16 frågor)</button>
-        </div>
-      </div>
-        <div class="election-card">
-        <h2>Andrakammarvalet (Samlingsvalet) 1940</h2>
-        <p><strong>Beredskapsvalet i skuggan av andra världskriget.</strong> Ta ställning till permitteringstrafiken, ransoneringen och tryckfrihetens gränser under Per Albin Hanssons samlingsregering.</p> 
-        <div class="mode-buttons">
-          <button class="mode-btn" onclick="startElection('1940', true)">⚡ Snabbkompass (8 frågor)</button>
-          <button class="mode-btn" onclick="startElection('1940', false)">📚 Fullkompass (16 frågor)</button>
-        </div>
-      </div>
-      <div class="election-card">
-        <h2>Extravalet 1958 (ATP-valet)</h2>
-        <p><strong>ATP-striden & Välfärdens vägval.</strong> Det dramatiska extravalet efter folkomröstningen 1957 då striden om pensionerna, atomvapen och skatter ställde landet inför ett historiskt avgörande.</p>
-  
-        <div class="mode-buttons">
-          <button class="mode-btn" onclick="startElection('1958', true)">⚡ Snabbkompass (8 frågor)</button>
-          <button class="mode-btn" onclick="startElection('1958', false)">📚 Fullkompass (16 frågor)</button>
-        </div>
-      </div>
-        <div class="election-card">
-        <h2>Riksdagsvalet 1976</h2>
-        <p><strong>Kärnkraftsvalet.</strong> Valet där miljö- och energifrågan för första gången stod i absolut centrum</p>
-  
-        <div class="mode-buttons">
-          <button class="mode-btn" onclick="startElection('1976', true)">⚡ Snabbkompass (8 frågor)</button>
-          <button class="mode-btn" onclick="startElection('1976', false)">📚 Fullkompass (16 frågor)</button>
-        </div>
-      </div>
-        <div class="election-card">
-        <h2>Riksdagsvalet 1994</h2>
-        <p><strong>90-talskrisen & EU.</strong> Det laddade valet i skuggan av ett rekordstort budgetunderskott och den stundande folkomröstningen om EU-medlemskap.</p>
-  
-        <div class="mode-buttons">
-          <button class="mode-btn" onclick="startElection('1994', true)">⚡ Snabbkompass (8 frågor)</button>
-          <button class="mode-btn" onclick="startElection('1994', false)">📚 Fullkompass (16 frågor)</button>
-        </div>
-      </div>
+    <!-- Här injiceras valkorten dynamiskt av JavaScript -->
+    <div id="elections-grid-container" class="elections-grid">
+      <!-- Laddas in via elections.json -->
     </div>
 
     <div class="gemini-footer">
       Skapad med hjälp av Google Gemini
     </div>
   </main>
+
+  <script>
+    // Läs in elections.json vid sidans laddning och bygg upp korten
+    document.addEventListener("DOMContentLoaded", () => {
+      fetch('elections.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('elections-grid-container');
+          container.innerHTML = ''; // Rensa ev. laddtext
+
+          data.elections.forEach(election => {
+            const card = document.createElement('div');
+            card.className = 'election-card';
+            
+            card.innerHTML = `
+              <h2>${election.title}</h2>
+              <p><strong>${election.tagline}.</strong> ${election.description}</p>
+              
+              <div class="mode-buttons">
+                <button class="mode-btn" onclick="startElection('${election.id}', true)">⚡ Snabbkompass (8 frågor)</button>
+                <button class="mode-btn" onclick="startElection('${election.id}', false)">📚 Fullkompass (16 frågor)</button>
+              </div>
+            `;
+            
+            container.appendChild(card);
+          });
+        })
+        .catch(error => {
+          console.error("Kunde inte ladda elections.json:", error);
+          document.getElementById('elections-grid-container').innerHTML = 
+            '<p style="color: red;">Kunde inte ladda valöversikten. Kontrollera att elections.json finns på plats.</p>';
+        });
+    });
+  </script>
 
 <!-- VY 2: QUIZ -->
 <main id="view-quiz" style="display:none;">
