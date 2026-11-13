@@ -1,0 +1,42 @@
+{
+  "category": "swedish",
+  "categoryName": "Svenska historiska val",
+  "elections": [
+    {
+      "id": "1896",
+      "title": "Valet 1896",
+      "tagline": "Rösträttsstriden & Arbetarrörelsens intåg",
+      "description": "Det historiska sekelskiftesvalet där striden om spannmålstullar och rösträtt rasade som hårdast, och där Hjalmar Branting tog plats som Sveriges allra första socialdemokratiska riksdagsman."
+    },
+    {
+      "id": "1928",
+      "title": "Andrakammarvalet 1928",
+      "tagline": "Kosackvalet & Välfärdsstatens begynnelse",
+      "description": "Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna."
+    },
+    {
+      "id": "1940",
+      "title": "Andrakammarvalet 1940",
+      "tagline": "Beredskapsvalet i skuggan av andra världskriget",
+      "description": "Ta ställning till permitteringstrafiken, ransoneringen och tryckfrihetens gränser under Per Albin Hanssons samlingsregering."
+    },
+    {
+      "id": "1958",
+      "title": "Extravalet 1958",
+      "tagline": "ATP-striden & Välfärdens vägval",
+      "description": "Det dramatiska extravalet efter folkomröstningen 1957 då striden om pensionerna, atomvapen och skatter ställde landet inför ett historiskt avgörande."
+    },
+    {
+      "id": "1976",
+      "title": "Riksdagsvalet 1976",
+      "tagline": "Kärnkraftsvalet",
+      "description": "Valet där miljö- och energifrågan för första gången stod i absolut centrum."
+    },
+    {
+      "id": "1994",
+      "title": "Riksdagsvalet 1994",
+      "tagline": "90-talskrisen & EU",
+      "description": "Det laddade valet i skuggan av ett rekordstort budgetunderskott och den stundande folkomröstningen om EU-medlemskap."
+    }
+  ]
+}
