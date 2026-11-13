@@ -1,39 +1,68 @@
 {
-  "category": "swedish",
-  "categoryName": "Svenska historiska val",
+  "categories": [
+    {
+      "id": "swedish",
+      "name": "Svenska historiska val",
+      "default": true
+    }
+  ],
   "elections": [
     {
-      "id": "1896",
+      "id": "se-1896",
+      "active": true,
+      "category": "swedish",
+      "year": 1896,
+      "file": "val1896.json",
       "title": "Valet 1896",
       "tagline": "Rösträttsstriden & Arbetarrörelsens intåg",
       "description": "Det historiska sekelskiftesvalet där striden om spannmålstullar och rösträtt rasade som hårdast, och där Hjalmar Branting tog plats som Sveriges allra första socialdemokratiska riksdagsman."
     },
     {
-      "id": "1928",
+      "id": "se-1928",
+      "active": true,
+      "category": "swedish",
+      "year": 1928,
+      "file": "val1928.json",
       "title": "Andrakammarvalet 1928",
       "tagline": "Kosackvalet & Välfärdsstatens begynnelse",
       "description": "Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna."
     },
     {
-      "id": "1940",
+      "id": "se-1940",
+      "active": true,
+      "category": "swedish",
+      "year": 1940,
+      "file": "val1940.json",
       "title": "Andrakammarvalet 1940",
       "tagline": "Beredskapsvalet i skuggan av andra världskriget",
       "description": "Ta ställning till permitteringstrafiken, ransoneringen och tryckfrihetens gränser under Per Albin Hanssons samlingsregering."
     },
     {
-      "id": "1958",
+      "id": "se-1958",
+      "active": true,
+      "category": "swedish",
+      "year": 1958,
+      "file": "val1958.json",
       "title": "Extravalet 1958",
       "tagline": "ATP-striden & Välfärdens vägval",
       "description": "Det dramatiska extravalet efter folkomröstningen 1957 då striden om pensionerna, atomvapen och skatter ställde landet inför ett historiskt avgörande."
     },
     {
-      "id": "1976",
+      "id": "se-1976",
+      "active": true,
+      "category": "swedish",
+      "year": 1976,
+      "file": "val1976.json",
       "title": "Riksdagsvalet 1976",
       "tagline": "Kärnkraftsvalet",
       "description": "Valet där miljö- och energifrågan för första gången stod i absolut centrum."
     },
     {
-      "id": "1994",
+      "id": "se-1994",
+      "active": true,
+      "category": "swedish",
+      "year": 1994,
+      "file": "val1994.json",
       "title": "Riksdagsvalet 1994",
       "tagline": "90-talskrisen & EU",
       "description": "Det laddade valet i skuggan av ett rekordstort budgetunderskott och den stundande folkomröstningen om EU-medlemskap."
