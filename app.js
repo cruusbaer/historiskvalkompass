@@ -1,3 +1,4 @@
+let electionsManifest = null;
 let currentElectionData = null;
 let activeQuestions = [];
 let currentQuestionIndex = 0;
@@ -13,20 +14,43 @@ const valLabels = {
   "-2": "Helt emot"
 };
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadElectionsManifest();
+
   const urlParams = new URLSearchParams(window.location.search);
   const valId = urlParams.get("val");
   const isQuick = urlParams.get("quick") === "true";
   if (valId) startElection(valId, isQuick);
 });
 
+async function loadElectionsManifest() {
+  try {
+    const response = await fetch("data/elections.json");
+    if (!response.ok) throw new Error("Kunde inte ladda data/elections.json");
+    electionsManifest = await response.json();
+  } catch (error) {
+    console.error("Fel vid laddning av elections.json:", error);
+  }
+}
+
 async function startElection(electionId, isQuick = false) {
   try {
-    const response = await fetch(`data/val${electionId}.json`);
-    if (!response.ok) throw new Error(`Kunde inte ladda data/val${electionId}.json`);
-    
+    if (!electionsManifest) {
+      await loadElectionsManifest();
+    }
+
+    // Hitta valet i manifestet (stödjer även gamla ID:n som "1896" -> "se-1896")
+    const normalizedId = /^\d{4}$/.test(electionId) ? `se-${electionId}` : electionId;
+    const electionMeta = electionsManifest?.elections?.find(
+      e => e.id === normalizedId && e.active !== false
+    );
+
+    const fileName = electionMeta ? electionMeta.file : `val${electionId}.json`;
+    const response = await fetch(`data/${fileName}`);
+    if (!response.ok) throw new Error(`Kunde inte ladda data/${fileName}`);
+
     currentElectionData = await response.json();
-    
+
     if (isQuick) {
       activeQuestions = currentElectionData.questions.filter(q => q.quick);
     } else {
@@ -42,7 +66,8 @@ async function startElection(electionId, isQuick = false) {
     document.getElementById("header-tagline").innerText = `${modeText} (${activeQuestions.length} frågor)`;
     document.title = `${currentElectionData.title} – ${modeText}`;
 
-    history.pushState({ valId: electionId, isQuick }, "", `?val=${electionId}&quick=${isQuick}`);
+    const activeId = electionMeta ? electionMeta.id : normalizedId;
+    history.pushState({ valId: activeId, isQuick }, "", `?val=${activeId}&quick=${isQuick}`);
     switchView("view-quiz");
     renderQuestion();
   } catch (error) {
@@ -103,7 +128,7 @@ function renderQuestion() {
 
   document.getElementById("q-title").innerText = `${currentQuestionIndex + 1}. ${q.title}`;
   document.getElementById("q-statement").innerText = `"${q.statement}"`;
-  
+
   const contextEl = document.getElementById("q-context");
   if (q.context && q.context.trim() !== "") {
     contextEl.innerHTML = `<strong>Bakgrund:</strong> ${q.context}`;
@@ -132,7 +157,7 @@ function renderQuestion() {
     btn.className = "opt-btn";
     btn.setAttribute("data-val", opt.val);
     if (userAnswers[q.id] === opt.val) btn.classList.add("selected");
-    
+
     btn.innerHTML = `<span>${opt.text}</span>`;
     btn.onclick = () => selectOptionAndAdvance(q.id, opt.val);
     optionsContainer.appendChild(btn);
@@ -181,17 +206,17 @@ function renderImportanceList() {
   activeQuestions.forEach(q => {
     const item = document.createElement("div");
     item.className = "importance-item";
-    
+
     const isChecked = importantQuestions.has(q.id);
     const isDisabled = !isChecked && importantQuestions.size >= 3;
     const userValText = valLabels[userAnswers[q.id]] || "Inte besvarad";
 
     item.innerHTML = `
-      <input type="checkbox" id="chk-${q.id}" ${isChecked ? 'checked' : ''} ${isDisabled ? 'disabled' : ''}>
+      <input type="checkbox" id="chk-${q.id}" ${isChecked ? "checked" : ""} ${isDisabled ? "disabled" : ""}>
       <label for="chk-${q.id}" style="cursor:pointer; width:100%;">
         <strong>${q.title}</strong> <span style="font-size:0.85rem; color:#6c757d;">(${q.category})</span><br>
         <span style="font-size: 0.95rem; font-weight: 500; color: #1a2530; display: block; margin: 4px 0;">"${q.statement}"</span>
-        <span class="user-answer-badge">Ditt svar: ${userValText} ${isChecked ? '• Hjärtefråga (x2)' : ''}</span>
+        <span class="user-answer-badge">Ditt svar: ${userValText} ${isChecked ? "• Hjärtefråga (x2)" : ""}</span>
       </label>
     `;
 
@@ -235,11 +260,11 @@ function calculateResults() {
     });
 
     const percent = Math.round((totalPoints / maxPoints) * 100);
-    return { 
+    return {
       partyObj: party,
-      name: party.name, 
-      percent: percent, 
-      description: party.description 
+      name: party.name,
+      percent: percent,
+      description: party.description
     };
   });
 
@@ -263,19 +288,19 @@ function calculateResults() {
 
       matrixRowsHtml += `
         <div class="matrix-row">
-          <span>${q.title} ${isImp ? '<strong>(Viktad x2)</strong>' : ''}</span>
+          <span>${q.title} ${isImp ? "<strong>(Viktad x2)</strong>" : ""}</span>
           <span>Ditt svar: <strong>${valLabels[uVal]}</strong> | Partiets svar: <strong>${valLabels[pVal]}</strong></span>
         </div>
       `;
     });
 
     listEl.innerHTML += `
-      <div class="result-item" style="${isWinner ? 'border-color: var(--accent); background: #f0f7ff;' : ''}">
+      <div class="result-item" style="${isWinner ? "border-color: var(--accent); background: #f0f7ff;" : ""}">
         <div class="result-header">
-          <span class="party-name">${isWinner ? '🏆 Bästa matchning: ' : ''}${s.name}</span>
+          <span class="party-name">${isWinner ? "🏆 Bästa matchning: " : ""}${s.name}</span>
           <span class="result-score">${s.percent}%</span>
         </div>
-        ${s.description ? `<p style="font-size: 0.9rem; color: #495057; margin: 5px 0;">${s.description}</p>` : ''}
+        ${s.description ? `<p style="font-size: 0.9rem; color: #495057; margin: 5px 0;">${s.description}</p>` : ""}
         
         <button class="breakdown-toggle" onclick="toggleMatrix('${partyId}')">Visa partifacit och detaljberäkning ▼</button>
         
@@ -302,10 +327,11 @@ function toggleFormula() {
 
 function showHistoryView() {
   switchView("view-history");
-  
-  // 1. Övergripande historisk sammanfattning
+
+  // 1. Övergripande historisk sammanfattning från electionResults.summary
   const summaryEl = document.getElementById("history-summary");
-  summaryEl.innerHTML = `<strong>Historiskt utfall ${currentElectionData.year || ''}:</strong> ${currentElectionData.historicalOutcome.summary}`;
+  const summaryText = currentElectionData.electionResults?.summary || "";
+  summaryEl.innerHTML = `<strong>Historiskt utfall ${currentElectionData.year || ""}:</strong> ${summaryText}`;
 
   // 2. Rendera regeringsbildning, mandatfördelning och procentstaplar i containern
   const aftermathContainer = document.getElementById("election-aftermath-container");
@@ -313,21 +339,20 @@ function showHistoryView() {
     aftermathContainer.innerHTML = renderWhatHappenedAfter(currentElectionData);
   }
 
-  // 3. Fråga för fråga-genomgången
+  // 3. Fråga för fråga-genomgången med q.outcome
   const listEl = document.getElementById("history-list");
   listEl.innerHTML = "";
 
   activeQuestions.forEach(q => {
-    const outcome = currentElectionData.historicalOutcome.questionsOutcome[q.id];
     const uVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
     const isImp = importantQuestions.has(q.id);
 
     listEl.innerHTML += `
       <div class="history-card">
-        <h3>${q.title} ${isImp ? '⭐' : ''}</h3>
+        <h3>${q.title} ${isImp ? "⭐" : ""}</h3>
         <p class="statement-text">"${q.statement}"</p>
         <p class="user-choice-text"><strong>Ditt ställningstagande:</strong> ${valLabels[uVal]}</p>
-        <p class="outcome-text"><strong>Vad som hände i verkligheten & på sikt:</strong> ${outcome ? outcome.description : 'Ingen historisk uppgift registrerad.'}</p>
+        <p class="outcome-text"><strong>Vad som hände i verkligheten & på sikt:</strong> ${q.outcome || "Ingen historisk uppgift registrerad."}</p>
       </div>
     `;
   });
@@ -346,7 +371,13 @@ function showHome() {
 
 function renderWhatHappenedAfter(electionData) {
   const res = electionData.electionResults;
-  if (!res) return "<p>Ingen valresultatsdata tillgänglig för detta val.</p>";
+  const parties = electionData.parties;
+  if (!res || !parties) return "<p>Ingen valresultatsdata tillgänglig för detta val.</p>";
+
+  // Sortera partier efter mandat/röster för visning i staplarna (filtrera bort partier utan valdata)
+  const partiesWithResults = parties
+    .filter(p => typeof p.seats === "number" && typeof p.votePercentage === "number")
+    .sort((a, b) => b.votePercentage - a.votePercentage);
 
   let html = `
     <div class="historical-aftermath">
@@ -357,43 +388,46 @@ function renderWhatHappenedAfter(electionData) {
         <p><strong>Typ:</strong> ${res.government.type}</p>
         <p><strong>Statsminister:</strong> ${res.government.primeMinister}</p>
         <p><strong>Regerande parti(er):</strong> ${res.government.rulingParties.join(", ")}</p>
-        ${res.government.supportParties && res.government.supportParties.length > 0 ? `<p><strong>Stödparti:</strong> ${res.government.supportParties.join(", ")}</p>` : ''}
+        ${res.government.supportParties && res.government.supportParties.length > 0 ? `<p><strong>Stödparti:</strong> ${res.government.supportParties.join(", ")}</p>` : ""}
         <p><strong>Opposition:</strong> ${res.government.opposition.join(", ")}</p>
       </div>
 
       <div class="mandate-section">
-        <h4>Mandatfördelning i Andra kammaren (Totalt: ${res.seatsTotal} mandat)</h4>
+        <h4>Mandatfördelning (Totalt: ${res.seatsTotal} mandat)</h4>
         <div class="seat-bar">
   `;
 
-  // 1. Mandatfördelningsfält med hover-info
-  res.partyResults.forEach(party => {
-    const widthPercent = (party.seats / res.seatsTotal) * 100;
-    const color = getPartyColor(party.partyName);
-    
-    let changeFormatted = party.seatChange > 0 ? `+${party.seatChange}` : `${party.seatChange}`;
-    if (party.seatChange === 0) changeFormatted = "±0";
+  // 1. Mandatfördelningsfält med färg direkt från partiobjektet
+  partiesWithResults
+    .filter(party => party.seats > 0)
+    .forEach(party => {
+      const widthPercent = (party.seats / res.seatsTotal) * 100;
+      const color = party.color || "#777777";
 
-    const tooltipText = `${party.partyName}: ${party.seats} mandat (${changeFormatted} sedan förra valet)`;
+      let changeFormatted = party.seatChange > 0 ? `+${party.seatChange}` : `${party.seatChange}`;
+      if (party.seatChange === 0) changeFormatted = "±0";
 
-    html += `
-      <div class="seat-segment" 
-           style="width: ${widthPercent}%; background-color: ${color};" 
-           title="${tooltipText}">
-        <span class="seat-label">${party.seats}</span>
-      </div>
-    `;
-  });
+      const tooltipText = `${party.name}: ${party.seats} mandat (${changeFormatted} sedan förra valet)`;
+
+      html += `
+        <div class="seat-segment" 
+             style="width: ${widthPercent}%; background-color: ${color};" 
+             title="${tooltipText}">
+          <span class="seat-label">${party.seats}</span>
+        </div>
+      `;
+    });
 
   html += `</div></div><div class="percentage-section"><h4>Röstetal i valet (%)</h4>`;
 
-  // 2. Renodlad procentlista
-  res.partyResults.forEach(party => {
+  // 2. Renodlad procentlista med färg direkt från partiobjektet
+  partiesWithResults.forEach(party => {
+    const color = party.color || "#777777";
     html += `
       <div class="bar-row">
-        <span class="party-name">${party.partyName}</span>
+        <span class="party-name">${party.name}</span>
         <div class="bar-track">
-          <div class="bar-fill" style="width: ${party.votePercentage}%; background-color: ${getPartyColor(party.partyName)};"></div>
+          <div class="bar-fill" style="width: ${party.votePercentage}%; background-color: ${color};"></div>
         </div>
         <span class="party-pct">${party.votePercentage}%</span>
       </div>
@@ -402,27 +436,4 @@ function renderWhatHappenedAfter(electionData) {
 
   html += `</div></div>`;
   return html;
-}
-
-function getPartyColor(partyName) {
-  // Vänsterblocket & Arbetarrörelsen
-  if (partyName.includes("Socialdemokraterna")) return "#e81123";
-  if (partyName.includes("Kommunistiska") || partyName.includes("SKP") || partyName.includes("Vänsterpartiet")) return "#990000";
-
-  // Gröna partier
-  if (partyName.includes("Miljöpartiet")) return "#83CF39";
-  if (partyName.includes("Centerpartiet") || partyName.includes("Bondeförbundet")) return "#00853F";
-
-  // Borgerliga partier
-  if (partyName.includes("Moderata") || partyName.includes("Högern")) return "#005595";
-  if (partyName.includes("Folkpartiet") || partyName.includes("Frisinnade") || partyName.includes("Liberala riksdagspartiet")) return "#006699";
-  if (partyName.includes("Kristdemokraterna") || partyName.includes("KDS")) return "#005ea1";
-
-  // Övriga riksdagspartier
-  if (partyName.includes("Ny Demokrati")) return "#ffc600";
-  if (partyName.includes("Lantmannapartiet")) return "#005595"; // Konservativt/agrart blå
-  if (partyName.includes("Frihandelsvänliga centern")) return "#4682B4"; // Måttfullt liberal stålblå
-
-  // Standardfärg för okända/övriga partier
-  return "#777777";
 }
