@@ -1,71 +1,163 @@
 {
-  "id": "1958",
+  "id": "se-1958",
   "title": "Andrakammarvalet (ATP-valet) 1958",
-  "year": "1958",
+  "year": 1958,
+  "tagline": "ATP-striden & Välfärdens vägval",
   "description": "Det extraval som utlystes efter att den historiska pensionsfolkomröstningen 1957 spräckte regeringen och ställde välfärdens ödesfrågor på sin spets i Sverige.",
-  "historicalOutcome": {
-    "summary": "Efter att pensionsfolkomröstningen i oktober 1957 splittrat den socialdemokratiskt-bondeförbundiska regeringen och låst riksdagen, utlyste statsminister Tage Erlander extra val till Andra kammaren den 1 juni 1958. Valet blev en stor framgång för Socialdemokraterna och Centerpartiet på Folkpartiets bekostnad. Det skapade det parlamentariska underlag som året därpå gjorde det möjligt att driva igenom ATP-reformen.",
-    "questionsOutcome": {
-      "Q1": { "description": "Linje 1 vann folkomröstningen med 45,8 % och ATP-systemet drevs igenom i riksdagen 1959. Det lade grunden för den moderna svenska välfärdsmodellen och AP-fonderna." },
-      "Q2": { "description": "Affärstidslagen skärptes inte permanent; tvärtom kom konsumtionssamhällets framväxt under 1960-talet att leda till en successiv avreglering som avskaffade lagen helt 1972." },
-      "Q3": { "description": "Sverige lade ner sitt militära kärnvapenprogram under 1960-talet. Beslutet fattades formellt 1968 när Sverige anslöt sig till icke-spridningsavtalet (NPT)." },
-      "Q4": { "description": "Trots nej-resultatet i folkomröstningen 1955 drev riksdagen igenom beslutet om högertrafikomläggning 1963. Dagen H genomfördes den 3 september 1967." },
-      "Q5": { "description": "Reglerna kring mopeder skärptes successivt under 1960- och 70-talen med hjälmtvång, men ett formellt AM-körkort med utbildningskrav dröjde till 2009." },
-      "Q6": { "description": "Riksdagen och Kyrkomötet antog lagen 1958. År 1960 prästvigdes de tre första kvinnorna i Svenska kyrkan (Margit Sahlin, Elisabeth Djurle och Ingrid Persson)." },
-      "Q7": { "description": "Den 'svenska linjen' byggdes ut med försöksreaktorn i Ågesta, men skiftade under 1960-talet mot kommersiella lättvattenreaktorer fram till kärnkraftsomröstningen 1980." },
-      "Q8": { "description": "Inköpspolitiken förblev i princip fri för museernas experter, och den abstrakta konsten etablerade sig starkt på institutioner som Moderna Museet (invigt 1958)." },
-      "Q9": { "description": "Omsättningsskatten (Oms) infördes 1960 med en sats på 4,2 %. Skatten permanentades, höjdes successivt och omvandlades 1969 till dagens Mervärdesskatt (Moms)." },
-      "Q10": { "description": "Den fria arbetskraftsinvandringen fortsatte under 1960-talets högkonjunktur och byggde upp industrin, innan regleringar infördes för utomnordisk invandring 1968." },
-      "Q11": { "description": "Folkparkerna fick viss statlig stimulans och kulturstöd under 1960-talet, men lyckades inte fullt ut stå emot televisionens och privatbilismens dominans." },
-      "Q12": { "description": "Den treveckors lagstadgade semestern genomfördes 1963. Därefter byggdes rätten ut till fyra veckor 1965 och slutligen fem veckors semester 1977." },
-      "Q13": { "description": "Svenskt U-landsbistånd organiserades och byggdes ut kraftigt under 1960-talet genom bildandet av SIDA 1965, och Sverige nådde enprocentmålet under 1970-talet." },
-      "Q14": { "description": "Pensionsåldern sänktes från 67 till 65 år vid den stora pensionsreformen 1976." },
-      "Q15": { "description": "Monopolet behölls intakt. Sveriges Radio fick sin andra TV-kanal (TV2) 1969 i statlig regi, och kommersiell media tilläts först i början av 1990-talet." },
-      "Q16": { "description": "Nedläggningen av olönsamma regionala banor (den s.k. 'järnvägsdöden') accelererade kraftigt under 1960-talet när SJ anpassade sig till bilsamhället." }
-    }
-  },
+
   "electionResults": {
     "seatsTotal": 231,
+    "summary": "Efter att pensionsfolkomröstningen i oktober 1957 splittrat den socialdemokratiskt-bondeförbundiska regeringen och låst riksdagen, utlyste statsminister Tage Erlander extra val till Andra kammaren den 1 juni 1958. Valet blev en stor framgång för Socialdemokraterna och Centerpartiet på Folkpartiets bekostnad. Det skapade det parlamentariska underlag som året därpå gjorde det möjligt att driva igenom ATP-reformen.",
     "government": {
       "type": "Socialdemokratisk minoritetsregering",
       "primeMinister": "Tage Erlander",
-      "rulingParties": ["Socialdemokraterna"],
-      "supportParties": ["Sveriges Kommunistiska Parti (SKP)"],
-      "opposition": ["Högern (Allmänna Valmansförbundet)", "Folkpartiet", "Centerpartiet"]
-    },
-    "partyResults": [
-      {
-        "partyName": "Sveriges Kommunistiska Parti (SKP)",
-        "votePercentage": 3.4,
-        "seats": 5,
-        "seatChange": -1
-      },
-      {
-        "partyName": "Socialdemokraterna",
-        "votePercentage": 46.2,
-        "seats": 111,
-        "seatChange": 5
-      },
-      {
-        "partyName": "Centerpartiet",
-        "votePercentage": 12.7,
-        "seats": 32,
-        "seatChange": 13
-      },
-      {
-        "partyName": "Folkpartiet",
-        "votePercentage": 18.2,
-        "seats": 38,
-        "seatChange": -20
-      },
-      {
-        "partyName": "Högern (Allmänna Valmansförbundet)",
-        "votePercentage": 19.5,
-        "seats": 45,
-        "seatChange": 3
-      }
-    ]
+      "rulingParties": [
+        "Socialdemokraterna"
+      ],
+      "supportParties": [
+        "Sveriges Kommunistiska Parti (SKP)"
+      ],
+      "opposition": [
+        "Högern (Allmänna Valmansförbundet)",
+        "Folkpartiet",
+        "Centerpartiet"
+      ]
+    }
   },
+
+  "parties": [
+    {
+      "name": "Socialdemokraterna",
+      "color": "#E8112D",
+      "votePercentage": 46.2,
+      "seats": 111,
+      "seatChange": 5,
+      "description": "Leddes av Tage Erlander. Drev igenom den obligatoriska ATP-linjen (Linje 1) och generell omsättningsskatt för att finansiera välfärdsstaten.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 1,
+        "Q3": -1,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": -1,
+        "Q9": 2,
+        "Q10": 1,
+        "Q11": 1,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": 1,
+        "Q15": 2,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Högern (Allmänna Valmansförbundet)",
+      "color": "#005595",
+      "votePercentage": 19.5,
+      "seats": 45,
+      "seatChange": 3,
+      "description": "Leddes av Jarl Hjalmarson. Drev skattesänkningar, frivillig pension (Linje 3), starkt försvar med kärnvapen och fri företagsamhet.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -1,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": 1,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": 1,
+        "Q9": -2,
+        "Q10": 1,
+        "Q11": -2,
+        "Q12": -2,
+        "Q13": -1,
+        "Q14": -2,
+        "Q15": -2,
+        "Q16": 2
+      }
+    },
+    {
+      "name": "Folkpartiet",
+      "color": "#006AB3",
+      "votePercentage": 18.2,
+      "seats": 38,
+      "seatChange": -20,
+      "description": "Leddes av Bertil Ohlin. Ville ha frivilliga avtalspensioner (Linje 3) och frihetliga reformer, men drabbades hårt av väljartapp i valet 1958.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -2,
+        "Q3": 0,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": 2,
+        "Q7": 1,
+        "Q8": -1,
+        "Q9": -1,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": -2,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Centerpartiet",
+      "color": "#00853F",
+      "votePercentage": 12.7,
+      "seats": 32,
+      "seatChange": 13,
+      "description": "Leddes av Gunnar Hedlund. Drev Linje 2 (frivillig pensionsförsäkring med tak) och värnade landsbygd, jordbruk och decentralisering.",
+      "answers": {
+        "Q1": -1,
+        "Q2": 2,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": 1,
+        "Q6": -1,
+        "Q7": -1,
+        "Q8": 0,
+        "Q9": -1,
+        "Q10": -1,
+        "Q11": 2,
+        "Q12": 0,
+        "Q13": 1,
+        "Q14": 0,
+        "Q15": 1,
+        "Q16": -2
+      }
+    },
+    {
+      "name": "Sveriges Kommunistiska Parti (SKP)",
+      "color": "#8B0000",
+      "votePercentage": 3.4,
+      "seats": 5,
+      "seatChange": -1,
+      "description": "Leddes av Hilding Hagberg. Stödde Linje 1 för ATP men var starka motståndare till svenskt kärnvapen och den nya omsättningsskatten.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 1,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": -1,
+        "Q6": 2,
+        "Q7": -2,
+        "Q8": -2,
+        "Q9": -2,
+        "Q10": -1,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 1,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": -2
+      }
+    }
+  ],
+
   "questions": [
     {
       "id": "Q1",
@@ -76,6 +168,7 @@
       "category": "Socialpolitik & Välfärd",
       "pro": "Ger alla löntagare en trygg och rättvis pension kopplad till tidigare inkomst.",
       "con": "Innebär statligt tvång, höga skatter och enorm statlig makt över pensionskapitalet.",
+      "outcome": "Linje 1 vann folkomröstningen med 45,8 % och ATP-systemet drevs igenom i riksdagen 1959. Det lade grunden för den moderna svenska välfärdsmodellen och AP-fonderna.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -88,6 +181,7 @@
       "category": "Skatter, Ekonomi & Handel",
       "pro": "Skyddar butiksanställdas arbetsmiljö och värnar helgfreden.",
       "con": "Inskränker konsumenternas frihet och hindrar modern handel.",
+      "outcome": "Affärstidslagen skärptes inte permanent; tvärtom kom konsumtionssamhällets framväxt under 1960-talet att leda till en successiv avreglering som avskaffade lagen helt 1972.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -100,6 +194,7 @@
       "category": "Utrikes & Försvar",
       "pro": "Gör den svenska neutraliteten trovärdig och avskräcker stormakter.",
       "con": "Ökar spänningen i Norden och riskerar att dra in Sverige i ett kärnvapenkrig.",
+      "outcome": "Sverige lade ner sitt militära kärnvapenprogram under 1960-talet. Beslutet fattades formellt 1968 när Sverige anslöt sig till icke-spridningsavtalet (NPT).",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -112,6 +207,7 @@
       "category": "Infrastruktur & Trafik",
       "pro": "Ökar trafiksäkerheten och anpassar Sverige till övriga Europa.",
       "con": "Kostar enorma skattepengar och kör över folkviljan från 1955.",
+      "outcome": "Trots nej-resultatet i folkomröstningen 1955 drev riksdagen igenom beslutet om högertrafikomläggning 1963. Dagen H genomfördes den 3 september 1967.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -124,6 +220,7 @@
       "category": "Infrastruktur & Trafik",
       "pro": "Minskar olyckstalen och skapar ordning i trafiken.",
       "con": "Begränsar ungdomars och landsbygdsbefolkningens enkla transportmedel.",
+      "outcome": "Reglerna kring mopeder skärptes successivt under 1960- och 70-talen med hjälmtvång, men ett formellt AM-körkort med utbildningskrav dröjde till 2009.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -136,6 +233,7 @@
       "category": "Religion & Jämlikhet",
       "pro": "En fundamental jämlikhetsfråga om alla människors lika värde.",
       "con": "Bryter mot kyrkans teologiska tradition och inkräktar på kyrkans oberoende.",
+      "outcome": "Riksdagen och Kyrkomötet antog lagen 1958. År 1960 prästvigdes de tre första kvinnorna i Svenska kyrkan (Margit Sahlin, Elisabeth Djurle och Ingrid Persson).",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -148,6 +246,7 @@
       "category": "Energi & Industri",
       "pro": "Säkrar billig och oberoende el för industrin och hushållen.",
       "con": "Innebär gigantiska ekonomiska risker och oöverskådliga miljökonsekvenser.",
+      "outcome": "Den 'svenska linjen' byggdes ut med försöksreaktorn i Ågesta, men skiftade under 1960-talet mot kommersiella lättvattenreaktorer fram till kärnkraftsomröstningen 1980.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -160,6 +259,7 @@
       "category": "Kultur & Samhällsliv",
       "pro": "Säkerställer att skattepengar går till folkligt förståelig och beprövad konst.",
       "con": "Inskränker den konstnärliga friheten och stoppar nyskapande kultur.",
+      "outcome": "Inköpspolitiken förblev i princip fri för museernas experter, och den abstrakta konsten etablerade sig starkt på institutioner som Moderna Museet (invigt 1958).",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -172,6 +272,7 @@
       "category": "Skatter & Ekonomi",
       "pro": "Breddar skattebasen och säkrar långsiktig finansiering av vård och skola.",
       "con": "Fördyrar alla vardagsvaror och slår hårdast mot låginkomsttagare.",
+      "outcome": "Omsättningsskatten (Oms) infördes 1960 med en sats på 4,2 %. Skatten permanentades, höjdes successivt och omvandlades 1969 till dagens Mervärdesskatt (Moms).",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -184,6 +285,7 @@
       "category": "Arbetsmarknad & Migration",
       "pro": "Räddar industrins tillväxt och bygger upp Sveriges välstånd.",
       "con": "Riskerar att skada fackets förhandlingsposition och skapa bostadsbrist.",
+      "outcome": "Den fria arbetskraftsinvandringen fortsatte under 1960-talets högkonjunktur och byggde upp industrin, innan regleringar infördes för utomnordisk invandring 1968.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -196,6 +298,7 @@
       "category": "Kultur & Samhällsliv",
       "pro": "Bevarar en unikt svensk folkrörelse och kulturarv på landsbygden.",
       "con": "Det är inte statens uppgift att subventionera kommersiella nöjesetablissemang.",
+      "outcome": "Folkparkerna fick viss statlig stimulans och kulturstöd under 1960-talet, men lyckades inte fullt ut stå emot televisionens och privatbilismens dominans.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -208,6 +311,7 @@
       "category": "Arbetsmarknad & Arbetsrätt",
       "pro": "Ökar arbetarnas hälsa, livskvalitet och möjlighet till rekreation.",
       "con": "Ökar produktionskostnaderna och minskar industrins konkurrenskraft.",
+      "outcome": "Den treveckors lagstadgade semestern genomfördes 1963. Därefter byggdes rätten ut till fyra veckor 1965 och slutligen fem veckors semester 1977.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -220,6 +324,7 @@
       "category": "Utrikes & Försvar",
       "pro": "En moralisk plikt för ett rikt land att hjälpa fattiga nationer.",
       "con": "Svenska skattepengar bör i första hand användas till svensk välfärd.",
+      "outcome": "Svenskt U-landsbistånd organiserades och byggdes ut kraftigt under 1960-talet genom bildandet av SIDA 1965, och Sverige nådde enprocentmålet under 1970-talet.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -232,6 +337,7 @@
       "category": "Socialpolitik & Välfärd",
       "pro": "Ger utslitna arbetare rätt till välförtjänt vila i tid.",
       "con": "Kostar statskassan enorma summor och minskar arbetsutbudet.",
+      "outcome": "Pensionsåldern sänktes från 67 till 65 år vid den stora pensionsreformen 1976.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -244,6 +350,7 @@
       "category": "Kultur & Media",
       "pro": "Garanterar opartisk bildning och folkuppfostran fri från kommersiella intressen.",
       "con": "Begränsar yttrandefriheten och stoppar mångfald i medielandskapet.",
+      "outcome": "Monopolet behölls intakt. Sveriges Radio fick sin andra TV-kanal (TV2) 1969 i statlig regi, och kommersiell media tilläts först i början av 1990-talet.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -256,55 +363,9 @@
       "category": "Infrastruktur & Glesbygd",
       "pro": "Stoppar slöseri med statliga medel när biltrafiken tagit över.",
       "con": "Isolerar glesbygden och försämrar kollektivtrafiken på landsbygden.",
+      "outcome": "Nedläggningen av olönsamma regionala banor (den s.k. 'järnvägsdöden') accelererade kraftigt under 1960-talet när SJ anpassade sig till bilsamhället.",
       "imageUrl": "",
       "imageCaption": ""
-    }
-  ],
-  "parties": [
-    {
-      "name": "Socialdemokraterna",
-      "description": "Leddes av Tage Erlander. Drev igenom den obligatoriska ATP-linjen (Linje 1) och generell omsättningsskatt för att finansiera välfärdsstaten.",
-      "answers": {
-        "Q1": 2, "Q2": 1, "Q3": -1, "Q4": 1, "Q5": 0, "Q6": 2,
-        "Q7": 2, "Q8": -1, "Q9": 2, "Q10": 1, "Q11": 1, "Q12": 2,
-        "Q13": 2, "Q14": 1, "Q15": 2, "Q16": 1
-      }
-    },
-    {
-      "name": "Högern (Allmänna Valmansförbundet)",
-      "description": "Leddes av Jarl Hjalmarson. Drev skattesänkningar, frivillig pension (Linje 3), starkt försvar med kärnvapen och fri företagsamhet.",
-      "answers": {
-        "Q1": -2, "Q2": -1, "Q3": 2, "Q4": 1, "Q5": 1, "Q6": -1,
-        "Q7": 1, "Q8": 1, "Q9": -2, "Q10": 1, "Q11": -2, "Q12": -2,
-        "Q13": -1, "Q14": -2, "Q15": -2, "Q16": 2
-      }
-    },
-    {
-      "name": "Folkpartiet",
-      "description": "Leddes av Bertil Ohlin. Ville ha frivilliga avtalspensioner (Linje 3) och frihetliga reformer, men drabbades hårt av väljartapp i valet 1958.",
-      "answers": {
-        "Q1": -2, "Q2": -2, "Q3": 0, "Q4": 1, "Q5": 0, "Q6": 2,
-        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 2, "Q11": -1, "Q12": 1,
-        "Q13": 2, "Q14": -1, "Q15": -2, "Q16": 1
-      }
-    },
-    {
-      "name": "Centerpartiet",
-      "description": "Leddes av Gunnar Hedlund. Drev Linje 2 (frivillig pensionsförsäkring med tak) och värnade landsbygd, jordbruk och decentralisering.",
-      "answers": {
-        "Q1": -1, "Q2": 2, "Q3": -2, "Q4": -2, "Q5": 1, "Q6": -1,
-        "Q7": -1, "Q8": 0, "Q9": -1, "Q10": -1, "Q11": 2, "Q12": 0,
-        "Q13": 1, "Q14": 0, "Q15": 1, "Q16": -2
-      }
-    },
-    {
-      "name": "Sveriges Kommunistiska Parti (SKP)",
-      "description": "Leddes av Hilding Hagberg. Stödde Linje 1 för ATP men var starka motståndare till svenskt kärnvapen och den nya omsättningsskatten.",
-      "answers": {
-        "Q1": 2, "Q2": 1, "Q3": -2, "Q4": -2, "Q5": -1, "Q6": 2,
-        "Q7": -2, "Q8": -2, "Q9": -2, "Q10": -1, "Q11": 2, "Q12": 2,
-        "Q13": 1, "Q14": 2, "Q15": 2, "Q16": -2
-      }
     }
   ]
 }

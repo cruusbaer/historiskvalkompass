@@ -1,77 +1,186 @@
 {
-  "id": "1928",
+  "id": "se-1928",
   "title": "Andrakammarvalet 1928",
-  "year": "1928",
+  "year": 1928,
+  "tagline": "Kosackvalet & Välfärdsstatens begynnelse",
   "description": "Det legendariska 'Kosackvalet' där striden stod mellan Högern och Socialdemokraterna kring välfärd, skatter och arbetsmarknad.",
-  "historicalOutcome": {
-    "summary": "Högern (Allmänna Valmansförbundet) nådde sin största valframgång någonsin efter en hård kampanj mot Socialdemokraternas skatte- och arvsförslag. Arvid Lindman bildade en borgerlig regering med stöd av Frisinnade Folkpartiet som tungan på vågen.",
-    "questionsOutcome": {
-      "Q1": { "description": "AK-systemet och dess låga nödhjälpslöner behölls intakta under mandatperioden 1928–1932. När den stora depressionen slog med full kraft på 1930-talet visade sig systemet dock otillräckligt för att hantera massarbetslösheten. Detta ledde till häftiga politiska strider (bl.a. Ådalen 1931) och blev en stark drivkraft för Socialdemokraterna och Bondeförbundet att i 1930-talets 'kohandel' avskaffa systemet och ersätta det med statliga arbetslöshetsförsäkringar och organiserade beredskapsarbeten till avtalsenliga löner." },
-      "Q2": { "description": "Kollektivavtalslagen och Arbetsdomstolen (AD) behölls av den borgerliga regeringen och möttes till en början av intensivt motstånd och misstro från fackligt håll. På sikt kom dock institutionen att accepteras av båda sidor på arbetsmarknaden. Den lade grunden för Saltsjöbadsavtalet 1938 och den så kallade 'svenska modellen', där parterna själva slöt fredliga avtal utan statlig inblandning." },
-      "Q3": { "description": "1925 års nedrustningsbeslut revs inte upp av Lindmans regering, vilket innebar att det svenska försvaret fortsatte att hållas på en relativt låg nivå under början av 1930-talet. Först i skuggan av Nazitysklands upprustning och ett allt mer hotfullt säkerhetstlage i Europa enades riksdagen till sist om det stora och mer offensiva försvarsbeslutet 1936." },
-      "Q4": { "description": "Förslaget om en skärpt arvsskatt röstades ner av den borgerliga majoriteten efter valet 1928. Frågan förblev en återkommande stötesten mellan höger och vänster under mellankrigstiden. När Socialdemokraterna väl säkrade regeringsmakten långsiktigt dröjde det till efterkrigstiden innan successiva skärpningar av arvsskatten och förmögenhetsskatten genomfördes för att finansiera den växande välfärdsstaten." },
-      "Q5": { "description": "Spannmålstullar infördes i början av 1930-talet som en direkt konsekvens av den globala jordbrukskrisen och den stora depressionen. Detta blev startskottet för en protektionistisk krispolitik som snabbt utökades med prisregleringar på mjölk, fläsk och spannmål, vilket permanentade ett starkt statligt skydd för svenskt jordbruk decennier framåt." },
-      "Q6": { "description": "Det blev inget totalt spritförbud; folkomröstningens resultat och den reformerade försäljningspolitiken vägde tyngre. Det så kallade Bratt-systemet (motboken) låg fast och fortsatte att reglera svenskarnas alkoholkonsumtion stramt i ytterligare decennier, fram till dess att motboken avskaffades och ersatts av det friare Systembolaget 1955." },
-      "Q7": { "description": "Kaffetullen avvisades och infördes inte under denna mandatperiod. Kaffe förblev därmed en oreglerad och relativt billig vardagsvara för de svenska hushållen, trots att staten ständigt letade efter nya skattekällor för att täppa till hål i budgeten." },
-      "Q8": { "description": "Statliga SJ behöll sin starka ställning initialt, men biltrafikens explosionsartade genombrott under 1930-talet gjorde att gamla grusvägar blev ohållbara. Detta tvingade fram en gigantisk statlig omorientering där skattepengar började plöjas ned i att asfaltera och bygga ut ett sammanhängande nationellt vägnät – en utveckling som tog full fart efter andra världskriget." },
-      "Q9": { "description": "Borgerlig vigsel hade visserligen legaliserats redan 1908, men under 1920- och 30-talets Sverige förblev den kyrkliga vigseln den dominerande sociala normen för nästan alla medborgare. En mer sekulär syn på äktenskapet som ren lagform dröjde till 1900-talets senare hälft." },
-      "Q10": { "description": "Biografcensuren låg fast och fortsatte att granska filmer hårt utifrån moraliska och politiska kriterier. Samtidigt accelererade masskulturens genombrott genom radions expansion (Radiotjänst) och grammofonskivorna, vilket skapade nya folkliga uttryck som passeradeförbi de traditionella moralväktarna utan extra straffskatter." },
-      "Q11": { "description": "Åttatimmarsarbetsdagen försvarades framgångsrikt och kom att cementeras som en helig ko inom den svenska arbetsrätten. Den låg orubbad som norm och skyddsnät för industriarbetare fram till dess att debatten om trettiofem- och fyrtiotimmarsveckor tog fart decennier senare." },
-      "Q12": { "description": "1927/1928 års skolreformer innebar att läroverken började byggas om, men det svenska skolväsendet förblev djupt delat mellan folkskola och läroverk under hela mellankrigstiden. Den verkliga strukturreformen, där de parallella skolsystemen slopades till förmån för den enhetliga 9-åriga grundskolan, lät vänta på sig till det historiska riksdagsbeslutet 1962." },
-      "Q13": { "description": "Kommunala förbud mot utomhusdans och dansbanor prövades på vissa håll på 1920-talet efter starka påtryckningar från nykterhets- och frikyrkliga rörelser. 'Dansbaneeländet' gick dock inte att stoppa; i takt med folkparksrörelsens frammarsch under 1930-talet exploderade logdanserna i popularitet över hela landet och blev en central del av ungdomskulturen." },
-      "Q14": { "description": "Sveriges officiella diplomatiska och storskaliga statliga kreditgivning till Sovjetunionen uteblev på grund av den borgerliga skepsisen. Däremot fortsatte en rad svenska privatföretag och verkstadsjättar (som ASEA och LM Ericsson) att göra betydande affärer och leverera industrivaror via direkta kontrakt." },
-      "Q15": { "description": "Försvarssekretessen låg kvar på en stabil men ganska traditionell nivå under mellankrigstidens första hälft. I takt med att det säkerhetspolitiska läget mörknade i Europa under slutet av 1930-talet skärptes kontrollen och lagstiftningen kring militära hemligheter kraftigt, vilket lade grunden för den hårda beredskapssekretessen från 1939 och framåt." },
-      "Q16": { "description": "Staten höll stenhårt på en ortodox och återhållsam budgetdisciplin fram till dess att depressionen och massarbetslösheten välte omkull den ekonomiska doktrinen. År 1933 slöts den berömda 'kohandeln' mellan Socialdemokraterna och Bondeförbundet, vilket bröt med den gamla linjen och ersatte den med lånefinansierade statliga krisinvesteringar – den moderna svenska finanspolitikanalysens faktiska födelse." }
-    }
-  },
+
   "electionResults": {
     "seatsTotal": 230,
+    "summary": "Högern (Allmänna Valmansförbundet) nådde sin största valframgång någonsin efter en hård kampanj mot Socialdemokraternas skatte- och arvsförslag. Arvid Lindman bildade en borgerlig regering med stöd av Frisinnade Folkpartiet som tungan på vågen.",
     "government": {
       "type": "Borgerlig minoritetsregering",
       "primeMinister": "Arvid Lindman",
       "rulingParties": ["Allmänna Valmansförbundet"],
       "supportParties": ["Frisinnade Folkpartiet"],
-      "opposition": ["Socialdemokraterna", "Sveriges Kommunistiska Parti", "Bondeförbundet", "Liberala riksdagspartiet"]
-    },
-    "partyResults": [
-      {
-        "partyName": "Sveriges Kommunistiska Parti (SKP)",
-        "votePercentage": 6.4,
-        "seats": 8,
-        "seatChange": 3
-      },
-      {
-        "partyName": "Socialdemokraterna",
-        "votePercentage": 37.0,
-        "seats": 90,
-        "seatChange": -14
-      },
-      {
-        "partyName": "Bondeförbundet",
-        "votePercentage": 11.2,
-        "seats": 27,
-        "seatChange": 4
-      },
-      {
-        "partyName": "Frisinnade Folkpartiet (Liberala)",
-        "votePercentage": 15.9,
-        "seats": 32,
-        "seatChange": -1
-      },
-      {
-        "partyName": "Liberala riksdagspartiet",
-        "votePercentage": 3.0,
-        "seats": 4,
-        "seatChange": -1
-      },
-      {
-        "partyName": "Högern (Allmänna Valmansförbundet)",
-        "votePercentage": 29.4,
-        "seats": 73,
-        "seatChange": 8
-      }
-    ]
+      "opposition": [
+        "Socialdemokraterna",
+        "Sveriges Kommunistiska Parti",
+        "Bondeförbundet",
+        "Liberala riksdagspartiet"
+      ]
+    }
   },
+
+  "parties": [
+    {
+      "name": "Högern (Allmänna Valmansförbundet)",
+      "color": "#005595",
+      "votePercentage": 29.4,
+      "seats": 73,
+      "seatChange": 8,
+      "description": "Fokuserade på försvar, äganderätt och ordning under parollen 'Gör din plikt, kräv din rätt'. Kampanjade hårt mot socialismen.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": -1,
+        "Q9": -2,
+        "Q10": 1,
+        "Q11": -2,
+        "Q12": -2,
+        "Q13": 1,
+        "Q14": -2,
+        "Q15": 2,
+        "Q16": -2
+      }
+    },
+    {
+      "name": "Frisinnade Folkpartiet (Liberala)",
+      "color": "#006AB3",
+      "votePercentage": 15.9,
+      "seats": 32,
+      "seatChange": -1,
+      "description": "Mittenparti lett av statsminister Carl Gustaf Ekman. Värnade frihandel, nykterhet och sociala reformer i balanserad takt.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -1,
+        "Q3": 1,
+        "Q4": -1,
+        "Q5": -1,
+        "Q6": 2,
+        "Q7": 0,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": 0,
+        "Q11": 1,
+        "Q12": 2,
+        "Q13": 1,
+        "Q14": 0,
+        "Q15": 1,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Liberala riksdagspartiet",
+      "color": "#4682B4",
+      "votePercentage": 3.0,
+      "seats": 4,
+      "seatChange": -1,
+      "description": "Den förbudskritiska och stadsbaserade högerliberala grenen. Värnade frihandel och näringsfrihet men motsatte sig förbudslagstiftning och skattehöjningar.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -1,
+        "Q3": -1,
+        "Q4": -2,
+        "Q5": -2,
+        "Q6": -2,
+        "Q7": -1,
+        "Q8": -1,
+        "Q9": 2,
+        "Q10": 0,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": 0,
+        "Q14": 1,
+        "Q15": 1,
+        "Q16": -1
+      }
+    },
+    {
+      "name": "Bondeförbundet",
+      "color": "#00853F",
+      "votePercentage": 11.2,
+      "seats": 27,
+      "seatChange": 4,
+      "description": "Partiet för landsbygd och jordbrukare. Drev krav på tullar för att skydda det svenska lantbruket mot utländsk konkurrens.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -1,
+        "Q3": -1,
+        "Q4": -1,
+        "Q5": 2,
+        "Q6": 1,
+        "Q7": 1,
+        "Q8": -1,
+        "Q9": -1,
+        "Q10": 1,
+        "Q11": -2,
+        "Q12": -1,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": 1,
+        "Q16": 1
+      }
+    },
+    {
+      "name": "Socialdemokraterna",
+      "color": "#E8112D",
+      "votePercentage": 37.0,
+      "seats": 90,
+      "seatChange": -14,
+      "description": "Leddes av Per Albin Hansson med visionen om 'Folkhemmet'. Ville bygga ut den sociala tryggheten och reformera arbetsmarknaden.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": -2,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": -1,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": -1,
+        "Q14": 2,
+        "Q15": -2,
+        "Q16": 2
+      }
+    },
+    {
+      "name": "Sveriges Kommunistiska Parti (SKP)",
+      "color": "#8B0000",
+      "votePercentage": 6.4,
+      "seats": 8,
+      "seatChange": 3,
+      "description": "Drev en radikal linje för arbetarklassen med direkt inspiration och stöd från Sovjetunionen och Komintern.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": -2,
+        "Q6": -2,
+        "Q7": -2,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": -2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": -2,
+        "Q14": 2,
+        "Q15": -2,
+        "Q16": 2
+      }
+    }
+  ],
+
   "questions": [
     {
       "id": "Q1",
@@ -82,6 +191,7 @@
       "category": "Arbetsmarknad",
       "pro": "Får arbetslösa i sysselsättning och håller statens utgifter nere.",
       "con": "Undergräver fackens avtal och låser fast arbetare i fattigdom.",
+      "outcome": "AK-systemet och dess låga nödhjälpslöner behölls intakta under mandatperioden 1928–1932. När den stora depressionen slog med full kraft på 1930-talet visade sig systemet dock otillräckligt för att hantera massarbetslösheten. Detta ledde till häftiga politiska strider (bl.a. Ådalen 1931) och blev en stark drivkraft för Socialdemokraterna och Bondeförbundet att i 1930-talets 'kohandel' avskaffa systemet och ersätta det med statliga arbetslöshetsförsäkringar och organiserade beredskapsarbeten till avtalsenliga löner.",
       "imageUrl": "images/1928/1928.jpg",
       "imageCaption": ""
     },
@@ -94,6 +204,7 @@
       "category": "Arbetsmarknad",
       "pro": "Facken behöver strejkrätt för att strida mot orättvisa villkor.",
       "con": "Skapar arbetsfred och förutsägbarhet för industrin.",
+      "outcome": "Kollektivavtalslagen och Arbetsdomstolen (AD) behölls av den borgerliga regeringen och möttes till en början av intensivt motstånd och misstro från fackligt håll. På sikt kom dock institutionen att accepteras av båda sidor på arbetsmarknaden. Den lade grunden för Saltsjöbadsavtalet 1938 och den så kallade 'svenska modellen', där parterna själva slöt fredliga avtal utan statlig inblandning.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -106,6 +217,7 @@
       "category": "Försvar & Säkerhet",
       "pro": "Folkhälsa, skola och andra välfärdsfrågor bör prioriteras.",
       "con": "Sverige behöver ett starkt försvar i en osäker omvärld.",
+      "outcome": "1925 års nedrustningsbeslut revs inte upp av Lindmans regering, vilket innebar att det svenska försvaret fortsatte att hållas på en relativt låg nivå under början av 1930-talet. Först i skuggan av Nazitysklands upprustning och ett allt mer hotfullt säkerhetsläge i Europa enades riksdagen till sist om det stora och mer offensiva försvarsbeslutet 1936.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -118,6 +230,7 @@
       "category": "Skatter & Ekonomi",
       "pro": "Jämnar ut klassklyftor och finansierar gemensamma trygghetssystem.",
       "con": "Straffar entreprenörer, sparare och dränerar familjeföretag på kapital.",
+      "outcome": "Förslaget om en skärpt arvsskatt röstades ner av den borgerliga majoriteten efter valet 1928. Frågan förblev en återkommande stötesten mellan höger och vänster under mellankrigstiden. När Socialdemokraterna väl säkrade regeringsmakten långsiktigt dröjde det till efterkrigstiden innan successiva skärpningar av arvsskatten och förmögenhetsskatten genomfördes för att finansiera den växande välfärdsstaten.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -130,6 +243,7 @@
       "category": "Jordbruk & Handel",
       "pro": "Skyddar svenska bönders försörjning och landsbygden.",
       "con": "Gör baslivsmedel som bröd dyrare för arbetare och tjänstemän.",
+      "outcome": "Spannmålstullar infördes i början av 1930-talet som en direkt konsekvens av den globala jordbrukskrisen och den stora depressionen. Detta blev startskottet för en protektionistisk krispolitik som snabbt utökades med prisregleringar på mjölk, fläsk och spannmål, vilket permanentade ett starkt statligt skydd för svenskt jordbruk decennier framåt.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -142,6 +256,7 @@
       "category": "Folkhälsa & Moral",
       "pro": "Alkohol orsakar enorma sociala och medicinska skador.",
       "con": "Motverkar personlig frihet och ökar lönnbränningen.",
+      "outcome": "Det blev inget totalt spritförbud; folkomröstningens resultat och den reformerade försäljningspolitiken vägde tyngre. Det så kallade Bratt-systemet (motboken) låg fast och fortsatte att reglera svenskarnas alkoholkonsumtion stramt i ytterligare decennier, fram till dess att motboken avskaffades och ersattes av det friare Systembolaget 1955.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -154,6 +269,7 @@
       "category": "Handel & Konsumtion",
       "pro": "Stärker statskassan och minskar utflödet av valuta.",
       "con": "Låt vanliga arbetare få unna sig en vardagskopp.",
+      "outcome": "Kaffetullen avvisades och infördes inte under denna mandatperiod. Kaffe förblev därmed en oreglerad och relativt billig vardagsvara för de svenska hushållen, trots att staten ständigt letade efter nya skattekällor för att täppa till hål i budgeten.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -166,6 +282,7 @@
       "category": "Infrastruktur",
       "pro": "Järnvägen är trygg, folkägd och samhällsnyttig.",
       "con": "Biltrafiken representerar framtiden och ger fri rörlighet.",
+      "outcome": "Statliga SJ behöll sin starka ställning initialt, men biltrafikens explosionsartade genombrott under 1930-talet gjorde att gamla grusvägar blev ohållbara. Detta tvingade fram en gigantisk statlig omorientering där skattepengar började plöjas ned i att asfaltera och bygga ut ett sammanhängande nationellt vägnät – en utveckling som tog full fart efter andra världskriget.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -178,6 +295,7 @@
       "category": "Rättsfrågor & Kyrka",
       "pro": "Ökar den personliga och religiösa friheten.",
       "con": "Sätter kyrkans ställning och äktenskapets status i fara.",
+      "outcome": "Borgerlig vigsel hade visserligen legaliserats redan 1908, men under 1920- och 30-talets Sverige förblev den kyrkliga vigseln den dominerande sociala normen för nästan alla medborgare. En mer sekulär syn på äktenskapet som ren lagform dröjde till 1900-talets senare hälft.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -190,6 +308,7 @@
       "category": "Kultur & Nöjesliv",
       "pro": "Skyddar unga från moraliskt förfall och ger staten intäkter.",
       "con": "Inskränker kulturen och fördyrar folkliga nöjen.",
+      "outcome": "Biografcensuren låg fast och fortsatte att granska filmer hårt utifrån moraliska och politiska kriterier. Samtidigt accelererade masskulturens genombrott genom radions expansion (Radiotjänst) och grammofonskivorna, vilket skapade nya folkliga uttryck som passerade förbi de traditionella moralväktarna utan extra straffskatter.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -202,6 +321,7 @@
       "category": "Arbetsmarknad",
       "pro": "Garanterar arbetarens rätt till vila och fritid.",
       "con": "Försvårar för industrin och jordbruket under högsäsong.",
+      "outcome": "Åttatimmarsarbetsdagen försvarades framgångsrikt och kom att cementeras som en helig ko inom den svenska arbetsrätten. Den låg orubbad som norm och skyddsnät för industriarbetare fram till dess att debatten om trettiofem- och fyrtiotimmarsveckor tog fart decennier senare.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -214,6 +334,7 @@
       "category": "Utbildning",
       "pro": "En jämlik skola ger möjlighet till klassresor.",
       "con": "Riskerar att sänka den akademiska nivån i läroverken.",
+      "outcome": "1927/1928 års skolreformer innebar att läroverken började byggas om, men det svenska skolväsendet förblev djupt delat mellan folkskola och läroverk under hela mellankrigstiden. Den verkliga strukturreformen, där de parallella skolsystemen slopades till förmån för den enhetliga 9-åriga grundskolan, lät vänta på sig till det historiska riksdagsbeslutet 1962.",
       "imageUrl": "",
       "imageCaption": ""
     },
@@ -226,100 +347,3 @@
       "category": "Folkhälsa & Moral",
       "pro": "Minskar fylleri och ordningsstörningar på landsbygden.",
       "con": "Motverkar ungdomens nöje, begränsar mötesplatser.",
-      "imageUrl": "",
-      "imageCaption": ""
-    },
-    {
-      "id": "Q14",
-      "quick": false,
-      "title": "Handel med Sovjetunionen",
-      "statement": "Sverige bör utöka de statliga handelsförbindelserna med Sovjetunionen.",
-      "context": "Handel med Sovjet sågs av industrin som en stor exportchans, men kritiserades av borgerligheten av ideologiska skäl.",
-      "category": "Utrikespolitik",
-      "pro": "Öppnar en enorm marknad för svensk verkstadsindustri.",
-      "con": "Gynnar en kommunistisk diktatur och innebär ekonomisk risk.",
-      "imageUrl": "",
-      "imageCaption": ""
-    },
-    {
-      "id": "Q15",
-      "quick": false,
-      "title": "Försvarssekretess",
-      "statement": "Militära utredningar och försvarsbeslut ska beläggas med skärpt sekretess.",
-      "context": "Militärledningen ville begränsa insynen i beredskapsplaner för att förhindra utländskt spionage.",
-      "category": "Försvar & Säkerhet",
-      "pro": "Skyddar rikets säkerhet mot utländsk underrättelsetjänst.",
-      "con": "Inskränker tryckfriheten och medborgarnas insyn.",
-      "imageUrl": "",
-      "imageCaption": ""
-    },
-    {
-      "id": "Q16",
-      "quick": false,
-      "title": "Skattefinansiering av statsskulden",
-      "statement": "Statliga investeringar ska finansieras med skatter snarare än upplåning.",
-      "context": "En genom tiderna ofta återkommande ekonomisk strid mellan återhållsam budgetdisciplin och investeringspolitik.",
-      "category": "Skatter & Ekonomi",
-      "pro": "Förhindrar att staten drar på sig ohälsosamma skulder.",
-      "con": "Bromsar nödvändiga investeringar i landets utveckling.",
-      "imageUrl": "",
-      "imageCaption": ""
-    }
-  ],
-  "parties": [
-    {
-      "name": "Högern (Allmänna Valmansförbundet)",
-      "description": "Fokuserade på försvar, äganderätt och ordning under parollen 'Gör din plikt, kräv din rätt'. Kampanjade hårt mot socialismen.",
-      "answers": {
-        "Q1": 2, "Q2": -2, "Q3": -2, "Q4": -2, "Q5": 2, "Q6": -1,
-        "Q7": 1, "Q8": -1, "Q9": -2, "Q10": 1, "Q11": -2, "Q12": -2,
-        "Q13": 1, "Q14": -2, "Q15": 2, "Q16": -2
-      }
-    },
-    {
-      "name": "Frisinnade Folkpartiet (Liberala)",
-      "description": "Mittenparti lett av statsminister Carl Gustaf Ekman. Värnade frihandel, nykterhet och sociala reformer i balanserad takt.",
-      "answers": {
-        "Q1": 1, "Q2": -1, "Q3": 1, "Q4": -1, "Q5": -1, "Q6": 2,
-        "Q7": 0, "Q8": 1, "Q9": 2, "Q10": 0, "Q11": 1, "Q12": 2,
-        "Q13": 1, "Q14": 0, "Q15": 1, "Q16": 1
-      }
-    },
-    {
-      "name": "Liberala riksdagspartiet",
-      "description": "Den förbudskritiska och stadsbaserade högerliberala grenen. Värnade frihandel och näringsfrihet men motsatte sig förbudslagstiftning och skattehöjningar.",
-      "answers": {
-        "Q1": 1, "Q2": -1, "Q3": -1, "Q4": -2, "Q5": -2, "Q6": -2,
-        "Q7": -1, "Q8": -1, "Q9": 2, "Q10": 0, "Q11": -1, "Q12": 1,
-        "Q13": 0, "Q14": 1, "Q15": 1, "Q16": -1
-      }
-    },
-    {
-      "name": "Bondeförbundet",
-      "description": "Partiet för landsbygd och jordbrukare. Drev krav på tullar för att skydda det svenska lantbruket mot utländsk konkurrens.",
-      "answers": {
-        "Q1": 2, "Q2": -1, "Q3": -1, "Q4": -1, "Q5": 2, "Q6": 1,
-        "Q7": 1, "Q8": -1, "Q9": -1, "Q10": 1, "Q11": -2, "Q12": -1,
-        "Q13": 2, "Q14": -1, "Q15": 1, "Q16": 1
-      }
-    },
-    {
-      "name": "Socialdemokraterna",
-      "description": "Leddes av Per Albin Hansson med visionen om 'Folkhemmet'. Ville bygga ut den sociala tryggheten och reformera arbetsmarknaden.",
-      "answers": {
-        "Q1": -2, "Q2": 2, "Q3": 2, "Q4": 2, "Q5": -2, "Q6": -1,
-        "Q7": -2, "Q8": 1, "Q9": 2, "Q10": -1, "Q11": 2, "Q12": 2,
-        "Q13": -1, "Q14": 2, "Q15": -2, "Q16": 2
-      }
-    },
-    {
-      "name": "Sveriges Kommunistiska Parti (SKP)",
-      "description": "Drev en radikal linje för arbetarklassen med direkt inspiration och stöd från Sovjetunionen och Komintern.",
-      "answers": {
-        "Q1": -2, "Q2": 2, "Q3": 2, "Q4": 2, "Q5": -2, "Q6": -2,
-        "Q7": -2, "Q8": 1, "Q9": 2, "Q10": -2, "Q11": 2, "Q12": 2,
-        "Q13": -2, "Q14": 2, "Q15": -2, "Q16": 2
-      }
-    }
-  ]
-}
