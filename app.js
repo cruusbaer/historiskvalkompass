@@ -437,3 +437,41 @@ function renderWhatHappenedAfter(electionData) {
   html += `</div></div>`;
   return html;
 }
+
+// Lägg till detta i app.js för att rendera ut startskärmens valkort dynamiskt
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadElectionsManifest();
+  renderHomeCards();
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const valId = urlParams.get("val");
+  const isQuick = urlParams.get("quick") === "true";
+  if (valId) startElection(valId, isQuick);
+});
+
+function renderHomeCards() {
+  const container = document.getElementById('elections-grid-container');
+  if (!container || !electionsManifest) return;
+
+  container.innerHTML = '';
+  
+  // Filtrera enbart fram aktiva val
+  const activeElections = electionsManifest.elections.filter(e => e.active !== false);
+
+  activeElections.forEach(election => {
+    const card = document.createElement('div');
+    card.className = 'election-card';
+    
+    card.innerHTML = `
+      <h2>${election.title}</h2>
+      <p><strong>${election.tagline}.</strong> ${election.description}</p>
+      
+      <div class="mode-buttons">
+        <button class="mode-btn" onclick="startElection('${election.id}', true)">⚡ Snabbkompass (8 frågor)</button>
+        <button class="mode-btn" onclick="startElection('${election.id}', false)">📚 Fullkompass (16 frågor)</button>
+      </div>
+    `;
+    
+    container.appendChild(card);
+  });
+}
