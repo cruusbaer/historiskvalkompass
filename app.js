@@ -14,13 +14,21 @@ const valLabels = {
   "-2": "Helt emot"
 };
 
+// --- EN SAMLAD SIDLADDNING ---
 document.addEventListener("DOMContentLoaded", async () => {
+  // 1. Ladda manifestet för tillgängliga val
   await loadElectionsManifest();
 
+  // 2. Bygg upp startskärmens valkort dynamiskt
+  renderHomeCards();
+
+  // 3. Kontrollera om användaren har navigerat hit via direktlänk (?val=...)
   const urlParams = new URLSearchParams(window.location.search);
   const valId = urlParams.get("val");
   const isQuick = urlParams.get("quick") === "true";
-  if (valId) startElection(valId, isQuick);
+  if (valId) {
+    startElection(valId, isQuick);
+  }
 });
 
 async function loadElectionsManifest() {
@@ -33,13 +41,40 @@ async function loadElectionsManifest() {
   }
 }
 
+function renderHomeCards() {
+  const container = document.getElementById('elections-grid-container');
+  if (!container || !electionsManifest) return;
+
+  container.innerHTML = '';
+  
+  // Filtrera fram aktiva val från manifestet
+  const activeElections = electionsManifest.elections.filter(e => e.active !== false);
+
+  activeElections.forEach(election => {
+    const card = document.createElement('div');
+    card.className = 'election-card';
+    
+    card.innerHTML = `
+      <h2>${election.title}</h2>
+      <p><strong>${election.tagline}.</strong> ${election.description}</p>
+      
+      <div class="mode-buttons">
+        <button class="mode-btn" onclick="startElection('${election.id}', true)">⚡ Snabbkompass (8 frågor)</button>
+        <button class="mode-btn" onclick="startElection('${election.id}', false)">📚 Fullkompass (16 frågor)</button>
+      </div>
+    `;
+    
+    container.appendChild(card);
+  });
+}
+
 async function startElection(electionId, isQuick = false) {
   try {
     if (!electionsManifest) {
       await loadElectionsManifest();
     }
 
-    // Hitta valet i manifestet (stödjer även gamla ID:n som "1896" -> "se-1896")
+    // Normalisera ID (stödjer även gamla anrop som ?val=1896 -> se-1896)
     const normalizedId = /^\d{4}$/.test(electionId) ? `se-${electionId}` : electionId;
     const electionMeta = electionsManifest?.elections?.find(
       e => e.id === normalizedId && e.active !== false
@@ -92,7 +127,6 @@ function getQuestionImageData(q) {
   let imgUrl = q.imageUrl && q.imageUrl.trim() !== "" ? q.imageUrl : "";
   let imgCaption = q.imageCaption || "";
 
-  // Om den aktuella frågan saknar bild, sök i Q1
   if (!imgUrl && activeQuestions.length > 0) {
     const q1 = activeQuestions.find(item => item.id === "Q1");
     if (q1 && q1.imageUrl && q1.imageUrl.trim() !== "") {
@@ -108,11 +142,9 @@ function renderQuestion() {
   const q = activeQuestions[currentQuestionIndex];
   const totalQ = activeQuestions.length;
 
-  // Hämta bild med fallback-logik till Q1
   const { imgUrl } = getQuestionImageData(q);
   const cardEl = document.getElementById("question-card");
 
-  // Sätt eller rensa bakgrundsbilden på frågekortet för bannern
   if (cardEl) {
     if (imgUrl) {
       cardEl.style.setProperty("--bg-image", `url('${imgUrl}')`);
@@ -165,7 +197,6 @@ function renderQuestion() {
 
   document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
 
-  // Uppdatera framstegsstrecket (0% till 100%)
   const progressPercent = ((currentQuestionIndex + 1) / totalQ) * 100;
   document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
 }
@@ -328,18 +359,15 @@ function toggleFormula() {
 function showHistoryView() {
   switchView("view-history");
 
-  // 1. Övergripande historisk sammanfattning från electionResults.summary
   const summaryEl = document.getElementById("history-summary");
   const summaryText = currentElectionData.electionResults?.summary || "";
   summaryEl.innerHTML = `<strong>Historiskt utfall ${currentElectionData.year || ""}:</strong> ${summaryText}`;
 
-  // 2. Rendera regeringsbildning, mandatfördelning och procentstaplar i containern
   const aftermathContainer = document.getElementById("election-aftermath-container");
   if (aftermathContainer) {
     aftermathContainer.innerHTML = renderWhatHappenedAfter(currentElectionData);
   }
 
-  // 3. Fråga för fråga-genomgången med q.outcome
   const listEl = document.getElementById("history-list");
   listEl.innerHTML = "";
 
@@ -367,14 +395,11 @@ function showHome() {
   switchView("view-home");
 }
 
-/* --- HJÄLPFUNKTIONER FÖR "VAD HÄNDE SEDAN"-VISUALISERING --- */
-
 function renderWhatHappenedAfter(electionData) {
   const res = electionData.electionResults;
   const parties = electionData.parties;
   if (!res || !parties) return "<p>Ingen valresultatsdata tillgänglig för detta val.</p>";
 
-  // Sortera partier efter mandat/röster för visning i staplarna (filtrera bort partier utan valdata)
   const partiesWithResults = parties
     .filter(p => typeof p.seats === "number" && typeof p.votePercentage === "number")
     .sort((a, b) => b.votePercentage - a.votePercentage);
@@ -397,7 +422,6 @@ function renderWhatHappenedAfter(electionData) {
         <div class="seat-bar">
   `;
 
-  // 1. Mandatfördelningsfält med färg direkt från partiobjektet
   partiesWithResults
     .filter(party => party.seats > 0)
     .forEach(party => {
@@ -420,7 +444,6 @@ function renderWhatHappenedAfter(electionData) {
 
   html += `</div></div><div class="percentage-section"><h4>Röstetal i valet (%)</h4>`;
 
-  // 2. Renodlad procentlista med färg direkt från partiobjektet
   partiesWithResults.forEach(party => {
     const color = party.color || "#777777";
     html += `
@@ -436,42 +459,4 @@ function renderWhatHappenedAfter(electionData) {
 
   html += `</div></div>`;
   return html;
-}
-
-// Lägg till detta i app.js för att rendera ut startskärmens valkort dynamiskt
-document.addEventListener("DOMContentLoaded", async () => {
-  await loadElectionsManifest();
-  renderHomeCards();
-
-  const urlParams = new URLSearchParams(window.location.search);
-  const valId = urlParams.get("val");
-  const isQuick = urlParams.get("quick") === "true";
-  if (valId) startElection(valId, isQuick);
-});
-
-function renderHomeCards() {
-  const container = document.getElementById('elections-grid-container');
-  if (!container || !electionsManifest) return;
-
-  container.innerHTML = '';
-  
-  // Filtrera enbart fram aktiva val
-  const activeElections = electionsManifest.elections.filter(e => e.active !== false);
-
-  activeElections.forEach(election => {
-    const card = document.createElement('div');
-    card.className = 'election-card';
-    
-    card.innerHTML = `
-      <h2>${election.title}</h2>
-      <p><strong>${election.tagline}.</strong> ${election.description}</p>
-      
-      <div class="mode-buttons">
-        <button class="mode-btn" onclick="startElection('${election.id}', true)">⚡ Snabbkompass (8 frågor)</button>
-        <button class="mode-btn" onclick="startElection('${election.id}', false)">📚 Fullkompass (16 frågor)</button>
-      </div>
-    `;
-    
-    container.appendChild(card);
-  });
 }
