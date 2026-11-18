@@ -77,6 +77,15 @@
       "title": "Norska stortingsvalet 1903",
       "year": 1903,
       "subtitle": "Konsulatstrid, unionsupplösning och kvinnlig rösträtt"
-    }
+    },
+    {
+  "id": "uk-1979",
+  "category": "Internationella val",
+  "active": true,
+  "file": "election-uk-1979-se.json",
+  "title": "Brittiska parlamentsvalet 1979",
+  "year": 1979,
+  "subtitle": "Missnöjets vinter och Margaret Thatchers systemskifte"
+}
   ]
 }
