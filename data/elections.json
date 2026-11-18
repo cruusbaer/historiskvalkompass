@@ -4,13 +4,13 @@
     {
       "id": "Svenska val",
       "label": "Svenska val",
-      "description": "Historiska svenska ödesval från 1896 till 1985.",
+      "description": "",
       "bgColor": "#f4f6f9"
     },
     {
       "id": "Internationella val",
       "label": "Internationella val",
-      "description": "Historiska val som format våra grannländer och omvärlden.",
+      "description": "",
       "bgColor": "#f3f6f4"
     }
   ],
