@@ -146,14 +146,19 @@ async function startElection(electionId, isQuick = false) {
       await loadElectionsManifest();
     }
 
-    // Normalisera ID (stödjer även gamla anrop som ?val=1896 -> se-1896)
+    // Normalisera ID (stödjer gamla anrop som ?val=1896 -> se-1896, eller direkt matchning)
     const normalizedId = /^\d{4}$/.test(electionId) ? `se-${electionId}` : electionId;
+    
     const electionMeta = electionsManifest?.elections?.find(
       e => e.id === normalizedId && e.active !== false
     );
 
-    // Hämtar filnamnet säkert via elections.json-manifestet (söker i data/-mappen)
-    const fileName = electionMeta ? electionMeta.file : `val${electionId}.json`;
+    if (!electionMeta) {
+      throw new Error(`Hittade ingen metadata i elections.json för val-id: ${electionId}`);
+    }
+
+    // Hämtar filnamnet strikt från manifestet (ingen hårdkodad fallback som skapar 404)
+    const fileName = electionMeta.file;
     const response = await fetch(`data/${fileName}`);
     if (!response.ok) throw new Error(`Kunde inte ladda data/${fileName}`);
 
@@ -174,8 +179,7 @@ async function startElection(electionId, isQuick = false) {
     document.getElementById("header-tagline").innerText = `${modeText} (${activeQuestions.length} frågor)`;
     document.title = `${currentElectionData.title} – ${modeText}`;
 
-    const activeId = electionMeta ? electionMeta.id : normalizedId;
-    history.pushState({ valId: activeId, isQuick }, "", `?val=${activeId}&quick=${isQuick}`);
+    history.pushState({ valId: electionMeta.id, isQuick }, "", `?val=${electionMeta.id}&quick=${isQuick}`);
     switchView("view-quiz");
     renderQuestion();
   } catch (error) {
