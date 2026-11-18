@@ -72,7 +72,6 @@ function bindGlobalEvents() {
       userAnswers[q.id] = parseInt(btn.dataset.value, 10);
       renderQuestion();
 
-      // Gå automatiskt vidare efter en kort fördröjning om det inte är sista frågan
       if (currentQuestionIndex < activeQuestions.length - 1) {
         setTimeout(() => {
           currentQuestionIndex++;
@@ -119,6 +118,8 @@ function renderHome() {
   applyCategoryTheme(currentCategory);
 
   const activeElections = (manifest.elections || []).filter((e) => e.active);
+  
+  // Filtrera valen baserat på kategorin definierad i elections.json (med "Svenska val" som standard om fältet saknas)
   const filteredElections = activeElections.filter(
     (e) => (e.category || "Svenska val") === currentCategory
   );
@@ -153,7 +154,7 @@ function renderHome() {
     electionsGrid.appendChild(card);
   });
 
-  // Automatgenerera kategoriknappar längst ner (dölj den kategori man redan är i)
+  // Hämta alla unika kategorier som används av aktiva val i elections.json
   const availableCategoryIds = [
     ...new Set(activeElections.map((e) => e.category || "Svenska val"))
   ];
@@ -170,7 +171,6 @@ function renderHome() {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "category-switch-btn";
-      // Säkerhetsskydd med (label || "") för att förhindra toLowerCase-krasch om fält saknas
       btn.textContent = `Visa ${(label || "").toLowerCase()} →`;
       btn.addEventListener("click", () => {
         currentCategory = catId;
@@ -231,17 +231,14 @@ function renderQuestion() {
   document.getElementById("question-pro").textContent = q.pro || "";
   document.getElementById("question-con").textContent = q.con || "";
 
-  // Stäng bakgrundsrutan vid ny fråga
   document.querySelector(".context-details").removeAttribute("open");
 
-  // Markera eventuellt tidigare valt svar
   const savedValue = userAnswers[q.id];
   document.querySelectorAll(".answer-btn").forEach((btn) => {
     const val = parseInt(btn.dataset.value, 10);
     btn.classList.toggle("selected", savedValue === val);
   });
 
-  // Uppdatera navigeringsknappar
   document.getElementById("prev-btn").style.visibility =
     currentQuestionIndex === 0 ? "hidden" : "visible";
 
@@ -269,4 +266,84 @@ function calculateAndShowResults() {
         ? Math.round(((maxPossibleDiff - totalDiff) / maxPossibleDiff) * 100)
         : 0;
 
-    return
+    return {
+      ...party,
+      matchPercent
+    };
+  });
+
+  results.sort((a, b) => b.matchPercent - a.matchPercent);
+  renderResults(results);
+}
+
+function renderResults(results) {
+  quizView.classList.add("hidden");
+  resultView.classList.remove("hidden");
+
+  document.getElementById("result-election-title").textContent =
+    `Ditt resultat: ${currentElectionData.title}`;
+
+  const matchesContainer = document.getElementById("party-matches");
+  matchesContainer.innerHTML = "";
+
+  results.forEach((party) => {
+    const card = document.createElement("div");
+    card.className = "party-match-card";
+    card.innerHTML = `
+      <div class="party-match-top">
+        <span class="party-name">${party.name}</span>
+        <span class="party-score" style="color: ${party.color}">${party.matchPercent}%</span>
+      </div>
+      <div class="match-bar-bg">
+        <div class="match-bar-fill" style="width: ${party.matchPercent}%; background-color: ${party.color};"></div>
+      </div>
+      <p class="party-desc">${party.description || ""}</p>
+    `;
+    matchesContainer.appendChild(card);
+  });
+
+  const er = currentElectionData.electionResults;
+  if (er) {
+    document.getElementById("outcome-summary").textContent = er.summary || "";
+
+    const gov = er.government;
+    if (gov) {
+      document.getElementById("outcome-government").innerHTML = `
+        <strong>Regeringsbildning:</strong> ${gov.type} under ledning av <strong>${gov.primeMinister}</strong>.
+      `;
+    }
+
+    const seatsContainer = document.getElementById("outcome-seats");
+    seatsContainer.innerHTML = "";
+    (currentElectionData.parties || []).forEach((p) => {
+      if (p.seats !== undefined) {
+        const changeStr =
+          p.seatChange > 0 ? `+${p.seatChange}` : p.seatChange < 0 ? `${p.seatChange}` : "±0";
+        const pill = document.createElement("span");
+        pill.className = "seat-pill";
+        pill.style.borderLeftColor = p.color;
+        pill.textContent = `${p.shortName || p.name}: ${p.seats} mandat (${changeStr}) • ${p.votePercentage}%`;
+        seatsContainer.appendChild(pill);
+      }
+    });
+  }
+
+  const reviewList = document.getElementById("question-review-list");
+  reviewList.innerHTML = "";
+  activeQuestions.forEach((q, idx) => {
+    const userVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
+    const item = document.createElement("div");
+    item.className = "review-item";
+    item.innerHTML = `
+      <strong>${idx + 1}. ${q.title}</strong>
+      <p>${q.statement}</p>
+      <p><em>Ditt svar:</em> <strong>${ANSWER_LABELS[String(userVal)]}</strong></p>
+      ${q.outcome ? `<p class="review-outcome">Vad hände sedan: ${q.outcome}</p>` : ""}
+    `;
+    reviewList.appendChild(item);
+  });
+
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+init();
