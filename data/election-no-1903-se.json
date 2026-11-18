@@ -1,0 +1,315 @@
+{
+  "id": "no-1903",
+  "title": "Norska stortingsvalet 1903",
+  "year": 1903,
+  "country": "Norge",
+  "electionResults": {
+    "seatsTotal": 117,
+    "summary": "Valet 1903 blev en jordskredsseger för den nya koalitionen Samlingspartiet (bestående av Høyre, Moderate Venstre och utbrytare från Venstre), som gick till val på fredliga förhandlingar med Sverige i konsulatfrågan och ekonomisk återhållsamhet. Francis Hagerup bildade regering, medan Det norske Arbeiderparti för första gången tog plats i Stortinget med fem mandat från Nord-Norge. Knappt två år senare, våren 1905, sprack dock förhandlingarna med Sverige – vilket ledde till att Christian Michelsen tog över som statsminister och Stortinget ensidigt förklarade unionen upplöst den 7 juni 1905.",
+    "government": {
+      "type": "Koalitionsregering (Høyre, Moderate Venstre och moderata Venstre-män)",
+      "primeMinister": "Francis Hagerup (Regeringen Hagerup II)",
+      "rulingParties": [
+        "Samlingspartiet"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Venstre",
+        "Det norske Arbeiderparti",
+        "Arbeiderdemokratene"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "samlingspartiet",
+      "name": "Samlingspartiet (Høyre / Moderate Venstre)",
+      "shortName": "Samlingspartiet",
+      "color": "#005595",
+      "seats": 62,
+      "seatChange": 27,
+      "votePercentage": 44.8,
+      "description": "En bred borgerlig och moderat koalition ledd av Francis Hagerup och Christian Michelsen, bildad för att lösa konsulatfrågan genom fredliga förhandlingar med Sverige och sanera statsfinanserna.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": -1,
+        "Q4": -1,
+        "Q5": 1,
+        "Q6": -2,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": -2,
+        "Q10": -1,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": 0,
+        "Q14": 1,
+        "Q15": 2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "venstre",
+      "name": "Venstre",
+      "shortName": "Venstre",
+      "color": "#008040",
+      "seats": 48,
+      "seatChange": -29,
+      "votePercentage": 42.7,
+      "description": "Det traditionella reformpartiet som drivit fram parlamentarismen. Förespråkade en kompromisslös norsk linje i konsulatfrågan, allmän rösträtt och sociala reformer.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -2,
+        "Q3": 1,
+        "Q4": 2,
+        "Q5": 1,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": 2,
+        "Q10": 1,
+        "Q11": 1,
+        "Q12": -1,
+        "Q13": 1,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "dna",
+      "name": "Det norske Arbeiderparti",
+      "shortName": "Arbeiderpartiet",
+      "color": "#D9232E",
+      "seats": 5,
+      "seatChange": 5,
+      "votePercentage": 9.7,
+      "description": "Det socialistiska arbetarpartiet som 1903 tog sina allra första platser i Stortinget. Krävde full rösträtt för kvinnor och män, 8-timmars arbetsdag, socialförsäkringar och fredlig unionsupplösning.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": -2,
+        "Q7": 2,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": -2,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": -1,
+        "Q16": -2
+      }
+    },
+    {
+      "id": "arbeiderdemokratene",
+      "name": "Arbeiderdemokratene",
+      "shortName": "Arbeiderdemokratene",
+      "color": "#F39C12",
+      "seats": 2,
+      "seatChange": 2,
+      "votePercentage": 2.4,
+      "description": "Ett radikalt socialliberalt parti lett av Johan Castberg med starkt fäste bland småbrukare och arbetare i inlandet. Drev strikta koncessionslagar mot utländskt kapital, jordbruksreformer och social trygghet.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -1,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": 1,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": -1,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": -1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Union & Utrikespolitik",
+      "title": "Full självständighet och unionsupplösning",
+      "statement": "Personalunionen med Sverige är föråldrad och Norge bör verka för en fullständig upplösning av unionen för att bli en helt suverän stat.",
+      "context": "Sedan 1814 befann sig Norge i en personalunion med Sverige under gemensam kung och gemensam utrikesminister. Konflikten kring Norges krav på egna konsuler hade trappats upp under 1890-talet och hotade hela unionens framtid.",
+      "pro": "Norge är en egen nation med egen grundlag och måste kunna föra sin egen utrikes- och handelspolitik utan svensk överhöghet.",
+      "con": "Unionen ger trygghet i en orolig omvärld och bör bevaras och reformeras genom fredliga förhandlingar istället för att sprängas.",
+      "outcome": "Efter att förhandlingarna med den svenska regeringen bröt samman våren 1905 förklarade Stortinget ensidigt unionen upplöst den 7 juni 1905, vilket bekräftades i en folkomröstning i augusti samma år."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Ekonomi & Skatter",
+      "title": "Skyddstullar för norskt jordbruk och industri",
+      "statement": "Norge bör införa högre tullar på importerade jordbruksvaror och industrivaror för att skydda inhemska producenter mot utländsk konkurrens.",
+      "context": "Uppsägningen av den svensk-norska mellanrikslagen 1897 hade lett till nya tullmurar mellan länderna. Samtidigt pressades norska bönder och fabriksägare av billig spannmål och industrivaror från utlandet.",
+      "pro": "Tullar skyddar norska arbetstillfällen, stärker självförsörjningen och ger staten välbehövliga intäkter i tider av ekonomisk nedgång.",
+      "con": "Tullar fungerar som en skatt på mat och vardagsvaror som drabbar arbetarfamiljer hårdast och hämmar Norges viktiga sjöfart och export.",
+      "outcome": "Under 1905 antog Stortinget en ny, mer protektionistisk tulltaxa som stärkte tullskyddet för både norskt jordbruk och inhemsk industri."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Demokrati & Konstitution",
+      "title": "Allmän rösträtt för kvinnor",
+      "statement": "Kvinnor ska ges rösträtt i stortingsval på exakt samma villkor som män.",
+      "context": "Norge hade infört allmän rösträtt för män över 25 år redan 1898, och 1901 fick kvinnor begränsad kommunal rösträtt kopplad till inkomst. I stortingsval saknade dock kvinnor helt rösträtt 1903.",
+      "pro": "Kvinnor betalar skatt, lyder under samma lagar och bär samma samhällsansvar som män – det är en självklar demokratisk rättighet att de får rösta.",
+      "con": "Politiken hör till mannens offentliga sfär, och en så omfattande utvidgning av väljarkåren bör ske stegvis och kopplas till ekonomisk självständighet.",
+      "outcome": "Efter flera stegvisa reformer (bland annat begränsad statlig rösträtt 1907) införde Norge allmän och lika rösträtt för kvinnor i stortingsval år 1913 – som ett av de första länderna i Europa."
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "category": "Kultur & Språk",
+      "title": "Landsmål (Nynorska) som likställt officiellt språk",
+      "statement": "Landsmålet ska stärkas i skolan och förvaltningen på lika villkor som riksmålet (bokmål) för att värna det genuint norska kulturarvet.",
+      "context": "Språkstriden var en av de djupaste kulturella klyftorna i Norge. Sedan jämställdhetsbeslutet 1885 kämpade målrörelsen för att Ivar Aasens landsmål skulle ersätta eller likställas med det danskpräglade riksmålet.",
+      "pro": "Landsmålet bygger på de norska bygdemålen och är det sanna uttrycket för norsk identitet och folklig bildning efter sekler av danskt inflytande.",
+      "con": "Riksmålet är det etablerade kulturspråket som bär upp norsk litteratur och handel; två likställda skriftspråk skapar splittring och onödiga kostnader.",
+      "outcome": "År 1907 infördes obligatorisk skriftlig sidomålsuppsats i gymnasiet, och språkstriden fortsatte genom 1900-talet med flera rättstavningsreformer och formell likställighet mellan nynorsk och bokmål."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Socialpolitik",
+      "title": "Statlig sjuk- och olycksfallsförsäkring",
+      "statement": "Alla arbetare och lägre tjänstemän ska omfattas av en obligatorisk statlig sjuk- och olycksfallsförsäkring.",
+      "context": "Norge hade infört en olycksfallsförsäkring för fabriksarbetare 1894, men vid vanlig sjukdom stod de flesta familjer helt utan inkomstskydd om de inte tillhörde en privat sjukkassa.",
+      "pro": "Sjukdom är den vanligaste orsaken till fattigdom i arbetarhemmen; ett offentligt försäkringssystem ger trygghet och minskar trycket på fattigvården.",
+      "con": "Obligatoriska statliga försäkringar lägger tunga avgifter på både företag och statskassa och riskerar att slå ut de frivilliga sjukkassorna.",
+      "outcome": "Stortinget antog Norges första lag om obligatorisk sjukförsäkring för löntagare år 1909 (ikraftträdd 1911), vilket lade grunden för den norska välfärdsstaten."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Union & Försvar",
+      "title": "Utbyggnad av gränsbefästningarna",
+      "statement": "Norge bör fortsätta rusta upp gränsfästningarna (som Fredriksten och Kongsvinger) och stärka försvaret för att kunna möta ett eventuellt militärt hot från Sverige.",
+      "context": "Under 1901–1903 hade Norge moderniserat och byggt nya befästningar längs den svenska gränsen, vilket väckte stark misstro i Sverige och sågs som en direkt krigsförberedelse.",
+      "pro": "Ett starkt gränsförsvar är avgörande för att Norge inte ska kunna pressas till eftergifter under militärt hot i en unionskris.",
+      "con": "Gränsfästningarna provocerar Sverige i onödan, förgiftar förhandlingsklimatet och slukar enorma summor ur en redan ansträngd statsbudget.",
+      "outcome": "Under Karlstadsförhandlingarna hösten 1905 krävde Sverige att gränsfästningarna skulle rivas. Norge gick motvilligt med på att avveckla de nyare fästningarna (bland annat Ørje och Dingsrud) som en del av fredsuppgörelsen."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Näringsliv & Naturresurser",
+      "title": "Koncessionslagar för naturresurser (Vattenkraften)",
+      "statement": "Utländskt storkapital ska hindras från att köpa upp norska vattenfall, skogar och gruvor utan strikta statliga villkor och tidsbegränsade koncessioner.",
+      "context": "Den nya vattenkraftstekniken gjorde Norges stora vattenfall högintressanta för utländska industrikoncerner (bland annat i samband med grundandet av Norsk Hydro kring 1903–1905).",
+      "pro": "Norges vattenfall och naturrikedomar tillhör det norska folket och får inte hamna i evig utländsk ägo utan att tillfalla staten efter en viss tid.",
+      "con": "Norge saknar självt det enorma kapital som krävs för att bygga ut vattenkraften; strikta koncessionslagar skrämmer bort investerare och bromsar industrialiseringen.",
+      "outcome": "Mellan 1906 och 1909 genomdrevs de berömda koncessionslagarna (med 'hjemfallsrett'), som innebar att vattenfall efter 60–80 år utan ersättning tillföll den norska staten."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Nykterhet & Samhälle",
+      "title": "Kommunalt alkoholförbud (Samlagsomröstningar)",
+      "statement": "Kommunerna och lokala folkomröstningar ska ha rätt att helt förbjuda försäljning av brännvin och alkohol (samlagsordningen) för att bekämpa nykterhetsproblemen.",
+      "context": "Nykterhetsrörelsen var en av Norges mäktigaste folkrörelser. Genom brännvinslagen 1894 kunde kommunernas invånare (inklusive kvinnor) rösta om att stänga de lokala spritbolagen ('samlagen').",
+      "pro": "Alkoholmissbruket slår sönder familjer och ekonomi; lokala folkomröstningar ger medborgarna makt att rensa bort brännvinshandeln från sin hembygd.",
+      "con": "Lokala förbud leder bara till smuggling, hembränning och att folk reser till grannkommunen för att dricka, samtidigt som kommunen går miste om viktiga intäkter.",
+      "outcome": "Samlagsomröstningarna ledde till att brännvinsförsäljningen förbjöds i majoriteten av Norges städer, och under första världskriget infördes ett tillfälligt nationellt förbud mot brännvin och starkvin (1916–1927)."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Demokrati & Konstitution",
+      "title": "Skärpt parlamentarism och begränsad kungamakt",
+      "statement": "Kung Oscar II:s personliga vetorätt och inflytande över regeringsbildningen ska minskas ytterligare till förmån för Stortingets suveränitet.",
+      "context": "Trots parlamentarismens genombrott 1884 hade kungen fortfarande formell makt att utse statsråd och lägga in suspensivt veto mot lagar, vilket var en kärnfråga i konflikten mellan Stortinget och kungamakten.",
+      "pro": "All makt i Norge ska utgå från det folkvalda Stortinget; en unionskung bosatt i Stockholm ska inte kunna stoppa norska folkviljan.",
+      "con": "Kungamakten utgör en nödvändig konstitutionell motvikt mot förhastade beslut i Stortinget och säkrar stabilitet i statsskicket.",
+      "outcome": "När kung Oscar II i maj 1905 vägrade sanktionera Stortingets beslut om eget konsulatväsende förklarade Stortinget att kungamakten upphört att fungera, vilket avslutade den svensk-norska kungamakten i Norge."
+    },
+    {
+      "id": "Q10",
+      "quick": true,
+      "category": "Näring & Regionalpolitik",
+      "title": "Förbud mot valfångst längs Finnmarkskusten",
+      "statement": "Valfångstbolagens ångbåtar i norr bör förbjudas eftersom kustfiskarna menar att valfångsten skrämmer bort torsken och förstör fisket.",
+      "context": "Efter flera svåra missväxtår för torskfisket i Nord-Norge kulminerade konflikten i det så kallade Mehamnupproret i juni 1903, då hundratals rasande fiskare rev ner en valfångststation i Finnmark.",
+      "pro": "Tusentals nordnorska fiskarfamiljers överlevnad står på spel; valarna driver torsken in mot kusten och när bolagen utrotar valen dör kustfisket.",
+      "con": "Valfångsten är en modern och lönsam exportnäring som ger arbetstillfällen, och vetenskapen har inte bevisat att valfångsten orsakar bristen på torsk.",
+      "outcome": "I januari 1904 antog Stortinget ett 10-årigt förbud mot valfångst utanför Nordland, Troms och Finnmark. Frågan bidrog direkt till att Arbeiderpartiet vann sina första stortingsmandat i norr 1903."
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "category": "Socialpolitik",
+      "title": "Offentlig arbetslöshetsförsäkring",
+      "statement": "Staten och kommunerna ska ge ekonomiskt stöd till fackföreningarnas arbetslöshetskassor för att lindra nöden vid konjunkturnedgångar.",
+      "context": "Efter byggekraschen i Kristiania 1899 rådde hög arbetslöshet i städerna under början av 1900-talet. Arbetarrörelsen krävde att det offentliga skulle delfinansiera fackens arbetslöshetskassor (Gentsystemet).",
+      "pro": "Arbetslöshet beror på ekonomiska kriser som den enskilde arbetaren inte råder över; offentligt stöd till kassorna uppmuntrar självhjälp och motverkar nöd.",
+      "con": "Statliga bidrag till fackföreningarnas kassor riskerar att indirekt finansiera fackliga stridsåtgärder och strejker på skattebetalarnas bekostnad.",
+      "outcome": "År 1906 antog Norge världens första nationella lag om statsbidrag till frivilliga arbetslöshetskassor, där staten täckte en fjärdedel (senare en tredjedel) av utbetalningarna."
+    },
+    {
+      "id": "Q12",
+      "quick": true,
+      "category": "Vardag & Konsumentskydd",
+      "title": "Färgningsförbud och strikt märkning av margarin",
+      "statement": "Det bör vara förbjudet att färga margarin smörgult, och alla förpackningar ska märkas tydligt så att fattigt folk inte luras att köpa konstgjort fett i tron att det är äkta smör.",
+      "context": "Margarinindustrin växte snabbt i Norge vid sekelskiftet. I 'Smørstreiden' krävde mejerirörelsen och konsumentförespråkare strikta lagar för att hindra att billigt margarin färgades så att det såg ut som bondsmör.",
+      "pro": "Ärlighet i handeln måste skyddas; konsumenter har rätt att direkt se skillnad på naturprodukten smör och fabrikstillverkat margarin.",
+      "con": "Att tvinga margarin att förbli gråvitt är ett rent trakasseri mot fattiga arbetarfamiljer som inte har råd med dyrt smör men vill ha något aptitligt på brödet.",
+      "outcome": "Norge skärpte margarinlagstiftningen 1902 med strikta regler för märkning och kontroll av innehåll och färgning, men margarinet fortsatte att ta marknadsandelar som basvara i norska hem."
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "category": "Union & Utrikespolitik",
+      "title": "Strikt neutralitetspolitik",
+      "statement": "Norge ska deklarera sig som en permanent neutral stat och hålla sig utanför stormakternas allianser och rustningskapplöpning.",
+      "context": "I en tid då Europas stormakter bildade militärallianser växte fredsrörelsen i Skandinavien. Många norrmän ansåg att ett litet handels- och sjöfartsland bäst tryggade sin framtid genom uttalad neutralitet.",
+      "pro": "Norge har inga stormaktsambitioner; en internationellt erkänd neutralitet skyddar vår handelsflotta och minskar behovet av dyra militärutgifter.",
+      "con": "En ensidig neutralitetsförklaring utan stormakternas garanti är värdelös i krigstid och kan invagga landet i falsk säkerhet.",
+      "outcome": "Efter unionsupplösningen 1905 drev Norge en konsekvent neutralitetslinje och slöt 1907 den så kallade Integritetstraktaten med Storbritannien, Frankrike, Tyskland och Ryssland för att säkra sitt territorium."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Demokrati & Konstitution",
+      "title": "Direkta val i enmansvalkretsar",
+      "statement": "Det nuvarande indirekta valsystemet med elektorer bör avskaffas och ersättas av direkta val i enmansvalkretsar.",
+      "context": "Enligt 1814 års grundlag röstade väljarna inte direkt på stortingsledamöter utan på elektorer ('valgmænd'), som i sin tur samlades och utsåg ledamöterna – ett system som kritiserades för att snedvrida folkviljan.",
+      "pro": "Direkta val skapar ett tydligt personligt band mellan väljare och folkvald och gör valresultatet mer rättvist och begripligt.",
+      "con": "Elektorssystemet garanterar att erfarna och omdömesgilla ombud utser landets lagstiftare och motverkar kortsiktig populism.",
+      "outcome": "Stortinget avskaffade det indirekta elektorssystemet 1905 och införde direkta val i enmansvalkretsar (med två valomgångar) inför stortingsvalet 1906."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Folkrörelser & Försvar",
+      "title": "Statsstöd till skididrott och skytterörelse",
+      "statement": "Staten bör ge ökat ekonomiskt stöd till den frivilliga skytterörelsen och skidklubbarna för att fostra en frisk, härdad och försvarsduglig ungdom.",
+      "context": "I Norge var skidåkning och skytte tätt sammanflätade med både nationalromantik och försvarsvilja. Det frivilliga Skyttervesen och skidklubbarna sågs som en folklig reserv för fosterlandets försvar.",
+      "pro": "Skidåkning och skytte bygger folkhälsa, fosterlandskärlek och en billig, folklig försvarskraft som kan försvara landet i vinterterräng.",
+      "con": "Statsmedel bör gå till skolor och fattigvård snarare än till föreningsliv och sporttävlingar, och skytterörelsen riskerar att bli politiserad.",
+      "outcome": "Stortinget fortsatte att ge betydande statsbidrag till Det frivillige Skyttervesen, och skididrotten stärkte sin ställning som Norges främsta nationalsport."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Kultur & Religion",
+      "title": "Förbud mot söndagsjakt och cykling på vilodagen",
+      "statement": "Det bör införas förbud mot att cykla på landsvägarna och jaga på söndagar, då detta stör kyrkofriden och skrämmer hästarna i skogen.",
+      "context": "Cykeln ('velocipeden') spreds snabbt i Norge kring sekelskiftet och skapade starka reaktioner på landsbygden, där kyrkfolk och bönder klagade över damm, buller, skrämda hästar och brott mot sabbatsfriden.",
+      "pro": "Söndagen är helig vilodag; hetsig cykling och skottlossning i skogen stör gudstjänstfriden och orsakar olyckor med hästskjutsar.",
+      "con": "Förbud mot cykling på söndagar inskränker den personliga rörelsefriheten och hindrar stadsbor och arbetare från att komma ut i naturen på sin enda lediga dag.",
+      "outcome": "Söndagsjakt förbjöds i jaktlagstiftningen, men kraven på allmänt cykelförbud på söndagar föll – istället infördes hastighetsbegränsningar och regler om ringklocka och lykta på cyklar."
+    }
+  ]
+}
