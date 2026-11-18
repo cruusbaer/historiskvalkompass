@@ -1,71 +1,82 @@
 {
+  "defaultCategory": "Svenska val",
   "categories": [
     {
-      "id": "swedish",
-      "name": "Svenska historiska val",
-      "default": true
+      "id": "Svenska val",
+      "label": "Svenska val",
+      "description": "Historiska svenska ödesval från 1896 till 1985.",
+      "bgColor": "#f4f6f9"
+    },
+    {
+      "id": "Internationella val",
+      "label": "Internationella val",
+      "description": "Historiska val som format våra grannländer och omvärlden.",
+      "bgColor": "#f3f6f4"
     }
   ],
   "elections": [
     {
-      "id": "se-1896",
+      "id": "1896",
+      "category": "Svenska val",
       "active": true,
-      "category": "swedish",
+      "file": "election-se-1896-se.json",
+      "title": "Andrakammarvalet 1896",
       "year": 1896,
-      "file": "val1896.json",
-      "title": "Valet 1896",
-      "tagline": "Rösträttsstriden & Arbetarrörelsens intåg",
-      "description": "Det historiska sekelskiftesvalet där striden om spannmålstullar och rösträtt rasade som hårdast, och där Hjalmar Branting tog plats som Sveriges allra första socialdemokratiska riksdagsman."
+      "subtitle": "Tullstrid, rösträttskamp och unionskris"
     },
     {
-      "id": "se-1928",
+      "id": "1928",
+      "category": "Svenska val",
       "active": true,
-      "category": "swedish",
+      "file": "election-se-1928-se.json",
+      "title": "Kosackvalet 1928",
       "year": 1928,
-      "file": "val1928.json",
-      "title": "Andrakammarvalet 1928",
-      "tagline": "Kosackvalet & Välfärdsstatens begynnelse",
-      "description": "Ett ideologiskt laddat val som präglades av hård motsättning mellan Högern och Socialdemokraterna."
+      "subtitle": "Arvsskatt, klasskamp och skrämselpropaganda"
     },
     {
-      "id": "se-1940",
+      "id": "1948",
+      "category": "Svenska val",
       "active": true,
-      "category": "swedish",
-      "year": 1940,
-      "file": "val1940.json",
-      "title": "Andrakammarvalet 1940",
-      "tagline": "Beredskapsvalet i skuggan av andra världskriget",
-      "description": "Ta ställning till permitteringstrafiken, ransoneringen och tryckfrihetens gränser under Per Albin Hanssons samlingsregering."
+      "file": "election-se-1948-se.json",
+      "title": "Andrakammarvalet 1948",
+      "year": 1948,
+      "subtitle": "Plan hushållning, välfärdsbygge och kalla kriget"
     },
     {
-      "id": "se-1958",
+      "id": "1968",
+      "category": "Svenska val",
       "active": true,
-      "category": "swedish",
-      "year": 1958,
-      "file": "val1958.json",
-      "title": "Extravalet 1958",
-      "tagline": "ATP-striden & Välfärdens vägval",
-      "description": "Det dramatiska extravalet efter folkomröstningen 1957 då striden om pensionerna, atomvapen och skatter ställde landet inför ett historiskt avgörande."
+      "file": "election-se-1968-se.json",
+      "title": "Andrakammarvalet 1968",
+      "year": 1968,
+      "subtitle": "Vänstervåg, rekordseger och Vietnamkriget"
     },
     {
-      "id": "se-1976",
+      "id": "1976",
+      "category": "Svenska val",
       "active": true,
-      "category": "swedish",
-      "year": 1976,
-      "file": "val1976.json",
+      "file": "election-se-1976-se.json",
       "title": "Riksdagsvalet 1976",
-      "tagline": "Kärnkraftsvalet",
-      "description": "Valet där miljö- och energifrågan för första gången stod i absolut centrum."
+      "year": 1976,
+      "subtitle": "Kärnkraften och maktskiftet efter 44 år"
     },
     {
-      "id": "se-1994",
+      "id": "1985",
+      "category": "Svenska val",
       "active": true,
-      "category": "swedish",
-      "year": 1994,
-      "file": "val1994.json",
-      "title": "Riksdagsvalet 1994",
-      "tagline": "90-talskrisen & EU",
-      "description": "Det laddade valet i skuggan av ett rekordstort budgetunderskott och den stundande folkomröstningen om EU-medlemskap."
+      "file": "election-se-1985-se.json",
+      "title": "Riksdagsvalet 1985",
+      "year": 1985,
+      "subtitle": "Löntagarfonder och systemskiftesdebatt"
+    },
+    {
+      "id": "no-1903",
+      "category": "Internationella val",
+      "active": true,
+      "file": "election-no-1903-se.json",
+      "title": "Norska stortingsvalet 1903",
+      "year": 1903,
+      "subtitle": "Konsulatstrid, unionsupplösning och kvinnlig rösträtt"
     }
   ]
 }
