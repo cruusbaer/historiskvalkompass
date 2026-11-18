@@ -147,10 +147,10 @@ async function startElection(electionId, isQuick = false) {
     }
 
     // Normalisera ID (stödjer gamla anrop som ?val=1896 -> se-1896, eller direkt matchning)
-    const normalizedId = /^\d{4}$/.test(electionId) ? `se-${electionId}` : electionId;
+    //const normalizedId = /^\d{4}$/.test(electionId) ? `se-${electionId}` : electionId;
     
     const electionMeta = electionsManifest?.elections?.find(
-      e => e.id === normalizedId && e.active !== false
+      e => e.id === electionId && e.active !== false
     );
 
     if (!electionMeta) {
