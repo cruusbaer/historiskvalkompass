@@ -75,7 +75,7 @@ function renderHome() {
 }
 
 function renderHomeCards() {
-  const container = document.getElementById('elections-grid');
+  const container = document.getElementById('elections-grid-container');
   if (!container || !electionsManifest) return;
 
   container.innerHTML = '';
