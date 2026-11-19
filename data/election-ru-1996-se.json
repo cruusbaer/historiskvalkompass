@@ -1,0 +1,345 @@
+{
+  "id": "ru-1996",
+  "title": "Ryska presidentvalet 1996",
+  "year": 1996,
+  "country": "Ryssland",
+  "electionResults": {
+    "seatsTotal": 1,
+    "summary": "Presidentvalet den 16 juni och 3 juli 1996 var ett avgörande vägval för det post-sovjetiska Ryssland. Trots djup ekonomisk kris, obetalda löner, oligarkernas omstridda uppköp av statens råvarujättar och ett blodigt krig i Tjetjenien lyckades den sittande presidenten Boris Jeltsin vända underläge till seger med 53,8 procent i andra valomgången mot kommunistpartiets Gennadij Ziuganov (40,3 procent). Valrörelsen präglades av oligarkernas massiva ekonomiska och mediala stöd till Jeltsin samt den före detta generalen Aleksandr Lebeds roll som vågmästare efter sina 14,5 procent i första omgången.",
+    "government": {
+      "type": "Presidentstyre (med utnämnt säkerhets- och regeringskabinett)",
+      "primeMinister": "Boris Jeltsin (President) / Viktor Tjernomyrdin (Premiärminister)",
+      "rulingParties": [
+        "Boris Jeltsin (Oberoende / Reform- och maktpartiet)"
+      ],
+      "supportParties": [
+        "Aleksandr Lebed (Kongressen för ryska samhällen – KRO)"
+      ],
+      "opposition": [
+        "Gennadij Ziuganov (Ryska federationens kommunistiska parti – KPRF)",
+        "Grigorij Javlinskij (Jabloko)",
+        "Vladimir Zjirinovskij (Rysslands liberaldemokratiska parti – LDPR)"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "yeltsin",
+      "name": "Boris Jeltsin (Oberoende / Reform- och maktpartiet)",
+      "shortName": "Jeltsin",
+      "color": "#1E5AA8",
+      "seats": 1,
+      "seatChange": 0,
+      "votePercentage": 35.3,
+      "description": "Sittande president som gick till val på att försvara marknadsreformer, privatiseringar, privat äganderätt och samarbete med väst (G7 och IMF), samtidigt som han utmålade en kommunistisk valseger som en återgång till varubrist, censur och inbördeskrig.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -2,
+        "Q3": 1,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": -2,
+        "Q9": -1,
+        "Q10": 1,
+        "Q11": -1,
+        "Q12": -1,
+        "Q13": -2,
+        "Q14": 1,
+        "Q15": -1,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "zyuganov",
+      "name": "Gennadij Ziuganov (Ryska federationens kommunistiska parti – KPRF)",
+      "shortName": "Ziuganov (KPRF)",
+      "color": "#CC0000",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 32.0,
+      "description": "Ledare för det återuppståndna kommunistpartiet i spetsen för en folkpatriotisk koalition. Kombinerade sociala välfärdsgarantier, statlig priskontroll och återförstatligande av råvaruindustrin med rysk stormaktspatriotism och ortodoxa värderingar.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 1,
+        "Q4": -2,
+        "Q5": -2,
+        "Q6": 0,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": 2,
+        "Q10": -1,
+        "Q11": -1,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": -2
+      }
+    },
+    {
+      "id": "lebed",
+      "name": "Aleksandr Lebed (Kongressen för ryska samhällen – KRO)",
+      "shortName": "Lebed",
+      "color": "#2E5B3E",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 14.5,
+      "description": "Karismatisk före detta fallskärmsgeneral som blev valets vågmästare. Drev en hård linje mot korruption, oligarker och maffia ('lag och ordning'), kombinerat med krav på att omedelbart stoppa kriget i Tjetjenien.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -1,
+        "Q3": 2,
+        "Q4": 0,
+        "Q5": -1,
+        "Q6": 2,
+        "Q7": 1,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": 1,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": 1,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": 0
+      }
+    },
+    {
+      "id": "yavlinsky",
+      "name": "Grigorij Javlinskij (Jabloko)",
+      "shortName": "Javlinskij (Jabloko)",
+      "color": "#009933",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 7.3,
+      "description": "Socialliberal ekonom och demokratisk reformkritiker. Stödde marknadsekonomi och samarbete med väst, men angrep skarpt Jeltsins oligarkprivatiseringar, Tjetjenienkriget och presidentens maktfullkomlighet.",
+      "answers": {
+        "Q1": 1,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": -2,
+        "Q7": -1,
+        "Q8": -1,
+        "Q9": 1,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": -1,
+        "Q13": -1,
+        "Q14": 1,
+        "Q15": -1,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "zhirinovsky",
+      "name": "Vladimir Zjirinovskij (Rysslands liberaldemokratiska parti – LDPR)",
+      "shortName": "Zjirinovskij (LDPR)",
+      "color": "#003399",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 5.7,
+      "description": "Högerpopulistisk ultranationalist som krävde en stark centraliserad enhetsstat utan etniska delrepubliker, hård militär linje i Kaukasus, konfrontation mot Nato och skydd mot västerländskt inflytande.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -2,
+        "Q3": -2,
+        "Q4": 0,
+        "Q5": -1,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": 1,
+        "Q10": -2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 1,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": -2
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Ekonomi & Ägande",
+      "title": "Upphävande av \"lån-för-aktier\"-privatiseringarna",
+      "statement": "Staten bör ogiltigförklara 1995 års auktioner och återta kontrollen över strategiska olje-, gas- och metallbolag (som Jukos och Norilsk Nickel) som sålts ut till oligarker till underpris.",
+      "context": "Hösten 1995 pantsatte den ryska regeringen aktiemajoriteten i några av landets mest värdefulla råvarujättar till en liten grupp bankirer i utbyte mot statslån, vilket skapade en mäktig klass av oligarker mitt under den djupa fattigdomen.",
+      "pro": "Rysslands naturrikedomar tillhör hela folket och har rövats bort i riggade auktioner; ett återförstatligande ger staten intäkter till att betala ut löner och pensioner.",
+      "con": "Att riva upp genomförda privatiseringar skulle utlösa ekonomiskt kaos, skrämma bort alla investerare och bana väg för en återgång till sovjetisk planekonomi.",
+      "outcome": "Efter Jeltsins valseger behöll oligarkerna sina bolag, och först under 2000-talet återtog staten kontrollen över delar av energisektorn (bland annat genom Jukos-processen)."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Konstitution & Makt",
+      "title": "Begränsning av presidentens makt till förmån för Duman",
+      "statement": "1993 års konstitution bör ändras så att presidentens rätt att styra genom dekret begränsas och regeringen måste godkännas av och stå till svars inför Statsduman.",
+      "context": "Efter den väpnade konflikten med parlamentet hösten 1993 infördes en konstitution som gav presidenten extraordinära befogenheter att utfärda dekret med lagkraft och utse ministrar i stort sett utan parlamentets inflytande.",
+      "pro": "En president med nästan enväldig makt utan parlamentarisk kontroll hotar demokratin och gör hela landet beroende av en enda mans hälsa och nycker.",
+      "con": "I ett land i djup kris behöver Ryssland en stark och handlingskraftig presidentmakt som kan driva igenom reformer utan att blockeras av en splittrad Duma.",
+      "outcome": "1993 års presidentdominerade konstitution behölls orörd efter Jeltsins omval."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Krig & Säkerhet",
+      "title": "Omedelbart eldupphör och fredsförhandlingar i Tjetjenien",
+      "statement": "Ryssland bör omedelbart stoppa de militära offensiverna i Tjetjenien, dra tillbaka de federala trupperna och inleda fredsförhandlingar med de tjetjenska separatisterna.",
+      "context": "Sedan december 1994 rasade det första Tjetjenienkriget med tiotusentals döda civila och ryska värnpliktiga, vilket gjorde kriget djupt impopulärt inför presidentvalet.",
+      "pro": "Kriget i Tjetjenien är en humanitär och militär katastrof som inte kan vinnas med vapenmakt; våra unga värnpliktiga måste omedelbart tas hem.",
+      "con": "Ett tillbakadragande utan seger innebär kapitulation inför separatism och terrorism och riskerar att utlösa en kedjereaktion som splittrar hela Ryska federationen.",
+      "outcome": "Efter att Aleksandr Lebed utsågs till säkerhetsrådets sekreterare efter första valomgången slöts Chasavjurt-avtalet i augusti 1996, vilket avslutade kriget och drog tillbaka de ryska trupperna."
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "category": "Historia & Symboler",
+      "title": "Begravning av Lenin och nedläggning av mausoleet",
+      "statement": "Staten bör flytta Vladimir Lenins balsamerade kropp från mausoleet på Röda torget till en vanlig grav på kyrkogården i Sankt Petersburg och avlägsna de sovjetiska symbolerna från Kreml.",
+      "context": "Fem år efter Sovjetunionens upplösning låg Lenin kvar i sitt mausoleum mitt i Moskva, och frågan om att begrava honom blev en laddad symbolstrid om hur Ryssland skulle göra upp med sitt kommunistiska förflutna.",
+      "pro": "Ryssland kan inte bygga en modern demokrati så länge grundaren av den bolsjevikiska diktaturen ligger utställd i hjärtat av huvudstaden.",
+      "con": "Att röra mausoleet på Röda torget är ett hån mot äldre generationers historia och skulle splittra samhället i ett redan explosivt läge.",
+      "outcome": "Jeltsin övervägde en begravning men avstod av rädsla för att mobilisera kommunistiska väljare, och Lenins mausoleum ligger kvar på Röda torget."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Finanspolitik & Valuta",
+      "title": "Hård rubelpolitik och reformer enligt IMF-villkor",
+      "statement": "Ryssland bör hålla fast vid en stram penningpolitik, bundet växelkursband för rubeln och budgetnedskärningar i enlighet med Internationella valutafondens (IMF) lånevillkor.",
+      "context": "Våren 1996 beviljade IMF Ryssland ett stort lån på över 10 miljarder dollar på villkor att regeringen höll tillbaka inflationen, minskade budgetunderskottet och fullföljde avregleringarna.",
+      "pro": "Stabil valuta och låg inflation är förutsättningen för ekonomisk återhämtning; utan IMF:s stöd står statskassan tom och hyperinflationen återvänder.",
+      "con": "IMF:s åtstramningskrav stryper den inhemska industrin och tvingar staten att hålla inne arbetarnas löner och pensionärernas pengar.",
+      "outcome": "Regeringen fullföljde rubelkorridoren och IMF-programmet fram till den ryska finanskrisen i augusti 1998 då rubeln kollapsade."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Rättsväsende & Brottslighet",
+      "title": "Undantagstillstånd och specialdomstolar mot maffian",
+      "statement": "Presidenten bör ge säkerhetstjänsten och polisen extraordinära befogenheter, inklusive snabba specialdomstolar och dödsstraff för grov organiserad brottslighet och korruption.",
+      "context": "Under mitten av 1990-talet präglades Ryssland av beställningsmord på affärsmän, journalister och politiker samt utbredd beskyddarverksamhet i nästan varje stad.",
+      "pro": "När maffian har köpt upp domstolar och myndigheter krävs järnhård hand och undantagslagar för att återställa lag och ordning på gatorna.",
+      "con": "Specialdomstolar och extraordinära polisbefogenheter urholkar rättssäkerheten och riskerar att leda tillbaka till godtycklig politisk terror.",
+      "outcome": "Några specialdomstolar infördes inte, och istället antogs en ny strafflag 1996 samt ett moratorium mot dödsstraff."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Utrikespolitik & Försvar",
+      "title": "Konfrontationslinje och motåtgärder mot Natos utvidgning",
+      "statement": "Ryssland bör avbryta det militära samarbetet med Nato ('Partnerskap för fred') och rikta om sina kärnvapen samt placera ut nya robotar om Polen, Tjeckien och Ungern bjuds in i alliansen.",
+      "context": "Under 1996 förberedde Nato sin första utvidgning österut till före detta Warszawapaktsländer, vilket väckte starka reaktioner över hela det ryska politiska spektrumet.",
+      "pro": "Natos framryckning mot Rysslands gränser är ett direkt säkerhetshot som bryter mot västmakternas löften vid kalla krigets slut.",
+      "con": "Militär konfrontation och kärnvapenhot isolerar Ryssland diplomatiskt och kastar landet tillbaka in i ett dyrt kallt krig som ekonomin inte klarar.",
+      "outcome": "Jeltsin protesterade diplomatiskt mot Natos utvidgning men valde samarbetslinjen och undertecknade Nato–Ryssland-grundakten i maj 1997."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Kultur & Språk",
+      "title": "Förbud mot västerländsk reklam och utländska lånord",
+      "statement": "Parlamentet bör införa en lag som förbjuder utländska reklamskyltar, engelska varumärkesnamn och västerländska TV-reklaminslag på ryska gator och i statlig television.",
+      "context": "Efter censuravskaffandet översvämmades ryska städer och TV-kanaler av västerländsk reklam och engelska skyltar, vilket många uppfattade som en kulturell och språklig invasion mitt i den nationella krisen.",
+      "pro": "Det ryska språket och stadsbilden håller på att koloniseras av västerländsk kommersialism; rysk kultur och inhemska producenter måste skyddas.",
+      "con": "Reklamintäkter finansierar fria medier och utländska företag skapar jobb; språk- och reklamförbud är ett återfall i sovjetisk isolering.",
+      "outcome": "Inget totalförbud infördes 1996, men Duman skärpte senare reklamlagstiftningen och krävde ryska översättningar på utländska skyltar."
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "category": "Välfärd & Socialpolitik",
+      "title": "Återinförande av statliga bostads- och sjukvårdsgarantier",
+      "statement": "Staten bör lagstifta om avgiftsfri sjukvård och högre utbildning samt garanterade kommunala hyresbostäder för unga familjer och arbetare.",
+      "context": "Under 1990-talets marknadsreformer urholkades den offentliga sjukvården och utbildningen kraftigt av nedskärningar och dolda avgifter, samtidigt som det sovjetiska systemet med statliga bostadsköer avvecklades.",
+      "pro": "Trygghet i form av bostad, vård och utbildning är grundläggande sociala rättigheter som staten måste garantera alla medborgare.",
+      "con": "Statsbudgeten saknar resurser för att finansiera sovjetiska välfärdslöften utan att utlösa ny hyperinflation och skattehöjningar.",
+      "outcome": "Regeringen höll fast vid marknadsreformer och privata inslag inom bostads- och välfärdssektorn."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Försvar & Värnplikt",
+      "title": "Avskaffande av allmän värnplikt till förmån för yrkesarmé",
+      "statement": "Ryssland bör senast till år 2000 avskaffa den allmänna värnplikten och övergå till en helt professionell yrkesarmé.",
+      "context": "Den ryska värnpliktsarmén plågades av pennalism ('dedovsjtjina'), deserteringar och höga förluster bland unga rekryter i Tjetjenien, och i maj 1996 utfärdade Jeltsin ett uppmärksammat valdekret om att avskaffa värnplikten till sekelskiftet.",
+      "pro": "Unga artonåringar ska inte tvångskommenderas till krig och misshandel i kasernerna; ett modernt försvar kräver yrkessoldater.",
+      "con": "Ryssland har världens längsta gränser och saknar pengar att avlöna en stor yrkesarmé; allmän värnplikt är nödvändig för landets försvar.",
+      "outcome": "Trots Jeltsins valdekret i maj 1996 genomfördes aldrig övergången till en ren yrkesarmé och den allmänna värnplikten behölls."
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "category": "Statsskick & Regioner",
+      "title": "Avskaffande av etniska delrepubliker för en enhetsstat",
+      "statement": "Rysslands federala indelning med autonoma etniska republiker (som Tatarstan och Tjetjenien) bör avskaffas och ersättas av centralstyrda guvernement utan särstatus.",
+      "context": "Under 1990-talet hade flera etniska delrepubliker tecknat särskilda maktfördelningsavtal med Moskva om skatter och självstyre, vilket nationalister menade hotade Rysslands sammanhållning.",
+      "pro": "Alla medborgare och regioner i Ryssland ska ha exakt samma rättigheter och skyldigheter; etniska delrepubliker är tidsinställda bomber som kan spränga landet.",
+      "con": "Att avskaffa delrepublikernas självstyre skulle omedelbart utlösa etniska konflikter och nya uppror i hela Ryssland.",
+      "outcome": "Den federala strukturen med etniska republiker behölls i konstitutionen, även om regionernas säravtal stramades åt under 2000-talet."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Idrott & Nationell stolthet",
+      "title": "Kvoter mot utländska spelare och stopp för spelarflykt",
+      "statement": "Idrottsförbunden bör införa strikta kvoter mot utländska spelare och förbjuda ryska klubbar att sälja unga hockey- och fotbollstalanger utomlands före 25 års ålder.",
+      "context": "Efter Sovjetunionens fall lämnade hundratals ryska hockey- och fotbollsstjärnor landet för NHL och västeuropeiska ligor, medan de inhemska ligorna led av publiktapp och brist på pengar.",
+      "pro": "Rysk idrott har byggts upp med folkets skattepengar och får inte utarmas till en plantskola för rika klubbar i Nordamerika och Västeuropa.",
+      "con": "Idrottsmän har samma rätt som alla andra medborgare att arbeta utomlands och tjäna pengar på sin talang utan statliga utreseförbud.",
+      "outcome": "Något exportförbud för unga spelare infördes aldrig, men ryska idrottsförbund införde senare begränsningar av antalet utländska spelare i ligorna."
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "category": "Ekonomi & Priser",
+      "title": "Återinförande av statliga priskontroller och råvarumonopol",
+      "statement": "Staten bör återinföra fasta maximipriser på baslivsmedel, el och bränsle samt återskapa statligt monopol på export av olja, gas och ädelmetaller.",
+      "context": "Prisavregleringen 1992 hade utlöst en prischock som raderade ut medborgarnas besparingar, och miljontals ryssar hade svårt att klara de stigande kostnaderna för mat, uppvärmning och transporter.",
+      "pro": "Grundläggande livsmedel och energi är livsnödvändiga för befolkningen och får inte överlämnas åt spekulanter och mellanhänder.",
+      "con": "Statliga pristak leder omedelbart till tomma butikshyllor, hamstring och svartabörshandel precis som under sovjettiden.",
+      "outcome": "Marknadsprissättningen behölls och inga allmänna statliga priskontroller återinfördes."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Familj & Demografi",
+      "title": "Kraftigt statligt familjestöd mot befolkningsminskningen",
+      "statement": "Staten bör införa kraftigt höjda barnbidrag och engångsbelopp till familjer som föder flera barn för att vända Rysslands akuta demografiska kris.",
+      "context": "Under 1990-talet sjönk födelsetalen i Ryssland dramatiskt samtidigt som dödstalen steg till följd av ekonomisk otrygghet, alkoholism och försämrad sjukvård.",
+      "pro": "Ryssland håller på att dö ut; utan generöst ekonomiskt stöd till barnfamiljer har nationen ingen framtid.",
+      "con": "Staten klarar knappt av att betala ut befintliga pensioner i tid och kan inte ta på sig nya stora bidragsåtaganden förrän ekonomin växer.",
+      "outcome": "Under krisåret 1996 uteblev de stora familjesatsningarna, och först 2007 infördes det omfattande ryska moderskapskapitalet."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Media & Moral",
+      "title": "Statlig moral- och filmkommission mot våld och erotik",
+      "statement": "Parlamentet bör inrätta en statlig moral- och filmkommission som stoppar den våg av pornografiska tidskrifter, våldsfilmer och kriminalprogram som översvämmat ryska kiosker och TV-kanaler.",
+      "context": "Efter decennier av strikt sovjetisk censur fylldes ryska tunnelbanekiosker och TV-tablåer under 1990-talet av våldsamma amerikanska actionfilmer, kriminalprogram och erotiska publikationer.",
+      "pro": "Den ohämmade vålds- och porrkommersen bryter ner ungdomens moral och familjevärderingarna i det ryska samhället.",
+      "con": "En statlig moralkommission blir snabbt ett verktyg för politisk censur som stryper den nyvunna yttrande- och pressfriheten.",
+      "outcome": "Duman röstade igenom ett lagförslag om ett högsta råd för skydd av moralen 1999, men det stoppades av presidentens veto."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Diplomati & Världshandel",
+      "title": "Integration med G7 och fullföljande av START II-avtalet",
+      "statement": "Ryssland bör prioritera medlemskap i G7-gruppen och Europarådet samt fullfölja kärnvapennedrustningsavtalet START II med USA.",
+      "context": "Jeltsins utrikespolitik byggde på nära samarbete med USA och Västeuropa, med målet att Ryssland skulle tas upp som fullvärdig medlem i de ledande industriländernas grupp G7.",
+      "pro": "Samarbete med västmakterna och ömsesidig kärnvapennedrustning ger Ryssland internationell prestige, teknologiskt utbyte och ekonomiska investeringar.",
+      "con": "START II-avtalet försvagar Rysslands kärnvapenavskräckning ensidigt och gör landet till en underordnad partner till USA.",
+      "outcome": "Ryssland togs in i G8 år 1997–1998, medan ratificeringen av START II fördröjdes i Duman till år 2000 och senare övergavs."
+    }
+  ]
+}
