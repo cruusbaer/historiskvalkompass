@@ -86,6 +86,24 @@
   "title": "Brittiska parlamentsvalet 1979",
   "year": 1979,
   "subtitle": "Missnöjets vinter och Margaret Thatchers systemskifte"
+},
+    {
+  "id": "ca-1911",
+  "category": "Internationella val",
+  "active": true,
+  "file": "election-ca-1911-se.json",
+  "title": "Kanadensiska parlamentsvalet 1911",
+  "year": 1911,
+  "subtitle": "Frihandelsstriden mot USA och kampen om Kanadas själ"
+},
+    {
+  "id": "uk-1679",
+  "category": "Internationella val",
+  "active": true,
+  "file": "election-uk-1679-se.json",
+  "title": "Engelska parlamentsvalen 1679",
+  "year": 1679,
+  "subtitle": "Exklusionskrisen och födelsen av Whigs och Tories"
 }
   ]
 }
