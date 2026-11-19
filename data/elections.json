@@ -69,6 +69,15 @@
       "year": 1994,
       "subtitle": "Ödesvalet i skuggan av 90-talets djupa ekonomiska kris och den kommande folkomröstningen om EU-medlemskap."
     },
+     {
+  "id": "uk-1679",
+  "category": "Internationella val",
+  "active": true,
+  "file": "election-uk-1679-se.json",
+  "title": "Engelska parlamentsvalen 1679",
+  "year": 1679,
+  "subtitle": "Exklusionskrisen och födelsen av Whigs och Tories"
+},
     {
       "id": "no-1903",
       "category": "Internationella val",
@@ -77,16 +86,7 @@
       "title": "Norska stortingsvalet 1903",
       "year": 1903,
       "subtitle": "Konsulatstrid, unionsupplösning och kvinnlig rösträtt"
-    },
-    {
-  "id": "uk-1979",
-  "category": "Internationella val",
-  "active": true,
-  "file": "election-uk-1979-se.json",
-  "title": "Brittiska parlamentsvalet 1979",
-  "year": 1979,
-  "subtitle": "Missnöjets vinter och Margaret Thatchers systemskifte"
-},
+    },    
     {
   "id": "ca-1911",
   "category": "Internationella val",
@@ -97,13 +97,23 @@
   "subtitle": "Frihandelsstriden mot USA och kampen om Kanadas själ"
 },
     {
-  "id": "uk-1679",
+  "id": "uk-1979",
   "category": "Internationella val",
   "active": true,
-  "file": "election-uk-1679-se.json",
-  "title": "Engelska parlamentsvalen 1679",
-  "year": 1679,
-  "subtitle": "Exklusionskrisen och födelsen av Whigs och Tories"
+  "file": "election-uk-1979-se.json",
+  "title": "Brittiska parlamentsvalet 1979",
+  "year": 1979,
+  "subtitle": "Missnöjets vinter och Margaret Thatchers systemskifte"
+},
+{
+  "id": "ru-1996",
+  "category": "Internationella val",
+  "active": true,
+  "file": "election-ru-1996-se.json",
+  "title": "Ryska presidentvalet 1996",
+  "year": 1996,
+  "subtitle": "Oligarkerna, Tjetjenienkriget och striden mot kommunisterna"
 }
+   
   ]
 }
