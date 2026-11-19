@@ -338,12 +338,53 @@
       "imageUrl": "",
       "imageCaption": ""
     },
-    {
+        {
       "id": "Q13",
       "quick": true,
       "title": "Förbud mot offentliga dansbanor",
-      "statement": "Kommuner ska få rätt att förbjuda landsbygdens offentliga dansbanor.",
-      "context": "Det så kallade 'dansbaneeländet' var en livlig debatt där kyrkliga krafter ville stoppa logdanser. Runt logdanser förekom både alkohol, våld och sexuell frigörelse.",
+      "statement": "Kommuner ska få rätt att förbjuda offentliga dansbanor på landsbygden.",
+      "context": "Det så kallade 'dansbaneeländet' var en livlig debatt där kyrkliga krafter ville stoppa logdanser.",
       "category": "Folkhälsa & Moral",
       "pro": "Minskar fylleri och ordningsstörningar på landsbygden.",
-      "con": "Motverkar ungdomens nöje, begränsar mötesplatser.",
+      "con": "Stryper ungdomens viktigaste mötesplats och nöje.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "title": "Handel med Sovjetunionen",
+      "statement": "Sverige bör utöka de statliga handelsförbindelserna med Sovjetunionen.",
+      "context": "Handel med Sovjet sågs av industrin som en stor exportchans, men kritiserades av borgerligheten av ideologiska skäl.",
+      "category": "Utrikespolitik",
+      "pro": "Öppnar en enorm marknad för svensk verkstadsindustri.",
+      "con": "Gynnar en kommunistisk diktatur och innebär ekonomisk risk.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "title": "Försvarssekretess",
+      "statement": "Militära utredningar och försvarsbeslut ska beläggas med skärpt sekretess.",
+      "context": "Militärledningen ville begränsa insynen i beredskapsplaner för att förhindra utländskt spionage.",
+      "category": "Försvar & Säkerhet",
+      "pro": "Skyddar rikets säkerhet mot utländsk underrättelsetjänst.",
+      "con": "Inskränker tryckfriheten och medborgarnas insyn.",
+      "imageUrl": "",
+      "imageCaption": ""
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "title": "Skattefinansiering av statsskulden",
+      "statement": "Statliga investeringar ska finansieras med skatter snarare än upplåning.",
+      "context": "En klassisk ekonomisk strid mellan återhållsam budgetdisciplin och investeringspolitik.",
+      "category": "Skatter & Ekonomi",
+      "pro": "Förhindrar att staten drar på sig farliga skulder.",
+      "con": "Bromsar nödvändiga investeringar i landets utveckling.",
+      "imageUrl": "",
+      "imageCaption": ""
+    }
+  ]
+}
