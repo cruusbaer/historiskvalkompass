@@ -1,0 +1,316 @@
+{
+  "id": "ca-1911",
+  "title": "Kanadensiska parlamentsvalet 1911",
+  "year": 1911,
+  "country": "Kanada",
+  "electionResults": {
+    "seatsTotal": 221,
+    "summary": "Valet den 21 september 1911 blev ett dramatiskt maktskifte efter 15 år av liberalt styre under Sir Wilfrid Laurier. Konservativa partiet under Robert Borden vann en tydlig majoritet med 132 av 221 mandat genom att mobilisera engelskspråkiga väljare mot det planerade frihandelsavtalet med USA ('Reciprocity'), som utmålades som ett första steg mot amerikansk annektering. Samtidigt föll Liberalerna i Québec där Henri Bourassas franskkanadensiska nationalister allierade sig med de konservativa i protest mot Lauriers planer på en kanadensisk örlogsflotta och fruktan för brittisk värnplikt.",
+    "government": {
+      "type": "Majoritetsregering (med franskkanadensiska nationalister i kabinettet)",
+      "primeMinister": "Robert Borden",
+      "rulingParties": [
+        "Conservative Party of Canada"
+      ],
+      "supportParties": [
+        "Nationalist Conservatives (Ligue nationaliste canadienne)"
+      ],
+      "opposition": [
+        "Liberal Party of Canada",
+        "Labour / Socialist Candidates"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "conservative",
+      "name": "Conservative Party of Canada",
+      "shortName": "Conservatives",
+      "color": "#002395",
+      "seats": 132,
+      "seatChange": 47,
+      "votePercentage": 48.0,
+      "description": "Oppositionspartiet under Robert Borden som försvarade skyddstullar ('National Policy'), brittiska imperiepreferenser och starka band till Storbritannien. Bekämpade frihandelsavtalet med USA som ett hot mot Kanadas suveränitet och ville skicka direkta kontantbidrag till den brittiska flottan.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -2,
+        "Q3": 1,
+        "Q4": 1,
+        "Q5": -1,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": 0,
+        "Q9": -2,
+        "Q10": 0,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 0,
+        "Q14": -1,
+        "Q15": 0,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "liberal",
+      "name": "Liberal Party of Canada",
+      "shortName": "Liberals",
+      "color": "#D71920",
+      "seats": 85,
+      "seatChange": -48,
+      "votePercentage": 45.8,
+      "description": "Det regerande partiet under Sir Wilfrid Laurier som gick till val på ett omfattande frihandelsavtal med USA för att gynna jordbrukare och råvaruexportörer, uppbyggnaden av en egen kanadensisk örlogsflotta samt fortsatt järnvägsutbyggnad i väster.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 1,
+        "Q4": 1,
+        "Q5": 1,
+        "Q6": -2,
+        "Q7": -1,
+        "Q8": 0,
+        "Q9": -1,
+        "Q10": 0,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": -1,
+        "Q14": -1,
+        "Q15": 0,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "nationalist",
+      "name": "Nationalist Conservatives (Ligue nationaliste canadienne)",
+      "shortName": "Nationalists",
+      "color": "#0066CC",
+      "seats": 16,
+      "seatChange": 16,
+      "votePercentage": 3.5,
+      "description": "En franskkanadensisk nationalistisk rörelse ledd av Henri Bourassa som samarbetade med de konservativa i Québec. Krävde folkomröstning om flottlagen och imperiekrig, bekämpade brittisk imperialism och försvarade franska språk- och skolrättigheter över hela Kanada.",
+      "answers": {
+        "Q1": 0,
+        "Q2": -2,
+        "Q3": 0,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": 1,
+        "Q7": 0,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": -1,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": -2,
+        "Q14": -2,
+        "Q15": -1,
+        "Q16": 0
+      }
+    },
+    {
+      "id": "labour",
+      "name": "Labour / Socialist Candidates",
+      "shortName": "Labour",
+      "color": "#E74C3C",
+      "seats": 1,
+      "seatChange": 0,
+      "votePercentage": 2.0,
+      "description": "Tidiga arbetar- och socialistkandidater i gruv- och industristäder som Winnipeg och Nanaimo. Krävde 8-timmars arbetsdag, förstatligande av järnvägar och monopol, frihandel mot höga livsmedelspriser, kvinnlig rösträtt och strikt stopp för asiatisk låglöneinvandring.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -1,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": 2,
+        "Q7": 0,
+        "Q8": 2,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": 0,
+        "Q13": 1,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": 2
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Handel & Utrikespolitik",
+      "title": "Frihandelsavtal med USA framför imperietullar",
+      "statement": "Parlamentet bör godkänna det bilaterala frihandelsavtalet med USA ('Reciprocity') framför att satsa på ett slutet tullsystem inom det brittiska imperiet.",
+      "context": "I januari 1911 förhandlade Lauriers regering fram ett avtal med USA som skulle avskaffa tullarna på jordbruksvaror, fisk, timmer och råvaror mellan länderna. Avtalet hyllades av präriebönderna men väckte stark oro i industristäderna och hos imperievänner i östra Kanada.",
+      "pro": "Frihandel med USA ger kanadensiska bönder, fiskare och skogsarbetare tillgång till en gigantisk exportmarknad och sänker priserna på maskiner och vardagsvaror.",
+      "con": "Ekonomisk integration med USA slår ut kanadensisk industri, försvagar banden till det brittiska imperiet och riskerar på sikt att leda till amerikansk annektering.",
+      "outcome": "I och med de konservativas valseger i september 1911 skrotades frihandelsavtalet med USA helt, och Kanada behöll sina skyddstullar och brittiska imperiepreferenser."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Imperiet & Försvar",
+      "title": "Egen kanadensisk flotta framför bidrag till London",
+      "statement": "Kanada bör bygga upp en egen nationell krigsflotta under kanadensisk kontroll, istället för att skicka direkta kontantbidrag till den brittiska flottan (Royal Navy).",
+      "context": "Kapprustningen mellan Storbritannien och Tyskland fick London att be samväldet om hjälp. År 1910 genomdrev Laurier 'Naval Service Act' för att bygga en egen kanadensisk flotta, vilket kritiserades från två håll: engelska imperialister ville ge direkta pengar till London, medan franskkanadensiska nationalister fruktade att kanadensare skulle tvingas strida i brittiska krig.",
+      "pro": "En egen kanadensisk flotta stärker landets självständighet och försvarar våra egna kuster utan att kanadensiska skattepengar lämnas bort utan parlamentets kontroll.",
+      "con": "En liten splittrad kanadensisk flotta är verkningslös i ett modernt sjökrig; det enda effektiva är att stärka Royal Navy eller helt hålla sig utanför imperiets rustningar.",
+      "outcome": "Robert Bordens regering lade byggandet av den egna flottan på is och lade istället fram ett lagförslag om 35 miljoner dollar till brittiska slagskepp, vilket dock stoppades av den liberalt dominerade senaten 1913."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Jordbruk & Näringsliv",
+      "title": "Statliga spannmålselevatorer på prärien",
+      "statement": "Staten bör bygga och driva egna spannmålssilor ('terminal elevators') i västra Kanada så att präriebönderna slipper bli utlämnade åt privata spannmålsbolags prissättning.",
+      "context": "Under veteboomen på den kanadensiska prärien hamnade bönderna i skarp konflikt med de privata järnvägs- och spannmålsbolagen, som anklagades för att manipulera vägning, klassificering och lagringsavgifter i spannmålssilorna.",
+      "pro": "Statliga spannmålselevatorer garanterar ärlig vägning och rättvis kvalitetsbedömning så att frukten av prärieböndernas slit inte hamnar i privata monopolbolags fickor.",
+      "con": "Statlig drift av spannmålssilor blir byråkratisk, dyr för skattebetalarna och riskerar att snedvrida spannmålshandeln.",
+      "outcome": "År 1912 antog parlamentet Canada Grain Act som inrättade en statlig spannmålskommission och gav staten befogenhet att bygga och driva egna spannmålselevatorer i väster."
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "category": "Naturvård & Djurskydd",
+      "title": "Jaktstopp och pälskontroll för att rädda bävern",
+      "statement": "Staten bör införa ett federalt jaktförbud på bäver och skärpt pälshandelskontroll för att rädda Kanadas nationaldjur från utrotning.",
+      "context": "Efter sekler av intensiv pälshandel för den europeiska hattindustrin var den kanadensiska bävern nära total utrotning i början av 1900-talet, samtidigt som djuret var en central nationell symbol för Kanada.",
+      "pro": "Om inte federala myndigheter sätter stopp för rovfångsten av bäver kommer Kanadas mest ikoniska nationaldjur att utrotas inom några få år.",
+      "con": "Pälsfångst är en viktig försörjningskälla för jägare och ursprungsbefolkningar i norr och bör regleras lokalt av provinserna snarare än genom federala förbud.",
+      "outcome": "Genom strikta jaktstopp i provinserna och federala handelsregleringar under 1910- och 1920-talen lyckades bäverbeståndet återhämta sig kraftigt över hela Kanada."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Språk & Nationell enhet",
+      "title": "Lagstadgad tvåspråkighet i federala förvaltningen",
+      "statement": "Parlamentet bör införa tvingande regler om att franska och engelska ska vara helt likställda på sedlar, frimärken och vid alla federala myndigheter i hela landet.",
+      "context": "Trots 1867 års författning som gav franskan skydd i parlamentet och federala domstolar dominerades statsförvaltningen, postverket och sedlarna helt av engelska, medan franskspråkiga minoriteter utanför Québec mötte växande restriktioner.",
+      "pro": "Kanada grundades som ett partnerskap mellan två folk; franskspråkiga medborgare har rätt att möta sitt eget språk på sedlar, frimärken och hos statliga myndigheter.",
+      "con": "Tvång om full tvåspråkighet i hela statsapparaten medför stora kostnader och praktiska svårigheter i provinser där nästan hela befolkningen talar engelska.",
+      "outcome": "Kraven avvisades 1911 och språkstriden skärptes ytterligare under 1910-talet (bland annat genom Regulation 17 i Ontario); först 1969 infördes officiell federal tvåspråkighet."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Infrastruktur & Ägande",
+      "title": "Förstatligande av de transkontinentala järnvägarna",
+      "statement": "Staten bör ta över ägandet och driften av de stora privata järnvägsbolagen (som Canadian Pacific och Grand Trunk Pacific) för att stoppa monopolpriser på spannmålstransporter.",
+      "context": "Under 1900-talets första decennium subventionerade den kanadensiska staten byggandet av två nya transkontinentala järnvägar vid sidan av Canadian Pacific, samtidigt som bönder och arbetare protesterade mot höga frakttaxor och bolagens makt.",
+      "pro": "Järnvägarna är Kanadas livsnerv som byggts med enorma offentliga mark- och pengabidrag; de bör ägas av folket för att ge låga och rättvisa fraktpriser.",
+      "con": "Privat företagsamhet bygger och driver järnvägar betydligt effektivare än staten, och ett förstatligande skulle skuldsätta Kanada för generationer framåt.",
+      "outcome": "Under första världskriget hamnade flera av de privata järnvägsbolagen i akut ekonomisk kris, vilket ledde till att staten förstatligade dem och bildade Canadian National Railway (CNR) 1919–1923."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Idrott & Nationell kultur",
+      "title": "Exportförbud mot flytt av Stanley Cup till USA",
+      "statement": "Parlamentet bör lagstifta om att Kanadas mest berömda idrottstrofé, Stanley Cup, endast får spelas om av kanadensiska klubbar och aldrig lämnas ut till lag i USA.",
+      "context": "Kring 1910–1911 kommersialiserades ishockeyn snabbt i Kanada, samtidigt som förmögna amerikanska klubbar började värva kanadensiska stjärnspelare och krävde att få utmana om Stanley Cup – vilket väckte starka reaktioner parallellt med debatten om amerikansk ekonomisk dominans.",
+      "pro": "Stanley Cup skänktes för att kora Kanadas bästa hockeylag; att låta rika amerikanska bolag köpa upp våra spelare och föra trofén ur landet vore ett kulturellt svek.",
+      "con": "Idrotten ska vara fri från statlig protektionism; internationella matcher mellan kanadensiska och amerikanska lag utvecklar hockeysporten och lockar större publik.",
+      "outcome": "Något lagförbud infördes aldrig; år 1914 spelade ett amerikanskt lag (Portland Rosebuds) om trofén för första gången och 1917 vann Seattle Metropolitans Stanley Cup som första USA-klubb."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Markpolitik & Skatter",
+      "title": "Federal skatt på obrukad spekulationsmark",
+      "statement": "Staten bör införa en särskild skatt på stora markområden i västra Kanada som hålls obrukade av järnvägsbolag och markspekulanter i väntan på stigande priser.",
+      "context": "Stora jordarealer på prärien ägdes av järnvägsbolag och spekulanter som lät marken ligga obrukad medan nybyggarnas arbete drev upp markvärdet runt omkring, vilket skapade långa avstånd och höga infrastrukturkostnader.",
+      "pro": "Mark som hålls obrukad i spekulationssyfte bromsar nybyggarnas utveckling; en jordvärdesskatt tvingar bolagen att sälja jorden till riktiga jordbrukare.",
+      "con": "Järnvägsbolagen fick marken som laglig ersättning för att bygga järnvägen genom vildmarken, och en straffskatt skulle skrämma bort investerare från västra Kanada.",
+      "outcome": "Ingen federal spekulationsskatt infördes av parlamentet, även om flera kommuner och provinser i västra Kanada under 1910-talet experimenterade med lokal beskattning av obrukad mark."
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "category": "Konstitution & Krig",
+      "title": "Folkomröstning före deltagande i imperiekrig",
+      "statement": "Parlamentet bör lagstifta om att Kanada aldrig får skicka trupper eller örlogsfartyg till krig utomlands utan föregående godkännande i en nationell folkomröstning.",
+      "context": "Efter boerkriget och i skuggan av den europeiska kapprustningen krävde Henri Bourassas nationaliströrelse i Québec bindande garantier för att Kanada inte automatiskt skulle dras in i Storbritanniens framtida krig.",
+      "pro": "Det kanadensiska folket måste självt få rösta innan landets söner skickas att dö i avlägsna krig som beslutats i London utan kanadensiskt inflytande.",
+      "con": "När Storbritannien är i krig är Kanada som en del av imperiet automatiskt i krig, och en utdragen folkomröstning skulle göra landet handlingsförlamat i ett akut läge.",
+      "outcome": "Kravet på folkomröstning avvisades; när Storbritannien förklarade Tyskland krig i augusti 1914 var Kanada omedelbart i krig, vilket senare ledde till den djupa värnpliktskrisen 1917."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Vardag & Tidmätning",
+      "title": "Införande av sommartid i Kanada",
+      "statement": "Kanada bör ställa fram klockan en timme under sommarhalvåret för att ge stadsarbetare mer dagsljus på kvällen och spara energi.",
+      "context": "Staden Port Arthur i Ontario införde världens första moderna sommartid år 1908, vilket väckte en livlig debatt i det kanadensiska parlamentet mellan stadsbor som ville ha ljusa kvällar och bönder som menade att jordbruket följer solen, inte klockan.",
+      "pro": "En extra timme dagsljus på sommarkvällarna ger arbetare möjlighet till friluftsliv, minskar behovet av konstgjord belysning och gynnar folkhälsan.",
+      "con": "Att manipulera klockan skapar oreda för tågtidtabeller och tvingar bönder och mjölkbönder att arbeta i mörker på morgonen när daggen ännu ligger kvar.",
+      "outcome": "Förslagen röstades ned i parlamentet före kriget, men år 1918 införde Kanada nationell sommartid som en energisparåtgärd under första världskriget."
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "category": "Invandring & Samhälle",
+      "title": "Totalförbud mot asiatisk och restriktiv europeisk invandring",
+      "statement": "Parlamentet bör införa ett totalförbud mot asiatisk arbetskraftsinvandring samt skärpta urvalskrav för att kraftigt begränsa invandringen från södra och östra Europa.",
+      "context": "Under 1900-talets första decennium tog Kanada emot rekordmånga invandrare, vilket väckte starka spänningar i både British Columbia (mot kinesiska, japanska och indiska arbetare) och på prärien och i städerna (kring invandrare från Öst- och Sydeuropa).",
+      "pro": "Massinvandring av billig utländsk arbetskraft pressar ner kanadensiska arbetares löner och hotar landets brittiska och franska samhällsstruktur.",
+      "con": "Kanadas snabba ekonomiska tillväxt och järnvägsbygge kräver arbetskraft, och att stänga ute människor på grund av ursprung strider mot rättvisa och imperiets principer.",
+      "outcome": "Invandringslagstiftningen skärptes stegvis under 1910-talet och kulminerade i Chinese Immigration Act 1923 som införde ett i praktiken totalt stopp för kinesisk invandring."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Naturresurser & Handel",
+      "title": "Exportförbud på obearbetat timmer och pappersmassa till USA",
+      "statement": "Kanada bör förbjuda export av obearbetat virke från kronomark så att all vidareförädling till papper och trävaror sker i kanadensiska fabriker.",
+      "context": "Amerikanska tidningskoncerner köpte upp stora mängder kanadensisk massaved för att förädla den i fabriker i USA, medan kanadensiska konservativa och skogsindustriintressen krävde bearbetningskrav inom landet.",
+      "pro": "Kanada ska inte vara enbart en råvarukoloni åt USA; om virket måste förädlas i Kanada skapas tusentals industrijobb och växande städer hos oss.",
+      "con": "Exportförbud minskar skogsägarnas intäkter, strider mot frihandelsprinciper och riskerar att utlösa amerikanska motåtgärder mot kanadensiska varor.",
+      "outcome": "Flera provinser (däribland Québec och Ontario) införde exportförbud på obearbetat virke från kronomark kring 1910–1911, vilket ledde till en kraftig utbyggnad av den kanadensiska pappers- och massaindustrin."
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "category": "Nykterhet & Socialpolitik",
+      "title": "Införande av ett nationellt alkoholförbud",
+      "statement": "Parlamentet bör förbjuda tillverkning, import och försäljning av rusdrycker i hela Kanada.",
+      "context": "Nykterhetsrörelsen var stark i det engelskspråkiga Kanada och drev fram lokala omröstningar om torrläggning, medan motståndet mot förbud var kompakt i Québec och bland bryggerinäringen.",
+      "pro": "Alkoholmissbruket orsakar fattigdom, våld i hemmen och brottslighet; ett nationellt förbud höjer moralen och välståndet i hela samhället.",
+      "con": "Ett totalförbud kränker den personliga friheten, slår ut en stor näring och leder bara till illegal spritsmuggling och lönnkrogar.",
+      "outcome": "Under första världskriget införde först provinserna och sedan den federala regeringen ett tillfälligt alkoholförbud år 1918, som dock avskaffades i de flesta provinser under 1920-talet."
+    },
+    {
+      "id": "Q14",
+      "quick": true,
+      "category": "Demokrati & Rösträtt",
+      "title": "Införande av kvinnlig rösträtt i federala val",
+      "statement": "Kvinnor bör ges rösträtt och valbarhet till det kanadensiska underhuset på samma villkor som män.",
+      "context": "År 1911 saknade kvinnor rösträtt i såväl federala val som samtliga provinsval i Kanada, trots en växande rösträttsrörelse i framför allt prärieprovinserna och Ontario.",
+      "pro": "Kvinnor betalar skatt, arbetar och bär samhällsansvar på samma sätt som män; att utestänga halva befolkningen från valurnorna är odemokratiskt.",
+      "con": "Kvinnans främsta uppgift ligger i hemmet och familjen, och politiska strider riskerar att splittra familjelivet.",
+      "outcome": "Prärieprovinserna införde kvinnlig rösträtt först (Manitoba 1916), och i maj 1918 fick kvinnor rösträtt i federala val i Kanada."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Hälsa & Moral",
+      "title": "Införande av totalförbud mot cigaretter",
+      "statement": "Parlamentet bör förbjuda tillverkning, import och försäljning av fabrikstillverkade cigaretter i hela Kanada för att skydda ungdomens hälsa och moral.",
+      "context": "Den massproducerade cigaretten var en ny företeelse som väckte stark moralisk och medicinsk oro i Kanada; redan 1908 hade försäljning till minderåriga förbjudits och mellan 1909 och 1914 debatterades ett totalförbud i underhuset.",
+      "pro": "Cigaretter är ett gift som bryter ner ungdomens fysik, karaktär och arbetsförmåga och leder unga pojkar in i fördärv.",
+      "con": "Staten ska inte detaljstyra vuxna människors njutningsmedel; ett förbud skapar bara illegal handel och berövar statskassan viktiga skatteintäkter.",
+      "outcome": "Förslagen om ett totalförbud mot cigaretter röstades ned i underhuset, och under första världskriget blev cigaretter istället en standardvara i kanadensiska soldaters ransoner."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Arbete & Socialpolitik",
+      "title": "Lagstadgad 8-timmars arbetsdag i statliga arbeten",
+      "statement": "Parlamentet bör införa en maxgräns på åtta timmars arbetsdag för alla arbetare anställda av staten eller vid statligt subventionerade byggprojekt.",
+      "context": "Fackföreningsrörelsen i Kanada kämpade hårt för en lagstadgad 8-timmars arbetsdag, och ett lagförslag om 8-timmarsdag vid offentliga arbeten behandlades i underhuset strax före valet 1911 men stötte på hårt motstånd från arbetsgivare och järnvägsbolag.",
+      "pro": "Staten bör gå före som mönsterarbetsgivare och garantera arbetarna rimlig arbetstid, vila och tid för familj och bildning.",
+      "con": "En lagstadgad 8-timmarsdag fördyrar offentliga byggprojekt och järnvägsbyggen kraftigt och skapar orimliga krav i det privata näringslivet.",
+      "outcome": "Lagförslaget föll före valet 1911, och först under 1920- och 1930-talen började 8-timmars arbetsdag införas stegvis i kanadensisk lagstiftning."
+    }
+  ]
+}
