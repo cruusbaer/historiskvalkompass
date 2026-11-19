@@ -22,16 +22,16 @@
       "file": "election-se-1896-se.json",
       "title": "Andrakammarvalet 1896",
       "year": 1896,
-      "subtitle": "Tullstrid, rösträttskamp och unionskris"
+      "subtitle": "Tullstrid, rösträttskamp och Det historiska genombrottsvalet vid 1800-talets slut då Socialdemokraterna fick sin allra första riksdagsman genom Hjalmar Branting, samtidigt som striderna rasade om rösträtt, spannmålstullar, fackföreningar och norrländska träpatroner."
     },
     {
       "id": "se-1928",
       "category": "Svenska val",
       "active": true,
       "file": "election-se-1928-se.json",
-      "title": "Kosackvalet 1928",
+      "title": "Andrakammarsvalet 1928",
       "year": 1928,
-      "subtitle": "Arvsskatt, klasskamp och skrämselpropaganda"
+      "subtitle": "Det legendariska 'Kosackvalet' där striden stod kring välfärd, skatter och arbetsmarknad."
     },
     {
       "id": "se-1940",
@@ -43,13 +43,13 @@
       "subtitle": "Beredskapsvalet mitt under brinnande världskrig, där samlingsregeringen sökte folkets mandat för Sveriges neutralitetslinje och krigsekonomi efter ockupationen av grannländerna. "
     },
     {
-      "id": "se-1968",
+      "id": "se-1958",
       "category": "Svenska val",
       "active": true,
-      "file": "election-se-1968-se.json",
-      "title": "Andrakammarvalet 1968",
-      "year": 1968,
-      "subtitle": "Vänstervåg, rekordseger och Vietnamkriget"
+      "file": "election-se-1958-se.json",
+      "title": "Andrakammarvalet 1958",
+      "year": 1958,
+      "subtitle": "Extravalet, som utlystes efter att den historiska pensionsfolkomröstningen 1957 spräckte regeringen och ställde välfärdens ödesfrågor på sin spets i Sverige"
     },
     {
       "id": "se-1976",
@@ -58,7 +58,7 @@
       "file": "election-se-1976-se.json",
       "title": "Riksdagsvalet 1976",
       "year": 1976,
-      "subtitle": "Kärnkraften och maktskiftet efter 44 år"
+      "subtitle": "Kärnkraftensvalet och statsministerduell mellan Socialdemokraterna och Centerpartiet."
     },
     {
       "id": "se-1994",
