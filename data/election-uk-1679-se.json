@@ -1,0 +1,316 @@
+{
+  "id": "uk-1679",
+  "title": "Engelska parlamentsvalen 1679 (Exklusionskrisen)",
+  "year": 1679,
+  "country": "England",
+  "electionResults": {
+    "seatsTotal": 513,
+    "summary": "Under 1679 skakades England av den påstådda 'Påviska sammansvärjningen' (Popish Plot) och tvingades gå till två dramatiska nyval på ett och samma år. I valrörelsen föddes världens första moderna partibeteckningar: Whigs och Tories. Oppositionen (Whigs) under earlen av Shaftesbury vann en överväldigande majoritet i Underhuset på kravet att utestänga kung Karl II:s katolske bror Jakob, hertig av York, från tronföljden (Exclusion Bill) och att skydda medborgarna genom Habeas Corpus-lagen. Kung Karl II och Tories blockerade dock tronföljdsändringen genom att ajournera och upplösa parlamentet, vilket kastade England in i en djup konstitutionell kris.",
+    "government": {
+      "type": "Kungligt kabinett i konflikt med parlamentets majoritet",
+      "primeMinister": "Kung Karl II / Robert Spencer, earl av Sunderland (ledande minister)",
+      "rulingParties": [
+        "Tories (Court Party / Loyalists)"
+      ],
+      "supportParties": [
+        "Trimmers (Moderata medlare)"
+      ],
+      "opposition": [
+        "Whigs (Country Party / Exclusionists)",
+        "Radikala republikaner (Commonwealthmen)"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "whigs",
+      "name": "Whigs (Country Party / Exclusionists)",
+      "shortName": "Whigs",
+      "color": "#FF7F00",
+      "seats": 310,
+      "seatChange": 160,
+      "votePercentage": 60.0,
+      "description": "Den breda oppositionsrörelsen ledd av earlen av Shaftesbury som drev kravet på att utestänga katoliker från den engelska tronen (Exclusion Bill), stärka parlamentets makt gentemot kronan, värna habeas corpus-skyddet och ge religionsfrihet åt frikyrkliga protestanter.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 1,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": 1,
+        "Q7": 2,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": 1,
+        "Q11": 2,
+        "Q12": -2,
+        "Q13": 2,
+        "Q14": 1,
+        "Q15": 1,
+        "Q16": 0
+      }
+    },
+    {
+      "id": "tories",
+      "name": "Tories (Court Party / Loyalists)",
+      "shortName": "Tories",
+      "color": "#0055A5",
+      "seats": 165,
+      "seatChange": -150,
+      "votePercentage": 32.0,
+      "description": "Kungatrogna rojalister och högkyrkliga anglikaner som försvarade den gudomliga arvsrätten, monarkins prerogativ och den anglikanska statskyrkans monopol. Motsatte sig att parlamentet ändrade tronföljden och varnade för att Whigs linje drev landet mot ett nytt inbördeskrig.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -1,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": -1,
+        "Q6": 1,
+        "Q7": -2,
+        "Q8": 0,
+        "Q9": -2,
+        "Q10": -2,
+        "Q11": -1,
+        "Q12": 2,
+        "Q13": -2,
+        "Q14": 0,
+        "Q15": -2,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "trimmers",
+      "name": "Trimmers (Moderata medlare)",
+      "shortName": "Trimmers",
+      "color": "#2E8B57",
+      "seats": 25,
+      "seatChange": 0,
+      "votePercentage": 5.0,
+      "description": "Pragmatiska konstitutionalister anförda av markisen av Halifax ('The Trimmer', som 'trimmar' statsskeppet så att det inte kantrar åt vare sig envälde eller anarki). Avvisade en total uteslutning av hertigen av York men ville begränsa en katolsk kungs makt och söka kompromisser.",
+      "answers": {
+        "Q1": -1,
+        "Q2": 2,
+        "Q3": 0,
+        "Q4": 1,
+        "Q5": 1,
+        "Q6": 1,
+        "Q7": 1,
+        "Q8": 1,
+        "Q9": 0,
+        "Q10": 0,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": 1,
+        "Q14": 1,
+        "Q15": -1,
+        "Q16": 0
+      }
+    },
+    {
+      "id": "republicans",
+      "name": "Radikala republikaner (Commonwealthmen)",
+      "shortName": "Republikaner",
+      "color": "#B22222",
+      "seats": 13,
+      "seatChange": -10,
+      "votePercentage": 3.0,
+      "description": "Arvtagare till inbördeskrigets republikaner och Levellers, med tänkare som Algernon Sidney. Ville gå längre än Whigs: starkt begränsa eller avskaffa monarkins makt, avskaffa de kungliga handelsmonopolen, rensa ut biskoparna ur överhuset och värna medborgerliga friheter.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": -1,
+        "Q13": 2,
+        "Q14": 1,
+        "Q15": 2,
+        "Q16": 2
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Tronföljd & Kungamakt",
+      "title": "Utestängande av katoliker från tronen (Exclusion Bill)",
+      "statement": "Parlamentet bör anta en lag som ogiltigförklarar den katolske hertigen av Yorks (Jakobs) arvsrätt till kronan och slår fast att ingen katolik någonsin får bestiga Englands tron.",
+      "context": "Kung Karl II saknade legitima barn och hans yngre bror och tronarvinge Jakob, hertig av York, hade konverterat till katolicismen – vilket i det protestantiska England väckte skräck för envälde och påvligt inflytande.",
+      "pro": "En katolsk kung skulle använda sin makt till att krossa parlamentet, undertrycka den protestantiska tron och knyta England till det katolska Frankrike.",
+      "con": "Kronans arvsrätt är helig och given av Gud; om parlamentet godtyckligt ändrar tronföljden kastas England åter in i laglöshet och inbördeskrig.",
+      "outcome": "Underhuset röstade igenom Exclusion Bill både 1679 och 1680, men kung Karl II stoppade lagen genom att upplösa parlamentet. Jakob blev kung 1685 men störtades i Ärorika revolutionen 1688, varefter katoliker utestängdes från tronen genom Bill of Rights 1689."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Rättssäkerhet & Lag",
+      "title": "Skärpt skydd mot godtyckliga fängslanden (Habeas Corpus)",
+      "statement": "Parlamentet bör införa en bindande lag som tvingar domstolar och fångvaktare att inom tre dagar pröva lagligheten i varje frihetsberövande och förbjuder kungen att skicka fångar till fängelser utanför England.",
+      "context": "Kungens ministrar hade satt i system att spärra in politiska motståndare utan rättegång på avlägsna öar som Jersey och Guernsey där engelska domstolar saknade jurisdiktion.",
+      "pro": "Ingen fri engelsman ska kunna hållas inlåst utan åtal och domstolsprövning enligt kungens godtycke.",
+      "con": "I tider av sammansvärjningar och hot mot rikets säkerhet måste kronan kunna gripa och hålla misstänkta förrädare i förvar utan att hämmas av formaliteter.",
+      "outcome": "Parlamentet antog Habeas Corpus Act i maj 1679 – en av de mest berömda rättssäkerhetslagarna i västerlandets historia."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Kyrka & Religion",
+      "title": "Slopande av anglikanskt nattvardskrav (Test Act)",
+      "statement": "Den lag från 1673 som kräver att alla civila och militära ämbetsmän tar nattvarden enligt den anglikanska kyrkans ordning bör avskaffas.",
+      "context": "Test Act infördes ursprungligen för att stänga ute katoliker från statliga ämbeten, men drabbade även lojala frikyrkliga protestanter (Dissenters) som vägrade delta i den anglikanska statskyrkans ritualer.",
+      "pro": "Lojala protestanter ska inte utestängas från att tjäna sitt land bara för att deras samvete förbjuder dem att knäböja vid det anglikanska altaret.",
+      "con": "Utan Test Act öppnas statens ämbeten upp för både katoliker och radikala sekterister som vill störta den etablerade kyrkan och monarkin.",
+      "outcome": "Test Act behölls orörd 1679 och avskaffades inte förrän år 1828."
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "category": "Försvar & Militärmakt",
+      "title": "Avskaffande av den stående armén i fredstid",
+      "statement": "Parlamentet bör upplösa alla kungliga regementen som hålls under vapen i fredstid och förlita sig enbart på den lokala milisen och flottan för rikets försvar.",
+      "context": "Kung Karl II hade värvat en stor armé under förevändning att strida mot Frankrike, men parlamentet fruktade att kungen i själva verket tänkte använda soldaterna för att införa militärt envälde i England.",
+      "pro": "En stående armé i fredstid är ett redskap för tyranni och beskattning utan parlamentets samtycke; Englands frihet försvaras bäst av flottan och medborgarmilisen.",
+      "con": "Utan tränade reguljära trupper står England försvarslöst vid plötsliga utländska invasioner eller inre uppror.",
+      "outcome": "Våren 1679 beviljade parlamentet medel uttryckligen för att avväpna och upplösa kungens nyvärvade regementen, även om kungen behöll sina livgarden."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Utrikespolitik & Krig",
+      "title": "Krigsförklaring och handelsblockad mot Frankrike",
+      "statement": "England bör bryta sin samförståndspolitik med det katolska Frankrike, stoppa all fransk import och ingå militär allians med Nederländerna för att hejda Ludvig XIV:s expansion i Europa.",
+      "context": "Kung Karl II tog i hemlighet emot stora penningsummor (subsidier) från den franske envåldshärskaren Ludvig XIV för att slippa kalla in parlamentet, vilket väckte stark vrede i Underhuset.",
+      "pro": "Ludvig XIV hotar hela det protestantiska Europa; England måste bryta beroendet av franska pengar, stoppa franska lyxvaror och stå upp för sina naturliga allierade.",
+      "con": "Ett krig mot stormakten Frankrike skulle kosta enorma summor, tvinga fram tunga nya skatter och driva utrikespolitiken ur kungens händer.",
+      "outcome": "Karl II vägrade gå i krig mot Frankrike och förlitade sig istället på nya hemliga franska subsidier efter 1681 för att kunna regera utan parlament."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Vardag & Handel",
+      "title": "Obligatorisk begravning i engelsk yllesvepning",
+      "statement": "Parlamentet bör skärpa lagen som tvingar alla engelska familjer att begrava sina döda i svepning av inhemskt ylle – under dryga böter – för att rädda den engelska ylleindustrin.",
+      "context": "För att gynna Englands viktigaste exportnäring infördes lagar (Burying in Woollen Acts 1666 och 1678) som förbjöd användning av importerat linne vid begravningar och krävde edsvuret prästintyg inom åtta dagar efter jordfästningen.",
+      "pro": "Ullen är Englands guld; att tvinga fram användning av inhemskt ylle vid varje begravning ger arbete åt tusentals vävare och håller pengarna kvar i riket.",
+      "con": "Det är ovärdigt och kränkande för sörjande familjer att kungens fogdar och präster ska kontrollera de dödas svepning och utdöma böter vid graven.",
+      "outcome": "Lagen skärptes 1678 och 1680 och stod kvar i engelsk lagbok ända fram till år 1814."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Författning & Parlament",
+      "title": "Lag om regelbundna parlamentsval vart tredje år",
+      "statement": "Parlamentet bör lagstifta om att kungen tvingas utlysa nya val minst vart tredje år och inte längre kan styra landet i åratal genom att ajournera eller upplösa parlamentet.",
+      "context": "Det föregående så kallade Kavaljerparlamentet hade suttit oavbrutet i arton år (1661–1679) utan nyval, och Karl II använde upprepade ajourneringar för att slippa parlamentets granskning.",
+      "pro": "Utan regelbundna val tappar underhuset kontakten med väljarna och kungen kan regera som envåldshärskare utan folkets samtycke.",
+      "con": "Rätten att inkalla och upplösa parlamentet tillhör kronans urgamla prerogativ och behövs för att förhindra ständiga valstrider och kaos.",
+      "outcome": "Karl II lyckades styra utan parlament mellan 1681 och 1685; först år 1694 infördes en bindande lag om val minst vart tredje år (Triennial Act)."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Adel & Rättsväsende",
+      "title": "Strikt lagförbud mot adliga värjdueller",
+      "statement": "Parlamentet bör införa hårda straff och förlust av adliga privilegier för alla som utmanar till eller deltar i värjdueller om hederssaker.",
+      "context": "Under restaurationstiden skedde en våg av uppmärksammade värjdueller bland hovmän, officerare och parlamentsledamöter, ofta utlösta av politiska förolämpningar eller dryckesgräl.",
+      "pro": "Adelsmän står inte över Guds och rikets lag; privata blodiga uppgörelser berövar landet unga män och sprider laglöshet.",
+      "con": "En gentlemans heder kan inte alltid försvaras i långsamma domstolar, och stränga straff leder bara till att dueller utkämpas i hemlighet utan vittnen.",
+      "outcome": "Trots upprepade kungliga proklamationer och lagförslag i parlamentet fortsatte adliga dueller att vara en del av aristokratins hederskodex i över hundra år till."
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "category": "Handel & Monopol",
+      "title": "Avskaffande av Ostindiska kompaniets handelsmonopol",
+      "statement": "Parlamentet bör upphäva det kungliga privilegiebrevet som ger Ostindiska kompaniet ensamrätt på all engelsk handel med Asien, och öppna handeln för fria köpmän.",
+      "context": "Det engelska Ostindiska kompaniet åtnjöt ett lukrativt kungligt monopol på handeln med Indien och Ostindien och gav stora lån och gåvor till kung Karl II, vilket väckte hård kritik från oberoende köpmän ('interlopers') i London.",
+      "pro": "Kungliga monopol berikar en liten krets hovgynnade storföretagare på bekostnad av fria engelska köpmän, sjömän och konsumenter.",
+      "con": "Handeln på avlägsna kontinenter kräver befästa handelsstationer, egna skepp och diplomatiska avtal som bara ett stort och privilegierat kompani kan upprätthålla.",
+      "outcome": "Kompaniet lyckades behålla sitt monopol med kungens stöd under 1680-talet, men monopolet utmanades på nytt av parlamentet under 1690-talet."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Kultur & Teater",
+      "title": "Upphävande av hovets teatercensur",
+      "statement": "Kungens hovcensor (Master of the Revels) bör fråntas rätten att förbjuda och stryka i teaterpjäser som driver med politiker, präster och kungliga älskarinnor.",
+      "context": "Restaurationsteatern i London blomstrade under Karl II, men varje pjäs måste förhandsgranskas av kronans teatercensor, som under Exklusionskrisen 1679–1682 förbjöd flera politiska dramer.",
+      "pro": "Teatern är en spegel av sin samtid; att låta hovets censorer tysta dramatiker är ett tecken på svaghet och rädsla för sanningen.",
+      "con": "Scenen får inte förvandlas till en talarstol för uppvigling som hånar kungahuset och hetsar publiken till upplopp på Londons gator.",
+      "outcome": "Hovets teatercensur behölls och skärptes tvärtom under den politiska krisen i början av 1680-talet."
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "category": "Skatter & Hushåll",
+      "title": "Avskaffande av den kungliga härdskatten (Hearth Tax)",
+      "statement": "Den kungliga skatten på varje eldstad och skorsten i engelska hem – som tvingar kungens skatteindrivare att gå in i privata hem – bör avskaffas och ersättas med en skatt på jordegendom.",
+      "context": "Härdskatten ('chimney money') från 1662 drabbade alla hushåll med två shilling per eldstad och år, och var djupt avskydd eftersom indrivarna ('chimney men') hade laglig rätt att tränga in i bostäder för att räkna skorstenar.",
+      "pro": "En engelsmans hem är hans borg; att låta kungens fogdar klampa in i fattiga familjers kök för att beskatta värmen från eldstaden är outhärdligt.",
+      "con": "Härdskatten ger kronan en stabil och förutsägbar inkomst utan att godsägarna på landsbygden belastas med ännu högre jordskatter.",
+      "outcome": "Härdskatten behölls under hela Karl II:s och Jakob II:s regeringstid men avskaffades omedelbart efter Ärorika revolutionen år 1689."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Rättsväsende & Förräderi",
+      "title": "Skärpta beviskrav och straff mot falska angivare",
+      "statement": "Domstolarna bör skärpa beviskraven i högförräderimål och utdöma stränga straff mot angivare som fabricerar konspirationer mot oskyldiga medborgare.",
+      "context": "Under hysterin kring Påviska sammansvärjningen 1678–1679 ledde angivaren Titus Oates och hans anhängares vittnesmål till att dussintals katoliker avrättades på tvivelaktiga grunder, vilket Tories såg som ett rättsövergrepp.",
+      "pro": "Oskyldiga människor skickas till galgen på grund av köpta menedare och ryktesspridare; rättvisan kräver oväldiga bevis istället för masshysteri.",
+      "con": "Att misstänkliggöra kronvittnen skrämmer bort dem som vågar avslöja katolska sammansvärjningar mot kungens liv och den protestantiska religionen.",
+      "outcome": "Efter att stämningen vände 1681 avslöjades Titus Oates lögner; han dömdes 1685 för mened till spöstraff, skampåle och livstids fängelse."
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "category": "Finans & Statsmakt",
+      "title": "Inrättande av en statlig centralbank",
+      "statement": "Parlamentet bör grunda en nationalbank efter holländsk modell som kan ge staten billiga lån under parlamentets kontroll utan att kungen förlitar sig på guldsmedsbankirer eller franska subsidier.",
+      "context": "År 1672 hade Karl II ställt in statens betalningar ('Stop of the Exchequer'), vilket förstörde kronans kreditvärdighet och tvingade fram diskussioner om att införa ett modernt banksystem likt Amsterdams bank.",
+      "pro": "En nationalbank med parlamentets garanti ger låg ränta, stärker handeln och befriar kungen från hemliga beroenden av utländska furstar.",
+      "con": "En centralbank skulle koncentrera enorm ekonomisk makt i händerna på Londons finansmän och undergräva jordägarnas traditionella ställning.",
+      "outcome": "Idén diskuterades flitigt 1679 men förverkligades inte förrän år 1694 då Bank of England grundades."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Städer & Trygghet",
+      "title": "Kommunal gatubelysning och nattvakt i London",
+      "statement": "Parlamentet bör ålägga husägare och socknar i London att bekosta oljelyktor längs gatorna efter mörkrets inbrott för att bekämpa rån och gatuöverfall.",
+      "context": "Efter den stora branden 1666 växte London snabbt, men gatorna låg kolsvarta om nätterna och rånare och slagskämpar härjade fritt när invånarna tvingades bära egna facklor.",
+      "pro": "Upplysta gator gör huvudstaden tryggare för hantverkare, köpmän och vanliga medborgare och underlättar nattvaktens arbete.",
+      "con": "Att tvinga husägare att betala för lyktor och olja utanför sin dörr är en ny betungande pålaga som inte gagnar dem som stannar hemma om kvällen.",
+      "outcome": "Under 1680- och 1690-talen infördes gradvis reglerade system med oljelampor längs Londons huvudgator."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Kyrka & Parlament",
+      "title": "Avskaffande av biskoparnas rösträtt i överhuset",
+      "statement": "Den anglikanska kyrkans biskopar bör uteslutas från överhuset (House of Lords) så att kungatrogna prelater inte kan blockera parlamentets lagstiftning.",
+      "context": "I överhuset utgjorde de 26 anglikanska biskoparna ett pålitligt kungatroget block som röstade emot både Exclusion Bill och lättnader för frikyrkliga protestanter.",
+      "pro": "Biskoparnas uppgift är att vårda själar i sina stift, inte att fungera som kungens lydiga röstboskap i parlamentet.",
+      "con": "Biskoparna har suttit i parlamentet i århundraden som rikets andliga stånd och utgör ett nödvändigt skydd för den etablerade kyrkan.",
+      "outcome": "Förslaget om att återigen utesluta biskoparna (som skett under inbördeskriget) avvisades och biskoparna har behållit platser i House of Lords ända in i modern tid."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Fattigvård & Arbetsmarknad",
+      "title": "Upphävande av fattigvårdens bosättningslag",
+      "statement": "Lagen från 1662 (Settlement Act) som tillåter socknar att med tvång skicka tillbaka fattiga arbetare till deras födelsesocken bör avskaffas så att arbetskraften fritt kan söka jobb i städerna.",
+      "context": "Enligt 1662 års bosättningslag kunde lokala myndigheter utvisa inflyttade arbetare inom 40 dagar om det befarades att de i framtiden kunde bli beroende av socknens fattigkassa.",
+      "pro": "Fattiga arbetare och hantverkare måste ha frihet att flytta dit arbetet finns utan att jagas bort som lösdrivare av snåla sockenråd.",
+      "con": "Utan bosättningslagen skulle växande städer och rika socknar översvämmas av utblottade tiggare som ruinerar de lokala skattebetalarna.",
+      "outcome": "Bosättningslagen behölls och mjukades inte upp förrän år 1795."
+    }
+  ]
+}
