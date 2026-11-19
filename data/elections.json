@@ -11,12 +11,12 @@
       "id": "Internationella val",
       "label": "Internationella val",
       "description": "",
-      "bgColor": "#f3f6f4"
+      "bgColor": "#e6f0ea"
     }
   ],
   "elections": [
     {
-      "id": "1896",
+      "id": "se-1896",
       "category": "Svenska val",
       "active": true,
       "file": "election-se-1896-se.json",
@@ -25,7 +25,7 @@
       "subtitle": "Tullstrid, rösträttskamp och unionskris"
     },
     {
-      "id": "1928",
+      "id": "se-1928",
       "category": "Svenska val",
       "active": true,
       "file": "election-se-1928-se.json",
@@ -34,16 +34,16 @@
       "subtitle": "Arvsskatt, klasskamp och skrämselpropaganda"
     },
     {
-      "id": "1948",
+      "id": "se-1940",
       "category": "Svenska val",
       "active": true,
-      "file": "election-se-1948-se.json",
-      "title": "Andrakammarvalet 1948",
-      "year": 1948,
-      "subtitle": "Plan hushållning, välfärdsbygge och kalla kriget"
+      "file": "election-se-1940-se.json",
+      "title": "Andrakammarvalet 1940",
+      "year": 1940,
+      "subtitle": "Beredskapsvalet mitt under brinnande världskrig, där samlingsregeringen sökte folkets mandat för Sveriges neutralitetslinje och krigsekonomi efter ockupationen av grannländerna. "
     },
     {
-      "id": "1968",
+      "id": "se-1968",
       "category": "Svenska val",
       "active": true,
       "file": "election-se-1968-se.json",
@@ -52,7 +52,7 @@
       "subtitle": "Vänstervåg, rekordseger och Vietnamkriget"
     },
     {
-      "id": "1976",
+      "id": "se-1976",
       "category": "Svenska val",
       "active": true,
       "file": "election-se-1976-se.json",
@@ -61,13 +61,13 @@
       "subtitle": "Kärnkraften och maktskiftet efter 44 år"
     },
     {
-      "id": "1985",
+      "id": "se-1994",
       "category": "Svenska val",
       "active": true,
-      "file": "election-se-1985-se.json",
-      "title": "Riksdagsvalet 1985",
-      "year": 1985,
-      "subtitle": "Löntagarfonder och systemskiftesdebatt"
+      "file": "election-se-1994-se.json",
+      "title": "Riksdagsvalet 1994",
+      "year": 1994,
+      "subtitle": "Ödesvalet i skuggan av 90-talets djupa ekonomiska kris och den kommande folkomröstningen om EU-medlemskap."
     },
     {
       "id": "no-1903",
