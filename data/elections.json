@@ -198,6 +198,16 @@
   "year": 1965,
   "lead": "Vägen mot självständighet i skuggan av torka och apartheid-Sydafrika.",
   "description": "Inför självständigheten 1966 går det fattiga brittiska protektoratet Bechuanaland till sitt första val med allmän rösträtt. Valstriden står mellan Seretse Khamas moderata och icke-rasistiska linje och de panafrikanska partiernas krav på omedelbar frigörelse, handelsbojkott mot Sydafrika och begränsad hövdingamakt."
+},
+    {
+  "id": "cn-1912",
+  "category": "Internationella val",
+  "active": true,
+  "file": "election-cn-1912-se.json",
+  "title": "Parlamentsvalet i Republiken Kina 1912–1913",
+  "year": 1912,
+  "lead": "Kinas första flerpartival efter kejsardömets fall.",
+  "description": "Ett år efter Xinhairevolutionen går den nybildade Republiken Kina till sitt första nationella parlamentsval. Striden står mellan Song Jiaorens Kuomintang, som kräver parlamentariskt styre och sociala reformer, och konservativa partier som vill ge president Yuan Shikai en stark centralmakt för att hålla samman det krisande riket."
 }
   ]
 }
