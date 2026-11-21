@@ -32,6 +32,31 @@ header {
   margin-bottom: 20px;
 }
 
+/* Dölj den vanliga textrubriken på startsidan när bannern visas */
+header.home-header {
+  display: none;
+}
+
+.home-banner-wrapper {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+
+.home-banner-img {
+  width: 100%;
+  max-height: 155px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.home-banner-tagline {
+  margin-top: 8px;
+}
+
 h1 {
   margin: 0 0 4px 0;
   color: #1a2530;
