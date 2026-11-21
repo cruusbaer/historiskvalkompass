@@ -62,19 +62,22 @@
       <div class="options" id="options-container"></div>
     </div>
 
-    <div class="nav-btns">
+    <div class="nav-btns quiz-nav-btns">
       <div class="nav-btns-left">
         <button type="button" class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
         <button type="button" class="btn btn-outline" onclick="showHome()">Avbryt / Byt val</button>
       </div>
-      <span style="font-size: 0.85rem; color: #6c757d; align-self: center;" id="q-progress"></span>
+      <span class="q-progress-text" id="q-progress"></span>
+      <div class="nav-btns-right">
+        <button type="button" class="btn btn-finish-early" id="finish-early-btn" onclick="finishQuizEarly()" style="display:none;">Avsluta &amp; se resultat →</button>
+      </div>
     </div>
   </main>
 
   <!-- VY 3: VIKTIGA FRÅGOR -->
   <main id="view-importance" style="display:none;">
     <h2>⭐ Välj dina hjärtefrågor</h2>
-    <p>Du har besvarat alla frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i resultatberäkningen):</p>
+    <p id="importance-intro">Du har besvarat alla frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i resultatberäkningen):</p>
     
     <div id="importance-list" class="importance-list"></div>
 
@@ -96,7 +99,7 @@
       <div id="formula-box" class="context-box" style="display:none; margin-top:8px;">
         <strong>Hur beräknas matchningen?</strong><br>
         Ditt resultat bygger på hur nära dina åsikter ligger partiernas historiska ställningstaganden i de frågor du tagit ställning till.<br><br>
-        Ju mer du och ett parti tycker lika på skalan från "Helt för" till "Helt emot", desto högre poäng får partiet. Frågor där du valt "Neutral / Hoppa över" räknas inte med i underlaget.<br><br>
+        Ju mer du och ett parti tycker lika på skalan från "Helt för" till "Helt emot", desto högre poäng får partiet. Frågor som du hoppat över eller valt "Neutral / Hoppa över" på räknas inte med i underlaget.<br><br>
         Frågor som du markerat som dina hjärtefrågor väger dubbelt så tungt. Slutligen räknas partiets sammanlagda poäng om till en procentandel av den högsta möjliga poängen.
       </div>
     </div>
