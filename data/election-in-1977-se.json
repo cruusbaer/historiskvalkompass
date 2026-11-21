@@ -1,0 +1,346 @@
+{
+  "id": "in-1977",
+  "title": "Parlamentsvalet i Indien 1977",
+  "year": 1977,
+  "country": "Indien",
+  "electionResults": {
+    "seatsTotal": 542,
+    "summary": "Parlamentsvalet den 16–20 mars 1977 hölls efter tjugoen månaders undantagstillstånd (The Emergency) under premiärminister Indira Gandhi, präglat av presscensur, fängslade oppositionsledare och en hårt ifrågasatt familjeplanerings- och steriliseringskampanj. Den sammanslagna oppositionsalliansen Janatapartiet (Janata Party) under Morarji Desai och Jayaprakash Narayan vann en historisk jordskredsseger med 295 av 542 mandat och bröt Kongresspartiets trettioåriga oavbrutna maktinnehav på central nivå.",
+    "government": {
+      "type": "Koalitionsregering (Janatapartiet med stöd av regional- och vänsterpartier)",
+      "primeMinister": "Morarji Desai (Janatapartiet)",
+      "rulingParties": [
+        "Janatapartiet (JNP)"
+      ],
+      "supportParties": [
+        "CPI(M)",
+        "Shiromani Akali Dal"
+      ],
+      "opposition": [
+        "Indiska nationalkongressen (INC)",
+        "All India Anna Dravida Munnetra Kazhagam (AIADMK)",
+        "Indiens kommunistiska parti (CPI)"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "jnp",
+      "name": "Janatapartiet (Janata Party – JNP)",
+      "shortName": "Janatapartiet (Desai)",
+      "color": "#1E4D92",
+      "seats": 295,
+      "seatChange": 295,
+      "votePercentage": 41.3,
+      "description": "Sammanslagen oppositionsallians under Morarji Desai och Jayaprakash Narayan bildad mot undantagstillståndet. Krävde omedelbart upphävande av undantagstillstånd och presscensur, avskaffande av 42:a grundlagstillägget, stopp för tvångssteriliseringar och slumrivningar, småskalig byindustri och jordbruk samt 'äkta alliansfrihet'.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 1,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": 2,
+        "Q7": 1,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": 1,
+        "Q13": 0,
+        "Q14": 1,
+        "Q15": 1,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "inc",
+      "name": "Indiska nationalkongressen (Indian National Congress – INC)",
+      "shortName": "Kongresspartiet (Indira)",
+      "color": "#00BFFF",
+      "seats": 154,
+      "seatChange": -198,
+      "votePercentage": 34.5,
+      "description": "Statsbärande parti under premiärminister Indira Gandhi. Försvarade en stark centralmakt som håller samman Indien, '20-punktsprogrammet' mot fattigdom, statsledd industri och befolkningspolitik samt stram ordning och disciplin under undantagstillståndet.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 1,
+        "Q3": 0,
+        "Q4": -1,
+        "Q5": -2,
+        "Q6": -2,
+        "Q7": 0,
+        "Q8": 0,
+        "Q9": -2,
+        "Q10": -1,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": -2,
+        "Q14": -1,
+        "Q15": 2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "cpim",
+      "name": "Indiens kommunistiska parti – marxistiskt (CPI(M))",
+      "shortName": "CPI(M) (Vänsterfronten)",
+      "color": "#CC0000",
+      "seats": 22,
+      "seatChange": -3,
+      "votePercentage": 4.3,
+      "description": "Oberoende marxistiskt parti med stark fanklubb i Västbengalen och Kerala. Bekämpade undantagstillståndet och krävde vidgat delstatligt självstyre, radikal jordreform och arrendatorskydd (Operation Barga) samt hårda tag mot utländska monopolbolag.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 1,
+        "Q6": 2,
+        "Q7": -2,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": 0,
+        "Q11": 1,
+        "Q12": 2,
+        "Q13": -2,
+        "Q14": -2,
+        "Q15": 2,
+        "Q16": 1
+      }
+    },
+    {
+      "id": "aiadmk",
+      "name": "All India Anna Dravida Munnetra Kazhagam (AIADMK)",
+      "shortName": "AIADMK (MGR)",
+      "color": "#138808",
+      "seats": 18,
+      "seatChange": 18,
+      "votePercentage": 2.9,
+      "description": "Sydindiskt regional- och populistparti i Tamil Nadu under M.G. Ramachandran. Drev ett starkt regionalt och socialt välfärdsprogram med fria skolmåltider och försvar för delstaternas autonomi mot centralstyre och språktvång.",
+      "answers": {
+        "Q1": 0,
+        "Q2": 1,
+        "Q3": 1,
+        "Q4": 1,
+        "Q5": 1,
+        "Q6": 2,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": 1,
+        "Q11": 0,
+        "Q12": 2,
+        "Q13": -1,
+        "Q14": 0,
+        "Q15": 1,
+        "Q16": 0
+      }
+    },
+    {
+      "id": "cpi",
+      "name": "Indiens kommunistiska parti (CPI)",
+      "shortName": "CPI (Moskvatrogna)",
+      "color": "#E31B23",
+      "seats": 7,
+      "seatChange": -16,
+      "votePercentage": 2.8,
+      "description": "Moskvatroget kommunistparti som inledningsvis stödde Indira Gandhis undantagstillstånd mot högerkrafter, förordade nära band till Sovjetunionen, jordreform, statsindustri och åtgärder mot utländska bolag och hemgiftstvång.",
+      "answers": {
+        "Q1": -1,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": -1,
+        "Q6": 1,
+        "Q7": -2,
+        "Q8": 1,
+        "Q9": -1,
+        "Q10": 0,
+        "Q11": -2,
+        "Q12": 2,
+        "Q13": -2,
+        "Q14": -1,
+        "Q15": 2,
+        "Q16": 1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Fri- & Rättigheter",
+      "title": "Omedelbart upphävande av undantagstillstånd och censur",
+      "statement": "Regeringen bör med omedelbar verkan häva undantagstillståndet från 1975, upphäva MISA-lagen och återställa full tryck- och yttrandefrihet.",
+      "context": "Under undantagstillståndet (The Emergency) hade presscensur införts, lagen om förebyggande frihetsberövande (MISA) använts mot tiotusentals oppositionsaktivister och grundläggande medborgerliga friheter satts på undantag.",
+      "pro": "Demokrati kräver fri press, rättssäkerhet och skydd mot godtyckliga frihetsberövanden utan domstolsprövning.",
+      "con": "En fast statsmakt och disciplin är nödvändig för att stoppa samhällsosäkerhet, strejkkaos och ekonomiskt sabotage.",
+      "outcome": "Undantagstillståndet hävdes i mars 1977 efter valet och MISA-lagen upphävdes kort därefter."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Jordpolitik & Landsbygd",
+      "title": "Radikal jordreform och arrendatorskydd (Operation Barga)",
+      "statement": "Staten bör strikt driva igenom ägandetak på jord, dela ut överskottsjord till jordlösa daliter och säkra arrendatorers lagliga brukningsrätt.",
+      "context": "Trots tidigare jordlagar levde miljontals lantarbetare och oregistrerade arrendatorer på landsbygden i stor otrygghet under lokala jordägare.",
+      "pro": "Trygg brukningsrätt och fördelning av jord ger fattiga bönder egen inkomst och bryter feodala maktstrukturer på landsbygden.",
+      "con": "Alltför långtgående ingrepp i markägandet riskerar att splittra gårdar och skapa konflikter på landsbygden.",
+      "outcome": "Jordreformer och arrendatorsregistrering (särskilt Operation Barga i Västbengalen) genomfördes i varierande takt mellan delstaterna."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Utländskt Kapital & Industri",
+      "title": "Skärpta regler och uttåg för multinationella storbolag",
+      "statement": "Utländska bolag som Coca-Cola och IBM bör tvingas lämna över aktiemajoritet och teknik till inhemska ägare eller förbjudas i konsumentsektorn.",
+      "context": "Under 1970-talet skärptes kraven på inhemskt ägande och valutaregleringar gentemot utländska företag verksamma i Indien.",
+      "pro": "Inhemsk industri och teknik måste skyddas från dominans av multinationella jättar som för ut vinster ur landet.",
+      "con": "Att driva bort utländska bolag skrämmer bort investeringar, teknik och arbetstillfällen och skadar Indiens internationella kontakter.",
+      "outcome": "Under Janataregeringen 1977 valde både Coca-Cola och IBM att lämna den indiska marknaden snarare än att acceptera de skärpta ägar- och informationskraven."
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "category": "Stadsboende & Vardag",
+      "title": "Stopp för rivning av slumkvarter och tvångsförflyttning",
+      "statement": "Myndigheterna bör upphöra med att riva kåkstäder och basarer i städer som Delhi och istället ge sluminvånarna besittningsrätt där de bor.",
+      "context": "Under undantagstillståndet revs omfattande slumområden och marknader i bland annat Delhi (som kring Turkman Gate), vilket drabbade hundratusentals fattiga stadsbor och utlöste våldsamma protester.",
+      "pro": "Fattiga stadsbor bygger städernas infrastruktur och service; deras hem och försörjning ska inte rivas med tvång.",
+      "con": "Sanering och stadsplanering behövs för att avhjälpa trångboddhet, sanitära risker och olaglig markockupation.",
+      "outcome": "Tvångsrivningarna stoppades efter valet 1977 och stadsförnyelsen fick en mer förhandlingsinriktad inriktning."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Historiepolitik & Symboler",
+      "title": "Uppgrävning av tidskapseln vid Röda fortet",
+      "statement": "Parlamentet bör gräva upp den tidskapsel som lades ner vid Röda fortet 1973 och ersätta den med en bredare skildring av självständighetskampen.",
+      "context": "År 1973 hade en tidskapsel (kallad Kalapatra) grävts ner vid Röda fortet i Delhi med en historieskrivning som kritiker menade gav oproportionerligt stor plats åt familjen Nehru-Gandhi.",
+      "pro": "Frihetskampen var en bred folkrörelse med många ledare och strömningar som inte ska skrivas om till ett familjemonument.",
+      "con": "Att gräva upp en tidskapsel för politisk historieskrivning är ett ovärdigt och onödigt partipolitiskt spektakel.",
+      "outcome": "Janataregeringen lät gräva upp tidskapseln i december 1977 och deponerade dess innehåll i parlamentets bibliotek."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Federalism & Delstater",
+      "title": "Utökat självstyre för delstaterna och begränsat presidentstyre",
+      "statement": "Grundlagens möjlighet för centralregeringen att avsätta folkvalda delstatsregeringar och införa presidentstyre (Artikel 356) bör begränsas kraftigt.",
+      "context": "Artikel 356 hade upprepade gånger använts av centralmakten för att införa direktstyre i delstater, vilket väckte hård kritik bland regionalpartier och vänsterpartier.",
+      "pro": "En verklig federation kräver att folkvalda delstatsregeringar skyddas mot godtycklig inblandning från New Delhi.",
+      "con": "Centralregeringen måste ha verktyg för att ingripa vid allvarlig politisk instabilitet eller författningskris i en delstat.",
+      "outcome": "Artikel 356 behölls i konstitutionen men kom att granskas strängare i både politik och domstolar under senare decennier."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Religion & Tradition",
+      "title": "Nationellt totalförbud mot koslakt och alkoholförsäljning",
+      "statement": "Parlamentet bör införa rikstäckande förbud mot slakt av kor och driva igenom totalt alkoholförbud i hela Indien i enlighet med Gandhis ideal.",
+      "context": "Frågor om koslakt och alkoholförbud var djupt förankrade i gandhiansk etik och delar av den hinduiska traditionen, men väckte motstånd i delstater med annan kost- och dryckeskultur samt bland minoriteter.",
+      "pro": "Att värna kon och motverka alkoholism ligger i linje med Gandhis moraliska arv och skyddar social ordning och familjer.",
+      "con": "Ett nationellt förbud påtvingar hela landet en enskild moral- och religionslinje och inkräktar på delstaters och medborgares frihet.",
+      "outcome": "Inget rikstäckande förbud mot koslakt eller totalt alkoholförbud antogs på federal nivå; frågorna förblev i huvudsak delstatsangelägenheter."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Idrott & Folkkultur",
+      "title": "Statlig satsning på landhockey framför cricket",
+      "statement": "Idrottsministeriet bör rikta statliga idrottsanslag till Indiens traditionella OS-gren landhockey istället för att låta cricket ta över medier och sponsorer.",
+      "context": "Indien hade en stolt OS-tradition i landhockey, men under 1970-talet minskade framgångarna samtidigt som cricket växte i popularitet och kommersiell uppmärksamhet.",
+      "pro": "Landhockey är en klassisk indisk OS-sport som förtjänar långsiktigt stöd för att återta sin internationella toppnivå.",
+      "con": "Idrottens popularitet och publikintresse avgörs av spelare och publik, inte av statliga styrningar mot en viss gren.",
+      "outcome": "Cricket fortsatte att växa till Indiens mest populära sport, medan landhockeyn tidvis kämpade med organisations- och resultatproblem."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Grundlag & Domstolar",
+      "title": "Upphävande av det 42:a grundlagstillägget",
+      "statement": "Parlamentet bör riva upp det 42:a grundlagstillägget från 1976 som inskränkte Högsta domstolens granskningsrätt och förlängde mandatperioden.",
+      "context": "Det 42:a grundlagstillägget antogs under undantagstillståndet och förändrade maktbalansen mellan parlament, regering och domstolar.",
+      "pro": "Maktdelning och oberoende domstolsprövning är avgörande för att förhindra att en tillfällig majoritet ändrar grundlagen fritt.",
+      "con": "Folkets valda parlament måste ha högsta ordning i lagstiftnings- och reformfrågor utan att hindras av domstolar.",
+      "outcome": "Genom det 44:e grundlagstillägget år 1978 upphävdes de mest långtgående inskränkningarna från det 42:a tillägget."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Jordbruk & Handel",
+      "title": "Avskaffande av statliga spannmålszoner och prisregleringar",
+      "statement": "De restriktioner som förbjuder bönder och handlare att fritt frakta och sälja spannmål över delstatsgränserna bör avskaffas för marknadspriser.",
+      "context": "Statliga zoner och handelsrestriktioner på spannmål hade införts för att styra tillgång och priser, men kritiserades av jordbruksrörelser för att pressa böndernas intäkter.",
+      "pro": "Friare handel med spannmål ger bönderna bättre priser och minskar byråkrati och svinn i distributionen.",
+      "con": "Oreglerad spannmålshandel riskerar att driva upp matpriserna för fattiga konsumenter i bristområden.",
+      "outcome": "Restriktionerna på spannmålsrörelser lättades upp efter valet 1977 i takt med förbättrade skördar och ny jordbrukspolitik."
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "category": "Utrikespolitik & Allianser",
+      "title": "\"Äkta alliansfrihet\" och minskat beroende av Sovjetunionen",
+      "statement": "Indien bör balansera vänskapsfördraget med Sovjetunionen genom att normalisera relationerna med USA och Kina istället för att luta ensidigt mot Moskva.",
+      "context": "Efter 1971 års vänskapsfördrag med Sovjetunionen upplevdes Indiens utrikespolitik av många som nära knuten till Moskva, medan Janata lyfte fram 'äkta alliansfrihet' (genuine non-alignment).",
+      "pro": "En balanserad relation till alla stormakter stärker Indiens självständighet och handlingsutrymme i omvärlden.",
+      "con": "Ett pålitligt samarbete med Sovjetunionen har gett Indien avgörande diplomatiskt, militärt och ekonomiskt stöd i svåra lägen.",
+      "outcome": "Indien behöll goda relationer till Sovjetunionen men tog samtidigt steg för att förbättra kontakterna med både USA och Kina."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Skolmåltider & Barnvälfärd",
+      "title": "Fria skolmåltider för fattiga skolbarn över hela landet",
+      "statement": "Staten bör bygga ut systemet med gratis näringsrika skolmåltider i grundskolorna för att bekämpa undernäring och locka fattiga barn till skolan.",
+      "context": "Under- och felnäring hos barn var en utbredd social utmaning, och program med fria skolmåltider i bland annat Tamil Nadu uppmärksammades för sina effekter på närvaro och hälsa.",
+      "pro": "Ett varmt mål mat i skolan motverkar hunger hos utsatta barn och gör det lättare för familjer att låta barnen gå i skolan.",
+      "con": "Storskaliga måltidsprogram kräver betydande och långsiktiga offentliga medel samt god logistik och kontroll.",
+      "outcome": "Skolmåltidsprogram byggdes ut i flera delstater och blev senare ett omfattande nationellt program i Indien."
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "category": "Furstehus & Privilegier",
+      "title": "Återinförande av de tidigare maharadjornas apanage",
+      "statement": "Staten bör återinföra de pensions- och titelprivilegier (Privy Purses) som avskaffades 1971 för de forna indiska furstehusen.",
+      "context": "Vid självständigheten hade furstestaterna inlemmats i Indien mot löfte om särskilda apanage (Privy Purses), vilka avskaffades genom ett grundlagstillägg 1971.",
+      "pro": "Avtal och historiska åtaganden gentemot de forna furstehusen bör respekteras i en rättsstat.",
+      "con": "Ärftliga apanage och särprivilegier hör hemma i det förflutna och strider mot principen om medborgerlig jämlikhet i en republik.",
+      "outcome": "Apanagen och de särskilda fursteprivilegierna förblev avskaffade."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Utbildning & Historiesyn",
+      "title": "Granskning och strykning av omstridda historieläroböcker",
+      "statement": "Regeringen bör tillsätta en granskning av statligt utgivna historieböcker och ta bort verk som anses nedvärdera hinduisk historia eller gynna marxism.",
+      "context": "Efter valet 1977 uppstod en hätsk debatt kring hur statliga läroböcker skildrade antik och medeltida indisk historia samt religions- och samhällsförhållanden.",
+      "pro": "Läroböcker i ett mångfacetterat land bör ge en rättvis och balanserad bild utan ideologisk ensidighet.",
+      "con": "Politisk granskning och indragning av historieböcker hotar akademisk frihet och vetenskaplig självständighet.",
+      "outcome": "Läroboksdebatten ledde till starka protester från historiker och sköts upp innan den återkom i nya former senare i historien."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Familjerätt & Kvinnovåld",
+      "title": "Skärpta lagar och kampanjer mot hemgiftskrav (Dowry)",
+      "statement": "Staten bör skärpa straffen för att kräva eller ta emot hemgift vid bröllop och genomföra informationskampanjer mot sedvänjor som skuldsätter brudens familj.",
+      "context": "Trots tidigare lagstiftning mot hemgift fortsatte krav på hemgift vid äktenskap att orsaka skuldsättning, trakasserier och svåra sociala problem.",
+      "pro": "Skärpt lagstiftning och opinionsbildning behövs för att skydda kvinnor och unga familjer mot ekonomiskt tvång och övergrepp.",
+      "con": "Djupt rotade familje- och giftermålsseder förändras främst genom social och kulturell mognad snarare än enbart straffskärpningar.",
+      "outcome": "Frågan fortsatte att stå på den politiska dagordningen och ledde senare till skärpt lagstiftning mot hemgiftsbrott."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Bilindustri & Statsdrift",
+      "title": "Statsdriven \"folkbil\" (Maruti) framför privata biltillverkare",
+      "statement": "Staten bör ta över och driva det omstridda bilprojektet Maruti för att tillverka en enkel, billig indisk folkbil istället för privata lyxbilar.",
+      "context": "Projektet kring en billig inhemsk folkbil (Maruti) hade väckt stor uppmärksamhet och debatt om marktilldelning, finansiering och industriprioriteringar under 1970-talet.",
+      "pro": "En prisvärd inhemsk bil kan bredda mobiliteten och stärka den inhemska verkstads- och fordonsindustrin.",
+      "con": "Statliga satsningar på ett enskilt fordonsprojekt riskerar att snedvrida resurser och gynna enskilda intressen på skattebetalarnas bekostnad.",
+      "outcome": "Maruti förstatligades senare och blev grunden till ett framgångsrikt samriskföretag som förändrade den indiska bilmarknaden på 1980-talet."
+    }
+  ]
+}
