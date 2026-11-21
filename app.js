@@ -209,6 +209,10 @@ async function startElection(electionId, isQuick = false) {
     userAnswers = {};
     importantQuestions.clear();
 
+    // Visa textrubriken i header när man går in i ett val
+    const mainHeader = document.getElementById("main-header");
+    if (mainHeader) mainHeader.classList.remove("home-header");
+
     const modeText = isQuick ? "Snabbkompass" : "Fullkompass";
     document.getElementById("header-title").innerText = `${currentElectionData.title}`;
     document.getElementById("header-tagline").innerText = `${modeText} (${activeQuestions.length} frågor)`;
@@ -434,7 +438,6 @@ function renderImportanceList() {
 }
 
 function backToQuiz() {
-  // Återgå till den fråga användaren stod på (t.ex. om man avslutade i förtid)
   if (currentQuestionIndex >= activeQuestions.length) {
     currentQuestionIndex = activeQuestions.length - 1;
   }
@@ -572,6 +575,9 @@ function showHistoryView() {
 
 function showHome() {
   if (autoAdvanceTimeout) clearTimeout(autoAdvanceTimeout);
+
+  const mainHeader = document.getElementById("main-header");
+  if (mainHeader) mainHeader.classList.add("home-header");
 
   document.getElementById("header-title").innerText = "Historisk Valkompass";
   document.getElementById("header-tagline").innerText = "Hur hade du röstat i dåtidens politiska ödesval?";
