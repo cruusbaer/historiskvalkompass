@@ -208,6 +208,16 @@
   "year": 1912,
   "lead": "Kinas första flerpartival efter kejsardömets fall.",
   "description": "Ett år efter Xinhairevolutionen går den nybildade Republiken Kina till sitt första nationella parlamentsval. Striden står mellan Song Jiaorens Kuomintang, som kräver parlamentariskt styre och sociala reformer, och konservativa partier som vill ge president Yuan Shikai en stark centralmakt för att hålla samman det krisande riket."
-}
+},
+    {
+      "id": "in-1977",
+      "category": "Internationella val",
+      "active": true,
+      "file": "election-in-1977-se.json",
+      "title": "Parlamentsvalet i Indien 1977",
+      "year": 1977,
+      "lead": "Uppgörelsen efter tjugoen månaders undantagstillstånd i världens folkrikaste demokrati.",
+      "description": "Efter nästan två år med presscensur, fängslade oppositionsledare och en hårt omdiskuterad familjeplaneringskampanj går Indien till val. Striden står mellan Indira Gandhis Kongressparti och en bred oppositionsallians som kräver återställda fri- och rättigheter, decentralisering och en ny ekonomisk inriktning."
+    }
   ]
 }
