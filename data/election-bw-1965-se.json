@@ -1,0 +1,315 @@
+{
+  "id": "bw-1965",
+  "title": "Parlamentsvalet i Bechuanaland (Botswana) 1965",
+  "year": 1965,
+  "country": "Botswana",
+  "electionResults": {
+    "seatsTotal": 31,
+    "summary": "Parlamentsvalet den 1 mars 1965 var det första valet med allmän och lika rösträtt i det brittiska protektoratet Bechuanaland, arton månader före självständigheten som Republiken Botswana. Seretse Khamas moderata och icke-rasistiska Bechuanaland Democratic Party (BDP) vann en jordskredsseger med 80,4 procent av rösterna och 28 av 31 folkvalda mandat, medan det panafrikanska oppositionspartiet BPP under Philip Matante tog de återstående 3 mandaten.",
+    "government": {
+      "type": "Majoritetsregering",
+      "primeMinister": "Seretse Khama (Bechuanaland Democratic Party)",
+      "rulingParties": [
+        "Bechuanaland Democratic Party (BDP)"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Bechuanaland People's Party (BPP – Matante)",
+        "Bechuanaland Independence Party (BIP)",
+        "Bechuanaland People's Party (BPP – Motsete)"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "bdp",
+      "name": "Bechuanaland Democratic Party (BDP)",
+      "shortName": "BDP (Seretse Khama)",
+      "color": "#E11931",
+      "seats": 28,
+      "seatChange": 28,
+      "votePercentage": 80.4,
+      "description": "Moderat, pragmatiskt och strikt icke-rasistiskt parti grundat av Seretse Khama och Quett Masire. Förespråkade en fredlig övergång till självständighet, blandekonomi med skydd för äganderätt och boskapsnäring, flytt av huvudstaden till Gaborone, rådgivande roll för stamhövdingarna samt pragmatiska ekonomiska relationer med grannlandet Sydafrika trots avståndstagande från apartheid.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 1,
+        "Q3": -2,
+        "Q4": 0,
+        "Q5": 1,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": 1,
+        "Q11": -2,
+        "Q12": -2,
+        "Q13": 1,
+        "Q14": -2,
+        "Q15": 1,
+        "Q16": -2
+      }
+    },
+    {
+      "id": "bpp",
+      "name": "Bechuanaland People's Party (BPP – Matante)",
+      "shortName": "BPP (Matante)",
+      "color": "#006B3F",
+      "seats": 3,
+      "seatChange": 3,
+      "votePercentage": 14.2,
+      "description": "Landets första moderna nationalistparti under ledning av panafrikanen Philip Matante. Krävde omedelbar självständighet under 1965, hård handelsbojkott mot apartheid-Sydafrika, omedelbar afrikanisering av statsförvaltningen, avskaffad hövdingamakt samt expropriering av vita storfarmars jord.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": 1,
+        "Q7": 1,
+        "Q8": -2,
+        "Q9": 2,
+        "Q10": 0,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "bip",
+      "name": "Bechuanaland Independence Party (BIP)",
+      "shortName": "BIP (Mpho)",
+      "color": "#FF8C00",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 4.6,
+      "description": "Panafrikanskt parti grundat av Motsamai Mpho med starkt fäste i norra Bechuanaland kring Okavango och Maun. Förespråkade radikal afrikansk nationalism, stöd till befrielserörelser i södra Afrika, statligt ägande av gruvor och jord samt ökat inflytande för minoritetsgrupper och småbrukare i norr.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": 1,
+        "Q7": 0,
+        "Q8": -2,
+        "Q9": 2,
+        "Q10": 0,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": 1,
+        "Q15": 2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "bpp-m",
+      "name": "Bechuanaland People's Party (BPP – Motsete)",
+      "shortName": "BPP (Motsete)",
+      "color": "#004C97",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 0.3,
+      "description": "Den ursprungliga partigrundaren och läraren Kgalemang Tumediso Motsetes falang efter splittringen av BPP. Förespråkade konstitutionell afrikansk nationalism, kraftig satsning på utbildning och skolor, gradvis reformering av hövdingaväldet samt fredlig samexistens mellan befolkningsgrupperna.",
+      "answers": {
+        "Q1": 1,
+        "Q2": 1,
+        "Q3": 0,
+        "Q4": 1,
+        "Q5": 1,
+        "Q6": 1,
+        "Q7": 1,
+        "Q8": -1,
+        "Q9": 1,
+        "Q10": 1,
+        "Q11": 1,
+        "Q12": 0,
+        "Q13": 2,
+        "Q14": 0,
+        "Q15": 1,
+        "Q16": 1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Självständighet & Tidtabell",
+      "title": "Omedelbar självständighet utan brittisk övergångsperiod",
+      "statement": "Bechuanaland bör kräva full självständighet från Storbritannien under år 1965 istället för att acceptera en långsam brittisk övergångsplan med fortsatt kolonial kontroll över försvar och utrikespolitik.",
+      "context": "Under självstyresförfattningen från 1965 behöll den brittiske kommissarien ansvaret för försvar, utrikespolitik och inre säkerhet fram till den slutliga självständighetsdagen.",
+      "pro": "Folket är redo att styra sig självt omedelbart; varje års fördröjning förlänger kolonialt beroende och bromsar landets utveckling.",
+      "con": "Ett extremt fattigt och torkdrabbat land utan egen huvudstad eller utbildad förvaltning behöver arton månaders ordnad övergång för att inte kollapsa.",
+      "outcome": "Regeringen Khama följde den stegvisa tidtabellen och utropade det självständiga Republiken Botswana den 30 september 1966."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Statsskick & Tradition",
+      "title": "Begränsning av de traditionella hövdingarnas (Dikgosi) makt",
+      "statement": "De ärftliga stamhövdingarnas rätt att styra över lokal rättskipning, skatteinsamling och jordfördelning bör avskaffas till förmån för folkvalda distriktsråd och ett enbart rådgivande hövdingahus (Ntlo ya Dikgosi).",
+      "context": "Under det brittiska protektoratet styrdes landsbygden genom indirekt styre av de åtta stora tswana-stammarnas hövdingar (Dikgosi), vars makt utmanades av de nya moderna partierna.",
+      "pro": "I en modern demokrati måste makten ligga hos folkvalda församlingar och en gemensam stat, inte hos ärftliga stamhövdingar.",
+      "con": "Hövdingarna utgör den traditionella tryggheten och samhällsordningen på landsbygden; att beröva dem deras befogenheter skapar kaos i byarna.",
+      "outcome": "År 1965–1966 inrättades folkvalda distriktsråd (District Councils) som övertog lokalförvaltningen, medan hövdingarna fick en rådgivande kammare."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Utrikespolitik & Ekonomi",
+      "title": "Handelsbojkott och arbetskraftsstopp mot apartheid-Sydafrika",
+      "statement": "Det självständiga landet bör bryta de ekonomiska banden med Sydafrika, lämna den sydafrikanska tullunionen (SACU) och stoppa rekryteringen av män till de sydafrikanska guldgruvorna.",
+      "context": "Bechuanaland var helt omringat av vitstyrda stater, saknade egen hamn och var beroende av Sydafrika för tullintäkter, livsmedelsimport och arbete åt tiotusentals migrantarbetare i gruvorna.",
+      "pro": "Ett fritt afrikanskt land kan inte finansiera sin stat genom tullavtal och arbetskraftsexport till en rasistisk apartheidregim.",
+      "con": "En omedelbar brytning med Sydafrika skulle utlösa ekonomisk kollaps, massarbetslöshet och svält i ett land utan egna hamnar eller järnvägar.",
+      "outcome": "Seretse Khama fördömde apartheid principiellt men behöll de ekonomiska och praktiska förbindelserna med Sydafrika för att säkra landets överlevnad."
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "category": "Familjerätt & Kultur",
+      "title": "Avskaffande av hemgiftssystemet (Bogadi) i civilrätten",
+      "statement": "Parlamentet bör reformera äktenskapslagstiftningen så att den traditionella brudpenningen (bogadi i form av boskap) inte längre är rättsligt bindande och stärka kvinnors arvs- och äganderätt.",
+      "context": "Enligt traditionell tswana-sedvanerätt bekräftades äktenskap genom att brudgummens familj överlämnade boskap (bogadi) till brudens släkt, samtidigt som gifta kvinnor stod under mannens förmynderskap.",
+      "pro": "Kvinnor måste få full rättslig jämlikhet, egen arvsrätt och frihet att ingå äktenskap utan att familjer binds av boskapskrav.",
+      "con": "Bogadi är inte ett köp utan ett respekterat släktband som binder samman familjer och skyddar kvinnan och barnen inom traditionell kultur.",
+      "outcome": "Civilrättsliga äktenskap reformerades stegvis efter självständigheten, men traditionella äktenskap och sedvanerätt behölls parallellt i lagstiftningen."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Naturresurser & Ägande",
+      "title": "Statligt ägande av alla mineraltillgångar och gruvbolag",
+      "statement": "Staten bör ta över äganderätten till samtliga mineralfyndigheter från de enskilda stammarna och kräva statligt majoritetsägande i alla framtida diamant- och koppargruvor.",
+      "context": "År 1965 pågick intensiva geologiska prospekteringar efter diamanter och koppar i centrala och norra Bechuanaland, där mineralrättigheterna dittills tillhört de enskilda stamområdena.",
+      "pro": "Naturrikedomar under marken tillhör hela folket och måste förvaltas av staten så att intäkterna kommer hela nationen till del istället för enskilda stammar eller utländska bolag.",
+      "con": "Utan trygga villkor för utländska gruvbolag med kapital och teknik kommer inga gruvor att kunna öppnas i ett så fattigt land.",
+      "outcome": "År 1967 – samma år som de gigantiska diamantfyndigheterna i Orapa upptäcktes – överförde regeringen mineralrätten till staten och bildade det hälftenägda bolaget Debswana."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Idrott & Nationsbygge",
+      "title": "Byggande av nationalarena och stöd till fotbollen",
+      "statement": "Staten bör finansiera en ny nationalarena i Gaborone och stödja bildandet av ett nationellt fotbollsförbund så att landet kan delta i afrikanska mästerskap som självständig nation.",
+      "context": "Inför självständigheten saknade landet en modern idrottsarena för internationella matcher och officiella nationella ceremonier.",
+      "pro": "En nationalarena och ett eget fotbollslandslag skapar nationell stolthet och samlar hela folket över stam- och regiongränser.",
+      "con": "I ett land som lider av svår torka och brist på skolor och sjukhus bör knappa statsmedel inte läggas på idrottsarenor.",
+      "outcome": "Nationalstadion i Gaborone färdigställdes lagom till självständighetsceremonin i september 1966 och blev landets främsta idrotts- och ceremoniplats."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Huvudstad & Regioner",
+      "title": "Utbyggnad av den nya huvudstaden Gaborone innanför gränsen",
+      "statement": "Staten bör prioritera stora investeringar i att färdigställa den helt nybyggda huvudstaden Gaborone och flytta samtliga regeringskontor dit från Mafeking i Sydafrika.",
+      "context": "Under hela kolonialtiden styrdes Bechuanaland från staden Mafeking – som låg inne i Sydafrika – vilket gjorde landet unikt i världen genom att ha sin huvudstad utanför sina egna gränser.",
+      "pro": "En självständig nation kan inte styras från apartheid-Sydafrikas territorium; en ny huvudstad vid vattendammen i Gaborone är ett nödvändigt nav för hela landet.",
+      "con": "Att bygga en helt ny stad från grunden i södra delen av landet slukar enorma belopp och riskerar att missgynna mer folkrika orter i norr som Francistown och Serowe.",
+      "outcome": "Regeringskansliet flyttade från Mafeking till det nybyggda Gaborone i februari 1965, och staden växte snabbt till landets politiska och ekonomiska centrum."
+    },
+    {
+      "id": "Q8",
+      "quick": true,
+      "category": "Infrastruktur & Transporter",
+      "title": "Fortsatt rhodesisk järnvägsdrift istället för eget järnvägsbolag",
+      "statement": "Regeringen bör låta det grannlandsägda Rhodesia Railways fortsätta driva den enda järnvägslinjen genom landet på kontrakt istället för att ta stora lån för att bilda ett eget statligt järnvägsbolag.",
+      "context": "Den enda järnvägen genom Bechuanaland – landets ekonomiska pulsåder mellan Sydafrika och Rhodesia – ägdes och drevs av Rhodesia Railways.",
+      "pro": "Landet saknar både ingenjörer, lok och kapital för att driva en egen järnväg; ett pragmatiskt driftsavtal håller transporterna igång utan att skuldsätta staten.",
+      "con": "Att låta grannlandets vitstyrda järnvägsbolag kontrollera landets enda järnvägslinje är ett oacceptabelt hot mot den nationella suveräniteten.",
+      "outcome": "Rhodesia Railways fortsatte driva linjen genom Botswana i över tjugo år innan statliga Botswana Railways tog över driften år 1987."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Jordpolitik & Äganderätt",
+      "title": "Tvångsinlösen av de vita storfarmarnas jord",
+      "statement": "Den bördiga jordbruks- och betesmark som under kolonialtiden tilldelats europeiska storfarmare längs öst- och västgränsen bör exproprieras och delas ut till afrikanska småbrukare och boskapsskötare.",
+      "context": "Under kolonialtiden hade bördiga jordbruksområden i Tuli Block, Lobatse och Ghanzi upplåtits med friköpt äganderätt till vita storfarmare, medan majoriteten av befolkningen levde på stammens gemensamma mark.",
+      "pro": "Det är orimligt att utländska storfarmare äger landets bästa betes- och odlingsjord medan inhemska bönder trängs ihop på överbetade marker.",
+      "con": "Tvångsexpropriering utan full ersättning skulle rasera rättssäkerheten, skrämma bort investerare och slå ut den kommersiella boskapsproduktionen.",
+      "outcome": "BDP-regeringen skyddade grundlagens äganderätt och genomförde ingen expropriering, men köpte i vissa fall upp mark på frivillig väg."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Skola & Vardagskultur",
+      "title": "Obligatorisk skoluniform i alla skolor",
+      "statement": "Undervisningsministeriet bör införa enhetliga skoluniformer i alla skolor för att markera disciplin och utjämna synliga skillnader mellan rika och fattiga elever.",
+      "context": "När skolväsendet skulle byggas ut i det unga landet debatterades hur skolkulturen skulle utformas i ett samhälle med stora skillnader mellan fattiga byfamiljer och välbärgade boskapsägare.",
+      "pro": "Enhetliga skoluniformer skapar samhörighet, ordning och respekt för utbildning och döljer klasskillnader i klassrummet.",
+      "con": "Krav på att köpa särskilda skoluniformer blir en tung ekonomisk börda för fattiga familjer som redan kämpar med att ha råd med skolgång.",
+      "outcome": "Skoluniformer infördes som standard i praktiskt taget alla skolor i Botswana efter självständigheten."
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "category": "Förvaltning & Avkolonisering",
+      "title": "Omedelbar afrikanisering av statsförvaltningen och polisen",
+      "statement": "Brittiska och sydafrikanska tjänstemän inom förvaltningen, rättsväsendet och poliskåren bör omedelbart ersättas med inhemska afrikanska medborgare även om det kräver sänkta formella examenskrav.",
+      "context": "Vid självständigheten innehades nästan samtliga högre chefsposter i statsförvaltningen av brittiska och sydafrikanska tjänstemän eftersom kolonialmakten försummat högre utbildning i landet.",
+      "pro": "Ett självständigt afrikanskt land måste styras av sina egna medborgare från dag ett, inte av gamla kolonialtjänstemän med lojalitet mot London eller Pretoria.",
+      "con": "Att avskeda erfarna tjänstemän innan inhemska ersättare hunnit utbildas skulle lamslå skatteuppbörd, domstolar och utvecklingsprojekt.",
+      "outcome": "Seretse Khama valde en gradvis 'lokalisering' av förvaltningen i takt med att inhemska tjänstemän utbildades, vilket gav Botswana en ovanligt stabil statsapparat."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Säkerhet & Befrielserörelser",
+      "title": "Träningsläger och baser för ANC och befrielserörelser",
+      "statement": "Regeringen bör tillåta väpnade befrielserörelser från Sydafrika, Namibia och Rhodesia att upprätta baser och bedriva militär verksamhet från landets territorium.",
+      "context": "Bechuanaland var en viktig flyktväg norrut för motståndsmän från Sydafrika och Rhodesia – bland annat passerade Nelson Mandela genom landet på väg till sitt tal i Addis Abeba 1962.",
+      "pro": "Solidariteten med de förtryckta brödrafolken i södra Afrika kräver att det fria Botswana fungerar som basområde för befrielserörelserna.",
+      "con": "Att tillåta gerillabaser skulle omedelbart ge Sydafrika och Rhodesia förevändning att invadera och bomba ett land som helt saknar egen armé.",
+      "outcome": "Botswana gav fristad åt tiotusentals politiska flyktingar från grannländerna men förbjöd strikt väpnade träningsläger på sitt territorium."
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "category": "Utbildning & Välfärd",
+      "title": "Avgiftsfri och obligatorisk grundskola för alla barn",
+      "statement": "Staten bör omedelbart avskaffa skolavgifterna och bygga ut folkskolan över hela landsbygden så att alla barn garanteras grundläggande skolgång.",
+      "context": "Vid valet 1965 gick mindre än hälften av barnen i skola, skolavgifter hindrade fattiga familjer och landet hade bara ett fåtal gymnasieskolor och färre än fyrtio högskoleutbildade medborgare.",
+      "pro": "Utbildning är nyckeln till att bryta fattigdomen och bygga en självständig stat; inga barn ska stängas ute från skolan på grund av fattigdom.",
+      "con": "Staten saknar ännu lärare, skolbyggnader och skatteintäkter för att införa fullt obligatorisk och avgiftsfri skolgång över hela det glest befolkade landet över en natt.",
+      "outcome": "Skolväsendet byggdes ut i snabb takt efter självständigheten och skolavgifterna i grundskolan avskaffades år 1980."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Medborgarrätt & Integration",
+      "title": "Krav på att vita bosättare avsäger sig utländskt pass",
+      "statement": "Europeiska invånare i landet bör tvingas välja mellan att avsäga sig sitt sydafrikanska eller brittiska medborgarskap eller förlora rösträtten och rätten att äga jord.",
+      "context": "En liten minoritet av vita farmare och handlare hade ofta dubbla band till Sydafrika eller Storbritannien, vilket skapade misstänksamhet bland afrikanska nationalister.",
+      "pro": "Endast den som svär odelad lojalitet mot den nya republiken och avsäger sig medborgarskap i apartheidstater bör ha fulla medborgerliga rättigheter.",
+      "con": "En icke-rasistisk demokrati ska välkomna alla invånare som vill bidra till landets uppbyggnad utan diskriminerande särlagar.",
+      "outcome": "Botswana antog en icke-rasistisk medborgarskapslagstiftning som gav alla invånare oavsett hudfärg möjlighet att bli fullvärdiga medborgare."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Jordbruk & Sedvanerätt",
+      "title": "Upphävande av stamhövdingarnas förbud mot inhägnader och brunnar",
+      "statement": "Staten bör upphäva traditionella sedvaneregler som hindrar enskilda bönder från att borra egna brunnar, odla avsalugrödor och hägna in åkrar på stammens gemensamma mark.",
+      "context": "Under den svåra torkan 1961–1966 dog hundratusentals nötkreatur på de gemensamma betesmarkerna, och reformivrare ville ge enskilda bönder rätt att investera i brunnar och inhägnader.",
+      "pro": "Moderna vattenbrunnar och inhägnade betes- och odlingsmarker ökar produktiviteten och räddar boskapen undan torkkatastrofer.",
+      "con": "Om rika boskapsägare tillåts hägna in och borra brunnar på stammens gemensamma mark trängs fattiga småbrukare bort från vatten och bete.",
+      "outcome": "Under 1970-talet genomförde regeringen betes- och markreformer som tillät inhägnade rancher, vilket ökade exporten men också klyftorna på landsbygden."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Internationella relationer",
+      "title": "Utträde ur brittiska samväldet och alliansfri republik",
+      "statement": "Det nya landet bör bryta sina konstitutionella band till den brittiska kronan och ansluta sig till den radikala alliansfria och panafrikanska rörelsen.",
+      "context": "Inför självständigheten debatterades om det blivande Botswana skulle stanna kvar i det brittiska samväldet (Commonwealth) eller följa en mer radikal panafrikansk linje.",
+      "pro": "Att kapa banden till den gamla kolonialmakten markerar verklig frihet och solidaritet med det panafrikanska enhetsprojektet.",
+      "con": "Medlemskap i Samväldet ger ett litet och utsatt land värdefullt diplomatiskt stöd, bistånd och internationell tyngd utan att begränsa dess självständighet.",
+      "outcome": "Republiken Botswana utropades 1966 och valde att stanna kvar som en aktiv medlem i det brittiska samväldet."
+    }
+  ]
+}
