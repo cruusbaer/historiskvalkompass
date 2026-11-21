@@ -4,14 +4,38 @@
     {
       "id": "Svenska val",
       "label": "Svenska val",
-      "description": "",
+      "description": "Utforska avgörande svenska riksdagsval – från 1800-talets rösträtts- och tullstrider till 1900-talets välfärdsreformer, kärnkraftsdebatt och ekonomiska kriser.",
       "bgColor": "#f4f6f9"
+    },
+    {
+      "id": "Val i Norden",
+      "label": "Val i Norden",
+      "description": "Historiska ödesval i våra nordiska grannländer kring självständighet, unioner, välfärd och samhällsomdaning.",
+      "bgColor": "#e6f0ea"
+    },
+    {
+      "id": "Amerikanska presidentval",
+      "label": "Amerikanska presidentval",
+      "description": "Kliv rakt in i de amerikanska presidentvalskampanjer som format USA:s och världens moderna historia.",
+      "bgColor": "#eef2f8"
+    },
+    {
+      "id": "Brittiska val",
+      "label": "Brittiska val",
+      "description": "Från tidiga parlamentariska maktkamper till modern brittisk valhistoria kring imperium, välfärd och ekonomiska systemskiften.",
+      "bgColor": "#f7ecee"
+    },
+    {
+      "id": "Europeiska val",
+      "label": "Europeiska val",
+      "description": "Avgörande val runt om i Europa som ritat om den politiska kartan och prövat demokratin.",
+      "bgColor": "#eef4fb"
     },
     {
       "id": "Internationella val",
       "label": "Internationella val",
-      "description": "",
-      "bgColor": "#e6f0ea"
+      "description": "Dramatiska val från övriga världen där nationers framtid, frihandel och statsskick stått på spel.",
+      "bgColor": "#f6f1e7"
     }
   ],
   "elections": [
@@ -22,16 +46,18 @@
       "file": "election-se-1896-se.json",
       "title": "Andrakammarvalet 1896",
       "year": 1896,
-      "subtitle": "Tullstrid, rösträttskamp och Det historiska genombrottsvalet vid 1800-talets slut då Socialdemokraterna fick sin allra första riksdagsman genom Hjalmar Branting, samtidigt som striderna rasade om rösträtt, spannmålstullar, fackföreningar och norrländska träpatroner."
+      "lead": "Tullstrid, rösträttskamp och arbetarrörelsens intåg.",
+      "description": "Det historiska genombrottsvalet vid 1800-talets slut där striderna rasade om höga rösträttsstreck, spannmålstullar, fackföreningar och norrländska skogsbolag."
     },
     {
       "id": "se-1928",
       "category": "Svenska val",
       "active": true,
       "file": "election-se-1928-se.json",
-      "title": "Andrakammarsvalet 1928",
+      "title": "Andrakammarvalet 1928",
       "year": 1928,
-      "subtitle": "Det legendariska 'Kosackvalet' där striden stod kring välfärd, skatter och arbetsmarknad."
+      "lead": "Det ökända kosackvalet.",
+      "description": "Ett ideologiskt laddat val som präglades av skarpa motsättningar mellan Högern och Socialdemokraterna kring skatter, äganderätt, välfärd och fred på arbetsmarknaden."
     },
     {
       "id": "se-1940",
@@ -40,7 +66,8 @@
       "file": "election-se-1940-se.json",
       "title": "Andrakammarvalet 1940",
       "year": 1940,
-      "subtitle": "Beredskapsvalet mitt under brinnande världskrig, där samlingsregeringen sökte folkets mandat för Sveriges neutralitetslinje och krigsekonomi efter ockupationen av grannländerna. "
+      "lead": "Beredskapsvalet mitt under brinnande världskrig.",
+      "description": "Efter ockupationen av grannländerna stod Sverige inför svåra avvägningar kring neutralitetspolitik, krigsekonomi, ransonering och tryckfrihetens gränser."
     },
     {
       "id": "se-1958",
@@ -49,7 +76,8 @@
       "file": "election-se-1958-se.json",
       "title": "Andrakammarvalet 1958",
       "year": 1958,
-      "subtitle": "Extravalet, som utlystes efter att den historiska pensionsfolkomröstningen 1957 spräckte regeringen och ställde välfärdens ödesfrågor på sin spets i Sverige"
+      "lead": "ATP-striden och välfärdens vägval.",
+      "description": "Ett dramatiskt extraval efter pensionsfolkomröstningen 1957 där frågan om obligatorisk tjänstepension, skatter och svenskt kärnvapenförsvar ställdes på sin spets."
     },
     {
       "id": "se-1976",
@@ -58,7 +86,8 @@
       "file": "election-se-1976-se.json",
       "title": "Riksdagsvalet 1976",
       "year": 1976,
-      "subtitle": "Kärnkraftensvalet och statsministerduell mellan Socialdemokraterna och Centerpartiet."
+      "lead": "Kärnkraftsvalet och statsministerduellen.",
+      "description": "För första gången stod miljö- och energifrågan i absolut centrum när utbyggnaden av kärnkraften, löntagarfonder och välfärdsstatens framtid ställdes mot varandra."
     },
     {
       "id": "se-1994",
@@ -67,53 +96,58 @@
       "file": "election-se-1994-se.json",
       "title": "Riksdagsvalet 1994",
       "year": 1994,
-      "subtitle": "Ödesvalet i skuggan av 90-talets djupa ekonomiska kris och den kommande folkomröstningen om EU-medlemskap."
+      "lead": "90-talskrisen och det stundande EU-valet.",
+      "description": "Ett ödesval i skuggan av skyhög arbetslöshet, rekordstort budgetunderskott och den kommande folkomröstningen om svenskt medlemskap i Europeiska unionen."
     },
-     {
-  "id": "uk-1679",
-  "category": "Internationella val",
-  "active": true,
-  "file": "election-uk-1679-se.json",
-  "title": "Engelska parlamentsvalen 1679",
-  "year": 1679,
-  "subtitle": "Exklusionskrisen och födelsen av Whigs och Tories"
-},
     {
       "id": "no-1903",
-      "category": "Internationella val",
+      "category": "Val i Norden",
       "active": true,
       "file": "election-no-1903-se.json",
       "title": "Norska stortingsvalet 1903",
       "year": 1903,
-      "subtitle": "Konsulatstrid, unionsupplösning och kvinnlig rösträtt"
-    },    
+      "lead": "Konsulatstrid, unionsupplösning och kvinnlig rösträtt.",
+      "description": "Ett avgörande norskt val där konflikten med Sverige om egna konsulat skärptes samtidigt som kraven på utvidgad rösträtt och sociala reformer växte."
+    },
     {
-  "id": "ca-1911",
-  "category": "Internationella val",
-  "active": true,
-  "file": "election-ca-1911-se.json",
-  "title": "Kanadensiska parlamentsvalet 1911",
-  "year": 1911,
-  "subtitle": "Frihandelsstriden mot USA och kampen om Kanadas själ"
-},
+      "id": "uk-1679",
+      "category": "Brittiska val",
+      "active": true,
+      "file": "election-uk-1679-se.json",
+      "title": "Engelska parlamentsvalen 1679",
+      "year": 1679,
+      "lead": "Exklusionskrisen och födelsen av Whigs och Tories.",
+      "description": "Ett dramatiskt maktspel mellan kungamakt och parlament kring tronföljden, religionsfriheten och det som lade grunden till Storbritanniens moderna partisystem."
+    },
     {
-  "id": "uk-1979",
-  "category": "Internationella val",
-  "active": true,
-  "file": "election-uk-1979-se.json",
-  "title": "Brittiska parlamentsvalet 1979",
-  "year": 1979,
-  "subtitle": "Missnöjets vinter och Margaret Thatchers systemskifte"
-},
-{
-  "id": "ru-1996",
-  "category": "Internationella val",
-  "active": true,
-  "file": "election-ru-1996-se.json",
-  "title": "Ryska presidentvalet 1996",
-  "year": 1996,
-  "subtitle": "Oligarkerna, Tjetjenienkriget och striden mot kommunisterna"
-}
-   
+      "id": "uk-1979",
+      "category": "Brittiska val",
+      "active": true,
+      "file": "election-uk-1979-se.json",
+      "title": "Brittiska parlamentsvalet 1979",
+      "year": 1979,
+      "lead": "Missnöjets vinter och kampen om Storbritanniens ekonomi.",
+      "description": "Efter månader av omfattande strejker och ekonomisk stagnation ställdes fackföreningarnas makt, skattetrycket och statens roll i industrin i centrum."
+    },
+    {
+      "id": "ca-1911",
+      "category": "Internationella val",
+      "active": true,
+      "file": "election-ca-1911-se.json",
+      "title": "Kanadensiska parlamentsvalet 1911",
+      "year": 1911,
+      "lead": "Frihandelsstriden mot USA och kampen om Kanadas själ.",
+      "description": "Ett laddat val kring tullavtal med grannen i söder, banden till det brittiska imperiet och Kanadas ekonomiska och nationella självständighet."
+    },
+    {
+      "id": "ru-1996",
+      "category": "Internationella val",
+      "active": true,
+      "file": "election-ru-1996-se.json",
+      "title": "Ryska presidentvalet 1996",
+      "year": 1996,
+      "lead": "Oligarkerna, Tjetjenienkriget och striden mot kommunisterna.",
+      "description": "Det första presidentvalet i det postsovjetiska Ryssland där marknadsreformer, privatiseringar och landets framtida kurs stod i centrum."
+    }
   ]
 }
