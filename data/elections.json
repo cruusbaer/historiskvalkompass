@@ -188,6 +188,16 @@
       "year": 1996,
       "lead": "Oligarkerna, Tjetjenienkriget och striden mot kommunisterna.",
       "description": "Det första presidentvalet i det postsovjetiska Ryssland där marknadsreformer, privatiseringar och landets framtida kurs stod i centrum."
-    }
+    },
+    {
+  "id": "bw-1965",
+  "category": "Internationella val",
+  "active": true,
+  "file": "election-bw-1965-se.json",
+  "title": "Parlamentsvalet i Bechuanaland (Botswana) 1965",
+  "year": 1965,
+  "lead": "Vägen mot självständighet i skuggan av torka och apartheid-Sydafrika.",
+  "description": "Inför självständigheten 1966 går det fattiga brittiska protektoratet Bechuanaland till sitt första val med allmän rösträtt. Valstriden står mellan Seretse Khamas moderata och icke-rasistiska linje och de panafrikanska partiernas krav på omedelbar frigörelse, handelsbojkott mot Sydafrika och begränsad hövdingamakt."
+}
   ]
 }
