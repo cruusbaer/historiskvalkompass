@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://historiskvalkompass.se/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Svenska val -->
+  <url>
+    <loc>https://historiskvalkompass.se/?val=se-1896</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=se-1928</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=se-1940</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=se-1958</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=se-1976</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=se-1994</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Val i Norden -->
+  <url>
+    <loc>https://historiskvalkompass.se/?val=no-1903</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=fi-1922</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=dk-1966</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Brittiska val -->
+  <url>
+    <loc>https://historiskvalkompass.se/?val=uk-1679</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=uk-1979</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Europeiska val -->
+  <url>
+    <loc>https://historiskvalkompass.se/?val=de-1878</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=it-1948</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Internationella val -->
+  <url>
+    <loc>https://historiskvalkompass.se/?val=ca-1911</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://historiskvalkompass.se/?val=ru-1996</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
