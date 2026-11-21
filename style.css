@@ -357,23 +357,31 @@ button.opt-btn.selected {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   margin-top: 15px;
 }
 
-.nav-btns-left {
+.nav-btns-left,
+.nav-btns-right {
   display: flex;
   gap: 8px;
   align-items: center;
 }
 
+.q-progress-text {
+  font-size: 0.85rem;
+  color: #6c757d;
+  text-align: center;
+}
+
 .btn {
-  padding: 9px 18px;
+  padding: 9px 16px;
   border: none;
   border-radius: 6px;
   background: var(--accent);
   color: white;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   transition: all 0.15s ease;
 }
 
@@ -396,6 +404,18 @@ button.opt-btn.selected {
   background: #f1f3f5;
   color: var(--text);
   border-color: #adb5bd;
+}
+
+.btn-finish-early {
+  background: #ffffff;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  font-weight: 600;
+}
+
+.btn-finish-early:hover {
+  background: var(--accent);
+  color: #ffffff;
 }
 
 /* Sammanfattning / Viktiga frågor-vy */
@@ -641,8 +661,11 @@ button.opt-btn.selected {
   .mode-buttons {
     flex-direction: column;
   }
-  .nav-btns {
+  .quiz-nav-btns {
     flex-wrap: wrap;
-    gap: 10px;
+  }
+  .quiz-nav-btns .nav-btns-right {
+    width: 100%;
+    justify-content: flex-end;
   }
 }
