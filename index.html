@@ -41,10 +41,6 @@
 
   <!-- VY 2: QUIZ -->
   <main id="view-quiz" style="display:none;">
-    <div style="margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center;">
-      <button type="button" class="breakdown-toggle" onclick="showHome()" style="padding: 0; font-size: 0.85rem;">← Avbryt / Byt val</button>
-    </div>
-
     <div class="question-card" id="question-card">
       <div class="question-top-banner"></div>
 
@@ -67,7 +63,10 @@
     </div>
 
     <div class="nav-btns">
-      <button class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
+      <div class="nav-btns-left">
+        <button type="button" class="btn btn-secondary" id="prev-btn" onclick="prevQuestion()">Föregående</button>
+        <button type="button" class="btn btn-outline" onclick="showHome()">Avbryt / Byt val</button>
+      </div>
       <span style="font-size: 0.85rem; color: #6c757d; align-self: center;" id="q-progress"></span>
     </div>
   </main>
@@ -96,8 +95,8 @@
       <button class="breakdown-toggle" onclick="toggleFormula()" style="font-size:0.9rem;">Så räknades ditt resultat ut ▼</button>
       <div id="formula-box" class="context-box" style="display:none; margin-top:8px;">
         <strong>Hur beräknas matchningen?</strong><br>
-        Ditt resultat bygger på hur nära dina åsikter ligger partiernas historiska ställningstaganden i frågorna.<br><br>
-        Ju mer du och ett parti tycker lika på skalan från "Helt för" till "Helt emot", desto högre poäng får partiet. Om ni har helt motsatta åsikter ges inga poäng.<br><br>
+        Ditt resultat bygger på hur nära dina åsikter ligger partiernas historiska ställningstaganden i de frågor du tagit ställning till.<br><br>
+        Ju mer du och ett parti tycker lika på skalan från "Helt för" till "Helt emot", desto högre poäng får partiet. Frågor där du valt "Neutral / Hoppa över" räknas inte med i underlaget.<br><br>
         Frågor som du markerat som dina hjärtefrågor väger dubbelt så tungt. Slutligen räknas partiets sammanlagda poäng om till en procentandel av den högsta möjliga poängen.
       </div>
     </div>
