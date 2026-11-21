@@ -72,6 +72,33 @@ h1:hover {
   font-size: 1.25rem;
 }
 
+.election-lead {
+  margin: 0 0 6px 0;
+  font-size: 0.98rem;
+  color: #1a2530;
+}
+
+.election-desc {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #495057;
+  line-height: 1.5;
+}
+
+.empty-category-box {
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 28px 20px;
+  text-align: center;
+  background: #f8f9fa;
+  color: #6c757d;
+}
+
+.empty-category-box p {
+  margin: 0;
+  font-size: 0.98rem;
+}
+
 .mode-buttons {
   display: flex;
   gap: 10px;
@@ -105,12 +132,13 @@ h1:hover {
 .category-header h2 {
   font-size: 1.2rem;
   color: #1a2530;
-  margin: 0 0 4px 0;
+  margin: 0 0 6px 0;
 }
 
 .category-description {
-  color: #6c757d;
-  font-size: 0.88rem;
+  color: #495057;
+  font-size: 0.92rem;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -328,7 +356,14 @@ button.opt-btn.selected {
 .nav-btns {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 15px;
+}
+
+.nav-btns-left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .btn {
@@ -339,6 +374,7 @@ button.opt-btn.selected {
   color: white;
   cursor: pointer;
   font-size: 0.95rem;
+  transition: all 0.15s ease;
 }
 
 .btn:disabled {
@@ -348,6 +384,18 @@ button.opt-btn.selected {
 
 .btn-secondary {
   background: #6c757d;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #6c757d;
+  border: 1px solid var(--border);
+}
+
+.btn-outline:hover {
+  background: #f1f3f5;
+  color: var(--text);
+  border-color: #adb5bd;
 }
 
 /* Sammanfattning / Viktiga frågor-vy */
@@ -592,5 +640,9 @@ button.opt-btn.selected {
   }
   .mode-buttons {
     flex-direction: column;
+  }
+  .nav-btns {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }
