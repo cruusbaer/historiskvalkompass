@@ -7,6 +7,8 @@ let userAnswers = {};
 let importantQuestions = new Set();
 let autoAdvanceTimeout = null;
 
+const MIN_ANSWERS_TO_FINISH_EARLY = 3;
+
 const valLabels = {
   2: "Helt för",
   1: "Delvis för",
@@ -17,7 +19,6 @@ const valLabels = {
 
 // --- EN SAMLAD SIDLADDNING ---
 document.addEventListener("DOMContentLoaded", async () => {
-  // Gör huvudrubriken klickbar tillbaka till startsidan
   const headerTitle = document.getElementById("header-title");
   if (headerTitle) {
     headerTitle.onclick = () => showHome();
@@ -138,7 +139,6 @@ function renderCategorySwitcher() {
   const activeElections = (electionsManifest.elections || []).filter(e => e.active !== false);
   const activeCategorySet = new Set(activeElections.map(e => e.category || "Svenska val"));
 
-  // Behåll ordningen från manifestets categories-lista om den finns
   const manifestCategoryIds = (electionsManifest.categories || []).map(c => c.id);
   const orderedActiveIds = [
     ...manifestCategoryIds.filter(id => activeCategorySet.has(id)),
@@ -234,6 +234,14 @@ function switchView(viewId) {
   window.scrollTo(0, 0);
 }
 
+// Hjälpfunktion för att räkna hur många frågor användaren tagit ställning i (val !== 0)
+function getAnsweredQuestions() {
+  return activeQuestions.filter(q => {
+    const val = userAnswers[q.id];
+    return val !== undefined && val !== 0;
+  });
+}
+
 // Hjälpfunktion för att hämta bild & bildtext med reserv (fallback till Q1)
 function getQuestionImageData(q) {
   let imgUrl = q.imageUrl && q.imageUrl.trim() !== "" ? q.imageUrl : "";
@@ -309,6 +317,16 @@ function renderQuestion() {
 
   document.getElementById("prev-btn").disabled = currentQuestionIndex === 0;
 
+  // Visa "Avsluta & se resultat" när användaren besvarat minst 3 frågor och inte redan står på sista frågan
+  const finishEarlyBtn = document.getElementById("finish-early-btn");
+  if (finishEarlyBtn) {
+    const answeredCount = getAnsweredQuestions().length;
+    const isNotLastQuestion = currentQuestionIndex < totalQ - 1;
+    finishEarlyBtn.style.display = (answeredCount >= MIN_ANSWERS_TO_FINISH_EARLY && isNotLastQuestion)
+      ? "inline-block"
+      : "none";
+  }
+
   const progressPercent = ((currentQuestionIndex + 1) / totalQ) * 100;
   document.getElementById("progress-bar-fill").style.width = `${progressPercent}%`;
 }
@@ -331,10 +349,16 @@ function selectOptionAndAdvance(qId, val) {
 }
 
 function prevQuestion() {
+  if (autoAdvanceTimeout) clearTimeout(autoAdvanceTimeout);
   if (currentQuestionIndex > 0) {
     currentQuestionIndex--;
     renderQuestion();
   }
+}
+
+function finishQuizEarly() {
+  if (autoAdvanceTimeout) clearTimeout(autoAdvanceTimeout);
+  showImportanceView();
 }
 
 function showImportanceView() {
@@ -344,37 +368,59 @@ function showImportanceView() {
 
 function renderImportanceList() {
   const listEl = document.getElementById("importance-list");
+  const introEl = document.getElementById("importance-intro");
   listEl.innerHTML = "";
 
-  activeQuestions.forEach(q => {
+  const answeredQuestions = getAnsweredQuestions();
+  const totalQ = activeQuestions.length;
+
+  if (introEl) {
+    if (answeredQuestions.length < totalQ) {
+      introEl.innerHTML = `Du har tagit ställning i <strong>${answeredQuestions.length} av ${totalQ}</strong> frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i resultatberäkningen):`;
+    } else {
+      introEl.innerHTML = `Du har besvarat alla frågor. Välj <strong>upp till 3 frågor</strong> som var extra viktiga för dig (ger dubbel vikt i resultatberäkningen):`;
+    }
+  }
+
+  // Rensa bort eventuella hjärtefrågor som inte längre är besvarade
+  const answeredIds = new Set(answeredQuestions.map(q => q.id));
+  for (const impId of [...importantQuestions]) {
+    if (!answeredIds.has(impId)) {
+      importantQuestions.delete(impId);
+    }
+  }
+
+  if (answeredQuestions.length === 0) {
+    listEl.innerHTML = `
+      <div class="empty-category-box">
+        <p>Du har inte tagit ställning i någon fråga ännu. Gå tillbaka och besvara minst en fråga för att få ett resultat.</p>
+      </div>
+    `;
+    return;
+  }
+
+  answeredQuestions.forEach(q => {
     const item = document.createElement("div");
     item.className = "importance-item";
 
-    const userVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
-    const isNeutralOrSkipped = userVal === 0;
-
-    // Säkerställ att en överhoppad fråga inte ligger kvar som hjärtefråga
-    if (isNeutralOrSkipped && importantQuestions.has(q.id)) {
-      importantQuestions.delete(q.id);
-    }
-
+    const userVal = userAnswers[q.id];
     const isChecked = importantQuestions.has(q.id);
-    const isDisabled = isNeutralOrSkipped || (!isChecked && importantQuestions.size >= 3);
+    const isDisabled = !isChecked && importantQuestions.size >= 3;
     const userValText = valLabels[userVal] || "Inte besvarad";
 
     item.innerHTML = `
       <input type="checkbox" id="chk-${q.id}" ${isChecked ? "checked" : ""} ${isDisabled ? "disabled" : ""}>
-      <label for="chk-${q.id}" style="cursor:${isNeutralOrSkipped ? "default" : "pointer"}; width:100%; ${isNeutralOrSkipped ? "opacity: 0.75;" : ""}">
+      <label for="chk-${q.id}" style="cursor:pointer; width:100%;">
         <strong>${q.title}</strong> <span style="font-size:0.85rem; color:#6c757d;">(${q.category})</span><br>
         <span style="font-size: 0.95rem; font-weight: 500; color: #1a2530; display: block; margin: 4px 0;">"${q.statement}"</span>
-        <span class="user-answer-badge">Ditt svar: ${userValText} ${isChecked ? "• Hjärtefråga (x2)" : isNeutralOrSkipped ? "• Räknas ej i resultatet" : ""}</span>
+        <span class="user-answer-badge">Ditt svar: ${userValText} ${isChecked ? "• Hjärtefråga (x2)" : ""}</span>
       </label>
     `;
 
     const chk = item.querySelector("input");
     chk.onchange = () => {
       if (chk.checked) {
-        if (importantQuestions.size < 3 && !isNeutralOrSkipped) {
+        if (importantQuestions.size < 3) {
           importantQuestions.add(q.id);
         }
       } else {
@@ -388,12 +434,18 @@ function renderImportanceList() {
 }
 
 function backToQuiz() {
-  currentQuestionIndex = activeQuestions.length - 1;
+  // Återgå till den fråga användaren stod på (t.ex. om man avslutade i förtid)
+  if (currentQuestionIndex >= activeQuestions.length) {
+    currentQuestionIndex = activeQuestions.length - 1;
+  }
   switchView("view-quiz");
   renderQuestion();
 }
 
 function calculateResults() {
+  const answeredCount = getAnsweredQuestions().length;
+  const totalQ = activeQuestions.length;
+
   const scores = currentElectionData.parties.map(party => {
     let totalPoints = 0;
     let maxPoints = 0;
@@ -429,13 +481,15 @@ function calculateResults() {
   scores.sort((a, b) => b.rawRatio - a.rawRatio);
 
   document.getElementById("result-title").innerText = `Ditt resultat i ${currentElectionData.title}`;
-  document.getElementById("result-subtitle").innerText = `Baserat på dina svar matchar du bäst med följande partier:`;
+  document.getElementById("result-subtitle").innerText = answeredCount < totalQ
+    ? `Baserat på de ${answeredCount} av ${totalQ} frågor du besvarade matchar du bäst med följande partier:`
+    : `Baserat på dina svar matchar du bäst med följande partier:`;
 
   const listEl = document.getElementById("result-list");
   listEl.innerHTML = "";
 
   scores.forEach((s, index) => {
-    const isWinner = index === 0;
+    const isWinner = index === 0 && answeredCount > 0;
     const partyId = s.name.replace(/[^a-zA-Z0-9]/g, "");
 
     let matrixRowsHtml = "";
@@ -444,11 +498,12 @@ function calculateResults() {
       const pVal = s.partyObj.answers ? s.partyObj.answers[q.id] : undefined;
       const isImp = importantQuestions.has(q.id) && uVal !== 0;
       const isSkipped = uVal === 0;
+      const userText = userAnswers[q.id] === undefined ? "Ej besvarad" : valLabels[uVal];
 
       matrixRowsHtml += `
         <div class="matrix-row" style="${isSkipped ? "opacity: 0.6;" : ""}">
           <span>${q.title} ${isImp ? "<strong>(Viktad x2)</strong>" : isSkipped ? "<em>(Ej medräknad)</em>" : ""}</span>
-          <span>Ditt svar: <strong>${valLabels[uVal]}</strong> | Partiets svar: <strong>${valLabels[pVal] ?? "Uppgift saknas"}</strong></span>
+          <span>Ditt svar: <strong>${userText}</strong> | Partiets svar: <strong>${valLabels[pVal] ?? "Uppgift saknas"}</strong></span>
         </div>
       `;
     });
@@ -502,12 +557,13 @@ function showHistoryView() {
   activeQuestions.forEach(q => {
     const uVal = userAnswers[q.id] !== undefined ? userAnswers[q.id] : 0;
     const isImp = importantQuestions.has(q.id) && uVal !== 0;
+    const userText = userAnswers[q.id] === undefined ? "Ej besvarad" : valLabels[uVal];
 
     listEl.innerHTML += `
       <div class="history-card">
         <h3>${q.title} ${isImp ? "⭐" : ""}</h3>
         <p class="statement-text">"${q.statement}"</p>
-        <p class="user-choice-text"><strong>Ditt ställningstagande:</strong> ${valLabels[uVal]}</p>
+        <p class="user-choice-text"><strong>Ditt ställningstagande:</strong> ${userText}</p>
         <p class="outcome-text"><strong>Vad som hände i verkligheten & på sikt:</strong> ${q.outcome || "Ingen historisk uppgift registrerad."}</p>
       </div>
     `;
