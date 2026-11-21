@@ -1,0 +1,313 @@
+{
+  "id": "cn-1912",
+  "title": "Parlamentsvalet i Republiken Kina 1912–1913",
+  "year": 1912,
+  "country": "Kina",
+  "electionResults": {
+    "seatsTotal": 596,
+    "summary": "Parlamentsvalet mellan december 1912 och februari 1913 var det första – och enda – nationella flerpartivalet i Fastlandskinas historia, hållet ett år efter Xinhairevolutionen och kejsardömets fall. Den unge strategen Song Jiaorens ombildade Kuomintang vann en övertygande valseger med 269 av 596 platser i Representanthuset (och majoritet i hela nationalförsamlingen tillsammans med Senaten) framför de tre konservativa och konstitutionella partier som stod närmare president Yuan Shikai. Kort efter valet mördades Song Jiaoren i Shanghai i mars 1913, varefter Yuan Shikai upplöste parlamentet och införde diktatur.",
+    "government": {
+      "type": "Presidentstyre i öppen konflikt med parlamentsmajoriteten",
+      "primeMinister": "Zhao Bingjun (efterträdd av Duan Qirui och Xiong Xiling)",
+      "rulingParties": [
+        "President Yuan Shikais regering (stödd av Republikanska partiet, Enhetspartiet och Demokratiska partiet)"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Kuomintang (KMT)"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "kmt",
+      "name": "Kuomintang (Nationalistpartiet)",
+      "shortName": "Kuomintang (Song Jiaoren)",
+      "color": "#0038A8",
+      "seats": 269,
+      "seatChange": 269,
+      "votePercentage": 45.1,
+      "description": "Bildat i augusti 1912 av Song Jiaoren och Sun Yat-sen ur det revolutionära Tongmenghui och fyra reformgrupper. Krävde parlamentariskt styre där regeringen utses av parlamentsmajoriteten snarare än presidenten, ökat självstyre för provinserna, flytt av huvudstaden till Nanking, motstånd mot utländska kontrollvillkor samt sociala reformer och avskaffande av inhemska godstullar.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 1,
+        "Q3": -2,
+        "Q4": 2,
+        "Q5": 1,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": 1,
+        "Q9": -1,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": -2,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "ghd",
+      "name": "Republikanska partiet (Gonghedang)",
+      "shortName": "Republikanska partiet",
+      "color": "#C8102E",
+      "seats": 120,
+      "seatChange": 120,
+      "votePercentage": 20.1,
+      "description": "Konservativt-nationalistiskt parti lett av vicepresident Li Yuanhong och reformtänkaren Zhang Jian, med nära band till president Yuan Shikai. Förespråkade stark presidentmakt och centralisering av skatter och provinsarméer för att hindra att Kina föll sönder, utländska rekonstruktionslån för att stabilisera statsfinanserna samt enhetlig valuta.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -1,
+        "Q3": 2,
+        "Q4": 0,
+        "Q5": 1,
+        "Q6": 2,
+        "Q7": 1,
+        "Q8": 0,
+        "Q9": 2,
+        "Q10": 1,
+        "Q11": 1,
+        "Q12": -1,
+        "Q13": 2,
+        "Q14": 1,
+        "Q15": 2,
+        "Q16": -2
+      }
+    },
+    {
+      "id": "tyd",
+      "name": "Enhetspartiet (Tongyidang)",
+      "shortName": "Enhetspartiet",
+      "color": "#D4AF37",
+      "seats": 18,
+      "seatChange": 18,
+      "votePercentage": 3.0,
+      "description": "Konservativt ämbetsmanna- och lärdomsparti lett av Zhang Taiyan. Värnade en stark centraliserad statsapparat i Peking, motsatte sig provinsialism och hastiga sociala omvälvningar, försvarade klassisk kinesisk kultur och konfuciansk moral samt stödde Yuan Shikais ordningspolitik.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -2,
+        "Q3": 1,
+        "Q4": -1,
+        "Q5": -2,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": -1,
+        "Q9": 2,
+        "Q10": 1,
+        "Q11": 0,
+        "Q12": -1,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": 2,
+        "Q16": -2
+      }
+    },
+    {
+      "id": "mzd",
+      "name": "Demokratiska partiet (Minzhudang)",
+      "shortName": "Demokratiska partiet",
+      "color": "#2E8B57",
+      "seats": 16,
+      "seatChange": 16,
+      "votePercentage": 2.7,
+      "description": "Konstitutionellt reformparti lett av den berömde reformtänkaren Liang Qichao. Förespråkade stegvisa konstitutionella och finansiella reformer, stark centralregering i Peking, konfucianismen som moralisk grundval i konstitutionen samt balanserad modernisering utan revolutionär extremism.",
+      "answers": {
+        "Q1": -1,
+        "Q2": -1,
+        "Q3": 2,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": 1,
+        "Q7": 2,
+        "Q8": 0,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": -1,
+        "Q13": 2,
+        "Q14": 1,
+        "Q15": 2,
+        "Q16": -2
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Statsskick & Regeringsmakt",
+      "title": "Införande av parlamentariskt styre i Peking",
+      "statement": "Den provisoriska konstitutionen bör tillämpas så att premiärministern och regeringen utses av parlamentsmajoriteten och ansvarar inför parlamentet istället för att utnämnas fritt av presidenten.",
+      "context": "Under 1912 års provisoriska konstitution rådde oklarhet om huruvida Kina skulle styras av ett starkt presidentämbete under Yuan Shikai eller av en regering utsedd av det nyvalda parlamentet.",
+      "pro": "Endast en regering som utgår från parlamentsmajoriteten kan förhindra att presidentämbetet förvandlas till en ny kejserlig diktatur.",
+      "con": "I ett land som just genomgått revolution och hotas av splittring krävs en handlingskraftig president som inte lamslås av partikäbbel i parlamentet.",
+      "outcome": "Efter Kuomintangs valseger mördades arkitekten bakom parlamentarismen Song Jiaoren i mars 1913, och Yuan Shikai upplöste parlamentet senare samma år."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Rösträtt & Jämlikhet",
+      "title": "Allmän och lika rösträtt för både män och kvinnor",
+      "statement": "Vallagens krav på egendom, skattebetalning och formell skolgång bör avskaffas och rösträtt införas för alla vuxna medborgare inklusive kvinnor.",
+      "context": "I 1912 års vallag begränsades rösträtten till män över 21 år som uppfyllde krav på egendom, skatt eller utbildning, vilket fick kinesiska kvinnorättskämpar under Tang Qunying att storma det provisoriska parlamentet i Nanking.",
+      "pro": "Kvinnor och arbetare deltog i revolutionen mot kejsardömet och har samma rätt som välbärgade män att delta i republikens styre.",
+      "con": "Majoriteten av befolkningen saknar ännu läskunnighet och politisk erfarenhet; rösträtten måste utvidgas stegvis i takt med folkbildningen.",
+      "outcome": "Den begränsade manliga rösträtten behölls i valet 1912–1913, och kvinnlig rösträtt på nationell nivå infördes först flera decennier senare."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Utländska lån & Suveränitet",
+      "title": "Godkännande av \"reorganisationslånet\" från utländska banker",
+      "statement": "Regeringen bör ta upp ett stort rekonstruktionslån från det internationella bankkonsortiet och låta utländska inspektörer övervaka landets saltskatt som säkerhet för att betala statens skulder.",
+      "context": "Den nya republikens statskassa var i praktiken tom efter revolutionen, och ett konsortium av europeiska, amerikanska och japanska storbanker erbjöd ett stort lån i utbyte mot utländsk kontroll över saltmonopolet.",
+      "pro": "Utan omedelbara utländska krediter kan staten varken betala soldaternas löner, hålla igång förvaltningen eller undvika statsbankrutt.",
+      "con": "Att pantsätta saltskatten under utländsk övervakning utan parlamentets godkännande säljer ut Kinas suveränitet och ger presidenten medel att krossa oppositionen.",
+      "outcome": "I april 1913 undertecknade Yuan Shikai det 25 miljoner pund stora reorganisationslånet utan parlamentets samtycke, vilket utlöste 'Andra revolutionen' samma sommar."
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "category": "Etikett & Jämlikhet",
+      "title": "Avskaffande av underdånighetstitlarna Daren och kowtow",
+      "statement": "Regeringen bör lagstifta om att alla gamla kejserliga titlar som \"Ers Nåd\" (Daren) och knäfall (kowtow) inför ämbetsmän förbjuds och ersätts av det jämlika tilltalet \"Medborgare/Herr\" (Xiansheng).",
+      "context": "Under Qingdynastin måste undersåtar falla på knä och tilltala ämbetsmän med vördnadsfulla titlar, något som provisoriske presidenten Sun Yat-sen utfärdade dekret mot under 1912.",
+      "pro": "I en demokratisk republik är ämbetsmän folkets tjänare, inte herrar; jämlikt tilltal bryter den gamla underdånighetskulturen.",
+      "con": "Att abrupt avskaffa hävdvunna hövlighetsformer undergräver respekten för myndigheter, domstolar och offentlig ordning.",
+      "outcome": "De kejserliga titlarna och knäfallet avskaffades officiellt under republikens första år, även om konservativa seder levde kvar länge på landsbygden."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Klädkod & Modernisering",
+      "title": "Västerländsk kostym och hatt som officiell klädkod",
+      "statement": "Parlamentet bör fastställa att statstjänstemän, ledamöter och studenter vid officiella tillfällen ska bära västerländsk kostym och filthatt tillverkad av inhemskt tyg istället för den traditionella sidenrocken (changshan).",
+      "context": "När kejsardömet föll och männen klippte av sina manchuiska hårpiskor utbröt en intensiv kläd- och hattfeber i städerna, samtidigt som inhemska sidenvävare fruktade att utländska kostymtyger skulle slå ut kinesiskt hantverk.",
+      "pro": "Modern klädsel visar omvärlden att Kina är en modern nation och befriar medborgarna från tunga kejserliga ämbetsdräkter.",
+      "con": "Krav på västerländska kostymer tvingar kineser att köpa dyra importerade ylletyger och slår ut det inhemska sidenhantverket.",
+      "outcome": "Parlamentet antog en kompromiss som godkände både västerländsk kostym och traditionell kinesisk rock (changshan och magua) tillverkade av inhemskt tyg."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Kejsarhovet & Statsbudget",
+      "title": "Fortsatt utbetalning av statsanslag till Qingkejsaren Puyi",
+      "statement": "Republiken bör fullfölja abdikationsavtalet från februari 1912 och fortsätta betala ett årligt statsanslag på fyra miljoner silvertael till det avsatta kejsarhovet i Förbjudna staden.",
+      "context": "För att förmå Qinghovet att abdikera utan ett långvarigt inbördeskrig hade republiken lovat den unge ex-kejsaren Puyi fortsatt hovstat, titel och ett stort årligt apanage.",
+      "pro": "Att hålla ingångna avtal garanterar fredlig försoning mellan han-kineser och manchuer och bevarar republikens heder och stabilitet.",
+      "con": "Det är orimligt att en utfattig republik betalar miljoner i skattemedel för att hålla igång ett kejserligt hov mitt i huvudstaden.",
+      "outcome": "Kejsarhovet fick behålla sitt apanage och residens i Förbjudna staden fram till år 1924 då krigsherren Feng Yuxiang fördrev Puyi ur palatset."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Religion & Konstitution",
+      "title": "Införande av konfucianismen som statsreligion",
+      "statement": "Republikens konstitution bör fastslå konfucianismen som nationens moraliska grundval och statsreligion för att bevara samhällsordningen.",
+      "context": "När kejsardömet – som vilat på den konfucianska ritualordningen – föll, krävde konservativa tänkare och Liang Qichaos krets att konfucianismen skulle skrivas in som statsreligion i konstitutionen.",
+      "pro": "Utan konfucianismens etiska förankring riskerar Kina att hamna i moraliskt förfall, laglöshet och blind imitation av väst.",
+      "con": "En modern republik måste garantera full religionsfrihet och jämlikhet mellan konfucianer, buddhister, daoister, muslimer och kristna.",
+      "outcome": "Förslaget om konfucianismen som statsreligion föll i konstitutionsarbetet till förmån för religionsfrihet, men konfuciansk moral lyftes fram i skolan."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Hovkultur & Statsfinanser",
+      "title": "Öppnande av de kejserliga köken och försäljning av hovets porslin",
+      "statement": "Staten bör öppna de kejserliga köken i Peking och låta de avskedade hovkockarna starta offentliga restauranger och sälja det kejserliga porslinet för att täcka statens budgetunderskott.",
+      "context": "När kejsarhovet krympte 1912 förlorade hundratals av kejsarens elitkockar och tjänare sina poster i Förbjudna staden samtidigt som statskassan led av akut penningbrist.",
+      "pro": "Att låta hovets kockar och konstskatter komma allmänheten och statskassan till godo bryter hovets slöseri och ger staten välbehövliga intäkter.",
+      "con": "Kejserliga samlingar och kulturminnen utgör ett ovärderligt nationellt kulturarv som bör bevaras i ett nationalmuseum snarare än säljas ut.",
+      "outcome": "Flera av kejsarens tidigare kockar öppnade berömda restauranger i Peking och Tianjin under 1910-talet, medan palatsets samlingar senare blev Palatsmuseet."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Centralmakt & Provinser",
+      "title": "Centralisering av skatter och provinsarméer under Peking",
+      "statement": "Provinsernas militärguvernörer (dudu) bör fråntas rätten att behålla skatteintäkter och hålla egna provinsarméer, och samtliga trupper och skatter bör underställas centralregeringen.",
+      "context": "Under revolutionen 1911 hade lokala militärguvernörer tagit makten i provinserna och slutat skicka skattemedel till Peking, vilket hotade att splittra landet i regionala maktbaser.",
+      "pro": "Om centralregeringen inte kontrollerar armén och skatterna kommer Kina att slitas sönder av självsvåldiga lokala militärbefälhavare.",
+      "con": "Omedelbar centralisering i Yuan Shikais händer krossar provinsernas självstyre och ger presidenten oinskränkt militär makt.",
+      "outcome": "Yuan Shikai lyckades tillfälligt bryta provinsguvernörernas makt 1913, men efter hans död 1916 föll Kina ändå sönder i krigsherrarnas era."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Folkhälsa & Diplomati",
+      "title": "Totalförbud och militär utrotning av opiumodling",
+      "statement": "Regeringen bör införa hårda straff för opiumodling och opiumhandel samt bryta det brittisk-kinesiska avtalet som tillåter gradvis import av indiskt opium fram till 1917.",
+      "context": "Opiummissbruket hade försvagat Kina i årtionden, och efter revolutionen tog många bönder åter upp vallmoodling i provinserna samtidigt som brittiska handlare krävde fortsatt importrätt.",
+      "pro": "Republikens pånyttfödelse kräver att opiumgiftet utrotas helt och utan dröjsmål, oavsett utländska handelsintressen.",
+      "con": "Ett ensidigt brott mot avtalet med Storbritannien riskerar att stoppa det internationella erkännandet av den nya republiken.",
+      "outcome": "Republiken genomförde en hård utrotningskampanj mot inhemsk vallmoodling, vilket ledde till att den lagliga brittiska opiumimporten upphörde år 1917."
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "category": "Handel & Inre marknad",
+      "title": "Avskaffande av de inhemska godstullarna (lijin) mellan provinser",
+      "statement": "De tusentals lokala tullstationerna (lijin) som tar upp avgifter på varor som transporteras mellan olika provinser bör omedelbart avskaffas för att skapa en fri inre marknad.",
+      "context": "Sedan 1850-talet hade Kina ett finmaskigt nät av inhemska godstullar (lijin) vid floder, vägar och provinsgränser som fördyrade inhemska varor men gav viktiga intäkter till provinserna.",
+      "pro": "Inhemska tullar kväver kinesisk industri och handel och ger utländska importerade varor orättvisa fördelar på den kinesiska marknaden.",
+      "con": "Utan intäkterna från lijin-tullarna har vare sig centralregeringen eller provinserna råd att finansiera förvaltning och återuppbyggnad.",
+      "outcome": "Trots bred enighet om principen lyckades regeringen inte ersätta intäkterna under krigsherreperioden, och lijin-tullarna avskaffades först år 1931."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Utrikespolitik & Fördrag",
+      "title": "Ensidigt upphävande av de ojämlika fördragen",
+      "statement": "Republiken bör sluta erkänna de gamla kejsarfördragen som ger utländska makter egna fördragshamnar, tullkontroll och immunitet undan kinesisk lag.",
+      "context": "Stormakterna vägrade erkänna Republiken Kina diplomtiskt förrän regeringen i Peking skriftligen bekräftat att samtliga fördrag och skulder från Qingdynastin skulle respekteras.",
+      "pro": "De ojämlika fördragen påtvingades Kina med vapenmakt under kejsardömet och hör inte hemma i en suverän republik.",
+      "con": "Att ensidigt riva upp fördragen skulle omedelbart utlösa militär intervention från stormakterna och strypa alla tullintäkter och krediter.",
+      "outcome": "Regeringen bekräftade de gamla fördragen för att vinna internationellt erkännande år 1913, och kampen mot de ojämlika fördragen fortsatte till 1940-talet."
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "category": "Nationalsymboler & Enhet",
+      "title": "Bevarande av femfärgsflaggan istället för blåvita solflaggan",
+      "statement": "Parlamentet bör behålla den femfärgade flaggan (som symboliserar rikets fem folkgrupper) som republikens enda officiella flagga och avvisa Kuomintangs krav på att byta till den blå himlen med vit sol.",
+      "context": "År 1912 pågick en livlig symbolstrid mellan norr och söder om huruvida republikens flagga skulle vara femfärgsflaggan (röd, gul, blå, vit, svart) eller Sun Yat-sens blåvita solflagga.",
+      "pro": "Femfärgsflaggan symboliserar fredlig enhet mellan han-kineser, manchuer, mongoler, hui och tibetaner i en gemensam stat.",
+      "con": "Den blåvita solflaggan var revolutionens egen frihetsfana som tusentals martyrer kämpade och dog under för att störta kejsardömet.",
+      "outcome": "Parlamentet fastställde femfärgsflaggan som rikets flagga år 1912, men när Kuomintang enade landet 1928 ersattes den av den blåvita solflaggan."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Seder & Reformtvång",
+      "title": "Tvångsåtgärder mot fotbindning och manchuiska hårpiskor",
+      "statement": "Myndigheterna bör införa böter och lagförbud för att utrota den gamla seden med fotbindning av flickor och tvinga män att klippa av den manchuiska hårpiskan.",
+      "context": "Efter revolutionen 1911 beordrade den nya regeringen män att klippa av hårpiskan – som symboliserade underkastelse under manchudynastin – och utfärdade förbud mot fotbindning.",
+      "pro": "Fotbindning lemlästar kvinnor och hårpiskan är en symbol för kejserligt slaveri; staten måste ingripa beslutsamt för att befria folket.",
+      "con": "Tvång och polisingripanden mot djupt rotade kläd- och familjeseder skapar rädsla och motstånd på landsbygden.",
+      "outcome": "Hårpiskan försvann snabbt i städerna efter 1912, medan fotbindningen trängdes tillbaka gradvis under de följande decennierna."
+    },
+    {
+      "id": "Q15",
+      "quick": true,
+      "category": "Valuta & Finansväsende",
+      "title": "Enhetlig nationell silverdollar (Yuan) och centralbanksmonopol",
+      "statement": "Centralbanken bör ges ensamrätt att ge ut en enhetlig nationell silverdollar och förbjuda provinsbanker och utländska banker att cirkulera egna sedlar och kopparmynt.",
+      "context": "I 1912 års Kina cirkulerade hundratals olika lokala silvermynt, kopparmynt, provinssedlar och utländska mexikanska silverdollar med ständigt växlande växelkurser.",
+      "pro": "Utan en gemensam nationell valuta och kontroll över penningmängden kan Kina aldrig bygga upp ett modernt finans- och skattesystem.",
+      "con": "Att förbjuda lokala mynt och sedlar innan centralbanken har tillräckliga silverreserver riskerar att skapa akut penningbrist i handeln.",
+      "outcome": "År 1914 antogs den nationella myntlagen och den nya silverdollarn ('Yuan Shikai-dollarn') blev Kinas standardmynt under republiktiden."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Huvudstad & Geopolitik",
+      "title": "Flytt av republikens huvudstad från Peking till Nanking",
+      "statement": "Republikens permanenta huvudstad bör förläggas till Nanking i söder istället för att ligga kvar i den gamla kejsarstaden Peking.",
+      "context": "Sun Yat-sen och revolutionärerna hade utropat republiken i Nanking i januari 1912 och ville tvinga Yuan Shikai att lämna sin maktbas i norr, men Yuan vägrade lämna Peking.",
+      "pro": "Peking är genomsyrat av kejserlig byråkrati och militära maktstrukturer; en ny republik behöver en ny huvudstad i södra Kinas hjärta.",
+      "con": "Att överge Peking skulle försvaga Kinas kontroll över Manchuriet, Mongoliet och de norra gränsprovinserna mot Ryssland och Japan.",
+      "outcome": "Peking förblev huvudstad efter myterier bland trupperna i norr 1912, och Nanking blev huvudstad först år 1928 under Chiang Kai-shek."
+    }
+  ]
+}
