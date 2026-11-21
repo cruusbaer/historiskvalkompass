@@ -110,6 +110,26 @@
       "description": "Ett avgörande norskt val där konflikten med Sverige om egna konsulat skärptes samtidigt som kraven på utvidgad rösträtt och sociala reformer växte."
     },
     {
+      "id": "fi-1922",
+      "category": "Val i Norden",
+      "active": true,
+      "file": "election-fi-1922-se.json",
+      "title": "Riksdagsvalet i Finland 1922",
+      "year": 1922,
+      "lead": "Inbördeskrigets arv, jordreformen och språkstriden.",
+      "description": "Det unga självständiga Finlands andra riksdagsval där frågor om torparfrigörelse, försoning efter inbördeskriget och språklagens utformning stod i centrum."
+    },
+    {
+      "id": "dk-1966",
+      "category": "Val i Norden",
+      "active": true,
+      "file": "election-dk-1966-se.json",
+      "title": "Folketingsvalet i Danmark 1966",
+      "year": 1966,
+      "lead": "Det röda genombrottet, momsen och p-pillret.",
+      "description": "Ett omvälvande val under 1960-talets högkonjunktur där skattereformer, bostadspolitik och en ny tids värderingar satte den danska välfärdsstaten på prov."
+    },
+    {
       "id": "uk-1679",
       "category": "Brittiska val",
       "active": true,
@@ -128,6 +148,26 @@
       "year": 1979,
       "lead": "Missnöjets vinter och kampen om Storbritanniens ekonomi.",
       "description": "Efter månader av omfattande strejker och ekonomisk stagnation ställdes fackföreningarnas makt, skattetrycket och statens roll i industrin i centrum."
+    },
+    {
+      "id": "de-1878",
+      "category": "Europeiska val",
+      "active": true,
+      "file": "election-de-1878-se.json",
+      "title": "Tyska riksdagsvalet 1878",
+      "year": 1878,
+      "lead": "Bismarck, Socialistlagarna och 'järn och råg'.",
+      "description": "Efter två attentat mot kejsar Vilhelm I utlyste rikskansler Otto von Bismarck nyval om undantagslagar mot socialdemokratin och skyddstullar för industri och jordbruk."
+    },
+    {
+      "id": "it-1948",
+      "category": "Europeiska val",
+      "active": true,
+      "file": "election-it-1948-se.json",
+      "title": "Italienska parlamentsvalet 1948",
+      "year": 1948,
+      "lead": "Kalla krigets frontlinje, Marshallplanen och Vatikanen.",
+      "description": "Efterkrigstidens mest dramatiska val i Västeuropa där Italiens geopolitiska vägval mellan västblocket, amerikanskt återuppbyggnadsstöd och vänsterfronten avgjordes."
     },
     {
       "id": "ca-1911",
