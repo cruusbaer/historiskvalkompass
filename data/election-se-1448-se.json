@@ -1,0 +1,286 @@
+{
+  "id": "se-1448",
+  "title": "Svenska kungavalet 1448",
+  "year": 1448,
+  "country": "Sverige",
+  "electionResults": {
+    "seatsTotal": 71,
+    "summary": "När unionskungen Kristofer av Bayern avled barnlös i januari 1448 stod Sverige inför ett avgörande vägval: att bevara Kalmarunionen i samförstånd med Danmark eller välja en egen svensk kung. Vid valförsamlingen i Gråbrödraklostret i Stockholm den 20 juni 1448 röstade 71 elektorer ur riksrådet, adeln, prästerskapet, borgerskapet och lagmännen. Marsken Karl Knutsson (Bonde) vann en jordskredsseger med 62 röster mot 9 för unions- och rådsadelns linje kring riksföreståndarna Bengt och Nils Jönsson (Oxenstierna). Den 28 juni hyllades han vid Mora stenar och kröntes till kung Karl VIII Knutsson, vilket ledde till brytning med Danmark, krigståg mot Gotland och långvariga inbördesstrider om kungamakt, skatter och kyrkans privilegier.",
+    "government": {
+      "type": "Valrike under kungamakt och riksråd (Kristofers landslag)",
+      "primeMinister": "Kung Karl VIII Knutsson (Bonde)",
+      "rulingParties": [
+        "Karl Knutssons parti"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Unions- och Rådspartiet",
+        "Allmogerörelsen"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "karl-knutsson",
+      "name": "Karl Knutssons parti (Nationella kungapartiet)",
+      "shortName": "Karl Knutssons parti",
+      "color": "#9E2A2B",
+      "seats": 62,
+      "seatChange": 62,
+      "votePercentage": 87.3,
+      "description": "Grupperingen kring marsken Karl Knutsson (Bonde) som drev kravet på en egen svensk kung, brytning med det danska unionsinflytandet, en stark central kungamakt, återerövring av Gotland och kunglig räfst av frälsets och kyrkans skattefria jord.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 2,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": 1,
+        "Q11": -1,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": 1
+      }
+    },
+    {
+      "id": "unionspartiet",
+      "name": "Unions- och Rådspartiet (Oxenstierna-falangen)",
+      "shortName": "Unionspartiet",
+      "color": "#1D4E89",
+      "seats": 9,
+      "seatChange": -9,
+      "votePercentage": 12.7,
+      "description": "Högadelns och kyrkoledningens parti kring riksföreståndarna Bengt och Nils Jönsson (Oxenstierna) samt ärkebiskop Jöns Bengtsson. Förespråkade fortsatt Kalmarunion under en gemensam kung, starkt riksrådsinflytande och skydd för kyrkans och adelns skattefrihet och privilegier.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -2,
+        "Q3": 1,
+        "Q4": -2,
+        "Q5": -1,
+        "Q6": 2,
+        "Q7": -2,
+        "Q8": -2,
+        "Q9": 2,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": -2,
+        "Q13": -1,
+        "Q14": -2,
+        "Q15": -2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "allmogepartiet",
+      "name": "Allmoge- och Engelbrektsrörelsen (Bondeoppositionen)",
+      "shortName": "Allmogerörelsen",
+      "color": "#3B7A57",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 0.0,
+      "description": "Arvtagarna efter Engelbrektsupproret med starkt fäste i Dalarna, Bergslagen och häradstingen (utan egen formell elektorsgrupp i herredagens slutvotering). Krävde sänkta jordskatter, fred framför dyra fälttåg, värn av böndernas självstyre och skepsis mot både högadliga herrar och kunglig beskattning.",
+      "answers": {
+        "Q1": 1,
+        "Q2": -1,
+        "Q3": -2,
+        "Q4": 2,
+        "Q5": 1,
+        "Q6": -2,
+        "Q7": -1,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": -2,
+        "Q11": 2,
+        "Q12": -2,
+        "Q13": -2,
+        "Q14": 1,
+        "Q15": -2,
+        "Q16": -1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Union & Utrikespolitik",
+      "title": "Utträde ur Kalmarunionen och val av en egen svensk kung",
+      "statement": "Sverige bör bryta med Kalmarunionens gemensamma kungadöme och välja en egen infödd svensk kung utan att invänta förhandlingar med Danmark och Norge.",
+      "context": "Sedan 1397 hade Sverige, Danmark och Norge varit förenade i Kalmarunionen. När Kristofer av Bayern dog barnlös i januari 1448 uppstod en akut strid om Sverige skulle välja en inhemsk kung eller vänta in ett gemensamt unionsval.",
+      "pro": "En egen svensk kung styr riket från Stockholm utifrån svenska intressen i stället för att låta Sverige styras som ett skattland under danskt inflytande.",
+      "con": "Kalmarunionen skapar fred mellan de nordiska rikena och ger gemensam styrka mot tyska furstar och hansestäder; ett ensidigt val utlöser krig.",
+      "outcome": "Valförsamlingen valde Karl Knutsson till svensk kung i juni 1448, medan danskarna kort därefter valde Kristian I – vilket sprängde unionen och utlöste årtionden av krig."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Kungamakt & Riksråd",
+      "title": "Stark kungamakt framför riksrådets medbestämmande",
+      "statement": "Kungen bör ha fri rätt att själv utse fogdar och förläna kronans slott utan att tvingas inhämta riksrådets godkännande vid varje beslut.",
+      "context": "Under unionstiden hade det svenska riksrådet (dominerat av högadel och biskopar) bundit kungarna med hårda handfästningar så att slotten och länen kontrollerades av rådet.",
+      "pro": "En handlingskraftig kungamakt kan hålla ihop riket, upprätthålla lag och ordning och hindra att mäktiga adelsätter delar upp kronans slott mellan sig.",
+      "con": "Utan riksrådets medbestämmande och kontroll förvandlas kungadömet till godtyckligt envälde där kungen kan gynna sina egna släktningar och bryta mot landslagen.",
+      "outcome": "Karl Knutsson styrde med hård hand och förlänade slott till egna anhängare, vilket ledde till att Oxenstierna-partiet och ärkebiskopen reste uppror och störtade honom 1457."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Jordbruk & Vardag",
+      "title": "Tvångsodling av humle på varje bondgård",
+      "statement": "Varje skatte- och landbonde bör vid vite åläggas att anlägga och sköta en humlegård på minst 40 humlestänger för att göra riket självförsörjande på ölhumle.",
+      "context": "Öl var medeltidens viktigaste vardagsdryck, men Sverige importerade stora mängder dyr humle från Tyskland. I Kristofers landslag (1442) infördes tvång på att varje bonde skulle odla humle under hot om böter.",
+      "pro": "Inhemsk humleodling minskar importen av dyr tysk humle, stärker kronans och landets ekonomi och tryggar ölbryggningen på gårdarna.",
+      "con": "Tvångsodling med årliga inspektioner och böter från kungens fogdar är ett orättvist påbud som lägger ännu en börda på hårt pressade bönder.",
+      "outcome": "Humlegårdstvånget behölls och skärptes flera gånger under 1400- och 1500-talen (bland annat i Kalmar recess 1474 och under Gustav Vasa)."
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "category": "Skatter & Privilegier",
+      "title": "Kunglig räfst av frälsets och kyrkans skattefria jord",
+      "statement": "Kronan bör genomföra en omfattande räfst och dra in gårdar som orättmätigt överförts till adligt frälse eller kyrkan under unionstiden, så att jorden åter blir skattskyldig.",
+      "context": "Under 1300- och 1400-talen hade stora mängder skattejord övergått i adelns och kyrkans ägo och därmed blivit skattefri ('frälse'), vilket urholkade kronans skatteintäkter och ökade bördan på kvarvarande skattebönder.",
+      "pro": "När adeln och kyrkan undandrar gårdar från skatt vältras hela skattebördan över på allmogen; orättmätigt frälse måste återföras till kronan.",
+      "con": "Kyrkans donationer och adelns lagliga jordförvärv är heliga; en kunglig räfst kränker äganderätten och slår mot rikets stånd och kyrka.",
+      "outcome": "Kung Karl VIII genomförde en hård räfst 1453–1454 som drog in stora gods från både kyrkan och adeln – vilket blev en direkt orsak till att ärkebiskopen och Oxenstierna-partiet störtade honom 1457."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Handel & Hansan",
+      "title": "Hårdare tull- och handelsrestriktioner mot Hansans köpmän",
+      "statement": "De tyska hansestädernas tullfriheter och starka inflytande i svenska hamnstäder bör begränsas för att gynna inhemska svenska borgare och köpmän.",
+      "context": "Tyska köpmän från Lübeck och Hansan dominerade Sveriges utrikeshandel med järn, koppar, smör och pälsverk och åtnjöt omfattande privilegier i städer som Stockholm och Kalmar.",
+      "pro": "Svenska städer och köpmän kan aldrig växa sig starka om tyska köpmän behåller sina privilegier och skummar grädden av vår handel.",
+      "con": "Hansan står för sjöfarten, saltimporten och avsättningen för svenskt järn; att stöta sig med Lübeck leder till handelsblockad och saltbrist.",
+      "outcome": "Striden om Hansans privilegier präglade hela 1400-talet, och först under Gustav Vasa bröts Lübecks handelsdominans i Sverige."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Mode & Ståndsskillnader",
+      "title": "Förbud mot skarlakansrött, mårdskinn och guldbälten för ofrälse",
+      "statement": "Det bör råda strängt förbud för bönder och ofrälse borgare att bära dyrbara kläder av skarlakansrött tyg, mårdskinn och förgyllda smycken som är förbehållna ridderskapet.",
+      "context": "Under medeltiden utfärdades 'yppighetsstadgor' som reglerade vilka tyger och pälsverk olika samhällsstånd fick bära, för att synligt skilja riddare och högadel från borgare och bönder.",
+      "pro": "Varje stånd ska klä sig efter sin ställning i samhället; utan klädregler sprids övermod, skuldsättning och oordning i riket.",
+      "con": "Den som hederligt tjänat ihop till fina kläder i handel eller jordbruk ska inte hindras av adelns avundsjuka klädmonopol.",
+      "outcome": "Yppighets- och dräktstadgor återkom upprepade gånger i svensk lagstiftning under senmedeltiden och långt in på 1700-talet."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Kyrka & Rättssäkerhet",
+      "title": "Begränsning av kyrkoasyl och fridsmil på vigd mark",
+      "statement": "Kyrkans och klostrens uråldriga asylrätt bör begränsas så att kungens fogdar får gripa misstänkta grova brottslingar även inne på vigd mark.",
+      "context": "Enligt medeltida kyrkorätt rådde kyrkofrid ('asylrätt') i kyrkor och kloster: den som tog sin tillflykt dit fick inte gripas av världsliga fogdar utan att kyrkan vanhelgades.",
+      "pro": "Gärningsmän ska inte kunna undkomma kungens lag och rättvisa genom att gömma sig i kyrkor och kloster.",
+      "con": "Kyrkofriden är okränkbar och skyddar flyende människor från godtycklig hämnd och dödsstraff innan saken prövats i ordning.",
+      "outcome": "Kyrkoasylen förblev en viktig – men ofta omstridd – kyrklig rättighet fram till reformationen på 1500-talet, då den avskaffades."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Rättskipning & Stånd",
+      "title": "Förbud mot adelns privata gårdsrätter och rätt att straffa landbor",
+      "statement": "Adelsmän och biskopar bör förbjudas att utdöma egna straff och böter över sina arrendebönder ('landbor') vid privata gårdsrätter, så att alla döms vid allmänna häradsting.",
+      "context": "På stora adelsgods och biskopsgårdar tillämpades särskilda gårdsrätter där godsherren utövade domsrätt och disciplinmakt över sina tjänare och underlydande landbor.",
+      "pro": "Alla fria bönder i Sverige ska dömas efter landslagen av nämnd och häradshövding på häradstinget – inte av sin egen jordägare.",
+      "con": "Godsherrar och biskopar behöver ordningsmakt på sina gårdar och säterier för att upprätthålla disciplin bland tjänstefolk och landbor.",
+      "outcome": "Adelns gårdsrätter och domsrätt över underlydande förblev en långvarig tvistefråga i Sverige ända fram till 1600- och 1700-talens reformer."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Försvar & Allmoge",
+      "title": "Förbud mot bönders egna väpnade uppbåd",
+      "statement": "Efter Engelbrektsupproret och 1430-talets bondeoroligheter bör kronan strängt förbjuda bönder och bergsmän att samlas i väpnade uppbåd utan kungens och rådets befallning.",
+      "context": "Under Engelbrektsupproret (1434–1436) och Pukefejden hade bondehärar från Dalarna och landskapen rest sig, bränt fogdeborgar och utmanat både kung och råd.",
+      "pro": "Olagliga bondeuppbåd leder till inbördeskrig, plundring och laglöshet; endast kungen och riksrådet får kalla folket till vapen.",
+      "con": "Allmogens rätt att bära vapen och samlas till självförsvar är böndernas enda skydd mot grymma fogdar och olagliga skatter.",
+      "outcome": "Trots förbud i landslagen fortsatte dalabönderna och allmogen att utgöra en avgörande väpnad maktfaktor under hela senmedeltiden (bl.a. vid slaget vid Brunkeberg 1471)."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Tro & Folktro",
+      "title": "Strängare straff mot hedniska offerriter och vidskepelse",
+      "statement": "Kyrkan och häradstingen bör införa strängare straff mot folkliga offerriter, spådom och sabbatsbrott för att rensa ut gamla hedniska sedvänjor ur allmogen.",
+      "context": "Trots århundraden av kristendom levde gamla folkliga riter kvar på landsbygden, såsom offer vid heliga källor, årseldar och folklig magi vid sjukdom och skörd.",
+      "pro": "Kyrkan har ansvar för folkets själavård och måste bekämpa avgudadyrkan, trolldom och hädelse med kännbara straff.",
+      "con": "Gamla bygdeseder och folkliga traditioner skadar ingen och bör inte förföljas med hårda böter och kyrkoplikt.",
+      "outcome": "Kyrkans och världsliga domstolars kamp mot folklig magi och vidskepelse skärptes ytterligare under 1500- och 1600-talen."
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "category": "Skatter & Allmoge",
+      "title": "Sänkning av de fasta jordskatterna för skattebönder",
+      "statement": "De tunga årliga skatterna och extragärderna som lades på bönderna under Erik av Pommerns krig bör sänkas varaktigt till den lägre nivå som utlovades under Engelbrektsupproret.",
+      "context": "Ett av huvudkraven i Engelbrektsupproret var att sänka de tunga krigsskatterna, men både riksrådet och kungamakten behövde stora intäkter till slott och krigståg.",
+      "pro": "Bönderna bär redan rikets tyngsta bördor och svälter vid missväxt; kronan och herrarna måste leva på sina egna gods i stället för att pressa skattebönderna.",
+      "con": "Utan ordentliga skatteintäkter kan kungen varken försvara rikets gränser, återta Gotland eller upprätthålla lag och ordning.",
+      "outcome": "Skattetrycket förblev högt under Karl VIII Knutssons regering, vilket skapade missnöje bland allmogen och underlättade upproret mot honom 1457."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Krig & Gotland",
+      "title": "Militärt fälttåg för att återerövra Gotland från Erik av Pommern",
+      "statement": "Sverige bör omedelbart utrusta en här och flotta för att invadera Gotland, fördriva den avsatte kung Erik av Pommern från Visborgs slott och återförena ön med Sverige.",
+      "context": "Den avsatte unionskungen Erik av Pommern hade slagit sig ned på Visborgs slott på Gotland och bedrev sjöröveri i Östersjön. Både Sverige och Danmark gjorde anspråk på ön.",
+      "pro": "Gotland hör av gammalt till Sverige, och sjöröveriet i Östersjön måste krossas innan danskarna hinner lägga beslag på ön.",
+      "con": "Ett krigståg till Gotland kostar enorma summor i extraskatter och utlöser ett öppet storkrig med Danmark.",
+      "outcome": "Redan i juli 1448 sände Karl Knutsson en här till Gotland som intog hela ön utom Visborgs slott, men Erik av Pommern överlämnade i stället slottet till kung Kristian I av Danmark 1449."
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "category": "Lag & Centralmakt",
+      "title": "Kungligt högsta räfsteting som kan upphäva lokala domar",
+      "statement": "Kungen bör resa runt och hålla kungliga räfsteting som kan ompröva och upphäva domar från lokala härads- och lagmansting för att stärka en enhetlig lag i hela riket.",
+      "context": "Enligt landslagen dömde lokala häradsting och lagmansting, men kungamakten hävdade rätten att hålla kungliga räfsteting som högsta instans i landet.",
+      "pro": "Kungens räfsteting ger vanliga människor möjlighet att överklaga orättvisa domar från lokala stormän och skapar en gemensam rättsordning i hela Sverige.",
+      "con": "Kungliga räfsteting inkräktar på landskapens och häradstingens urgamla självbestämmande och används av kungen för att dra in gods och böter till kronan.",
+      "outcome": "Räfstetingen blev ett viktigt redskap för kungamakten under senmedeltiden och la grunden för en enhetlig kunglig högsta domsmakt."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Kyrka & Försvar",
+      "title": "Beskattning av kyrkans och klostrens inkomster för rikets försvar",
+      "statement": "Biskopsdömena och klostren bör åläggas att betala särskilda krigs- och försvarsskatter till kronan i stället för att åberopa kyrklig skattefrihet.",
+      "context": "Kyrkan ägde omkring en femtedel av all jord i Sverige och hävdade enligt kanonisk rätt full skattefrihet ('libertas ecclesiae') från världsliga pålagor.",
+      "pro": "Kyrkans rika biskopsdömen och kloster åtnjuter rikets skydd och måste bidra till landets försvar i tider av krig och nöd.",
+      "con": "Kyrkans egendomar och tionde tillhör Gud, fattigvården och själavården – världsliga kungar har ingen rätt att beskatta kyrkan utan påvens samtycke.",
+      "outcome": "Konflikten mellan kung Karl VIII och ärkebiskop Jöns Bengtsson om kyrkans skattefrihet och jordar ledde till öppen brytning och inbördeskrig 1457."
+    },
+    {
+      "id": "Q15",
+      "quick": true,
+      "category": "Socken & Krigsbördor",
+      "title": "Särskild klock- och kyrksilverskatt i krigstid",
+      "statement": "Kronan bör ha rätt att ta ut en särskild klock- och kyrksilverskatt av socknarna för att finansiera rikets försvar och gjuta kanoner i krigstid.",
+      "context": "Sockenkyrkornas malmklockor och kyrksilver utgjorde enorma metallvärden i ett fattigt rike, och i krigstider blickade kungamakten mot kyrkornas dyrbarheter.",
+      "pro": "När rikets frihet står på spel måste även sockenkyrkornas metall och silver kunna användas för att värna landet mot fienden.",
+      "con": "Kyrkklockorna är bekostade av bönderna själva och vigda åt Guds tjänst och socknens trygghet; att röra dem är helgerån.",
+      "outcome": "Under 1400-talet skyddades klockorna i huvudsak av kyrkans makt, men knappt ett sekel senare genomförde Gustav Vasa den berömda klockskatten som utlöste Klockupproret i Dalarna 1531."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Stadsliv & Nöjen",
+      "title": "Hårdare böter och skampåle mot tärningsspel och kortspel i ölstugor",
+      "statement": "Stadslagens förbud mot tärningsspel och kortspel om pengar i ölstugor och källare bör skärpas med hårda böter och skampåle för att bevara ordningen i städerna.",
+      "context": "I städerna växte spelandet med tärningar och de nya spelkorten i ölstugor och källare, vilket ledde till skuldsättning, slagsmål och stadslagens förbud mot dobbel.",
+      "pro": "Dobbel om pengar i ölstugorna ruinerar hantverkare och drängar, skapar bråk och leder till syndigt leverne i städerna.",
+      "con": "Att sätta folk i skampålen för ett parti tärning eller kort över en kanna öl är ett orimligt förmynderi från stadens råd och präster.",
+      "outcome": "Förbud mot dobbel och spel om pengar behölls i svensk stads- och landsrätt under hela senmedeltiden och 1500-talet."
+    }
+  ]
+}
