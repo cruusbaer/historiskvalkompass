@@ -1,0 +1,286 @@
+{
+  "id": "se-1765",
+  "title": "Svenska riksdagsvalet 1765 (Frihetstiden)",
+  "year": 1765,
+  "country": "Sverige",
+  "electionResults": {
+    "seatsTotal": 4,
+    "summary": "Inför riksdagen 1765 (som öppnade i januari 1765 och pågick till oktober 1766) utmanade de yngre Mössorna Hattpartiet efter nära tre decennier av Hattstyre, kostsamma krig och skenande inflation. I valen till ofrälse stånd – där präster valdes stiftsvis, borgare i städerna och bönder bland skatte- och kronobönder i häraderna, medan adeln satt på Riddarhuset – vann Mösspartiet majoritet i tre av riksdagens fyra stånd (Präste-, Borgar- och Bondestånden samt tidvis på Riddarhuset). Mössorna tog över makten i Riksrådet, genomförde hårda åtstramningar ('deflationspolitiken') och drev igenom 1766 års tryckfrihetsförordning, samtidigt som Hovpartiet kring kung Adolf Fredrik och drottning Lovisa Ulrika försökte flytta fram kungamaktens positioner.",
+    "government": {
+      "type": "Riksrådsregering under ständerväldet (Mössornas maktskifte)",
+      "primeMinister": "Riksrådet under ledning av bl.a. Claes Ekeblad / Ture Gustaf Rudbeck (Mössorna)",
+      "rulingParties": [
+        "Mösspartiet"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Hattpartiet",
+        "Hovpartiet"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "mossorna",
+      "name": "Mösspartiet (Yngre Mössorna)",
+      "shortName": "Mössorna",
+      "color": "#2E6B9E",
+      "seats": 3,
+      "seatChange": 2,
+      "votePercentage": 56.0,
+      "description": "Reformistiskt och sparsamhetsinriktat parti (uppskattad ståndsstyrka ~56 % i de fyra stånden) med starkt stöd bland ofrälse stånd och lågadeln. Krävde fredlig utrikespolitik, indragna manufaktursbidrag, åtstramad sedelutgivning, tryckfrihet, öppenhet och minskade adelsprivilegier.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": 2,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": -2,
+        "Q10": -2,
+        "Q11": 1,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": 2,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "hattarna",
+      "name": "Hattpartiet",
+      "shortName": "Hattarna",
+      "color": "#8B2635",
+      "seats": 1,
+      "seatChange": -2,
+      "votePercentage": 37.0,
+      "description": "Det etablerade partiet sedan 1738 med tyngdpunkt på Riddarhuset och bland Stockholms köpmän och ämbetsmän (uppskattad ståndsstyrka ~37 %). Förespråkade aktiv utrikespolitik, fransk allians, stöd till manufakturer och vetenskap, skydd för sjöfart och bevarade ståndsprivilegier.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -2,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": -2,
+        "Q6": -1,
+        "Q7": 2,
+        "Q8": -2,
+        "Q9": -1,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": -2,
+        "Q13": -2,
+        "Q14": 1,
+        "Q15": -2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "hovpartiet",
+      "name": "Hovpartiet",
+      "shortName": "Hovpartiet",
+      "color": "#C59B27",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 7.0,
+      "description": "Rojalistisk gruppering kring kung Adolf Fredrik och drottning Lovisa Ulrika (uppskattad ståndsstyrka ~7 %). Ville stärka kungamakten mot ständernas partivälde, bekämpa utländsk partikorruption och värnade hovets kultur- och sällskapsliv.",
+      "answers": {
+        "Q1": -1,
+        "Q2": -1,
+        "Q3": -1,
+        "Q4": -1,
+        "Q5": -1,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": 0,
+        "Q9": 2,
+        "Q10": 1,
+        "Q11": -1,
+        "Q12": -2,
+        "Q13": -2,
+        "Q14": 0,
+        "Q15": 0,
+        "Q16": 1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Utrikespolitik",
+      "title": "Brytning med Frankrike och samförstånd med Ryssland och Storbritannien",
+      "statement": "Sverige bör lämna sin mångåriga allians- och subsidiepolitik med Frankrike och i stället söka fredliga avtal med Storbritannien och Ryssland för att trygga handeln och freden i Östersjön.",
+      "context": "Under decennier hade Hattarna förlitat sig på franska subsidier och en aktiv östpolitik som lett till det olyckliga hattarnas ryska krig (1741–1743). Mössorna ville i stället ha fred och handel med Ryssland och Storbritannien.",
+      "pro": "En fredlig och samförståndsinriktad linje i Östersjön sparar enorma krigs- och rustningskostnader och gynnar Sveriges utrikeshandel.",
+      "con": "Att söka samförstånd med Ryssland riskerar att göra Sverige till en lydstat under tsaren och försvaga landets självständighet i stormaktsspelet.",
+      "outcome": "Mössorna drev igenom en fredligare och mer rysk- och brittiskvänlig utrikeslinje under riksdagen 1765–1766, innan Hattarna återkom med franskt stöd 1769."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Tryckfrihet & Censur",
+      "title": "Införande av tryckfrihet och avskaffande av censurämbetet",
+      "statement": "Ämbetet som statlig bokcensor ('censor librorum') bör avskaffas så att medborgare fritt får trycka politiska skrifter och granska myndigheternas beslut utan förhandscensur.",
+      "context": "Sedan 1600-talet hade all tryckning i Sverige granskats på förhand av statliga censurer. Vid riksdagen 1765–1766 drev yngre Mössor och tänkare som Anders Chydenius igenom en historisk tryckfrihetsreform.",
+      "pro": "Öppen granskning av ämbetsmän, riksdag och lagar motverkar korruption och maktmissbruk och stärker upplysning och medborgerligt ansvar.",
+      "con": "Otyglad tryckfrihet riskerar att sprida smädeskrifter, falska rykten och partipropaganda som splittrar riket och undergräver ordningen.",
+      "outcome": "I december 1766 antog ständerna tryckfrihetsförordningen – världens första grundlagsskyddade tryckfrihet med avskaffad förhandscensur (senare inskränkt under Gustav III och återupprättad 1809)."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Vardag & Lyxförbud",
+      "title": "Förbud mot kaffedrickande och kaffehus",
+      "statement": "Import och förtäring av kaffe bör förbjudas i hela riket eftersom dyra kaffebönor dränerar landets ekonomi och försvagar folkhälsan.",
+      "context": "Kaffet hade blivit en populär dryck i svenska städer och kaffehus, men Mössornas överflödsivrare ansåg att importen slösade bort ädelmetall och gjorde svenskarna 'veka'.",
+      "pro": "Varje tunna importerat kaffe drar ut dyrbara tillgångar ur riket; stränga lyxförbud tvingar fram sparsamhet och sundare vanor.",
+      "con": "Kaffehusen är uppskattade mötesplatser för samtal och nyheter, och statliga förbud mot vardagliga drycker skapar bara smuggling och missnöje.",
+      "outcome": "Under riksdagen 1766 antogs en ny överflödsförordning som införde förbud mot kaffe och choklad, vilket ledde till omfattande smuggling och upprepade ändringar."
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "category": "Ekonomi & Näringar",
+      "title": "Indragning av statsbidrag och lån till manufakturerna",
+      "statement": "De statliga premierna, räntefria lånen och privilegierna till svenska textil- och lyxmanufakturer bör dras in så att näringarna får stå på egna ben.",
+      "context": "Hattarna hade i årtionden stött svenska fabriker ('manufakturer', som Jonas Alströmers anläggningar i Alingsås) med statsmedel och lån. Mössorna menade att många fabriker var olönsamma och gynnade en liten krets.",
+      "pro": "Staten ska inte pumpa in skatte- och bankpengar i olönsamma fabriker som inte klarar sig utan konstgjord andning.",
+      "con": "Utan statligt stöd och skydd slås ung svensk industri ut av utländsk konkurrens, och tusentals arbetare blir utan jobb.",
+      "outcome": "Mössorna skar kraftigt ned på manufakturfonden och lånstödet 1765–1766, vilket drabbade flera fabriker hårt under den ekonomiska åtstramningen."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Stånd & Ämbeten",
+      "title": "Tillträde för ofrälse till rikets högsta ämbeten",
+      "statement": "Adelns företräde till höga statliga, militära och juridiska ämbeten bör brytas så att skickliga ofrälse (borgare, präster och bönder) kan befordras efter förtjänst i stället för börd.",
+      "context": "Under frihetstiden växte missnöjet bland ofrälse stånd och lågadeln över att höga statliga poster och utnämningar dominerades av en sluten högadel.",
+      "pro": "Ämbeten bör ges till de mest dugliga och erfarna medborgarna, inte enbart på grund av adlig börd och släktnamn.",
+      "con": "En erfaren och självständig ämbetsmannakår med adlig tradition ger stabilitet och skyddar rättsväsendet mot tillfälliga partimajoriteter.",
+      "outcome": "Frågan om ämbetstillsättningar och ståndsprivilegier var en av frihetstidens hetaste stridsfrågor och ledde till djupa konflikter mellan stånden, som kulminerade mot frihetstidens slut."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Natur & Rovdjur",
+      "title": "Friare jakt och skottpengar mot varg och björn",
+      "statement": "Bönder och jordbrukare bör ges friare rätt att jaga på sin egen mark och få statliga skottpengar för fällda rovdjur som varg och björn, utan inskränkande adliga jaktprivilegier.",
+      "context": "Rovdjur som varg och björn orsakade stora skador på boskapen i skogs- och jordbruksbygder, samtidigt som jakträtten var hårt reglerad och delvis knuten till ståndsprivilegier.",
+      "pro": "Bönderna måste få skydda sin boskap och sin skörd effektivt och få skälig ersättning när de bekämpar farliga rovdjur.",
+      "con": "Oreglerad jakt hotar viltbestånden och inkräktar på etablerade ägande- och jakträtter i skogarna.",
+      "outcome": "Skottpennings- och rovdjursjaktsreglerna justerades upprepade gånger under 1700-talet i takt med skadorna på boskapen och striderna om jakt- och skogsrättigheter."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Hälsa & Vetenskap",
+      "title": "Statligt främjande av koppympning mot smittkoppor",
+      "statement": "Staten och läkarkåren bör aktivt uppmuntra och stödja koppympning (tidig skyddsympning) mot smittkoppor i socknarna för att minska dödligheten i farsoten.",
+      "context": "Smittkoppor skördade många liv, särskilt bland barn. Forskare och läkare kring Hattarnas upplysnings- och vetenskapssträvanden propagerade för koppympning, medan många på landsbygden var skeptiska och fruktade smittspridning.",
+      "pro": "Koppympning är ett vetenskapligt framsteg som kan rädda liv och hejda förödande smittkoppsutbrott.",
+      "con": "Att ympa in smittämne kan utlösa sjukdom och sprida smitta vidare om det inte sker under full kontroll, och allmogen måste få avgöra själv.",
+      "outcome": "Koppympningen spreds gradvis under 1700-talets senare hälft innan Edward Jenners kokoppsvaccination i början av 1800-talet blev den stora vändpunkten."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Sjöfart & Handel",
+      "title": "Avskaffande av produktplakatet och friare utrikes sjöfart",
+      "statement": "Produktplakatet – som förbjuder utländska fartyg att föra in varor från andra länder än sitt eget till Sverige – bör mjukas upp för att sänka fraktkostnaderna och öka handeln.",
+      "context": "Produktplakatet från 1724 var en hörnsten i Hattarnas merkantilistiska sjöfartspolitik. Mössorna ville i stället ha billigare frakter och friare handel.",
+      "pro": "Friare sjöfart sänker fraktpriserna på viktiga varor och gör handeln smidigare för svenska köpmän, bruk och konsumenter.",
+      "con": "Utan produktplakatet utkonkurreras svenska fartyg och redare av utländska handelsflottor, vilket försvagar Sveriges sjöfart och sjöförsvar.",
+      "outcome": "Produktplakatet behölls i sina huvuddrag under resten av 1700-talet och avvecklades först under 1800-talets frihandelsreformer."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Statsskick & Kungamakt",
+      "title": "Ökad personlig makt åt kungen över ämbeten och beslut",
+      "statement": "Grundlagen bör ändras så att kungen återfår personlig beslutanderätt över utnämningar av höga ämbetsmän och kan stoppa riksdagsbeslut som bedöms skada riket.",
+      "context": "Under frihetstiden hade kungamakten blivit starkt kringskuren av ständerna och Riksrådet. Hovpartiet kring kung Adolf Fredrik och drottning Lovisa Ulrika verkade för att stärka kungens ställning.",
+      "pro": "En starkare kungamakt kan bryta partiernas maktkamp, motverka utländska mutpengar och ge riket en fastare och mer opartisk ledning.",
+      "con": "Ökad kungamakt riskerar att återinföra envälde och förtrampa den frihet som ständerna vann efter 1718.",
+      "outcome": "Ständerna avvisade hovets krav 1765–1766; en verklig maktförskjutning till kungens favör skedde först vid Gustav III:s statsvälvning 1772."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Utrikespolitik & Försvar",
+      "title": "Aktiv revanschpolitik för att återta förlorade områden",
+      "statement": "Sverige bör hålla en aktiv utrikes- och försvarslinje i allians med starka makter för att på sikt kunna återvinna förlorade områden i öster.",
+      "context": "Efter förlusterna i Stora nordiska kriget och freden i Åbo 1743 levde revanschtanken kvar bland Hattarna, medan Mössorna ville ha en återhållsam fredspolitik.",
+      "pro": "Utan handlingskraft och allianser riskerar Sverige att permanent förbli försvagat och utlämnat åt grannmakternas godtycke.",
+      "con": "Revanschkrig leder bara till nya nederlag, ruin för statsfinanserna och lidande för befolkningen.",
+      "outcome": "Mössornas fredslinje präglade 1765–1766 års riksdag, även om revanschdrömmar återkom senare under 1700-talet (bl.a. Gustav III:s ryska krig 1788–1790)."
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "category": "Arbetsmarknad & Frihet",
+      "title": "Avskaffande av tjänstehjonsstadgan",
+      "statement": "Tvånget för egendomslösa att ta årstjänst som dräng eller piga – under hot om att annars gripas som lösdrivare – bör mjukas upp till förmån för friare arbetsmarknad.",
+      "context": "Tjänstehjonsstadgan tvingade ogifta och egendomslösa att ta anställning helårsvis hos husbönder. Reformförespråkare som Anders Chydenius kritiserade tvånget och ville ge arbetare större frihet.",
+      "pro": "Varje människa bör ha frihet att välja sitt arbete och sin försörjning utan att behandlas som en fånge under stränga tvångslagar.",
+      "con": "Utan tjänstehjonsstadgan riskerar gårdar och verkstäder att stå utan arbetskraft vid skörd och högsäsong, och lösdriveriet ökar.",
+      "outcome": "Tjänstehjonsstadgan blev kvar i huvudsak under resten av frihetstiden och avskaffades först under 1800-talets mitt i takt med näringsfrihetens genombrott."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Mode & Konsumtion",
+      "title": "Förbud mot sidenkläder, spetsar och överdådiga dräkter",
+      "statement": "Staten bör förbjuda importerade sidenkläder, spetsar och dyrbara lyxdräkter för att stoppa överdåd och bevara skillnaden mellan stånden.",
+      "context": "Genom överflödsförordningarna försökte myndigheterna stävja lyx och mode i städerna – ibland så långt att tullmän ingrep mot plagg och utsmyckningar som ansågs för påkostade.",
+      "pro": "Att begränsa lyx och prålande mode minskar skuldsättning, sparar kapital åt riket och motverkar skadlig avund mellan samhällsgrupper.",
+      "con": "Detaljreglering av kläder och mode är ett överdrivet förmynderi som drabbar både handel, hantverk och personlig frihet.",
+      "outcome": "Överflödsförordningarna skärptes tidvis under frihetstiden och återkom även under Gustav III (bl.a. med den berömda nationella dräkten 1778)."
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "category": "Dryckeskultur & Handel",
+      "title": "Förbud mot utländskt vin och punsch på värdshus",
+      "statement": "Servering och import av utländska viner, punsch och likörer bör förbjudas på rikets värdshus och krogar så att svenskarna i stället håller sig till inhemskt öl och dricka.",
+      "context": "Som en del av kampen mot lyximport och för att rädda handelsbalansen debatterades hårda restriktioner mot importerade drycker på krogar och värdshus.",
+      "pro": "Att stoppa dyr dryckesimport sparar utländska betalningsmedel och stärker inhemsk bryggning och hemmagjorda drycker.",
+      "con": "Förbud på krogar och värdshus drabbar gästfrihet, handel och stadsliv och driver bara fram olaglig införsel.",
+      "outcome": "Import- och konsumtionsrestriktioner på utländska lyxvaror och drycker växlade mellan skärpningar och lättnader under hela 1700-talet."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Jordbruk & Mark",
+      "title": "Begränsning av hemmansklyvning (för små jordlotter)",
+      "statement": "Reglerna mot att dela upp bondgårdar i för små jordlotter ('hemmansklyvning') bör upprätthållas så att gårdarna förblir bärkraftiga och skattekraftiga.",
+      "context": "Befolkningen växte och många ville dela gårdar mellan syskon, medan myndigheter och jordägare fruktade att alltför små lotter inte kunde försörja en familj eller betala skatt.",
+      "pro": "För små jordlotter leder till fattigdom och nödår när skörden slår fel; gårdarna måste vara tillräckligt stora för att bära sig.",
+      "con": "Begränsningar av hemmansklyvningen hindrar unga familjer från att få egen jord och tvingar många ut i egendomslöshet.",
+      "outcome": "Frågan om hemmansklyvning prövades och omprövades genom flera kungliga förordningar under 1700- och 1800-talen."
+    },
+    {
+      "id": "Q15",
+      "quick": true,
+      "category": "Öppenhet & Bankväsen",
+      "title": "Offentlig insyn i utskott och bankens räkenskaper",
+      "statement": "Sekretessen kring riksdagsutskottens beslut och Riksens ständers banks utlåning bör hävas så att allmänheten och riksdagsmännen kan granska hur medlen använts.",
+      "context": "Under Hattarnas långa maktinnehav hade hemlighetsmakeriet kring Sekreta utskottet och bankens lån väckt stark kritik hos Mössorna, som krävde insyn och räfst.",
+      "pro": "Öppenhet och granskning förhindrar svågerpolitik, oegentligheter och dolda lån på det allmännas bekostnad.",
+      "con": "Full öppenhet i känsliga utskottsärenden kan skada rikets säkerhet, kreditvärdighet och förtroendet för banken.",
+      "outcome": "Mössorna genomförde vid riksdagen 1765–1766 omfattande granskningar av banken och statsförvaltningen och stärkte offentlighetsprincipen genom tryckfrihetsförordningen."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Jordbruk & Odling",
+      "title": "Statliga premier för att lära bönder odla potatis",
+      "statement": "Staten bör dela ut utsäde och belöna bönder som odlar potatis ('jordpäron') på sina åkrar för att minska risken för svält vid missväxt på spannmål.",
+      "context": "Potatisen introducerades i Sverige under 1700-talet av bl.a. Jonas Alströmer och Eva Ekeblad, men många bönder var avvaktande innan potatisen blev en självklar basgröda.",
+      "pro": "Potatisen ger hög avkastning per yta och kan rädda bygder från svält när spannmålsskördarna slår fel.",
+      "con": "Statliga premier och påbud bör inte styra jordbruket i onödan när bönderna själva bäst känner sin jord och sitt klimat.",
+      "outcome": "Potatisodlingen växte gradvis under senare delen av 1700-talet och blev under 1800-talet en av Sveriges viktigaste basgrödor."
+    }
+  ]
+}
