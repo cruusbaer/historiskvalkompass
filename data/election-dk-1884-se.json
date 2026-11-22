@@ -1,0 +1,286 @@
+{
+  "id": "dk-1884",
+  "title": "Danska folketingsvalet 1884",
+  "year": 1884,
+  "country": "Danmark",
+  "electionResults": {
+    "seatsTotal": 102,
+    "summary": "Folketingsvalet den 25 juni 1884 blev en stor framgång för oppositionen i den bittra danska författningskampen. Bonde- och liberalpartiet Venstre befäste sin överväldigande majoritet med 81 av 102 mandat och vann för första gången mandat i huvudstaden Köpenhamn, där även Socialdemokratiet tog sina två allra första platser i Folketinget. Trots det massiva nederlaget vägrade den konservative regeringschefen J.B.S. Estrup (Høyre) att avgå med stöd av kung Kristian IX och överhuset Landstinget. Konflikten låste sig totalt och ledde 1885 in i den nio år långa provisorietiden, då regeringen styrde genom provisoriska finanslagar och en särskild gendarmerikår utan Folketingets samtycke.",
+    "government": {
+      "type": "Konservativ minoritetsregering (stödd av kungen och Landstinget)",
+      "primeMinister": "J.B.S. Estrup (Regeringen Estrup)",
+      "rulingParties": [
+        "Høyre"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Venstre",
+        "Socialdemokratiet"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "venstre",
+      "name": "Venstre (Oppositionen)",
+      "shortName": "Venstre",
+      "color": "#006699",
+      "seats": 81,
+      "seatChange": 6,
+      "votePercentage": 56.3,
+      "description": "En bred liberal bonde- och folkrörelsekoalition – spänd mellan moderata grundtvigianer och urbana kulturradikaler – som drev kravet på folketingsparlamentarism, sparsamhet, frihandel, bondefrigörelse och motstånd mot Köpenhamns befästning.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": 1,
+        "Q4": 2,
+        "Q5": -2,
+        "Q6": 1,
+        "Q7": 2,
+        "Q8": -1,
+        "Q9": 1,
+        "Q10": 2,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": 2,
+        "Q14": -2,
+        "Q15": 1,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "hoyre",
+      "name": "Høyre",
+      "shortName": "Høyre",
+      "color": "#1B365D",
+      "seats": 19,
+      "seatChange": -8,
+      "votePercentage": 38.9,
+      "description": "Det konservativa ämbetsmanna-, godsägar- och borgarpartiet under J.B.S. Estrup. Försvarade kungens fria rätt att utse regering, Landstingets likställdhet med Folketinget, starkt försvar kring Köpenhamn och skyddstullar.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": -2,
+        "Q11": -2,
+        "Q12": -1,
+        "Q13": 1,
+        "Q14": 2,
+        "Q15": -2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "socialdemokratiet",
+      "name": "Socialdemokratiet (Socialdemokratisk Forbund)",
+      "shortName": "Socialdemokratiet",
+      "color": "#D9232E",
+      "seats": 2,
+      "seatChange": 2,
+      "votePercentage": 4.8,
+      "description": "Det unga socialistiska arbetarpartiet som 1884 vann sina två första mandat i Köpenhamn. Krävde allmän rösträtt för kvinnor, tjänstefolk och fattiga, 8-timmars arbetsdag, värdig ålderspension och avskaffade konsumtionsskatter.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": -1,
+        "Q6": 2,
+        "Q7": 2,
+        "Q8": -1,
+        "Q9": 2,
+        "Q10": 0,
+        "Q11": 2,
+        "Q12": -1,
+        "Q13": -1,
+        "Q14": -2,
+        "Q15": 2,
+        "Q16": -2
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Författning & Maktfördelning",
+      "title": "Folketingsparlamentarism",
+      "statement": "En regering måste ha det folkvalda Folketingets förtroende och tvingas avgå om den får en majoritet i Folketinget emot sig, oavsett vad kungen och överhuset anser.",
+      "context": "Sedan 1875 styrde den konservative godsägaren J.B.S. Estrup med stöd av kung Kristian IX och det privilegierade överhuset (Landstinget), trots att Venstre hade överväldigande majoritet i Folketinget. Denna maktkamp lamslog lagstiftningsarbetet.",
+      "pro": "Folketinget väljs av det danska folket och måste vara den avgörande statsmakten; en regering som saknar folkets stöd saknar demokratisk legitimitet.",
+      "con": "Enligt 1866 års grundlag har kungen fri rätt att välja sina ministrar och Landstinget är helt likställt med Folketinget – parlamentarism skulle leda till enkammarvälde.",
+      "outcome": "Estrup vägrade avgå efter valet 1884 och styrde vidare med provisoriska lagar till 1894. Folketingsparlamentarismen slog igenom först vid systemskiftet 1901 och skrevs in i grundlagen 1953."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Försvar & Säkerhet",
+      "title": "Utbyggnad av Köpenhamns landbefästning",
+      "statement": "Staten bör satsa stora summor på att bygga ut en ring av befästningar och fort runt Köpenhamn på landsidan för att kunna försvara huvudstaden mot ett stormaktsanfall.",
+      "context": "Efter nederlaget mot Preussen 1864 ville regeringen Estrup säkra huvudstaden genom en modern landbefästning runt Köpenhamn. Oppositionen vägrade bevilja pengar och såg projektet som en meningslös rustningsprovokation.",
+      "pro": "Om ett krig bryter ut kan Köpenhamn med starka landfästningar hålla ut tills stormakter kommer till Danmarks undsättning, vilket avskräcker från anfall.",
+      "con": "Mot en stormakt som Tyskland kan Köpenhamn ändå inte försvaras; befästningarna slukar enorma skattemedel som tas från landsbygden och drar in landet i krig.",
+      "outcome": "När Folketinget fortsatte att säga nej lät Estrup bygga Köpenhamns landbefästning mellan 1886 och 1894 med hjälp av provisoriska finanslagar och frivilliga insamlingar. Anläggningen avvecklades 1920."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Moral & Rättssäkerhet",
+      "title": "Avskaffa polisbesiktning av prostituerade",
+      "statement": "Den statliga reglementeringen och polisens tvångsbesiktning av prostituerade kvinnor i Köpenhamn bör avskaffas helt, eftersom systemet stämplar kvinnor och kränker rättssäkerheten.",
+      "context": "Under 1880-talet rasade 'Sædelighedsfejden' i Danmark. Enligt lag var prostituerade i Köpenhamn registrerade hos polisen och tvingades till regelbundna medicinska tvångsundersökningar på bordeller, medan deras manliga kunder gick helt fria.",
+      "pro": "Reglementeringen är ett djupt dubbelmoraliskt klassförtryck som berövar fattiga kvinnor deras medborgerliga frihet och rättsliga skydd.",
+      "con": "Polisövervakning och regelbunden läkarkontroll är en nödvändig hygienisk åtgärd för att hejda spridningen av farliga könssjukdomar i huvudstaden.",
+      "outcome": "Kritiken från kvinnosaksrörelsen, kulturradikalerna och arbetarrörelsen växte under decennierna efter 1884, och systemet med offentlig reglementering och polisbordeller avskaffades i Danmark år 1906."
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "category": "Jordbruk & Äganderätt",
+      "title": "Tvångsavveckling av återstående feodala fästegods",
+      "statement": "Staten bör lagstifta om tvångsavveckling av de sista feodala fästegodsen så att arrendebönderna får laglig rätt att friköpa sina gårdar till fastställt pris.",
+      "context": "Trots 1800-talets jordreformer brukades tusentals danska gårdar fortfarande som ärftligt eller livstidsarrende ('fæstegods') under stora adelsgods, vilket gav godsägarna både ekonomisk och politisk makt över bönderna.",
+      "pro": "Självägande bönder sköter jorden bättre och blir fria medborgare; resterna av det feodala beroendet under godsägarna måste bort.",
+      "con": "Tvångsfriköp är ett grovt ingrepp i den privata äganderätten och avtalsfriheten som urholkar rättssäkerheten i samhället.",
+      "outcome": "Godsägarmajoriteten i Landstinget blockerade reformer under hela provisorietiden. Först genom jordlagarna 1919 ('lensafløsningen') avvecklades de sista feodala godsen och fideikommissen."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Ekonomi & Handel",
+      "title": "Skyddstullar för dansk industri och hantverk",
+      "statement": "Danska industriföretag och stadshantverkare bör skyddas mot utländsk konkurrens genom höjda skyddstullar på importerade industrivaror.",
+      "context": "Under 1880-talets internationella prisfall krävde fabriksägare och hantverkare i städerna tullskydd, medan Danmarks exporterande bönder fruktade dyra redskap och motåtgärder från handelspartners som Storbritannien.",
+      "pro": "Utan tullskydd slås danska verkstäder och fabriker ut av billig import från Tyskland och England, vilket skapar massarbetslöshet i städerna.",
+      "con": "Skyddstullar fungerar som en dold skatt som fördyrar jordbruksredskap, kläder och byggmaterial för bönder och arbetare och hotar den danska frihandeln.",
+      "outcome": "Venstres motstånd stoppade alla höjda industritullar i Folketinget, och när tullagen slutligen reformerades 1908 gick Danmark tvärtom i frihandelsvänlig riktning."
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "category": "Socialpolitik",
+      "title": "Statlig ålderdomsförsörjning skild från fattigvården",
+      "statement": "Äldre och utslitna medborgare bör få rätt till en statlig ålderspension utan att tvingas in under den förödmjukande fattigvården som berövar dem rösträtt och medborgerliga rättigheter.",
+      "context": "Den som tvingades ta emot fattighjälp på ålderdomen förlorade automatiskt sin rösträtt, rätten att gifta sig utan tillstånd och utsattes för sträng kontroll på fattighus.",
+      "pro": "Den som arbetat ett helt liv för samhället förtjänar en värdig trygghet på ålderdomen utan att stämplas som andra klassens medborgare.",
+      "con": "En skattefinansierad statlig pension skulle belasta statskassan oerhört och minska människors vilja att själva spara i frivilliga sjukkassor och pensionskassor.",
+      "outcome": "År 1891 antog Danmark – som ett av de första länderna i världen – en lag om skattefinansierat ålderdomsunderstöd för behövande över 60 år utan fattigvårdens rättsförluster."
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "category": "Författning & Maktfördelning",
+      "title": "Förbud mot provisoriska finanslagar",
+      "statement": "Grundlagens paragraf om provisoriska lagar bör skärpas så att regeringen aldrig kan driva in skatter och besluta om statsutgifter utan Folketingets uttryckliga godkännande.",
+      "context": "När Folketinget vägrade godkänna regeringens budgetförslag hänvisade Estrup till grundlagens § 25, som gav kungen rätt att utfärda provisoriska lagar i 'särdeles trängande fall' när riksdagen inte var samlad.",
+      "pro": "Folketingsparlamentarismens och hela grundlagens kärna är skattebevillningsrätten – utan den förvandlas Danmark till ett envälde i förklädnad.",
+      "con": "Om Folketinget saboterar statsbudgeten genom ren obstruktion måste regeringen ha en nödventil i grundlagen så att statens förvaltning och försvar inte kollapsar.",
+      "outcome": "Mellan 1885 och 1894 utfärdade Estrup nio provisoriska finanslagar i rad. Först genom förlikningen 1894 avslutades provisorietiden, och i 1915 års grundlag förbjöds provisoriska finanslagar uttryckligen."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Hälsa & Vardagsliv",
+      "title": "Skärpt förbud mot kvacksalveri och folkmedicin",
+      "statement": "Lagstiftningen mot så kallat kvacksalveri bör skärpas så att endast statligt examinerade läkare får behandla sjuka och ordinera medicin.",
+      "context": "Trots läkarvetenskapens framsteg var läkare dyra och sällsynta på landsbygden, där många i stället vände sig till 'kloka gummor', benbrottsläkare och naturläkare – något som läkarkåren och myndigheterna bekämpade med 1794 års kvacksalverilag.",
+      "pro": "Oskolade helbrägdagörare utsätter sjuka människor för livsfara med verkningslösa eller giftiga kurer och fördröjer riktig medicinsk vård.",
+      "con": "Landsbygdens befolkning måste ha frihet att välja beprövad folkmedicin så länge examinerade läkare och apotek är för få och för dyra för vanligt folk.",
+      "outcome": "Striden om kvacksalverilagen fortsatte i årtionden; först med 1934 års läkarlag lättades de strängaste straffen för lekmannabehandling så länge patienten inte utsattes för uppenbar hälsofara."
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "category": "Demokrati & Rösträtt",
+      "title": "Allmän och lika rösträtt för kvinnor, tjänstefolk och fattiga",
+      "statement": "Rösträttsbegränsningarna i 1866 års grundlag bör avskaffas så att även kvinnor, ogifta tjänstehjon, arbetare utan eget hushåll och personer som fått fattighjälp ges rösträtt.",
+      "context": "Enligt grundlagen fick endast män över 30 år med eget hushåll rösta till Folketinget. Ogifta drängar, pigor, fabriksarbetare i inneboende, fattighjon och samtliga kvinnor var utestängda från valurnorna.",
+      "pro": "Alla vuxna medborgare bidrar till samhället genom sitt arbete och bör ha samma demokratiska rätt att påverka de lagar de lyder under.",
+      "con": "Rösträtten kräver ekonomisk självständighet och eget hushåll; den som står i husbondes tjänst eller saknar egen försörjning kan lätt styras av andra.",
+      "outcome": "Kvinnor och tjänstefolk fick kommunal rösträtt 1908 och full rösträtt till Folketinget och Landstinget genom grundlagsreformen 1915."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Försvar & Folkrörelser",
+      "title": "Frivilliga skytteföreningar i stället för stående yrkesarmé",
+      "statement": "Utgifterna till den stående yrkesarmén bör skäras ned och ersättas av ett folkligt milissystem byggt på landsbygdens frivilliga skytteföreningar.",
+      "context": "Runt om i Danmark växte tusentals folkliga skytteföreningar fram under Venstres beskydd. Regeringen fruktade att skytteföreningarna skulle utvecklas till en beväpnad bondearmé mot staten under författningskampen.",
+      "pro": "Ett folk i vapen som övar skytte i sin hembygd skapar starkare försvarsvilja till en bråkdel av kostnaden för dyrbara kaserner och yrkesofficerare.",
+      "con": "Odisciplinerade civila skytteklubbar kan aldrig ersätta en professionell armé och utgör dessutom en allvarlig risk för den inre ordningen i tider av politisk oro.",
+      "outcome": "Under provisorietiden 1885 förbjöd regeringen Estrup import och innehav av räfflade gevär för civila skytteföreningar, och någon milisarmé ersatte aldrig det ordinarie försvaret."
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "category": "Arbetsmarknad",
+      "title": "Lagstadgad 8-timmars arbetsdag i industrin",
+      "statement": "Staten bör lagstifta om en maximal normalarbetsdag på 8 timmar för arbetare inom industri och hantverk.",
+      "context": "I Köpenhamns och provinsstädernas växande fabriker var arbetsdagar på 10–12 timmar vanliga. Den framväxande fackföreningsrörelsen och Socialdemokratiet krävde lagstiftning om 8 timmars arbete, 8 timmars frihet och 8 timmars vila.",
+      "pro": "Långa arbetsdagar sliter ut arbetarna i förtid och omöjliggör familjeliv och bildning; 8-timmarsdagen är en grundläggande social rättvisa.",
+      "con": "En lagstadgad 8-timmarsdag skulle göra dansk produktion olönsam i konkurrensen med utlandet, och i jordbruket är en fast timgräns helt omöjlig.",
+      "outcome": "Frågan avvisades 1884 av både Høyre och Venstre. Åttatimmarsdagen infördes i Danmark först 1919 genom en uppgörelse på arbetsmarknaden efter storstrejker och revolutionär oro i Europa."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Försvar & Sjöfart",
+      "title": "Satsning på flottan i stället för landarmén",
+      "statement": "Danmarks försvarsanslag bör koncentreras till en modern örlogsflotta och kustförsvar som skyddar öarna och sjöfarten, snarare än utbyggnad av landarmén och fästningar.",
+      "context": "Som örike med tusentals kilometer kustlinje debatterades det intensivt om Danmark bäst försvarades till sjöss eller till lands – en fråga som också öppnade för kompromissförsök mellan moderata i Venstre och regeringen.",
+      "pro": "Som sjöfartsnation och örike är flottan Danmarks naturliga värn som kan hindra en fiende från att landstiga på Själland och öarna.",
+      "con": "Enbart en flotta räcker inte om en stormakt rycker fram landvägen upp genom Jylland; utan ett starkt landförsvar faller landet ändå.",
+      "outcome": "Striden mellan land- och sjöförsvar präglade dansk försvarspolitik ända fram till försvarsuppgörelsen 1909, då man kompromissade mellan kustbefästningar och en moderniserad flotta."
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "category": "Näringsliv & Infrastruktur",
+      "title": "Statsstöd till exportinfrastruktur och andelsmejerier",
+      "statement": "Staten bör prioritera investeringar i exporthamnar, järnvägsfrakt och mejeriforskning för att underlätta böndernas omställning från spannmål till export av smör och fläsk.",
+      "context": "Billigt spannmål från Amerika och Ryssland pressade priserna i Europa. Danska bönder svarade med att starta andelsmejerier (det första i Hjedding 1882) och ställa om till animalieexport till Storbritannien.",
+      "pro": "Jordbruksexporten är Danmarks ekonomiska ryggrad; goda hamnar och fraktvägar ger hela landet ökade exportintäkter och välstånd.",
+      "con": "Staten subventionerar exportböndernas affärer samtidigt som stadens arbetare får betala högre matpriser och skatter utan motsvarande stöd.",
+      "outcome": "Utbyggnaden av bland annat Esbjergs hamn och statligt stöd till mejerikonsulenter blev en enorm framgång och gjorde danskt smör och bacon till världsledande exportvaror."
+    },
+    {
+      "id": "Q14",
+      "quick": true,
+      "category": "Kultur & Yttrandefrihet",
+      "title": "Indraget diktararvode för moralkritisk litteratur",
+      "statement": "Staten bör sluta betala ut årliga diktararvoden och kulturstöd till författare och tänkare som i sina verk angriper kristendomen, monarkin och den offentliga moralen.",
+      "context": "Under 'Det moderna genombrottet' utmanade författare som Georg Brandes, J.P. Jacobsen och Holger Drachmann kyrkan och äktenskapsmoralen. Konservativa kretsar krävde att staten skulle dra in stödet till samhällskritiska författare.",
+      "pro": "Skattebetalarnas pengar ska inte användas för att finansiera böcker och föreläsningar som undergräver religionen, familjen och samhällsordningen.",
+      "con": "Konsten och litteraturen måste vara fri från politisk och kyrklig censur; statligt kulturstöd ska ges efter konstnärlig kvalitet, inte lydnad mot överheten.",
+      "outcome": "Høyre och Landstinget blockerade flera gånger diktararvoden till radikala författare (bland annat Georg Brandes och Henrik Pontoppidan), men kulturradikalismen fortsatte att prägla danskt kulturliv."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Valsystem & Demokrati",
+      "title": "Hemlig omröstning i stället för öppna kåringsval",
+      "statement": "Den nuvarande öppna röstningen vid valmöten bör avskaffas och ersättas av skriftliga, hemliga valsedlar.",
+      "context": "Vid folketingsvalen 1884 samlades väljarna utomhus på valplatsen ('kåringsvalg'), där varje väljare fick stiga fram inför alla och högt säga vilken kandidat han röstade på inför godsägare, arbetsgivare och grannar.",
+      "pro": "Öppna val gör det omöjligt för arbetare, drängar och arrendatorer att rösta fritt utan rädsla för att bli avskedade eller vräkta av sin husbonde.",
+      "con": "En fri och hederlig medborgare ska våga stå öppet för sin politiska övertygelse inför sina medmänniskor i stället för att smyga med sin röst.",
+      "outcome": "Hemlig omröstning med slutna valsedlar i valbås infördes i Danmark år 1901 – samma år som parlamentarismen segrade."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Ordningsmakt & Fattigvård",
+      "title": "Tvångsarbetsanstalter och skärpt lösdriverilag",
+      "statement": "Polisen bör ges utökade befogenheter att gripa arbetssökande utan fast bostad och spärra in dem på tvångsarbetsanstalter för att få bort tiggeri och lösdriveri från landsvägarna.",
+      "context": "Jordbrukskrisen under 1880-talet drev tusentals arbetslösa lantarbetare och gesäller ut på vägarna i jakt på arbete. Godsägare och myndigheter krävde strängare ingripanden mot vad de kallade 'arbetsovilliga lösdrivare'.",
+      "pro": "Landsbygdens invånare måste skyddas mot kringstrykande tiggare och ordningsstörningar, och arbetsföra personer ska tvingas göra rätt för sig.",
+      "con": "Att spärra in människor bara för att de är fattiga och saknar fast bostad under en ekonomisk kris är att straffa offren för arbetslösheten.",
+      "outcome": "Stränga regler mot lösdriveri och intagning på tvångsarbetsanstalter behölls i dansk fattig- och strafflagstiftning långt in på 1900-talet, och avskaffades fullt ut först 1961."
+    }
+  ]
+}
