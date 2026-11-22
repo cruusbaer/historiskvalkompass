@@ -238,6 +238,16 @@
       "year": 1949,
       "lead": "Nato-strid, valutakris och ransoneringar i den unga republiken.",
       "description": "Ett laddat val bara ett halvår efter att Islands inträde i Nato utlöst våldsamma kravaller i Reykjavík. Mitt under hög inflation, bilransonering och kamp om utländska trålare stod väljarna inför avgörande vägval mellan regleringsekonomi, frihandel och säkerhetspolitik."
+    },
+    {
+      "id": "no-1981",
+      "category": "Val i Norden",
+      "active": true,
+      "file": "election-no-1981-se.json",
+      "title": "Norska stortingsvalet 1981",
+      "year": 1981,
+      "lead": "Högervåg, Alta-striden och bostadsavreglering i oljeålderns Norge.",
+      "description": "Ett historiskt norskt riktningsval där Gro Harlem Brundtlands Arbeiderparti utmanades av Kåre Willochs Høyre efter decennier av socialdemokratisk dominans. Striden stod om skattesänkningar, bostadsmarknadens pristak, oljetakten, abortlagen och samernas rättigheter vid Altaälven."
     }
   ]
 }
