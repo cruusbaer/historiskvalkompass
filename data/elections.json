@@ -228,6 +228,16 @@
       "year": 1884,
       "lead": "Författningsstrid, Köpenhamns befästning och moralfejd.",
       "description": "Ett dramatiskt danskt val mitt under den bittra författningskampen mellan bondeoppositionen i Venstre och den konservative regeringschefen Estrup. Förutom striden om parlamentarism, tullar och huvudstadens fästningsverk präglades tiden av heta debatter om moralcensur, rösträtt och social trygghet."
+    },
+    {
+      "id": "is-1949",
+      "category": "Val i Norden",
+      "active": true,
+      "file": "election-is-1949-se.json",
+      "title": "Isländska alltingsvalet 1949",
+      "year": 1949,
+      "lead": "Nato-strid, valutakris och ransoneringar i den unga republiken.",
+      "description": "Ett laddat val bara ett halvår efter att Islands inträde i Nato utlöst våldsamma kravaller i Reykjavík. Mitt under hög inflation, bilransonering och kamp om utländska trålare stod väljarna inför avgörande vägval mellan regleringsekonomi, frihandel och säkerhetspolitik."
     }
   ]
 }
