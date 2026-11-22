@@ -218,6 +218,16 @@
       "year": 1977,
       "lead": "Uppgörelsen efter tjugoen månaders undantagstillstånd i världens folkrikaste demokrati.",
       "description": "Efter nästan två år med presscensur, fängslade oppositionsledare och en hårt omdiskuterad familjeplaneringskampanj går Indien till val. Striden står mellan Indira Gandhis Kongressparti och en bred oppositionsallians som kräver återställda fri- och rättigheter, decentralisering och en ny ekonomisk inriktning."
+    },
+    {
+      "id": "dk-1884",
+      "category": "Val i Norden",
+      "active": true,
+      "file": "election-dk-1884-se.json",
+      "title": "Danska folketingsvalet 1884",
+      "year": 1884,
+      "lead": "Författningsstrid, Köpenhamns befästning och moralfejd.",
+      "description": "Ett dramatiskt danskt val mitt under den bittra författningskampen mellan bondeoppositionen i Venstre och den konservative regeringschefen Estrup. Förutom striden om parlamentarism, tullar och huvudstadens fästningsverk präglades tiden av heta debatter om moralcensur, rösträtt och social trygghet."
     }
   ]
 }
