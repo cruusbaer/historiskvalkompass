@@ -1,0 +1,315 @@
+{
+  "id": "is-1949",
+  "title": "Isländska alltingsvalet 1949",
+  "year": 1949,
+  "country": "Island",
+  "electionResults": {
+    "seatsTotal": 52,
+    "summary": "Alltingsvalet den 23–24 oktober 1949 hölls bara ett halvår efter att Alltingets ja till Nato-medlemskap utlöst våldsamma kravaller vid Austurvöllur i Reykjavík, och strax efter att den sittande trepartiregeringen spruckit över den djupa ekonomiska krisen. Framstegspartiet blev valets stora vinnare och ökade med fyra mandat till 17 platser, medan Självständighetspartiet behöll ställningen som största parti med 19 mandat trots en liten tillbakagång. Socialistpartiet, som mobiliserat hårt mot Nato och Marshallhjälpen, backade ett mandat till 9, och regeringspartiet Socialdemokraterna föll tillbaka till 7 mandat. Efter svåra regeringsförhandlingar bildade Ólafur Thors (Självständighetspartiet) först en minoritetsregering i december 1949, innan en ny koalition mellan Självständighetspartiet och Framstegspartiet tog över våren 1950.",
+    "government": {
+      "type": "Minoritetsregering (senare koalitionsregering med Framstegspartiet)",
+      "primeMinister": "Ólafur Thors (Regeringen Ólafur Thors III)",
+      "rulingParties": [
+        "Sjálfstæðisflokkurinn"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Framsóknarflokkurinn",
+        "Sósíalistaflokkurinn",
+        "Alþýðuflokkurinn"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "sjalfstaedisflokkurinn",
+      "name": "Sjálfstæðisflokkurinn (Självständighetspartiet)",
+      "shortName": "Självständighetspartiet",
+      "color": "#0066B3",
+      "seats": 19,
+      "seatChange": -1,
+      "votePercentage": 39.5,
+      "description": "Det breda borgerligt-liberala och konservativa partiet lett av Ólafur Thors och Bjarni Benediktsson. Stödde Nato och Marshallhjälpen och drev krav på att avskaffa valutarestriktioner, ransoneringar och statsmonopol samt ge Reykjavík fler mandat.",
+      "answers": {
+        "Q1": -2,
+        "Q2": -1,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": -2,
+        "Q6": 2,
+        "Q7": -2,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": 2,
+        "Q11": -2,
+        "Q12": -2,
+        "Q13": -1,
+        "Q14": -2,
+        "Q15": -1,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "framsoknarflokkurinn",
+      "name": "Framsóknarflokkurinn (Framstegspartiet)",
+      "shortName": "Framstegspartiet",
+      "color": "#009944",
+      "seats": 17,
+      "seatChange": 4,
+      "votePercentage": 24.5,
+      "description": "Det agrara och kooperativa centerpartiet med starkt fäste på landsbygden och nära band till kooperationen SÍS. Stödde Nato-anslutningen, försvarade det landsbygdsgynnande valsystemet, importregleringar, jordbruksstöd och isländsk språkvård.",
+      "answers": {
+        "Q1": -1,
+        "Q2": 1,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": 1,
+        "Q6": -2,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": -2,
+        "Q11": 0,
+        "Q12": 1,
+        "Q13": 2,
+        "Q14": -1,
+        "Q15": 2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "sosialistaflokkurinn",
+      "name": "Sameiningarflokkur alþýðu – Sósíalistaflokkurinn (Socialistpartiet)",
+      "shortName": "Socialistpartiet",
+      "color": "#D9232E",
+      "seats": 9,
+      "seatChange": -1,
+      "votePercentage": 19.5,
+      "description": "Det vänstersocialistiska och kommunistiska partiet lett av Einar Olgeirsson. Krävde omedelbart utträde ur Nato, uppsägning av Keflavík-avtalet, ensidig utvidgning av fiskegränsen, priskontroll och automatisk löneindexering.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 2,
+        "Q3": -1,
+        "Q4": 1,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 2,
+        "Q8": -2,
+        "Q9": -1,
+        "Q10": -2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 1,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "althyduflokkurinn",
+      "name": "Alþýðuflokkurinn (Socialdemokratiska partiet)",
+      "shortName": "Socialdemokraterna",
+      "color": "#E35205",
+      "seats": 7,
+      "seatChange": -2,
+      "votePercentage": 16.5,
+      "description": "Det reformistiska arbetarpartiet lett av statsminister Stefán Jóhann Stefánsson. Försvarade Nato-medlemskapet och Marshallhjälpen, men krävde rättvisare mandatfördelning för städerna, priskontroll och värn av välfärdsstaten.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 1,
+        "Q3": -1,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": 0,
+        "Q7": 2,
+        "Q8": -1,
+        "Q9": -1,
+        "Q10": -1,
+        "Q11": -1,
+        "Q12": 0,
+        "Q13": -1,
+        "Q14": 2,
+        "Q15": 0,
+        "Q16": 0
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Utrikes- & Säkerhetspolitik",
+      "title": "Utträde ur Nato och obeväpnad neutralitet",
+      "statement": "Island bör omedelbart riva upp vårens beslut om medlemskap i försvarsalliansen Nato och återgå till en strikt alliansfri och obeväpnad neutralitetspolitik.",
+      "context": "Den 30 mars 1949 röstade Alltinget ja till att göra Island till en av grundarna av Nato, trots att landet saknar egen militär. Beslutet utlöste de våldsammaste protesterna i Islands moderna historia vid Austurvöllur.",
+      "pro": "Ett litet, obeväpnat land som Island har allt att förlora på att dras in i stormakternas militärallians och riskera att bli måltavla i ett nytt världskrig.",
+      "con": "I det kalla krigets skugga är alliansfrihet utan eget försvar en illusion; samarbete med västmakterna är nödvändigt för att trygga Islands självständighet.",
+      "outcome": "Nato-motståndarna förblev i minoritet i Alltinget efter valet 1949, och Island förblev medlem i Nato."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Fiske & Suveränitet",
+      "title": "Ensidig utvidgning av fiskegränsen",
+      "statement": "Island bör ensidigt utvidga sin fiskegräns och stänga stora vikar och fjordar för utländska bottentrålare för att rädda fiskbestånden, utan att invänta stormakternas godkännande.",
+      "context": "Sedan 1901 gällde en smal fiskegräns på endast 3 sjömil enligt avtal med Storbritannien. Utländska ångtrålare fiskade hårt utanför den isländska kusten, och Island stod i begrepp att säga upp det gamla fiskeriavtalet.",
+      "pro": "Fisket är Islands livsnerv; utan omedelbara åtgärder mot utländska trålare utfiskas våra lekplatser och kustområden.",
+      "con": "Ett ensidigt brott mot gällande internationella avtal kan utlösa handelsbojkotter och konflikter med Storbritannien och andra viktiga exportmarknader.",
+      "outcome": "Island sade upp 1901 års fiskeriavtal i oktober 1949 (med två års uppsägningstid) och utvidgade fiskegränsen till 4 sjömil 1952 – upptakten till de senare torskkrigen."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Vardag & Valutareglering",
+      "title": "Avskaffa ransonering av privatbilar och däck",
+      "statement": "Den statliga licensprövningen för inköp av personbilar och bildäck bör avskaffas så att var och en som har råd får köpa bil utan myndigheternas godkännande.",
+      "context": "På grund av akut brist på utländsk valuta kunde islänningar 1949 inte köpa bil eller däck fritt, utan tvingades ansöka hos en statlig kommitté ('Bílaskömmtun') som bedömde om sökanden hade samhällsnyttigt behov.",
+      "pro": "Bilransoneringen har skapat en orättvis byråkrati och misstankar om politisk svågerpolitik där vänner till makthavarna lättare får köptillstånd.",
+      "con": "Landets knappa valutareserv måste reserveras för traktorer, fiskebåtar, medicin och basvaror – inte privatbilar och lyxkonsumtion.",
+      "outcome": "Importrestriktioner och kvoteringar på bilar och konsumtionsvaror behölls under hela 1950-talet och avvecklades först i samband med de stora ekonomiska liberaliseringarna 1960."
+    },
+    {
+      "id": "Q4",
+      "quick": true,
+      "category": "Valsystem & Demokrati",
+      "title": "Valreform för att ge Reykjavík och städerna fler mandat",
+      "statement": "Valsystemet bör reformeras så att folkmängden får större genomslag och Reykjavík och tätorterna ges fler mandat på bekostnad av glesbygdsvalkretsarna.",
+      "context": "Det isländska valsystemet gynnade landsbygden extremt starkt: i vissa små enmansvalkretsar räckte några hundra röster för ett mandat i Alltinget, medan det krävdes flera tusen röster per mandat i Reykjavík.",
+      "pro": "Varje medborgares röst måste väga lika oavsett var i landet man bor; det är odemokratiskt att huvudstadens snabbt växande befolkning underrepresenteras.",
+      "con": "Ett glest befolkat land som Island kräver stark regional representation så att inte Reykjavík kör över landsbygdens och kustbygdernas livsvillkor.",
+      "outcome": "Först genom grundlagsreformen 1959 avskaffades enmansvalkretsarna och ersattes med större flermansvalkretsar som gav Reykjavík en betydligt rättvisare andel av mandaten."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Priser & Välfärd",
+      "title": "Fortsatt statlig priskontroll och matsubventioner",
+      "statement": "Staten bör behålla maximalpriser och prissubventioner på baslivsmedel som mjölk, kött, bröd och bränsle för att skydda hushållen mot inflationen.",
+      "context": "Efter krigsårens högkonjunktur skenade inflationen på Island samtidigt som sillfisket slog fel. Regeringen reglerade priser på basvaror och subventionerade livsmedel över statsbudgeten.",
+      "pro": "Utan priskontroll och subventioner skulle barnfamiljer och låginkomsttagare inte ha råd med basmat i en tid av kraftig prisstegring.",
+      "con": "Priskontroll och subventioner snedvrider ekonomin, skapar varubrist och tvingar fram skattehöjningar och sedelpressfinansiering som förvärrar inflationen.",
+      "outcome": "Matsubventioner och priskontroller förblev ett centralt – och kostsamt – inslag i isländsk ekonomisk politik under flera decennier."
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "category": "Handel & Kooperation",
+      "title": "Begränsa kooperationens (SÍS) dominerande ställning",
+      "statement": "Skattereglerna och de statliga importkvoterna för den kooperativa rörelsen (SÍS) bör stramas åt så att privata köpmän och företag kan konkurrera på lika villkor.",
+      "context": "Den kooperativa centralorganisationen SÍS (Samband íslenskra samvinnufélaga), med nära band till Framstegspartiet, dominerade stora delar av Islands import, export, sjöfart och detaljhandel.",
+      "pro": "SÍS har vuxit till ett halvstatligt monopol som med politiskt stöd och skattefördelar tränger undan privata handlare och hämmar fri konkurrens.",
+      "con": "Kooperationen ägs av bönder och konsumenter över hela landet och har räddat glesbygden från utsugning av privata handelsmonopol.",
+      "outcome": "Striden mellan privata köpmän och SÍS fortsatte som en av isländsk politiks djupaste skiljelinjer ända fram till SÍS ekonomiska kollaps i början av 1990-talet."
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "category": "Hälsa & Monopol",
+      "title": "Förstatliga apoteken och avskaffa privata privilegier",
+      "statement": "Det nuvarande systemet med personliga, privata apoteksprivilegier bör avskaffas och ersättas av statligt drivna apotek för att pressa ned läkemedelspriserna.",
+      "context": "Apoteksverksamheten på Island byggde på personliga statliga privilegier ('lyfsöluleyfi') som gav apotekarna lokalt monopol och höga inkomster, medan mediciner ansågs dyra för vanliga hushåll.",
+      "pro": "Läkemedel är en samhällsviktig välfärdsfråga som inte ska ge monopolvinster åt enskilda privilegierade apotekare.",
+      "con": "Privata apotekare tar personligt yrkesansvar och sköter läkemedelsförsörjningen effektivt utan att skapa ny statlig byråkrati.",
+      "outcome": "Apoteksprivilegierna behölls i huvudsak fram till apoteksreformen på 1990-talet, då marknaden i stället avreglerades för konkurrens."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Valuta & Export",
+      "title": "Devalvera kronan i stället för fiskesubventioner",
+      "statement": "Den isländska kronan bör skrivas ned (devalveras) kraftigt i stället för att staten betalar ut dyra exportsubventioner till trålrederierna och fiskindustrin.",
+      "context": "Kostnadsnivån på Island hade stigit så snabbt att isländsk fisk inte längre var lönsam på världsmarknaden vid gällande växelkurs, vilket tvingade staten att betala ut stora bidrag till fiskenäringen.",
+      "pro": "En devalvering anpassar kronan till verkligheten, gör exportnäringen självbärande och befriar statsbudgeten från ohållbara subventioner.",
+      "con": "En kraftig devalvering chockhöjer omedelbart priserna på alla importerade varor och slår hårt mot arbetarnas och barnfamiljernas köpkraft.",
+      "outcome": "I mars 1950 genomförde den nya borgerliga regeringen en kraftig devalvering av den isländska kronan med över 40 procent."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Arbetsmarknad & Regionalpolitik",
+      "title": "Tvångsöverföring av arbetskraft vid sillfiske och skörd",
+      "statement": "Myndigheterna bör ha rätt att begränsa byggnadsarbeten i Reykjavík under sommaren och styra arbetskraft till landsbygdens jordbruk och sillberedning under högsäsong.",
+      "context": "Införandet till Reykjavík och byggboomen där ledde till svår brist på arbetskraft på bondgårdarna och i sillhamnarna under sommarmånaderna, vilket väckte krav på statlig arbetskraftsstyrning ('Vinnuskylda').",
+      "pro": "Om höskörden och sillfångsterna ruttnar bort på grund av brist på händer drabbas hela landets livsmedelsförsörjning och exportintäkter.",
+      "con": "Att inskränka människors fria rätt att välja arbete och bostadsort i fredstid är ett oacceptabelt tvångsingrepp.",
+      "outcome": "Någon allmän tvångsöverföring av arbetskraft infördes aldrig, utan bristen på arbetskraft löstes i stället genom snabb mekanisering med traktorer och nya maskiner."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Media & Yttrandefrihet",
+      "title": "Avskaffa statliga Ríkisútvarpiðs (RÚV) radiomonopol",
+      "statement": "Statens monopol på radiosändningar bör brytas så att även privata aktörer, tidningar och organisationer får driva radiostationer på Island.",
+      "context": "Sedan 1930 hade statliga Ríkisútvarpið (RÚV) haft ensamrätt på alla radiosändningar på Island, under ledning av ett parlamentariskt utsett programråd.",
+      "pro": "Ett statligt radiomonopol begränsar yttrandefriheten och mångfalden; privata radiostationer skulle ge bättre underhållning och friare debatt.",
+      "con": "I ett litet språkområde som Island är en gemensam public service-radio livsviktig för kultur, nyhetsförmedling och beredskap över hela ön.",
+      "outcome": "RÚV behöll sitt sändningsmonopol i ytterligare 37 år – först 1986 tilläts privata radio- och tv-stationer på Island."
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "category": "Utrikes- & Säkerhetspolitik",
+      "title": "Uppsägning av Keflavík-avtalet med USA",
+      "statement": "Avtalet från 1946 om amerikansk civil och teknisk drift av flygplatsen i Keflavík bör sägas upp i förtid så att all utländsk personal lämnar landet helt.",
+      "context": "Efter andra världskriget hade de amerikanska stridsförbanden lämnat Island, men enligt Keflavík-avtalet 1946 fick USA fortsätta sköta flygplatsen som mellanlandningsbas för sina ockupationstrupper i Tyskland.",
+      "pro": "Utländsk personal på en strategisk flygbas undergräver Islands nyvunna självständighet från 1944 och drar in landet i stormaktskonflikter.",
+      "con": "Keflavík-avtalet ger viktiga intäkter, civil flygplatsinfrastruktur och en säkerhetskoppling till väst utan att innebära utländska stridstrupper i fredstid.",
+      "outcome": "I stället för att avvecklas utvidgades avtalet 1951 (under Koreakriget) till ett formellt försvarsavtal där amerikansk militär återvände till Keflavík-basen fram till 2006."
+    },
+    {
+      "id": "Q12",
+      "quick": true,
+      "category": "Kultur & Ungdom",
+      "title": "Importstopp för amerikanska serietidningar och deckare",
+      "statement": "Staten bör införa skärpt import- och valutastopp för utländska serietidningar och billig underhållningslitteratur för att skydda isländsk ungdom och bokkultur.",
+      "context": "Efter krigsårens allierade närvaro spreds amerikanska serietidningar och kiosklitteratur snabbt bland unga i Reykjavík, vilket oroade både författare, lärare och politiker.",
+      "pro": "Våldsamma utländska serietidningar fördärvar ungdomens läsvanor, hotar det isländska språket och slösar bort dyrbar utländsk valuta.",
+      "con": "Statlig kulturcensur hör inte hemma i en demokrati; unga och vuxna måste själva få välja vad de vill läsa.",
+      "outcome": "Valutarestriktioner höll tillbaka importen under 1950-talet, samtidigt som isländska förlag började ge ut egna tidskrifter och översättningar för att möta efterfrågan."
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "category": "Jordbruk & Landsbygd",
+      "title": "Fortsatta statliga bosättningsbidrag och nyodlingslån",
+      "statement": "Staten bör ge kraftigt ökade bidrag och förmånliga lån till nyodling, maskinköp och bostadsbyggande på landsbygden för att bromsa inflyttningen till Reykjavík.",
+      "context": "Under 1940-talet flyttade tusentals människor från dalar och fiskelägen in till Reykjavík-området, vilket skapade oro för att hela bygder på landsbygden skulle avfolkas.",
+      "pro": "Ett levande jordbruk och bosättning i hela landet är avgörande för Islands självförsörjning, kultur och nationella sammanhållning.",
+      "con": "Att subventionera olönsamma småbruk i avlägsna dalar kostar enorma summor och bromsar landets naturliga industrialisering och modernisering.",
+      "outcome": "Omfattande statliga jordbruks- och nyodlingsstöd behölls under efterkrigstiden, men urbaniseringen mot huvudstadsområdet fortsatte ändå i snabb takt."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Löner & Inflation",
+      "title": "Bevara automatisk löneindexering mot inflationen",
+      "statement": "Systemet med automatisk prisindexering av lönerna ('Vísitalan') ska ligga fast så att arbetarnas löner höjs i takt med varje prisökning, utan statliga lönestopp.",
+      "context": "På Island kopplades lönerna automatiskt till levnadskostnadsindex. Arbetsgivare och borgerliga ekonomer menade att systemet skapade en ond spiral där varje prishöjning genast utlöste nya lönekrav.",
+      "pro": "Utan automatisk indexering äts arbetarnas reallöner snabbt upp av den höga inflationen och levnadsstandarden rasar.",
+      "con": "Automatisk löneindexering gör det omöjligt att stoppa inflationen och slår ut isländska exportföretags konkurrenskraft.",
+      "outcome": "Striden om löneindexeringen blev ett återkommande huvudtema i isländsk politik under hela efterkrigstiden, med tillfälliga frysningar varvade med strejker."
+    },
+    {
+      "id": "Q15",
+      "quick": true,
+      "category": "Språk & Identitet",
+      "title": "Skärpt språkpurism och statlig namnkontroll",
+      "statement": "Staten bör stärka språkvården och strängt förbjuda utländska förnamn, lånord och skyltar som hotar det isländska språkets renhet.",
+      "context": "Efter fem års närvaro av tiotusentals brittiska och amerikanska soldater växte oron för anglicismer i vardagsspråket och utländska namnskick.",
+      "pro": "Det isländska språket och kulturarvet från sagatiden är grunden för vår nationella existens och måste värnas aktivt mot utländskt inflytande.",
+      "con": "Språket utvecklas naturligt i mötet med omvärlden; statliga förbud mot förnamn och butiksskyltar är ett onödigt förmynderi.",
+      "outcome": "Island behöll en strikt språkpurism och skärpte senare namnlagstiftningen ytterligare genom den isländska namnkommittén (Mannanafnanefnd)."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Skola & Landsbygd",
+      "title": "Sommararbete på bondgård för stadsungdom",
+      "statement": "Skolterminerna bör anpassas och kommunerna uppmuntra att stadsbarn och skolungdomar tillbringar sommaren med arbete på landsbygdens gårdar ('að fara í sveit').",
+      "context": "Att skicka barn och ungdomar från städerna till bondgårdar över sommaren ('að fara í sveit') var en utbredd isländsk tradition som både gav jordbruket arbetskraft och fostrade ungdomar i lantliv.",
+      "pro": "Sommarvistelse på gård lär stadsungdomar praktiskt arbete, stärker banden mellan stad och land och hjälper bönderna under den hektiska sommaren.",
+      "con": "Skolungdomar i städerna måste ha rätt till vanlig ledighet eller fritt sommarjobb i hemstaden i stället för att styras ut till hårt lantarbete.",
+      "outcome": "Traditionen 'að fara í sveit' fortsatte att vara mycket vanlig på Island ända in på 1970- och 1980-talen, med ovanligt långa sommarlov i skolorna."
+    }
+  ]
+}
