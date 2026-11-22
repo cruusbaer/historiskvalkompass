@@ -258,6 +258,16 @@
       "year": 1765,
       "lead": "Hattar mot Mössor: tryckfrihet, lyxförbud och ekonomisk räfst i 1700-talets Sverige.",
       "description": "Ett omvälvande skifte under frihetstiden då de yngre Mössorna utmanade Hattarnas trettioåriga maktinnehav efter dyra krig och inflation. Valrörelsen och riksdagen rymde allt från strider om utrikesallianser, ståndsprivilegier och tryckfrihet till förbud mot kaffe och siden."
+    },
+    {
+      "id": "se-1448",
+      "category": "Svenska val",
+      "active": true,
+      "file": "election-se-1448-se.json",
+      "title": "Svenska kungavalet 1448",
+      "year": 1448,
+      "lead": "Kalmarunionens öde, Karl Knutsson och striden mellan kung, råd och allmoge.",
+      "description": "Ett dramatiskt medeltida kungaval i Stockholm och vid Mora stenar där Sverige stod inför valet att bryta sig ur Kalmarunionen eller behålla det gemensamma unionskungadömet. Striden gällde allt från räfst mot kyrkans och adelns jordar och fälttåg mot Gotland till humlegårdstvång och kyrkoasyl."
     }
   ]
 }
