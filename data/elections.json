@@ -248,6 +248,16 @@
       "year": 1981,
       "lead": "Högervåg, Alta-striden och bostadsavreglering i oljeålderns Norge.",
       "description": "Ett historiskt norskt riktningsval där Gro Harlem Brundtlands Arbeiderparti utmanades av Kåre Willochs Høyre efter decennier av socialdemokratisk dominans. Striden stod om skattesänkningar, bostadsmarknadens pristak, oljetakten, abortlagen och samernas rättigheter vid Altaälven."
+    },
+    {
+      "id": "se-1765",
+      "category": "Svenska val",
+      "active": true,
+      "file": "election-se-1765-se.json",
+      "title": "Svenska riksdagsvalet 1765 (Frihetstiden)",
+      "year": 1765,
+      "lead": "Hattar mot Mössor: tryckfrihet, lyxförbud och ekonomisk räfst i 1700-talets Sverige.",
+      "description": "Ett omvälvande skifte under frihetstiden då de yngre Mössorna utmanade Hattarnas trettioåriga maktinnehav efter dyra krig och inflation. Valrörelsen och riksdagen rymde allt från strider om utrikesallianser, ståndsprivilegier och tryckfrihet till förbud mot kaffe och siden."
     }
   ]
 }
