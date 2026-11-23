@@ -268,6 +268,16 @@
       "year": 1448,
       "lead": "Kalmarunionens öde, Karl Knutsson och striden mellan kung, råd och allmoge.",
       "description": "Ett dramatiskt medeltida kungaval i Stockholm och vid Mora stenar där Sverige stod inför valet att bryta sig ur Kalmarunionen eller behålla det gemensamma unionskungadömet. Striden gällde allt från räfst mot kyrkans och adelns jordar och fälttåg mot Gotland till humlegårdstvång och kyrkoasyl."
+    },
+    {
+      "id": "fi-1958",
+      "category": "Val i Norden",
+      "active": true,
+      "file": "election-fi-1958-se.json",
+      "title": "Finska riksdagsvalet 1958",
+      "year": 1958,
+      "lead": "Nattfrosten, splittrad socialdemokrati och bilkvoter i kalla krigets Finland.",
+      "description": "Ett dramatiskt ödesval under president Urho Kekkonens första mandatperiod där Folkdemokraterna (DFFF) för första gången blev största parti och Sovjetunionens reaktion utlöste 'Nattfrostkrisen'. Striden gällde västlig frihandel mot östhandel, löneindexering, bilkvoter för västbilar och husbastur i nya städer."
     }
   ]
 }
