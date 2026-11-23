@@ -278,6 +278,16 @@
       "year": 1958,
       "lead": "Nattfrosten, splittrad socialdemokrati och bilkvoter i kalla krigets Finland.",
       "description": "Ett dramatiskt ödesval under president Urho Kekkonens första mandatperiod där Folkdemokraterna (DFFF) för första gången blev största parti och Sovjetunionens reaktion utlöste 'Nattfrostkrisen'. Striden gällde västlig frihandel mot östhandel, löneindexering, bilkvoter för västbilar och husbastur i nya städer."
+    },
+    {
+      "id": "is-1995",
+      "category": "Val i Norden",
+      "active": true,
+      "file": "election-is-1995-se.json",
+      "title": "Isländska alltingsvalet 1995",
+      "year": 1995,
+      "lead": "Fiskekvoter, EU-ansökan, lättölsreklam och alv-stenar vid vägbyggen.",
+      "description": "Ett omvälvande val på Island ett år efter EES-inträdet då Jóhanna Sigurðardóttir bröt sig ur Socialdemokraterna med sitt nya parti Þjóðvaki och Socialdemokraterna som första parti krävde EU-medlemskap. Valet rymde allt från fiskekvoternas överlåtbarhet och bankprivatiseringar till namnlag, lättölsreklam och hänsyn till huldufólk vid vägbyggen."
     }
   ]
 }
