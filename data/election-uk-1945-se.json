@@ -1,0 +1,315 @@
+{
+  "id": "uk-1945",
+  "title": "Brittiska parlamentsvalet 1945",
+  "year": 1945,
+  "country": "Storbritannien",
+  "electionResults": {
+    "seatsTotal": 640,
+    "summary": "Valet den 5 juli 1945 – med slutgiltigt resultat den 26 juli efter att röstsedlar från utlandstjänstgörande soldater räknats in – innebar ett historiskt maktskifte i Storbritannien. Trots Winston Churchills ställning som krigsledare vann Clement Attlees Labour Party en överväldigande majoritet med 393 av Underhusets 640 mandat och ökade med 239 mandat, medan de konservativa tappade 219 mandat. Resultatet lade grunden till efterkrigstidens brittiska välfärdsstat, omfattande förstatliganden och en gradvis avveckling av imperiet.",
+    "government": {
+      "type": "Majoritetsregering",
+      "primeMinister": "Clement Attlee",
+      "rulingParties": [
+        "Labour Party"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Conservative Party",
+        "Liberal Party",
+        "Communist Party"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "labour",
+      "name": "Labour Party",
+      "shortName": "Labour",
+      "color": "#E4003B",
+      "seats": 393,
+      "seatChange": 239,
+      "votePercentage": 47.7,
+      "description": "Det demokratiskt socialistiska arbetarpartiet lett av Clement Attlee som gick till val på programmet 'Let Us Face the Future'. Drev utbyggnad av välfärdsstaten, skattefinansierad sjukvård, förstatliganden av nyckelindustrier och Bank of England, full sysselsättning genom ekonomisk planering samt fortsatt ransonering och priskontroll under återuppbyggnaden.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 0,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": -2,
+        "Q9": 1,
+        "Q10": 1,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": -1
+      }
+    },
+    {
+      "id": "conservative",
+      "name": "Conservative Party",
+      "shortName": "Conservatives",
+      "color": "#0087DC",
+      "seats": 210,
+      "seatChange": -219,
+      "votePercentage": 39.6,
+      "description": "Det konservativa partiet lett av krigspremiärministern Winston Churchill (inklusive allierade National-grupper). Förespråkade snabb avveckling av krigstida ransoneringar och statsregleringar, fri företagsamhet som drivkraft för återuppbyggnad, en mer försiktig och försäkringsbaserad välfärdslinje samt starkt försvar av imperiet och militära beredskapen.",
+      "answers": {
+        "Q1": -1,
+        "Q2": 2,
+        "Q3": -2,
+        "Q4": -2,
+        "Q5": -2,
+        "Q6": 2,
+        "Q7": -2,
+        "Q8": -2,
+        "Q9": -2,
+        "Q10": 2,
+        "Q11": -2,
+        "Q12": -1,
+        "Q13": -2,
+        "Q14": -2,
+        "Q15": -2,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "liberal",
+      "name": "Liberal Party",
+      "shortName": "Liberals",
+      "color": "#FAA61A",
+      "seats": 12,
+      "seatChange": -9,
+      "votePercentage": 9.0,
+      "description": "Det socialliberala mittenpartiet lett av Archibald Sinclair med stark prägel av välfärdsarkitekten William Beveridge. Stödde allmän socialförsäkring, fri sjukvård och aktiv sysselsättningspolitik, men vände sig mot omfattande statliga förstatliganden, tvångsdirigering av arbetskraft och protektionism, samtidigt som partiet drev proportionellt valsystem.",
+      "answers": {
+        "Q1": 2,
+        "Q2": 1,
+        "Q3": -1,
+        "Q4": -1,
+        "Q5": 1,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": 2,
+        "Q9": -1,
+        "Q10": -1,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": -1,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": 1
+      }
+    },
+    {
+      "id": "communist",
+      "name": "Communist Party of Great Britain",
+      "shortName": "Communist Party",
+      "color": "#B22222",
+      "seats": 2,
+      "seatChange": 1,
+      "votePercentage": 0.4,
+      "description": "Det kommunistiska partiet med en stark facklig och industriell förankring bland bland annat gruv- och verkstadsarbetare. Krävde långtgående förstatliganden, hårda priskontroller, hög beskattning av krigsvinster, omedelbar avkolonisering av Indien samt antiimperialistisk och fredsorienterad linje i utrikes- och försvarsfrågor.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -2,
+        "Q3": 2,
+        "Q4": 2,
+        "Q5": 2,
+        "Q6": -1,
+        "Q7": 1,
+        "Q8": -1,
+        "Q9": 2,
+        "Q10": -2,
+        "Q11": 2,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": 2,
+        "Q15": 2,
+        "Q16": -1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": true,
+      "category": "Sjukvård & Välfärd",
+      "title": "Skattefinansierad, avgiftsfri sjukvård (NHS)",
+      "statement": "Staten bör ta över huvudansvaret för sjukhusen och införa en nationell, skattefinansierad sjukvård som är kostnadsfri vid besökstillfället för alla medborgare.",
+      "context": "Före kriget var brittisk sjukvård splittrad mellan kommunala sjukhus, välgörenhetsdrivna sjukhus och sjukkassor där många invånare saknade fullt skydd eller tvingades betala avgifter vid vårdtillfället.",
+      "pro": "Alla medborgare ska få vård efter behov oavsett inkomst och utan ekonomiska hinder eller skam vid sjukdom.",
+      "con": "Ett gigantiskt statligt sjukvårdsmonopol riskerar att bli tungrott och dyrt, och bör byggas vidare på befintliga försäkringar, kommuner och frivilliga sjukhus.",
+      "outcome": "Efter valet drev hälsominister Aneurin Bevan igenom National Health Service Act 1946, och NHS trädde i kraft den 5 juli 1948."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Handel & Reglering",
+      "title": "Snabb avveckling av ransoneringar och priskontroller",
+      "statement": "Staten bör så snabbt som möjligt avskaffa krigstidens ransoneringar, priskontroller och regleringar av råvaror och handel för att låta marknaden styra återuppbyggnaden.",
+      "context": "Under hela andra världskriget var mat, kläder, bensin och industriella råvaror hårt ransonerade och priskontrollerade, och i juli 1945 rådde fortfarande brist på många basvaror.",
+      "pro": "Ransoneringar och byråkrati hämmar initiativkraft, skapar svarta marknader och förlänger krigets uppoffringar i onödan.",
+      "con": "En abrupt avveckling mitt under akut varubrist skulle driva upp priserna och låta de bemedlade köpa upp det som finns medan vanliga hushåll blir utan.",
+      "outcome": "Labourregeringen behöll och tidvis skärpte ransoneringarna under slutet av 1940-talet (bland annat brödransonering 1946), och huvuddelen av ransoneringarna avvecklades först i början av 1950-talet."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Ekonomi & Finans",
+      "title": "Förstatligande av Bank of England",
+      "statement": "Den brittiska centralbanken, Bank of England, bör överföras från privata aktieägare till fullt statligt ägande så att ränte- och kreditpolitiken står under regeringens ansvar.",
+      "context": "Bank of England hade sedan sin grundare 1694 varit en privatägd institution med nära band till City of London, även om den i praktiken samarbetat tätt med finansdepartementet under krigsåren.",
+      "pro": "Penning- och kreditpolitiken är en central del av den nationella ekonomin och ska inte ytterst ägas av privata aktieägare i City.",
+      "con": "Centralbanken bör bevara sin institutionella särställning och självständighet gentemot kortsiktiga politiska påtryckningar från regeringen.",
+      "outcome": "Bank of England förstatligades genom Bank of England Act 1946, där tidigare aktieägare fick statliga obligationer i ersättning."
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "category": "Bostad & Samhällsbyggnad",
+      "title": "Bostadsbyggande i kommunal regi framför privata byggherrar",
+      "statement": "Återuppbyggnaden av bostäder efter krigets bombningar bör i första hand ske genom subventionerade kommunala hyresrätter snarare än genom privata byggbolag och eget ägande.",
+      "context": "Hundratusentals brittiska hem hade förstörts eller skadats under flygbombningarna, och bostadsbristen var en av de mest akuta sociala frågorna i städerna 1945.",
+      "pro": "Kommunala hyresbostäder garanterar rimliga hyror och god standard för arbetarfamiljer när material och arbetskraft är knappa.",
+      "con": "Att stänga ute eller begränsa privata byggmästare bromsar bostadsproduktionen och hindrar människor som vill äga sitt eget hem.",
+      "outcome": "Under efterkrigsåren stod kommunala hyresbostäder ('council houses') för den absolut största delen av nybyggnationen i Storbritannien."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Imperium & Utrikespolitik",
+      "title": "Omedelbar självständighet för Indien",
+      "statement": "Storbritannien bör utan dröjsmål överlämna makten i Indien till en indisk regering och avveckla det brittiska styret på subkontinenten.",
+      "context": "Brittiska Indien befann sig vid krigsslutet i djup politisk och religiös spänning mellan Kongresspartiet, Muslimska förbundet och furstestaterna, samtidigt som kraven på självständighet hade vuxit sig starka.",
+      "pro": "Ett folk har rätt till självbestämmande, och Storbritannien bör inte hålla kvar ett svårbemästrat kolonialstyre efter ett krig som förts i frihetens namn.",
+      "con": "Ett förhastat brittiskt uttåg utan en uppgörelse mellan grupperna riskerar att utlösa våldsamt inbördeskrig och försvaga imperiets ställning.",
+      "outcome": "Självständighet genomfördes inte omedelbart sommaren 1945, men efter förhandlingar och delning blev Indien och Pakistan självständiga stater i augusti 1947."
+    },
+    {
+      "id": "Q6",
+      "quick": true,
+      "category": "Kultur & Tradition",
+      "title": "Behållande av brittiska mått och valuta",
+      "statement": "Storbritannien bör behålla sitt traditionella system med pund, shilling och pence samt inches, feet och pounds snarare än att gå över till decimalsystemet.",
+      "context": "I takt med ökad internationell handel och teknisk utveckling återkom diskussioner om huruvida myntsystemet och måttenheterna borde decimaliseras efter kontinentalt mönster.",
+      "pro": "Pund, shilling, pence och de traditionella måtten är djupt rotade i vardagsliv, handel och kultur och gör det enkelt för vanliga människor i det dagliga livet.",
+      "con": "Ett decimalsystem är mer överskådligt för beräkningar, bokföring och export till länder som redan använder decimala mått och valutor.",
+      "outcome": "Både valutan och de traditionella måtten behölls i stort sett oförändrade under 1940- och 1950-talen; decimaliseringen av valutan genomfördes först 1971."
+    },
+    {
+      "id": "Q7",
+      "quick": false,
+      "category": "Arbetsmarknad & Frihet",
+      "title": "Tvångsdirigering av arbetskraft i fredsövergången",
+      "statement": "Staten bör behålla rätten att under fredsövergången styra och dirigera arbetskraft till nyckelsektorer som kolgruvor, jordbruk och bostadsbyggande.",
+      "context": "Under kriget hade staten haft omfattande befogenheter att anvisa arbetare till krigsindustrin och försvaret, och vissa såg liknande regleringar som nödvändiga för att klara återuppbyggnaden.",
+      "pro": "Utan tillfällig styrning av arbetskraft riskerar kritiska sektorer med brist på folk att stanna av när krigsindustrin avvecklas.",
+      "con": "Att tvinga människor till vissa jobb eller hindra dem från att byta arbetsplats i fredstid är ett allvarligt ingrepp i den personliga friheten.",
+      "outcome": "Viss kontroll av anställningar och arbetskraft behölls inledningsvis efter kriget, men systemet avvecklades gradvis under slutet av 1940-talet i samförstånd med fack och arbetsgivare."
+    },
+    {
+      "id": "Q8",
+      "quick": true,
+      "category": "Demokrati & Valsystem",
+      "title": "Införande av ett proportionellt valsystem",
+      "statement": "Det brittiska majoritetsvalsystemet i enmansvalkretsar bör ersättas med ett proportionellt valsystem så att partiernas mandat speglar deras faktiska röstandel.",
+      "context": "Valsystemet i enmansvalkretsar ('first past the post') gav ofta stora majoriteter åt det ledande partiet men missgynnade mindre partier som Liberalerna trots betydande röstandelar.",
+      "pro": "Varje röst bör väga lika tungt nationellt så att väljarnas faktiska politiska vilja återspeglas rättvist i Underhuset.",
+      "con": "Enmansvalkretsar skapar en tydlig koppling mellan väljare och lokal parlamentsledamot och tenderar att ge stabila regeringar istället för splittrade koalitioner.",
+      "outcome": "Inget proportionellt valsystem infördes; majoritetsvalsystemet i enmansvalkretsar behölls oförändrat."
+    },
+    {
+      "id": "Q9",
+      "quick": false,
+      "category": "Skatter & Näringsliv",
+      "title": "Fortsatt hög skatt på företags övervinster",
+      "statement": "Den särskilda krigsskatten på företags övervinster (Excess Profits Tax) bör hållas kvar på en hög nivå under återuppbyggnaden i stället för att omedelbart sänkas.",
+      "context": "Under kriget hade en mycket hög skatt tagits ut på vinster som översteg en fastställd förkrigsnivå för att finansiera krigsansträngningen och motverka krigsprofitering.",
+      "pro": "Det är rimligt att företag inte gör stora extraförluster på samhällets gemensamma återuppbyggnad när skatter och uppoffringar krävs av alla.",
+      "con": "En straffskatt på övervinster hämmar nyinvesteringar, risktagande och expansion i näringslivet när ekonomin behöver växa.",
+      "outcome": "Skatten på övervinster sänktes från 100 procent till 60 procent i höstbudgeten 1945 och avskaffades vid utgången av 1946."
+    },
+    {
+      "id": "Q10",
+      "quick": true,
+      "category": "Försvar & Säkerhet",
+      "title": "Kvarhållande av allmän värnplikt i fredstid",
+      "statement": "Storbritannien bör behålla allmän värnplikt även i fredstid för att kunna bemanna försvaret och upprätthålla sina militära åtaganden.",
+      "context": "Allmän värnplikt hade införts i samband med krigsutbrottet 1939, och efter krigsslutet 1945 uppstod frågan om den skulle avskaffas eller fortsätta i någon form.",
+      "pro": "Osäkerheten i omvärlden och Storbritanniens globala förpliktelser kräver en pålitlig personalförsörjning till krigsmakten även efter kriget.",
+      "con": "Långvarig värnplikt i fredstid belastar unga män, hushåll och ekonomi och bör ersättas av ett frivilligt yrkesförsvar.",
+      "outcome": "Värnplikten fortsatte efter kriget och permanentades genom National Service Act 1947; den avskaffades först i början av 1960-talet."
+    },
+    {
+      "id": "Q11",
+      "quick": false,
+      "category": "Arbetsmarknad & Fack",
+      "title": "Upphävande av 1927 års fackföreningslag",
+      "statement": "Parlamentet bör upphäva 1927 års fackföreningslag (Trade Disputes and Trade Unions Act) och återställa fackföreningarnas tidigare regler för strejker och politiska avgifter.",
+      "context": "Lagen från 1927, antagen efter generalstrejken 1926, hade bland annat begränsat vissa typer av sympatiaktioner, förbjudit statsanställda fack att ansluta sig till fackliga centralorganisationer och infört krav på aktivt medgivande ('contracting-in') för politiska fackavgifter.",
+      "pro": "Lagen från 1927 var en politisk bestraffning efter generalstrejken 1926 som kränkte fackföreningarnas och medlemmarnas rättigheter.",
+      "con": "Reglerna gav ett välbehövligt skydd för enskilda medlemmar, offentlig verksamhet och samhället mot omfattande fackliga konflikter.",
+      "outcome": "Labourregeringen drev igenom upphävandet av 1927 års lag genom Trade Disputes and Trade Unions Act 1946."
+    },
+    {
+      "id": "Q12",
+      "quick": true,
+      "category": "Fritid & Välfärd",
+      "title": "Statliga semesterbyar och betald semester",
+      "statement": "Staten bör stödja utbyggnaden av semesteranläggningar och främja minst två veckors betald semester så att även låginkomstfamiljer får möjlighet till rekreation.",
+      "context": "Betald semester hade börjat spridas före kriget men var fortfarande ojämlikt fördelad, och många arbetarfamiljer saknade både ekonomiska medel och lämpliga semesterboenden.",
+      "pro": "Vila, frisk luft och semester bör vara en naturlig del av ett modernt samhälle för alla arbetare, inte bara för dem med höga inkomster.",
+      "con": "Staten bör inte driva eller subventionera semesteranläggningar i konkurrens med privata alternativ när statskassan är hårt ansträngd.",
+      "outcome": "Betald semester blev under de följande åren en allt vanligare standard i kollektivavtal och arbetsliv, medan semesterboenden i huvudsak utvecklades genom privata, fackliga och kooperativa initiativ."
+    },
+    {
+      "id": "Q13",
+      "quick": false,
+      "category": "Infrastruktur & Ägande",
+      "title": "Förstatligande av järnvägar, åkerier och inrikesflyg",
+      "statement": "Landets järnvägar, långväga lastbilstransporter och reguljära inrikesflyglinjer bör samlas i statligt ägo för att samordna transportsystemet.",
+      "context": "De brittiska järnvägsbolagen hade haft ekonomiska svårigheter redan under mellankrigstiden och slitits hårt av krigstrafiken, samtidigt som vägtransporterna konkurrerade alltmer.",
+      "pro": "Ett samordnat statligt transportsystem kan minska onödig dubbelarbete, säkra förbindelser i hela landet och rusta upp nedsliten infrastruktur.",
+      "con": "Statligt ägande av hela transportsektorn riskerar att skapa en svårhanterlig byråkrati och minska flexibilitet och service för kunderna.",
+      "outcome": "Genom Transport Act 1947 förstatligades järnvägarna, kanalerna samt delar av långväga åkerier och passagerartrafik under British Transport Commission från 1948."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Rösträtt & Jämlikhet",
+      "title": "Avskaffande av universitets- och affärsröster (Plural Voting)",
+      "statement": "Den särskilda rätten för vissa universitetsutexaminerade och affärsinnehavare att rösta mer än en gång i samma val bör avskaffas så att principen om en röst per person gäller fullt ut.",
+      "context": "Det brittiska valsystemet tillät fortfarande att vissa väljare avlade en extra röst utöver sin ordinarie röst i bostadsvalkretsen, exempelvis knuten till universitet eller företagslokaler.",
+      "pro": "I en demokrati ska varje medborgare ha exakt lika rösträtt oavsett utbildningsbakgrund eller fastighets- och affärsinnehav.",
+      "con": "Universitets- och näringslivsrepresentation har historiskt bidragit med särskild sakkunskap och erfarenhet till parlamentet.",
+      "outcome": "Extra universitets- och affärsröster avskaffades genom Representation of the People Act 1948 före 1950 års val."
+    },
+    {
+      "id": "Q15",
+      "quick": false,
+      "category": "Natur & Markägande",
+      "title": "Lagstadgad allemansrätt och nationalparker",
+      "statement": "Stora privata mark- och jaktområden bör göras mer tillgängliga för allmänheten genom lagstadgad tillträdesrätt och inrättandet av nationalparker.",
+      "context": "Under 1930- och 1940-talen hade vandrings- och friluftsrörelser drivit på för att öppna hedar, bergsområden och godsmarker som tidigare varit avstängda för allmänheten eller reserverade för jakt.",
+      "pro": "Naturen och landskapet bör vara tillgängliga för alla medborgare för vandring, friluftsliv och återhämtning.",
+      "con": "Äganderätten, jordbruket, skogsbruket och viltvården måste skyddas mot skador och intrång om allmänheten ges bredare tillträde.",
+      "outcome": "Parlamentet antog National Parks and Access to the Countryside Act 1949, som lade grunden till Storbritanniens nationalparker och markerade vandringsleder."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Vardag & Självhushåll",
+      "title": "Tillåtelse att hålla höns och grisar i villaträdgårdar",
+      "statement": "De tillfälliga krigstidsregler som tillät hushåll att hålla höns och grisar i vanliga bostadsområden bör göras permanenta trots lokala ordnings- och hälsoföreskrifter.",
+      "context": "Under kriget uppmuntrades hushåll att odla mat och hålla mindre djur som höns och grisar på tomter för att dryga ut matransonerna, vilket ibland krockade med kommunala sanitetsregler och grannars synpunkter.",
+      "pro": "Egna ägg och egen matproduktion i trädgården hjälper hushållen att klara livsmedelsbristen och främjar självhushållning.",
+      "con": "Djurhållning i tättbebyggda bostadsområden kan medföra lukt, skadedjur och sanitära olägenheter för grannar.",
+      "outcome": "Många hushåll fortsatte med småskalig djurhållning under efterkrigsbristen, men i takt med att livsmedelsförsörjningen normaliserades och bostadsområden förtätades återgick kommunerna gradvis till strängare lokala regler."
+    }
+  ]
+}
