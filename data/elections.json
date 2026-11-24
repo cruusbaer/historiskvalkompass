@@ -288,6 +288,26 @@
       "year": 1995,
       "lead": "Fiskekvoter, EU-ansökan, lättölsreklam och alv-stenar vid vägbyggen.",
       "description": "Ett omvälvande val på Island ett år efter EES-inträdet då Jóhanna Sigurðardóttir bröt sig ur Socialdemokraterna med sitt nya parti Þjóðvaki och Socialdemokraterna som första parti krävde EU-medlemskap. Valet rymde allt från fiskekvoternas överlåtbarhet och bankprivatiseringar till namnlag, lättölsreklam och hänsyn till huldufólk vid vägbyggen."
+    },
+    {
+      "id": "au-1955",
+      "category": "Internationella val",
+      "active": true,
+      "file": "election-au-1955-se.json",
+      "title": "Parlamentsvalet i Australien 1955",
+      "year": 1955,
+      "lead": "Kalla kriget-spioneri och partisplittring när Australien går till förtidsval.",
+      "description": "Efter Petrov-affären och en djup schism inom Arbetarpartiet utlyser premiärminister Robert Menzies nyval. Valstriden står mellan den borgerliga koalitionens linje för säkerhet, fri företagsamhet och allianspolitik och oppositionens krav på sociala reformer, fackliga rättigheter och en annan utrikeskurs."
+    },
+    {
+      "id": "uk-1945",
+      "category": "Brittiska val",
+      "active": true,
+      "file": "election-uk-1945-se.json",
+      "title": "Brittiska parlamentsvalet 1945",
+      "year": 1945,
+      "lead": "Fredssamhällets utformning och kampen om efterkrigstidens Storbritannien.",
+      "description": "När kriget i Europa var över men striderna i Stilla havet fortsatte ställdes välfärdsreformer, förstatliganden, ransoneringar och imperiets framtid i centrum."
     }
   ]
 }
