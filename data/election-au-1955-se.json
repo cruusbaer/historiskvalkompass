@@ -1,0 +1,315 @@
+{
+  "id": "au-1955",
+  "title": "Parlamentsvalet i Australien 1955",
+  "year": 1955,
+  "country": "Australien",
+  "electionResults": {
+    "seatsTotal": 122,
+    "summary": "Parlamentsvalet den 10 december 1955 utlystes i förtid av premiärminister Robert Menzies under Petrov-affären och den djupgående partisplittringen inom Arbetarpartiet (ALP). Den borgerliga koalitionen mellan Liberal Party och Country Party ökade sitt mandatövertag och vann 75 av 122 röstande platser i Representanthuset, medan det splittrade ALP under H.V. Evatt fick 47 mandat och utbrytarpartiet ALP (Anti-Communist) vann 5,2 procent av rösterna utan att knipa någon underhusplats.",
+    "government": {
+      "type": "Majoritetskoalition (Liberal Party och Country Party)",
+      "primeMinister": "Robert Menzies (Liberal Party)",
+      "rulingParties": [
+        "Liberal Party of Australia",
+        "Country Party"
+      ],
+      "supportParties": [],
+      "opposition": [
+        "Australian Labor Party (ALP)",
+        "Australian Labor Party (Anti-Communist)"
+      ]
+    }
+  },
+  "parties": [
+    {
+      "id": "lib",
+      "name": "Liberal Party of Australia",
+      "shortName": "Liberal Party (Menzies)",
+      "color": "#0047AB",
+      "seats": 57,
+      "seatChange": 10,
+      "votePercentage": 39.7,
+      "description": "Konservativt-liberalt regeringsparti lett av premiärminister Robert Menzies. Förespråkade fri företagsamhet, skärpt antikommunistisk säkerhetspolitik, nära allians med USA och Storbritannien, brittiska kärnvapenprov vid Maralinga, marktrupper till Malaya samt privat sjukvårdsförsäkring med statligt stöd.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": -2,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": -2,
+        "Q7": -2,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": 0,
+        "Q11": -1,
+        "Q12": 1,
+        "Q13": 1,
+        "Q14": -2,
+        "Q15": -2,
+        "Q16": 1
+      }
+    },
+    {
+      "id": "alp",
+      "name": "Australian Labor Party (ALP)",
+      "shortName": "Labor (Evatt)",
+      "color": "#DE3533",
+      "seats": 47,
+      "seatChange": -10,
+      "votePercentage": 44.6,
+      "description": "Socialdemokratiskt oppositionsparti lett av H.V. Evatt. Kritiserade hanteringen av Petrov-affären och undantagslagar, värnade fackliga rättigheter och likalön, förordade avgiftsfri offentlig sjukhusvård, satsningar på Snowy Mountains samt en mer självständig utrikespolitik gentemot Kina och Sovjetblocket.",
+      "answers": {
+        "Q1": 2,
+        "Q2": -1,
+        "Q3": 1,
+        "Q4": 0,
+        "Q5": 1,
+        "Q6": 2,
+        "Q7": 0,
+        "Q8": 2,
+        "Q9": -2,
+        "Q10": 2,
+        "Q11": 2,
+        "Q12": 1,
+        "Q13": 0,
+        "Q14": 2,
+        "Q15": 1,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "cp",
+      "name": "Country Party",
+      "shortName": "Country Party (Fadden)",
+      "color": "#006644",
+      "seats": 18,
+      "seatChange": 1,
+      "votePercentage": 7.9,
+      "description": "Agrart och konservativt landsbygdsparti lett av finansminister Arthur Fadden i koalition med Liberal Party. Företrädde lantbrukare och boskapsuppfödare med krav på prisgarantier för jordbruket, stöd mot skadedjur och torka, normaltid och utbyggd infrastruktur på landsbygden.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": -1,
+        "Q4": 2,
+        "Q5": 0,
+        "Q6": -1,
+        "Q7": -2,
+        "Q8": 1,
+        "Q9": 1,
+        "Q10": 0,
+        "Q11": -1,
+        "Q12": 2,
+        "Q13": 2,
+        "Q14": -2,
+        "Q15": -1,
+        "Q16": 2
+      }
+    },
+    {
+      "id": "dlp",
+      "name": "Australian Labor Party (Anti-Communist)",
+      "shortName": "ALP (Anti-Communist)",
+      "color": "#FF8C00",
+      "seats": 0,
+      "seatChange": 0,
+      "votePercentage": 5.2,
+      "description": "Antikommunistiskt utbrytarparti ur ALP lett av Bob Joshua och B.A. Santamaria. Förespråkade kompromisslös kamp mot kommunistiskt inflytande i fackföreningar, hård säkerhets- och försvarspolitik mot kommunism i Asien samt socialt stöd till familjer.",
+      "answers": {
+        "Q1": -2,
+        "Q2": 2,
+        "Q3": 0,
+        "Q4": 1,
+        "Q5": 0,
+        "Q6": 0,
+        "Q7": -1,
+        "Q8": 1,
+        "Q9": 2,
+        "Q10": 0,
+        "Q11": 1,
+        "Q12": 1,
+        "Q13": 1,
+        "Q14": -2,
+        "Q15": -1,
+        "Q16": 1
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "quick": false,
+      "category": "Underrättelser & Rättssäkerhet",
+      "title": "Nedläggning av säkerhetsutredningen kring Vladimir Petrov",
+      "statement": "Regeringen bör avsluta den särskilda kungliga kommissionen kring Petrov-affären och förbjuda att underrättelsematerial används i partipolitiskt syfte.",
+      "context": "I april 1954 hoppade den sovjetiske diplomaten och KGB-agenten Vladimir Petrov (och kort därefter hans hustru Evdokia efter ett dramatiskt ingripande på flygplatsen i Darwin) av i Canberra och överlämnade hemliga dokument om sovjetiskt spioneri i Australien. Premiärminister Robert Menzies tillsatte en kunglig undersökningskommission (Petrov Royal Commission), och när dokumenten visade sig nämna medarbetare till oppositionsledaren H.V. Evatt utlöste affären en hätsk strid om spioneri, rättssäkerhet, påstådda konspirationer och splittringen av Arbetarpartiet.",
+      "pro": "Underrättelse- och förhörsuppgifter får inte dras in i partipolitisk strid på ett sätt som skadar medborgares rättssäkerhet och rykte.",
+      "con": "En grundlig statlig utredning krävs för att klarlägga utländskt spioneri och skydda nationens säkerhet.",
+      "outcome": "Den kungliga kommissionen fortsatte sitt arbete och presenterade sin rapport hösten 1955."
+    },
+    {
+      "id": "Q2",
+      "quick": true,
+      "category": "Försvar & Utlandsmissioner",
+      "title": "Utsändande av australiska marktrupper till Brittiska Malaya",
+      "statement": "Australien bör skicka stridande markförband till Malaya för att bekämpa den kommunistiska gerillan vid sidan av Storbritannien och Nya Zeeland.",
+      "context": "Under undantagstillståndet i Malaya pågick en väpnad konflikt mot en kommunistisk gerilla, och regeringen övervägde att skicka reguljära australiska markstyrkor dit.",
+      "pro": "Att bidra med marktrupper stärker säkerheten i Sydostasien och visar pålitlighet gentemot nära allierade i Samväldet.",
+      "con": "Att sända marktrupper till en väpnad konflikt i Sydostasien drar in Australien i långvariga militära åtaganden utomlands.",
+      "outcome": "Australiska markförband sändes till Malaya under 1955 som del av det brittiska samväldets insatser."
+    },
+    {
+      "id": "Q3",
+      "quick": true,
+      "category": "Utländskt Ägande & Skatt",
+      "title": "Särskild vinstskatt på utländska bil- och oljebolag",
+      "statement": "Utländska storföretag som General Motors-Holden och utländska oljebolag bör beläggas med en extra skatt på vinster som förs ut ur landet.",
+      "context": "Under 1950-talets industriella expansion gjorde utlandsägda bolag stora vinster i Australien, vilket väckte debatt om kapitalflöden och inhemsk skattebas.",
+      "pro": "En extra beskattning av stora vinster som förs utomlands ser till att en större del av värdeskapandet stannar i Australien.",
+      "con": "Särskilda straffskatter mot utländska bolag kan avskräcka välbehövligt kapital och teknik från att investera i landet.",
+      "outcome": "Ingen särskild vinstskatt på utländska bolag infördes i samband med 1955 års val."
+    },
+    {
+      "id": "Q4",
+      "quick": false,
+      "category": "Tidszoner & Landsbygd",
+      "title": "Normaltid året runt istället för sommartid",
+      "statement": "Myndigheterna bör hålla fast vid normaltid året runt och avvisa förslag om sommartid eftersom ändrad klocka stör korna på mjölkgårdarna och försvårar morgnarna för skolbarn.",
+      "context": "Frågan om sommartid återkom regelbundet i Australien och ställde storstädernas önskemål om ljusa sommarkvällar mot landsbygdens rutiner kring mjölkning, jordbruk och skolgång.",
+      "pro": "Normaltid året runt undviker störningar i jordbruksrutiner och tidiga morgnar för barn i ett stort land med varierande förhållanden.",
+      "con": "Sommartid ger fler ljusa timmar efter arbetsdagens slut och kan främja fritidsaktiviteter och energianvändning.",
+      "outcome": "Normaltid tillämpades i delstaterna under denna period innan sommartid infördes i flera delstater först på 1970-talet."
+    },
+    {
+      "id": "Q5",
+      "quick": true,
+      "category": "Arkitektur & Kultur",
+      "title": "Statligt anslag till Operahuset vid Bennelong Point i Sydney",
+      "statement": "Staten bör bidra med federala kulturmedel till att uppföra en storslagen ny operabyggnad i Sydneys hamn istället för att enbart satsa på idrottsanläggningar inför OS 1956.",
+      "context": "Planerna på ett nytt operahus vid Bennelong Point i Sydney diskuterades intensivt under mitten av 1950-talet parallellt med förberedelserna inför olympiska spelen i Melbourne 1956.",
+      "pro": "En nationell scen för musik och scenkonst ger Australien ett bestående kulturellt landmärke av världsklass.",
+      "con": "Offentliga medel bör i första hand gå till grundläggande infrastruktur, bostäder och omedelbara samhällsbehov snarare än dyra kulturbyggen.",
+      "outcome": "Projektet drev vidare på delstats- och insamlingsväg med arkitekttävling 1956–1957 och byggstart 1959."
+    },
+    {
+      "id": "Q6",
+      "quick": false,
+      "category": "Sjukvård & Välfärd",
+      "title": "Avgiftsfri statlig sjukhusvård istället för privat sjukförsäkring",
+      "statement": "Menzies system med subventionerade privata sjukförsäkringskassor bör avvecklas till förmån för ett skattefinansierat, avgiftsfritt offentligt sjukvårdssystem.",
+      "context": "Regeringen hade infört ett system med statliga bidrag till frivilliga sjukförsäkringar och läkar- och sjukhusstöd, medan oppositionen ville ha en mer direkt offentlig finansiering.",
+      "pro": "Ett skattefinansierat system garanterar vård på lika villkor utan att medborgarna måste teckna privata försäkringar.",
+      "con": "Ett frivilligt försäkringssystem med statligt stöd bevarar valfrihet, privat initiativ och kostnadskontroll för statsbudgeten.",
+      "outcome": "Det statsstödda försäkringssystemet bibehölls under den fortsatta borgerliga regeringsperioden."
+    },
+    {
+      "id": "Q7",
+      "quick": true,
+      "category": "Invandring & Gränser",
+      "title": "Öppnande av White Australia Policy för asiatiska kvoter",
+      "statement": "Australien bör mjuka upp det strikta språktestet (Dictation Test) och införa årliga invandringskvoter för medborgare från asiatiska samväldesländer.",
+      "context": "Den restriktiva invandringspolitiken (White Australia Policy) styrde fortfarande invandringen och använde bland annat språkprov, samtidigt som relationerna med grannländer i Asien fick ökad betydelse.",
+      "pro": "Mer balanserade regler stärker relationerna med asiatiska grannländer och moderniserar invandringspolitiken.",
+      "con": "En strikt reglerad invandringspolitik anses skydda social sammanhållning, lönenivåer och en enhetlig samhällsstruktur.",
+      "outcome": "De grundläggande restriktionerna i White Australia Policy kvarstod 1955 och avvecklades stegvis först under 1960- och 1970-talen."
+    },
+    {
+      "id": "Q8",
+      "quick": false,
+      "category": "Järnväg & Infrastruktur",
+      "title": "Enhetlig spårvidd på järnvägarna mellan delstaterna",
+      "statement": "Den federala regeringen bör ta över och bygga om de olika delstaternas järnvägsnät till samma standardspårvidd så att resenärer och gods slipper tågbyte vid delstatsgränserna.",
+      "context": "Olika spårvidder mellan delstaterna krävde omlastning och tågbyten vid gränsstationer som Albury, vilket fördyrade och fördröjde transporter mellan storstäderna.",
+      "pro": "En enhetlig standardspårvidd effektiviserar godstransporter, minskar förseningar och stärker den nationella marknaden.",
+      "con": "Ombyggnad av hela järnvägsnät mellan delstater är extremt kostsamt och kräver långvariga ekonomiska och tekniska åtaganden.",
+      "outcome": "Standardspårvidd mellan viktiga storstäder som Sydney och Melbourne byggdes ut etappvis och stod klar på 1960-talet."
+    },
+    {
+      "id": "Q9",
+      "quick": true,
+      "category": "Partiförbud & Säkerhet",
+      "title": "Lagförbud mot Australiens kommunistiska parti",
+      "statement": "Regeringen bör driva igenom en grundlagsändring för att förbjuda kommunistpartiet och stänga dess medlemmar ute från offentliga tjänster och fackliga förtroendeuppdrag.",
+      "context": "Frågan om hur kommunistiskt inflytande i fackföreningar och samhällsliv skulle hanteras var central under kalla kriget, efter att ett tidigare förbudsförsök prövats i domstol och folkomröstning.",
+      "pro": "Kraftfulla åtgärder mot kommunistisk organisering anses skydda demokratiska institutioner och nyckelsektorer under kalla kriget.",
+      "con": "Att förbjuda politiska partier och begränsa förenings- och åsiktsfriheten strider mot grundläggande demokratiska principer.",
+      "outcome": "Inget totalförbud mot kommunistpartiet genomfördes, och politiska åtgärder inriktades i stället på fackliga val och säkerhetsregler."
+    },
+    {
+      "id": "Q10",
+      "quick": false,
+      "category": "Bistånd & Diplomati",
+      "title": "Utökat civilt bistånd och stipendier via Colombo-planen",
+      "statement": "Australien bör kraftigt höja det civila utvecklingsbiståndet och ta emot fler stipendiater från Syd- och Sydostasien istället för att satsa på militära pakter som SEATO.",
+      "context": "Genom Colombo-planen bidrog Australien med tekniskt bistånd, infrastruktur och utbildningsplatser i Asien parallellt med säkerhetspolitiska samarbeten.",
+      "pro": "Utbildning och ekonomisk utveckling bygger långsiktig stabilitet och vänskap i grannregionen på ett fredligt sätt.",
+      "con": "Biståndet måste hållas inom ansvarsfulla budgetramar och kompletteras med trovärdiga militära säkerhetsgarantier.",
+      "outcome": "Colombo-planen fortsatte som en viktig pelare i Australiens regionala samarbete och utbildningsutbyte."
+    },
+    {
+      "id": "Q11",
+      "quick": true,
+      "category": "Arbetsliv & Likalön",
+      "title": "Lagstadgad likalön för kvinnor och män i federal tjänst",
+      "statement": "Det federala skiljedomssystemet bör avskaffa regeln att kvinnors grundlön sätts till 75 procent av männens och införa lika lön för lika arbete.",
+      "context": "I det federala löne- och skiljedomssystemet tillämpades en lägre grundlönenivå för kvinnor jämfört med män, vilket fackförbund och kvinnoorganisationer drev på för att ändra.",
+      "pro": "Lön bör avgöras av arbetsuppgift och kompetens, inte av kön, för att skapa rättvisa arbetsvillkor.",
+      "con": "Ändringar i lönesystemet ansågs av motståndare kunna påverka företagens kostnader och den bredare lönebildningen.",
+      "outcome": "Principen om lika lön för lika arbete vann gradvis mark i skiljedomstolens beslut under slutet av 1960-talet och början av 1970-talet."
+    },
+    {
+      "id": "Q12",
+      "quick": false,
+      "category": "Jordbruk & Prisstöd",
+      "title": "Statliga pris- och inkomstgarantier för vete- och mejeribönder",
+      "statement": "Staten bör garantera fasta minimipriser och subventioner till jordbruket när världsmarknadspriserna på vete och smör sjunker.",
+      "context": "Jordbruksprodukter utgjorde en ryggrad i Australiens export, men jordbrukarna påverkades kraftigt av svängningar i världsmarknadspriser och väderlek.",
+      "pro": "Pris- och inkomststöd ger jordbrukarna ekonomisk stabilitet och tryggar livsmedelsproduktionen.",
+      "con": "Omfattande subventioner och prisgarantier kan bli kostsamma för statsbudgeten och snedvrida marknadssignaler.",
+      "outcome": "Olika stabiliserings- och marknadsordningar för jordbruket fortsatte att tillämpas i samverkan med branschen."
+    },
+    {
+      "id": "Q13",
+      "quick": true,
+      "category": "Viltförvaltning & Natur",
+      "title": "Skottpengar och exporttillstånd för kängurukött",
+      "statement": "Regeringen bör tillåta kommersiell jakt och export av kängurukött samt betala skottpengar till bönder i inlandet eftersom kängurustammen äter upp betet för fårhjordarna.",
+      "context": "I inlandets jordbruks- och betesområden konkurrerade stora kängurupopulationer om vatten och bete med får och nötkreatur, vilket väckte debatt om jakt, handel och naturvård.",
+      "pro": "Reglerad avskjutning och kommersiell användning minskar betestrycket på jordbruksmark och ger extra inkomster i inlandet.",
+      "con": "Kommersiell jakt och export riskerar att leda till överexploatering och skada inhemsk fauna och naturbalans.",
+      "outcome": "Viltförvaltning och jaktregler förblev i stor utsträckning en delstatsfråga med varierande kvoter och tillståndskrav."
+    },
+    {
+      "id": "Q14",
+      "quick": false,
+      "category": "Kinapolitik & FN",
+      "title": "Diplomatiskt erkännande av Folkrepubliken Kina",
+      "statement": "Australien bör bryta med den västliga bojkottlinjen, erkänna regeringen i Peking och stödja att Folkrepubliken Kina tar plats i FN:s säkerhetsråd.",
+      "context": "Efter maktövertagandet i Kina 1949 höll många västländer fast vid erkännande av republiken på Taiwan, medan debatten om relationen till Peking pågick i flera länder.",
+      "pro": "Ett diplomatiskt erkännande speglar de faktiska maktförhållandena i Östasien och kan underlätta dialog och handel.",
+      "con": "Ett erkännande av Peking skulle bryta med allierades linje under kalla kriget och ifrågasätta relationerna med Taiwan.",
+      "outcome": "Australien fortsatte att inte erkänna Folkrepubliken Kina diplomatiskt förrän år 1972."
+    },
+    {
+      "id": "Q15",
+      "quick": true,
+      "category": "Kärnvapen & Säkerhet",
+      "title": "Stopp för brittiska kärnvapenprov vid Maralinga",
+      "statement": "Regeringen bör avbryta avtalet med Storbritannien och förbjuda fortsatta provsprängningar av kärnvapen på australiskt territorium i South Australia.",
+      "context": "Storbritannien genomförde kärnvapenprov i Australien under 1950-talet, bland annat vid Maralinga i South Australia, vilket väckte frågor om säkerhet, markanvändning och ursprungsbefolkning.",
+      "pro": "Kärnvapenprov innebär allvarliga hälso- och miljörisker och bör inte genomföras på australisk mark.",
+      "con": "Samarbetet med Storbritannien ansågs av regeringen bidra till västlig försvarsförmåga och tekniskt kunnande.",
+      "outcome": "Kärnvapenproven vid Maralinga genomfördes mellan 1956 och 1963 innan de upphörde."
+    },
+    {
+      "id": "Q16",
+      "quick": false,
+      "category": "Energi & Storskalig Drift",
+      "title": "Utökat statligt låne- och vattenkraftsprogram för Snowy Mountains",
+      "statement": "Staten bör öka investeringarna i det gigantiska vattenkrafts- och bevattningsprojektet i Snowy Mountains i statlig regi trots skenande kostnader.",
+      "context": "Snowy Mountains Scheme var ett av Australiens största infrastrukturprojekt någonsin, utformat för att leda vatten genom bergen för elproduktion och bevattning i inlandet.",
+      "pro": "Projektet ger ren elkraft och bevattning som stärker energi- och livsmedelsförsörjningen på lång sikt.",
+      "con": "De stora kapitalbehoven och stigande kostnaderna belastar statsfinanserna och konkurrerar med andra offentliga behov.",
+      "outcome": "Byggnadsarbetena fortsatte under statlig ledning och slutfördes i sin helhet år 1974."
+    }
+  ]
+}
